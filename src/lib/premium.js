@@ -2,6 +2,7 @@
 // El enlace lleva el id del usuario (client_reference_id) para que el webhook de Supabase
 // sepa a quién activar Premium cuando Stripe confirme el pago.
 import { modoPrueba } from './supabase.js';
+import { COBRO_ACTIVO } from '../textos.js';
 
 const ENLACE = import.meta.env.VITE_ENLACE_PAGO;
 const CLAVE_PRUEBA = 'cocina-premium-prueba';
@@ -13,6 +14,7 @@ export const simulacion = import.meta.env.MODE === 'prueba';
 export const pagoDisponible = () => simulacion || (!modoPrueba && Boolean(ENLACE));
 
 export function esPremium(perfil) {
+  if (!COBRO_ACTIVO) return true; // todo abierto
   if (modoPrueba) {
     if (!simulacion) return false;
     try { return localStorage.getItem(CLAVE_PRUEBA) === '1'; } catch { return false; }

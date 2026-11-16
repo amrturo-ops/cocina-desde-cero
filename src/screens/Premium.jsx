@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import Cabecera from '../components/Cabecera.jsx';
 import Boton from '../components/Boton.jsx';
-import { PRECIO_PREMIUM, PRECIO_HABITUAL } from '../textos.js';
+import { PRECIO_PREMIUM, PRECIO_HABITUAL, COBRO_ACTIVO } from '../textos.js';
 import { tecnicasDelNivel } from '../lib/contenido.js';
 import { urlDePago, simularCompra, pagoDisponible, simulacion } from '../lib/premium.js';
 import { modoPrueba } from '../lib/supabase.js';
@@ -20,7 +20,7 @@ export default function Premium({ usuario, premium, recetasPremium, onComprobar 
     return (
       <main className="pantalla"><Cabecera />
         <div className="pantalla__cuerpo">
-          <h1>Ya eres Premium</h1>
+          <h1>{COBRO_ACTIVO ? 'Ya eres Premium' : 'Todo es gratis'}</h1>
           <p className="logro">Tienes todas las recetas de los tres niveles. ¡A cocinar!</p>
           {simulacion && <Boton variante="texto" onClick={() => { simularCompra(false); window.location.reload(); }}>Quitar Premium (prueba)</Boton>}
         </div>

@@ -47,7 +47,7 @@ export function calcularProgreso(tecnicas, recetas, completadas, nivel = tecnica
 
   const recetasConEstado = recetas.map((r) => {
     const accesible = recetaAccesible(r, premium);
-    return { ...r, disponible: accesible, premium: !accesible, muestra: RECETAS_MUESTRA.includes(r.id), cocinada: cocinadas.has(r.id), faltan: accesible ? [] : ['Premium'] };
+    return { ...r, disponible: accesible, premium: !accesible, muestra: !premium && RECETAS_MUESTRA.includes(r.id), cocinada: cocinadas.has(r.id), faltan: accesible ? [] : ['Premium'] };
   });
 
   const delNivel = (r) => (r.nivel ?? 'novato') === nivel || r.origen === 'propia';
