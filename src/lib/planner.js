@@ -10,10 +10,22 @@
 export const MOMENTOS = ['comida', 'cena']; // orden dentro de un día
 export const MAX_COMENSALES = 12;
 
-// Dificultad de las recetas: 1 fácil, 2 media, 3 elaborada. El plan usa las de dificultad <= dificultadMax.
+import { tipoDe } from './categorias.js';
+
+// Dificultad de las recetas: 1 fácil, 2 media, 3 elaborada.
+// plan.dificultadMax es la dificultad ELEGIDA: el plan usa recetas de esa dificultad.
+// Solo si para una comida hay muy pocas, completa con la dificultad vecina.
 export const DIFICULTADES = { 1: 'Fácil', 2: 'Media', 3: 'Elaborada' };
 const dificultad = (r) => r.dificultad ?? 2;
-const aptaDificultad = (plan, r) => dificultad(r) <= (plan.dificultadMax ?? 3);
+const MINIMO_OPCIONES = 6;
+
+function candidatasPara(plan, recetas, comida) {
+  const objetivo = plan.dificultadMax ?? 2;
+  const aptas = recetas.filter((r) => encaja(r, comida));
+  const exactas = aptas.filter((r) => dificultad(r) === objetivo);
+  if (exactas.length >= MINIMO_OPCIONES) return exactas;
+  return aptas.filter((r) => Math.abs(dificultad(r) - objetivo) <= 1);
+}
 
 export const claveHueco = (dia, comida) => `${dia}-${comida}`;
 
@@ -45,9 +57,16 @@ function azar(semilla, texto) {
 const encaja = (receta, comida) => (receta.momentos || MOMENTOS).includes(comida);
 
 // Prioriza la técnica que está aprendiendo y lo que no ha cocinado; evita repetir.
-function puntuar(receta, { tecnicaActual, historial, usos, anterior, semilla }) {
+function puntuar(receta, { tecnicaActual, historial, usos, anterior, semilla, tipos, tiposDia, tipoAnterior, objetivo }) {
   let p = 0;
-  if (tecnicaActual && receta.tecnicas.includes(tecnicaActual)) p += 3;
+  const tipo = tipoDe(receta);
+  // Variedad: no repetir tipo de plato en el plan, en el mismo día ni seguido
+  p -= 3 * (tipos?.get(tipo) || 0);
+  if (tiposDia?.has(tipo)) p -= 6;
+  if (tipoAnterior === tipo) p -= 4;
+  // Preferir la dificultad elegida cuando se completa con la vecina
+  if (objetivo && dificultad(receta) !== objetivo) p -= 4;
+  if (tecnicaActual && receta.tecnicas.includes(tecnicaActual)) p += 1; // un empujón, sin llenar el plan de la misma técnica
   if (!historial.includes(receta.id)) p += 1;
   p -= 5 * (usos.get(receta.id) || 0);
   if (anterior === receta.id) p -= 10;
@@ -96,27 +115,34 @@ function desvincular(huecos, i) {
  * @param {number} o.comensales       comensales habituales (del perfil)
  * @param {object} [o.ajustes]        excepciones por comida: { "2-cena": 4 }
  * @param {boolean} o.usarSobras      cocinar una vez para dos comidas cuando la receta lo permite
- * @param {number} [o.dificultadMax]  1 fácil, 2 hasta media, 3 cualquiera (por defecto 3)
+ * @param {number} [o.dificultadMax]  dificultad elegida: 1 fácil, 2 media, 3 elaborada (por defecto 2)
  * @param {object[]} o.recetas        recetas disponibles para el usuario
  * @param {string[]} [o.historial]    ids de recetas cocinadas en los últimos 7 días
  * @param {string}  [o.tecnicaActual] técnica que está aprendiendo ahora
  * @param {number}  [o.semilla]       cambia para regenerar
  */
-export function planificar({ dias, comidas, comensales, ajustes = {}, usarSobras, dificultadMax = 3, recetas, historial = [], tecnicaActual = null, semilla = 1 }) {
+export function planificar({ dias, comidas, comensales, ajustes = {}, usarSobras, dificultadMax = 2, recetas, historial = [], tecnicaActual = null, semilla = 1 }) {
   const plan = { dias, comidas, comensales, ajustes: { ...ajustes }, usarSobras, dificultadMax };
   const huecos = crearHuecos(plan);
   const usos = new Map();
+  const tipos = new Map();
   let anterior = null;
+  let tipoAnterior = null;
 
   huecos.forEach((hueco, i) => {
+    if (hueco.tipo === 'sobras') { tipoAnterior = tipoDe(recetas.find((r) => r.id === hueco.recetaId) ?? {}); return; }
     if (hueco.tipo !== 'libre') return;
-    const candidatas = recetas.filter((r) => encaja(r, hueco.comida) && aptaDificultad(plan, r));
+    const candidatas = candidatasPara(plan, recetas, hueco.comida);
     if (!candidatas.length) return; // se queda libre: la interfaz pedirá elegir
-    const ctx = { tecnicaActual, historial, usos, anterior, semilla };
+    const tiposDia = new Set(huecos.filter((h) => h.dia === hueco.dia && h.recetaId).map((h) => tipoDe(recetas.find((r) => r.id === h.recetaId) ?? {})));
+    const ctx = { tecnicaActual, historial, usos, anterior, semilla, tipos, tiposDia, tipoAnterior, objetivo: dificultadMax };
     const elegida = [...candidatas].sort((a, b) => puntuar(b, ctx) - puntuar(a, ctx))[0];
     colocar(huecos, i, elegida, usarSobras);
     usos.set(elegida.id, (usos.get(elegida.id) || 0) + 1);
+    const t = tipoDe(elegida);
+    tipos.set(t, (tipos.get(t) || 0) + 1);
     anterior = elegida.id;
+    tipoAnterior = t;
   });
 
   return { ...plan, huecos };
@@ -125,10 +151,15 @@ export function planificar({ dias, comidas, comensales, ajustes = {}, usarSobras
 // Recetas posibles para un hueco, ordenadas de más a menos recomendable.
 export function opcionesParaHueco(plan, i, recetas, { historial = [], tecnicaActual = null } = {}) {
   const usos = new Map();
-  plan.huecos.forEach((h) => h.tipo === 'cocinar' && usos.set(h.recetaId, (usos.get(h.recetaId) || 0) + 1));
-  const ctx = { tecnicaActual, historial, usos, anterior: null, semilla: 0 };
-  return recetas
-    .filter((r) => encaja(r, plan.huecos[i].comida) && aptaDificultad(plan, r))
+  const tipos = new Map();
+  plan.huecos.forEach((h, j) => {
+    if (h.tipo !== 'cocinar' || j === i) return;
+    usos.set(h.recetaId, (usos.get(h.recetaId) || 0) + 1);
+    const t = tipoDe(recetas.find((r) => r.id === h.recetaId) ?? {});
+    tipos.set(t, (tipos.get(t) || 0) + 1);
+  });
+  const ctx = { tecnicaActual, historial, usos, anterior: null, semilla: 0, tipos, objetivo: plan.dificultadMax ?? 2 };
+  return candidatasPara(plan, recetas, plan.huecos[i].comida)
     .sort((a, b) => puntuar(b, ctx) - puntuar(a, ctx));
 }
 

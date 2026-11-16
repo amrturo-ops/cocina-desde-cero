@@ -5,6 +5,7 @@ import { readFileSync, readdirSync } from 'node:fs';
 import { join } from 'node:path';
 import { indexarCatalogo, adaptarReceta, recetasParaUsuario, DIETAS } from '../src/lib/diets.js';
 import { calcularProgreso } from '../src/lib/progress.js';
+import { tipoDe } from '../src/lib/categorias.js';
 import { generarLista, listaComoTexto } from '../src/lib/shopping.js';
 import { planificar, cambiarComensalesHueco, cambiarComensalesPlan, cocinadosDelPlan, MOMENTOS } from '../src/lib/planner.js';
 
@@ -176,7 +177,23 @@ if (errores.length === 0) {
 
   const faciles = planificar({ dias: 5, comidas: ['comida', 'cena'], comensales: 2, usarSobras: true, dificultadMax: 1, recetas: estandar });
   comprobar(faciles.huecos.every((h) => !h.recetaId || recetas.find((r) => r.id === h.recetaId).dificultad === 1), 'un plan «solo fáciles» ha incluido recetas más difíciles');
-  console.log(`\n  Plan de 5 días solo con recetas fáciles: ${new Set(faciles.huecos.map((h) => h.recetaId)).size} recetas distintas`);
+  console.log(`\n  Plan de 5 días con recetas fáciles y sobras: ${new Set(faciles.huecos.map((h) => h.recetaId)).size} recetas distintas`);
+  // Variedad: 7 días con comida y cena, cada dificultad
+  for (const dif of [1, 2, 3]) {
+    const p7 = planificar({ dias: 7, comidas: ['comida', 'cena'], comensales: 2, usarSobras: false, dificultadMax: dif, recetas: estandar });
+    const coc = p7.huecos.filter((h) => h.tipo === 'cocinar').map((h) => estandar.find((r) => r.id === h.recetaId));
+    const porTipo = {};
+    coc.forEach((r) => { porTipo[tipoDe(r)] = (porTipo[tipoDe(r)] || 0) + 1; });
+    comprobar(new Set(coc.map((r) => r.id)).size === coc.length, `plan de dificultad ${dif}: repite recetas`);
+    comprobar(Math.max(...Object.values(porTipo)) <= 3, `plan de dificultad ${dif}: repite demasiado un tipo de plato (${JSON.stringify(porTipo)})`);
+    comprobar(coc.every((r) => r.dificultad === dif), `plan de dificultad ${dif}: mezcla otras dificultades`);
+    const diaRepetido = [...new Set(p7.huecos.map((h) => h.dia))].some((dd) => {
+      const t = p7.huecos.filter((h) => h.dia === dd && h.recetaId).map((h) => tipoDe(estandar.find((r) => r.id === h.recetaId)));
+      return new Set(t).size < t.length;
+    });
+    comprobar(!diaRepetido, `plan de dificultad ${dif}: repite tipo de plato en un mismo día`);
+  }
+  console.log('\n  Variedad de los planes de 7 días: comprobada para las 3 dificultades');
   const cenas = planificar({ dias: 2, comidas: ['cena'], comensales: 2, usarSobras: false, recetas: estandar });
   comprobar(!cenas.huecos.some((h) => h.recetaId === 'ensalada-pasta'), 'ha puesto en una cena una receta que solo es para comida');
 }

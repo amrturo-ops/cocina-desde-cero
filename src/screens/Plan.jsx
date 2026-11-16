@@ -9,9 +9,9 @@ import {
 } from '../lib/planner.js';
 
 const OPCIONES_DIFICULTAD = [
-  { id: 1, icono: '🟢', titulo: 'Solo fáciles', detalle: 'Pocas técnicas y poco tiempo' },
-  { id: 2, icono: '🟡', titulo: 'Fáciles y medias', detalle: 'Algún paso más, nada complicado' },
-  { id: 3, icono: '🔴', titulo: 'Me atrevo con todo', detalle: 'Incluye las más elaboradas' },
+  { id: 1, icono: '🟢', titulo: 'Fáciles', detalle: 'Rápidas y con pocos pasos' },
+  { id: 2, icono: '🟡', titulo: 'Medias', detalle: 'Algo más de tiempo, nada complicado' },
+  { id: 3, icono: '🔴', titulo: 'Elaboradas', detalle: 'Para cuando tienes tiempo y ganas' },
 ];
 
 const NOMBRE_COMIDA = { comida: 'Comida', cena: 'Cena' };
@@ -161,7 +161,7 @@ export default function Plan({ perfil, progreso, plan, historial, onCambiarPlan 
         </div>
         <div className="chips" role="group" aria-label="Dificultad del plan">
           {OPCIONES_DIFICULTAD.map((o) => (
-            <button key={o.id} type="button" className="chip" aria-pressed={(plan.dificultadMax ?? 3) === o.id}
+            <button key={o.id} type="button" className="chip" aria-pressed={(plan.dificultadMax ?? 2) === o.id}
               onClick={() => onCambiarPlan({ ...planificar({ ...plan, dificultadMax: o.id, recetas, ...contexto }), id: plan.id, inicio: plan.inicio })}>
               {o.icono} {o.titulo}
             </button>

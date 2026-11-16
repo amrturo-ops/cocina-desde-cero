@@ -41,7 +41,7 @@ export async function guardarPlan(usuario, plan) {
   }
   const fila = {
     user_id: usuario.id, inicio: conFecha.inicio, dias: plan.dias, comidas: plan.comidas,
-    comensales: plan.comensales, ajustes: plan.ajustes, usar_sobras: plan.usarSobras, dificultad_max: plan.dificultadMax ?? 3, huecos: plan.huecos,
+    comensales: plan.comensales, ajustes: plan.ajustes, usar_sobras: plan.usarSobras, dificultad_max: plan.dificultadMax ?? 2, huecos: plan.huecos,
   };
   const consulta = plan.id
     ? supabase.from('plans').update(fila).eq('id', plan.id).select('id').single()
