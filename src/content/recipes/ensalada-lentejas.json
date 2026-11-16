@@ -1,0 +1,91 @@
+{
+  "id": "ensalada-lentejas",
+  "titulo": "Ensalada de lentejas",
+  "nivel": "novato",
+  "tecnicas": [
+    "legumbre-bote",
+    "ensalada-completa",
+    "cortar-cebolla"
+  ],
+  "raciones": 2,
+  "tiempoMin": 10,
+  "dificultad": 1,
+  "momentos": [
+    "comida"
+  ],
+  "sobras": {
+    "apta": true,
+    "dias": 2
+  },
+  "descripcion": "Fría, completa y perfecta para llevar en táper.",
+  "ingredientes": [
+    {
+      "id": "lentejas-cocidas",
+      "cantidad": 1,
+      "unidad": "bote"
+    },
+    {
+      "id": "tomate",
+      "cantidad": 1,
+      "unidad": "unidad"
+    },
+    {
+      "id": "pimiento-rojo",
+      "cantidad": 0.5,
+      "unidad": "unidad"
+    },
+    {
+      "id": "cebolla-morada",
+      "cantidad": 0.25,
+      "unidad": "unidad"
+    },
+    {
+      "id": "maiz-dulce",
+      "cantidad": 1,
+      "unidad": "lata"
+    },
+    {
+      "id": "aceite-oliva",
+      "cantidad": 3,
+      "unidad": "cucharada"
+    },
+    {
+      "id": "vinagre",
+      "cantidad": 1,
+      "unidad": "cucharada",
+      "alternativas": [
+        {
+          "por": [
+            {
+              "id": "limon",
+              "cantidad": 0.5,
+              "unidad": "unidad"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sal",
+      "cantidad": 0,
+      "unidad": "al-gusto"
+    }
+  ],
+  "pasos": [
+    {
+      "texto": "Escurre las lentejas y enjuágalas bien con agua fría.",
+      "tecnica": "legumbre-bote"
+    },
+    {
+      "texto": "Pica la cebolla morada fina.",
+      "tecnica": "cortar-cebolla"
+    },
+    {
+      "texto": "Corta el tomate y el pimiento en dados pequeños y escurre el maíz."
+    },
+    {
+      "texto": "Mezcla todo en un bol y aliña con aceite, vinagre y sal.",
+      "tecnica": "ensalada-completa"
+    }
+  ]
+}

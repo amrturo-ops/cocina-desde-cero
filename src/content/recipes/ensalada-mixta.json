@@ -1,0 +1,128 @@
+{
+  "id": "ensalada-mixta",
+  "titulo": "Ensalada mixta",
+  "nivel": "novato",
+  "tecnicas": [
+    "ensalada-completa",
+    "cortar-cebolla"
+  ],
+  "raciones": 2,
+  "tiempoMin": 15,
+  "dificultad": 1,
+  "momentos": [
+    "comida",
+    "cena"
+  ],
+  "sobras": {
+    "apta": false,
+    "dias": 0
+  },
+  "descripcion": "La de toda la vida, pero bien montada: que sea una comida, no un acompañamiento.",
+  "ingredientes": [
+    {
+      "id": "lechuga",
+      "cantidad": 1,
+      "unidad": "unidad"
+    },
+    {
+      "id": "tomate",
+      "cantidad": 2,
+      "unidad": "unidad"
+    },
+    {
+      "id": "cebolla",
+      "cantidad": 0.5,
+      "unidad": "unidad"
+    },
+    {
+      "id": "zanahoria",
+      "cantidad": 1,
+      "unidad": "unidad"
+    },
+    {
+      "id": "atun-lata",
+      "cantidad": 2,
+      "unidad": "lata",
+      "alternativas": [
+        {
+          "por": [
+            {
+              "id": "garbanzos-cocidos",
+              "cantidad": 1,
+              "unidad": "bote"
+            }
+          ],
+          "titulo": "Ensalada mixta con garbanzos",
+          "pasos": [
+            {
+              "indice": 4,
+              "texto": "Escurre y enjuaga los garbanzos."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "maiz-dulce",
+      "cantidad": 1,
+      "unidad": "lata"
+    },
+    {
+      "id": "aceitunas-negras",
+      "cantidad": 50,
+      "unidad": "g"
+    },
+    {
+      "id": "aceite-oliva",
+      "cantidad": 4,
+      "unidad": "cucharada"
+    },
+    {
+      "id": "vinagre",
+      "cantidad": 1,
+      "unidad": "cucharada",
+      "alternativas": [
+        {
+          "por": [
+            {
+              "id": "limon",
+              "cantidad": 0.5,
+              "unidad": "unidad"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sal",
+      "cantidad": 0,
+      "unidad": "al-gusto"
+    }
+  ],
+  "pasos": [
+    {
+      "texto": "Lava la lechuga, sécala bien y córtala en trozos.",
+      "tecnica": "ensalada-completa"
+    },
+    {
+      "texto": "Corta el tomate en gajos y la cebolla en juliana fina.",
+      "tecnica": "cortar-cebolla"
+    },
+    {
+      "texto": "Pela la zanahoria y rállala o córtala en tiras finas."
+    },
+    {
+      "texto": "Escurre el maíz."
+    },
+    {
+      "texto": "Escurre el atún."
+    },
+    {
+      "texto": "Monta la ensalada: la lechuga abajo y el resto por encima."
+    },
+    {
+      "texto": "Mezcla aparte el aceite, el vinagre y la sal, y aliña justo antes de comer.",
+      "tecnica": "ensalada-completa"
+    }
+  ]
+}

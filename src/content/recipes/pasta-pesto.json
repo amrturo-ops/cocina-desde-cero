@@ -1,0 +1,119 @@
+{
+  "id": "pasta-pesto",
+  "titulo": "Pasta al pesto",
+  "nivel": "novato",
+  "tecnicas": [
+    "salsa-basica",
+    "cocer-pasta"
+  ],
+  "raciones": 2,
+  "tiempoMin": 20,
+  "dificultad": 2,
+  "momentos": [
+    "comida",
+    "cena"
+  ],
+  "sobras": {
+    "apta": true,
+    "dias": 1
+  },
+  "descripcion": "Salsa en frío: se tritura y listo. Necesitas batidora.",
+  "ingredientes": [
+    {
+      "id": "pasta-trigo",
+      "cantidad": 200,
+      "unidad": "g",
+      "alternativas": [
+        {
+          "por": [
+            {
+              "id": "pasta-sin-gluten",
+              "cantidad": 200,
+              "unidad": "g"
+            }
+          ],
+          "pasos": [
+            {
+              "indice": 0,
+              "texto": "Cuece la pasta sin gluten en agua con sal. Pruébala 2 minutos antes de lo que diga el paquete.",
+              "temporizadorSeg": 480
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "albahaca",
+      "cantidad": 1,
+      "unidad": "manojo"
+    },
+    {
+      "id": "pinones",
+      "cantidad": 30,
+      "unidad": "g",
+      "alternativas": [
+        {
+          "por": []
+        }
+      ]
+    },
+    {
+      "id": "ajo",
+      "cantidad": 1,
+      "unidad": "diente"
+    },
+    {
+      "id": "queso-parmesano",
+      "cantidad": 40,
+      "unidad": "g",
+      "alternativas": [
+        {
+          "por": [
+            {
+              "id": "queso-sin-lactosa",
+              "cantidad": 40,
+              "unidad": "g"
+            }
+          ]
+        },
+        {
+          "por": [
+            {
+              "id": "levadura-nutricional",
+              "cantidad": 3,
+              "unidad": "cucharada"
+            }
+          ],
+          "titulo": "Pasta al pesto vegano"
+        }
+      ]
+    },
+    {
+      "id": "aceite-oliva",
+      "cantidad": 6,
+      "unidad": "cucharada"
+    },
+    {
+      "id": "sal",
+      "cantidad": 0,
+      "unidad": "al-gusto"
+    }
+  ],
+  "pasos": [
+    {
+      "texto": "Cuece la pasta en agua con sal el tiempo del paquete.",
+      "temporizadorSeg": 540,
+      "tecnica": "cocer-pasta"
+    },
+    {
+      "texto": "Mientras, tritura la albahaca, los piñones, el ajo, el queso, el aceite y una pizca de sal hasta tener una pasta verde.",
+      "tecnica": "salsa-basica"
+    },
+    {
+      "texto": "Si queda muy espeso, añade un poco del agua de cocer la pasta."
+    },
+    {
+      "texto": "Escurre la pasta y mézclala con el pesto fuera del fuego: si se calienta mucho, la albahaca se oscurece."
+    }
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "id": "pollo-wok",
+  "titulo": "Pollo salteado con verduras",
+  "nivel": "basico",
+  "tecnicas": [
+    "saltear-wok"
+  ],
+  "raciones": 4,
+  "tiempoMin": 25,
+  "dificultad": 2,
+  "momentos": [
+    "comida",
+    "cena"
+  ],
+  "sobras": {
+    "apta": true,
+    "dias": 2
+  },
+  "descripcion": "Rápido, de colores y crujiente.",
+  "ingredientes": [
+    {
+      "id": "pechuga-pollo",
+      "cantidad": 500,
+      "unidad": "g",
+      "alternativas": [
+        {
+          "por": [
+            {
+              "id": "tofu",
+              "cantidad": 400,
+              "unidad": "g"
+            }
+          ],
+          "titulo": "Tofu salteado con verduras"
+        }
+      ]
+    },
+    {
+      "id": "pimiento-rojo",
+      "cantidad": 1,
+      "unidad": "unidad"
+    },
+    {
+      "id": "zanahoria",
+      "cantidad": 2,
+      "unidad": "unidad"
+    },
+    {
+      "id": "cebolla",
+      "cantidad": 1,
+      "unidad": "unidad"
+    },
+    {
+      "id": "calabacin",
+      "cantidad": 1,
+      "unidad": "unidad"
+    },
+    {
+      "id": "salsa-soja",
+      "cantidad": 4,
+      "unidad": "cucharada",
+      "alternativas": [
+        {
+          "por": [
+            {
+              "id": "tamari",
+              "cantidad": 4,
+              "unidad": "cucharada"
+            }
+          ]
+        },
+        {
+          "por": []
+        }
+      ]
+    },
+    {
+      "id": "jengibre",
+      "cantidad": 10,
+      "unidad": "g"
+    },
+    {
+      "id": "aceite-oliva",
+      "cantidad": 3,
+      "unidad": "cucharada"
+    }
+  ],
+  "pasos": [
+    {
+      "texto": "Corta todo antes de encender el fuego: {pechuga-pollo} en tiras y las verduras en bastones finos."
+    },
+    {
+      "texto": "Saltea {pechuga-pollo} en el wok muy caliente con aceite hasta que esté dorado y hecho. Retíralo.",
+      "temporizadorSeg": 360,
+      "tecnica": "saltear-wok"
+    },
+    {
+      "texto": "Saltea la zanahoria y la cebolla, y después el pimiento y el calabacín, sin parar de mover.",
+      "temporizadorSeg": 300,
+      "tecnica": "saltear-wok"
+    },
+    {
+      "texto": "Vuelve a añadir {pechuga-pollo}, el jengibre rallado y la salsa, y saltea un minuto más.",
+      "temporizadorSeg": 60
+    }
+  ]
+}

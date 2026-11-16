@@ -1,0 +1,94 @@
+{
+  "id": "verduras-sesamo",
+  "titulo": "Verduras al wok con sésamo",
+  "nivel": "basico",
+  "tecnicas": [
+    "saltear-wok"
+  ],
+  "raciones": 4,
+  "tiempoMin": 20,
+  "dificultad": 1,
+  "momentos": [
+    "comida",
+    "cena"
+  ],
+  "sobras": {
+    "apta": true,
+    "dias": 1
+  },
+  "descripcion": "Plato vegetal crujiente en 20 minutos.",
+  "ingredientes": [
+    {
+      "id": "brocoli",
+      "cantidad": 300,
+      "unidad": "g"
+    },
+    {
+      "id": "zanahoria",
+      "cantidad": 2,
+      "unidad": "unidad"
+    },
+    {
+      "id": "pimiento-rojo",
+      "cantidad": 1,
+      "unidad": "unidad"
+    },
+    {
+      "id": "champinones",
+      "cantidad": 200,
+      "unidad": "g"
+    },
+    {
+      "id": "sesamo",
+      "cantidad": 2,
+      "unidad": "cucharada",
+      "alternativas": [
+        {
+          "por": []
+        }
+      ]
+    },
+    {
+      "id": "salsa-soja",
+      "cantidad": 3,
+      "unidad": "cucharada",
+      "alternativas": [
+        {
+          "por": [
+            {
+              "id": "tamari",
+              "cantidad": 3,
+              "unidad": "cucharada"
+            }
+          ]
+        },
+        {
+          "por": []
+        }
+      ]
+    },
+    {
+      "id": "aceite-oliva",
+      "cantidad": 3,
+      "unidad": "cucharada"
+    }
+  ],
+  "pasos": [
+    {
+      "texto": "Corta todas las verduras en trozos pequeños."
+    },
+    {
+      "texto": "Saltea primero el brócoli y la zanahoria en el wok muy caliente.",
+      "temporizadorSeg": 240,
+      "tecnica": "saltear-wok"
+    },
+    {
+      "texto": "Añade el pimiento y los champiñones.",
+      "temporizadorSeg": 180,
+      "tecnica": "saltear-wok"
+    },
+    {
+      "texto": "Añade la salsa y espolvorea el sésamo."
+    }
+  ]
+}

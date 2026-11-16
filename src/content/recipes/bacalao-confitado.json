@@ -1,0 +1,71 @@
+{
+  "id": "bacalao-confitado",
+  "titulo": "Bacalao confitado con pimientos",
+  "nivel": "cocinillas",
+  "tecnicas": [
+    "confitar"
+  ],
+  "raciones": 4,
+  "tiempoMin": 40,
+  "dificultad": 2,
+  "momentos": [
+    "cena"
+  ],
+  "sobras": {
+    "apta": false,
+    "dias": 0
+  },
+  "descripcion": "Lascas jugosas sobre pimientos dulces.",
+  "ingredientes": [
+    {
+      "id": "bacalao",
+      "cantidad": 500,
+      "unidad": "g",
+      "alternativas": [
+        {
+          "por": [
+            {
+              "id": "alcachofas",
+              "cantidad": 6,
+              "unidad": "unidad"
+            }
+          ],
+          "titulo": "Alcachofas confitadas con pimientos"
+        }
+      ]
+    },
+    {
+      "id": "pimiento-rojo",
+      "cantidad": 2,
+      "unidad": "unidad"
+    },
+    {
+      "id": "ajo",
+      "cantidad": 3,
+      "unidad": "diente"
+    },
+    {
+      "id": "aceite-oliva",
+      "cantidad": 400,
+      "unidad": "ml"
+    }
+  ],
+  "pasos": [
+    {
+      "texto": "Pocha los pimientos en tiras con un poco del aceite.",
+      "temporizadorSeg": 900
+    },
+    {
+      "texto": "Calienta el resto del aceite con los ajos a fuego muy bajo (sin burbujas grandes).",
+      "tecnica": "confitar"
+    },
+    {
+      "texto": "Sumerge {bacalao} y confita.",
+      "temporizadorSeg": 600,
+      "tecnica": "confitar"
+    },
+    {
+      "texto": "Sirve sobre los pimientos con un poco del aceite."
+    }
+  ]
+}

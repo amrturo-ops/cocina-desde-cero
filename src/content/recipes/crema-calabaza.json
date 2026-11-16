@@ -1,0 +1,103 @@
+{
+  "id": "crema-calabaza",
+  "titulo": "Crema de calabaza",
+  "nivel": "basico",
+  "tecnicas": [
+    "cremas-verduras",
+    "sofreir"
+  ],
+  "raciones": 4,
+  "tiempoMin": 35,
+  "dificultad": 1,
+  "momentos": [
+    "comida",
+    "cena"
+  ],
+  "sobras": {
+    "apta": true,
+    "dias": 3
+  },
+  "descripcion": "Dulce, de color naranja intenso y perfecta en otoño.",
+  "ingredientes": [
+    {
+      "id": "calabaza",
+      "cantidad": 700,
+      "unidad": "g"
+    },
+    {
+      "id": "cebolla",
+      "cantidad": 1,
+      "unidad": "unidad"
+    },
+    {
+      "id": "zanahoria",
+      "cantidad": 1,
+      "unidad": "unidad"
+    },
+    {
+      "id": "aceite-oliva",
+      "cantidad": 2,
+      "unidad": "cucharada"
+    },
+    {
+      "id": "caldo-verduras",
+      "cantidad": 600,
+      "unidad": "ml",
+      "alternativas": [
+        {
+          "por": [
+            {
+              "id": "agua",
+              "cantidad": 600,
+              "unidad": "ml"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "nata",
+      "cantidad": 100,
+      "unidad": "ml",
+      "alternativas": [
+        {
+          "por": [
+            {
+              "id": "leche-coco",
+              "cantidad": 100,
+              "unidad": "ml"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "nuez-moscada",
+      "cantidad": 0,
+      "unidad": "al-gusto"
+    },
+    {
+      "id": "sal",
+      "cantidad": 0,
+      "unidad": "al-gusto"
+    }
+  ],
+  "pasos": [
+    {
+      "texto": "Pica la cebolla y pócha con el aceite.",
+      "temporizadorSeg": 360,
+      "tecnica": "sofreir"
+    },
+    {
+      "texto": "Añade la calabaza y la zanahoria peladas y en dados."
+    },
+    {
+      "texto": "Cubre con {caldo-verduras}, sala y cuece hasta que todo esté tierno.",
+      "temporizadorSeg": 1200,
+      "tecnica": "cremas-verduras"
+    },
+    {
+      "texto": "Tritura con {nata} y una pizca de nuez moscada."
+    }
+  ]
+}

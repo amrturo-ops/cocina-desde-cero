@@ -1,0 +1,110 @@
+{
+  "id": "fideos-salteados",
+  "titulo": "Fideos de arroz salteados",
+  "nivel": "basico",
+  "tecnicas": [
+    "saltear-wok"
+  ],
+  "raciones": 4,
+  "tiempoMin": 25,
+  "dificultad": 2,
+  "momentos": [
+    "comida",
+    "cena"
+  ],
+  "sobras": {
+    "apta": true,
+    "dias": 1
+  },
+  "descripcion": "Inspirados en el pad thai, con lo que tengas en casa.",
+  "ingredientes": [
+    {
+      "id": "fideos-arroz",
+      "cantidad": 250,
+      "unidad": "g"
+    },
+    {
+      "id": "huevo",
+      "cantidad": 2,
+      "unidad": "unidad",
+      "alternativas": [
+        {
+          "por": [],
+          "pasos": [
+            {
+              "indice": 2,
+              "quitar": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zanahoria",
+      "cantidad": 1,
+      "unidad": "unidad"
+    },
+    {
+      "id": "pimiento-rojo",
+      "cantidad": 1,
+      "unidad": "unidad"
+    },
+    {
+      "id": "cebolla",
+      "cantidad": 0.5,
+      "unidad": "unidad"
+    },
+    {
+      "id": "salsa-soja",
+      "cantidad": 3,
+      "unidad": "cucharada",
+      "alternativas": [
+        {
+          "por": [
+            {
+              "id": "tamari",
+              "cantidad": 3,
+              "unidad": "cucharada"
+            }
+          ]
+        },
+        {
+          "por": []
+        }
+      ]
+    },
+    {
+      "id": "lima",
+      "cantidad": 1,
+      "unidad": "unidad"
+    },
+    {
+      "id": "aceite-oliva",
+      "cantidad": 3,
+      "unidad": "cucharada"
+    }
+  ],
+  "pasos": [
+    {
+      "texto": "Hidrata los fideos en agua caliente según el paquete y escúrrelos.",
+      "temporizadorSeg": 480
+    },
+    {
+      "texto": "Corta las verduras en tiras finas y saltéalas en el wok muy caliente.",
+      "temporizadorSeg": 240,
+      "tecnica": "saltear-wok"
+    },
+    {
+      "texto": "Aparta las verduras y cuaja los huevos batidos en el hueco, removiendo.",
+      "temporizadorSeg": 60
+    },
+    {
+      "texto": "Añade los fideos y la salsa, y saltea sin parar.",
+      "temporizadorSeg": 120,
+      "tecnica": "saltear-wok"
+    },
+    {
+      "texto": "Sirve con zumo de lima."
+    }
+  ]
+}

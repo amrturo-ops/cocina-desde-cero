@@ -1,0 +1,109 @@
+{
+  "id": "ensaladilla",
+  "titulo": "Ensaladilla rusa con mayonesa casera",
+  "nivel": "cocinillas",
+  "tecnicas": [
+    "emulsiones",
+    "cremas-verduras"
+  ],
+  "raciones": 4,
+  "tiempoMin": 50,
+  "dificultad": 3,
+  "momentos": [
+    "comida"
+  ],
+  "sobras": {
+    "apta": true,
+    "dias": 1
+  },
+  "descripcion": "La reina de las tapas, con tu propia mayonesa.",
+  "ingredientes": [
+    {
+      "id": "patata",
+      "cantidad": 700,
+      "unidad": "g"
+    },
+    {
+      "id": "zanahoria",
+      "cantidad": 2,
+      "unidad": "unidad"
+    },
+    {
+      "id": "guisantes",
+      "cantidad": 150,
+      "unidad": "g"
+    },
+    {
+      "id": "atun-lata",
+      "cantidad": 2,
+      "unidad": "lata",
+      "alternativas": [
+        {
+          "por": [],
+          "pasos": [
+            {
+              "indice": 3,
+              "quitar": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "aceitunas-negras",
+      "cantidad": 50,
+      "unidad": "g"
+    },
+    {
+      "id": "huevo",
+      "cantidad": 1,
+      "unidad": "unidad",
+      "alternativas": [
+        {
+          "por": [
+            {
+              "id": "bebida-soja",
+              "cantidad": 100,
+              "unidad": "ml"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "aceite-girasol",
+      "cantidad": 200,
+      "unidad": "ml"
+    },
+    {
+      "id": "limon",
+      "cantidad": 0.5,
+      "unidad": "unidad"
+    },
+    {
+      "id": "sal",
+      "cantidad": 0,
+      "unidad": "al-gusto"
+    }
+  ],
+  "pasos": [
+    {
+      "texto": "Cuece las patatas y las zanahorias peladas en dados en agua con sal, y añade los guisantes al final. Enfría.",
+      "temporizadorSeg": 1080
+    },
+    {
+      "texto": "Para la mayonesa, pon en el vaso de la batidora {huevo}, el zumo de limón y sal, y la batidora en el fondo sin moverla.",
+      "tecnica": "emulsiones"
+    },
+    {
+      "texto": "Bate añadiendo el aceite en hilo fino y sube la batidora poco a poco cuando empiece a espesar.",
+      "tecnica": "emulsiones"
+    },
+    {
+      "texto": "Mezcla las verduras con el atún y casi toda la mayonesa."
+    },
+    {
+      "texto": "Cubre con el resto de mayonesa y aceitunas, y guárdala en la nevera: con mayonesa casera, cómela en el día."
+    }
+  ]
+}

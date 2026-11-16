@@ -1,0 +1,108 @@
+{
+  "id": "merluza-rebozada",
+  "titulo": "Merluza rebozada",
+  "nivel": "basico",
+  "tecnicas": [
+    "empanar"
+  ],
+  "raciones": 4,
+  "tiempoMin": 20,
+  "dificultad": 1,
+  "momentos": [
+    "comida",
+    "cena"
+  ],
+  "sobras": {
+    "apta": false,
+    "dias": 0
+  },
+  "descripcion": "El rebozado clásico de harina y huevo.",
+  "ingredientes": [
+    {
+      "id": "merluza",
+      "cantidad": 500,
+      "unidad": "g",
+      "alternativas": [
+        {
+          "por": [
+            {
+              "id": "coliflor",
+              "cantidad": 600,
+              "unidad": "g"
+            }
+          ],
+          "titulo": "Coliflor rebozada"
+        }
+      ]
+    },
+    {
+      "id": "harina-trigo",
+      "cantidad": 60,
+      "unidad": "g",
+      "alternativas": [
+        {
+          "por": [
+            {
+              "id": "maicena",
+              "cantidad": 60,
+              "unidad": "g"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "huevo",
+      "cantidad": 2,
+      "unidad": "unidad",
+      "alternativas": [
+        {
+          "por": [
+            {
+              "id": "harina-garbanzo",
+              "cantidad": 40,
+              "unidad": "g"
+            },
+            {
+              "id": "agua",
+              "cantidad": 80,
+              "unidad": "ml"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "aceite-girasol",
+      "cantidad": 300,
+      "unidad": "ml"
+    },
+    {
+      "id": "limon",
+      "cantidad": 1,
+      "unidad": "unidad"
+    },
+    {
+      "id": "sal",
+      "cantidad": 0,
+      "unidad": "al-gusto"
+    }
+  ],
+  "pasos": [
+    {
+      "texto": "Sala {merluza} en trozos y sécala con papel."
+    },
+    {
+      "texto": "Pásala por {harina-trigo} y después por {huevo}.",
+      "tecnica": "empanar"
+    },
+    {
+      "texto": "Fríe en aceite caliente hasta que esté dorada.",
+      "temporizadorSeg": 240,
+      "tecnica": "empanar"
+    },
+    {
+      "texto": "Escurre y sirve con limón."
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "id": "sopa-pescado",
+  "titulo": "Sopa de pescado sencilla",
+  "nivel": "basico",
+  "tecnicas": [
+    "caldo-casero"
+  ],
+  "raciones": 4,
+  "tiempoMin": 40,
+  "dificultad": 2,
+  "momentos": [
+    "comida",
+    "cena"
+  ],
+  "sobras": {
+    "apta": false,
+    "dias": 0
+  },
+  "descripcion": "Con un buen caldo de pescado, sale sola.",
+  "ingredientes": [
+    {
+      "id": "merluza",
+      "cantidad": 300,
+      "unidad": "g",
+      "alternativas": [
+        {
+          "por": [
+            {
+              "id": "garbanzos-cocidos",
+              "cantidad": 250,
+              "unidad": "g"
+            }
+          ],
+          "titulo": "Sopa de garbanzos y verduras"
+        }
+      ]
+    },
+    {
+      "id": "gambas",
+      "cantidad": 150,
+      "unidad": "g",
+      "alternativas": [
+        {
+          "por": [],
+          "pasos": [
+            {
+              "indice": 3,
+              "quitar": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cebolla",
+      "cantidad": 1,
+      "unidad": "unidad"
+    },
+    {
+      "id": "tomate-triturado",
+      "cantidad": 150,
+      "unidad": "g"
+    },
+    {
+      "id": "arroz",
+      "cantidad": 80,
+      "unidad": "g"
+    },
+    {
+      "id": "caldo-pescado",
+      "cantidad": 1500,
+      "unidad": "ml",
+      "alternativas": [
+        {
+          "por": [
+            {
+              "id": "caldo-verduras",
+              "cantidad": 1500,
+              "unidad": "ml"
+            }
+          ]
+        },
+        {
+          "por": [
+            {
+              "id": "agua",
+              "cantidad": 1500,
+              "unidad": "ml"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "aceite-oliva",
+      "cantidad": 2,
+      "unidad": "cucharada"
+    },
+    {
+      "id": "sal",
+      "cantidad": 0,
+      "unidad": "al-gusto"
+    }
+  ],
+  "pasos": [
+    {
+      "texto": "Pica la cebolla y sofríela con el aceite.",
+      "temporizadorSeg": 360
+    },
+    {
+      "texto": "Añade el tomate y deja que espese.",
+      "temporizadorSeg": 300
+    },
+    {
+      "texto": "Vierte el caldo y el arroz, y cuece a fuego suave.",
+      "temporizadorSeg": 900,
+      "tecnica": "caldo-casero"
+    },
+    {
+      "texto": "Añade las gambas peladas."
+    },
+    {
+      "texto": "Añade {merluza} en trozos y cuece unos minutos más.",
+      "temporizadorSeg": 240
+    }
+  ]
+}

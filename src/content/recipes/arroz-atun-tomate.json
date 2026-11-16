@@ -1,0 +1,82 @@
+{
+  "id": "arroz-atun-tomate",
+  "titulo": "Arroz con tomate y atún",
+  "nivel": "novato",
+  "tecnicas": [
+    "arroz-blanco"
+  ],
+  "raciones": 2,
+  "tiempoMin": 25,
+  "momentos": [
+    "comida",
+    "cena"
+  ],
+  "sobras": {
+    "apta": true,
+    "dias": 2
+  },
+  "descripcion": "Lo que había en la despensa, convertido en comida.",
+  "ingredientes": [
+    {
+      "id": "arroz",
+      "cantidad": 160,
+      "unidad": "g"
+    },
+    {
+      "id": "tomate-triturado",
+      "cantidad": 200,
+      "unidad": "g"
+    },
+    {
+      "id": "atun-lata",
+      "cantidad": 2,
+      "unidad": "lata",
+      "alternativas": [
+        {
+          "por": [
+            {
+              "id": "garbanzos-cocidos",
+              "cantidad": 250,
+              "unidad": "g"
+            }
+          ],
+          "titulo": "Arroz con tomate y garbanzos",
+          "pasos": [
+            {
+              "indice": 2,
+              "texto": "Añade los garbanzos escurridos a la salsa para que se calienten."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "aceite-oliva",
+      "cantidad": 2,
+      "unidad": "cucharada"
+    },
+    {
+      "id": "sal",
+      "cantidad": 0,
+      "unidad": "al-gusto"
+    }
+  ],
+  "pasos": [
+    {
+      "texto": "Cuece el arroz como has aprendido.",
+      "temporizadorSeg": 1080,
+      "tecnica": "arroz-blanco"
+    },
+    {
+      "texto": "Mientras, calienta el tomate con el aceite y sal hasta que espese.",
+      "temporizadorSeg": 480
+    },
+    {
+      "texto": "Añade el atún escurrido."
+    },
+    {
+      "texto": "Mezcla con el arroz y sirve."
+    }
+  ],
+  "dificultad": 1
+}

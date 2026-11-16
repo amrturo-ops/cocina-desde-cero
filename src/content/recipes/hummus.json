@@ -1,0 +1,87 @@
+{
+  "id": "hummus",
+  "titulo": "Hummus con verduras",
+  "nivel": "novato",
+  "tecnicas": [
+    "legumbre-bote"
+  ],
+  "raciones": 2,
+  "tiempoMin": 10,
+  "momentos": [
+    "comida",
+    "cena"
+  ],
+  "sobras": {
+    "apta": true,
+    "dias": 3
+  },
+  "descripcion": "Crema de garbanzos para untar. Necesitas batidora.",
+  "ingredientes": [
+    {
+      "id": "garbanzos-cocidos",
+      "cantidad": 1,
+      "unidad": "bote"
+    },
+    {
+      "id": "tahini",
+      "cantidad": 2,
+      "unidad": "cucharada",
+      "alternativas": [
+        {
+          "por": []
+        }
+      ]
+    },
+    {
+      "id": "limon",
+      "cantidad": 1,
+      "unidad": "unidad"
+    },
+    {
+      "id": "ajo",
+      "cantidad": 1,
+      "unidad": "diente"
+    },
+    {
+      "id": "comino",
+      "cantidad": 0,
+      "unidad": "al-gusto"
+    },
+    {
+      "id": "aceite-oliva",
+      "cantidad": 3,
+      "unidad": "cucharada"
+    },
+    {
+      "id": "zanahoria",
+      "cantidad": 2,
+      "unidad": "unidad"
+    },
+    {
+      "id": "pepino",
+      "cantidad": 1,
+      "unidad": "unidad"
+    },
+    {
+      "id": "sal",
+      "cantidad": 0,
+      "unidad": "al-gusto"
+    }
+  ],
+  "pasos": [
+    {
+      "texto": "Escurre los garbanzos y guarda un poco del líquido del bote.",
+      "tecnica": "legumbre-bote"
+    },
+    {
+      "texto": "Tritura los garbanzos con el tahini, el zumo del limón, el ajo, el comino, el aceite y sal."
+    },
+    {
+      "texto": "Añade líquido del bote poco a poco hasta que quede cremoso."
+    },
+    {
+      "texto": "Sirve con bastones de zanahoria y pepino para mojar."
+    }
+  ],
+  "dificultad": 1
+}

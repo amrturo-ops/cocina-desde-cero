@@ -1,0 +1,55 @@
+/* Tokens de diseño. Todo color y tamaño de la app sale de aquí. */
+:root {
+  color-scheme: light;
+  --fondo: #F2F5F3;        /* blanco azulejo */
+  --superficie: #FFFFFF;
+  --tinta: #1E2B26;        /* verde casi negro */
+  --tinta-suave: #52625B;
+  --albahaca: #2F7D4F;     /* color principal */
+  --albahaca-suave: #DCEBE2;
+  --yema: #F2B632;         /* logros y selección */
+  --yema-suave: #FCEFC9;
+  --tomate: #C8412C;       /* errores */
+  --borde: #CBD6D0;
+
+  --fuente-titulo: 'Bricolage Grotesque', 'Avenir Next', 'Segoe UI', system-ui, sans-serif;
+  --fuente-texto: 'Atkinson Hyperlegible', 'Verdana', 'Segoe UI', system-ui, sans-serif;
+
+  --texto: 1.125rem;       /* 18 px: legible a un brazo de distancia */
+  --texto-peq: 1rem;
+  --titulo: clamp(2rem, 8vw, 2.6rem);
+  --toque: 3.5rem;         /* altura mínima de botones (56 px) */
+  --radio: 14px;
+  --radio-grande: 22px;
+  --margen: 1.25rem;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    color-scheme: dark;
+    --fondo: #14201A;
+    --superficie: #1C2B24;
+    --tinta: #EAF1EC;
+    --tinta-suave: #A9BAB1;
+    --albahaca: #5FBF85;
+    --albahaca-suave: #22392D;
+    --yema: #F5C451;
+    --yema-suave: #3D3418;
+    --tomate: #F07A63;
+    --borde: #33473D;
+  }
+}
+
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --fondo: #14201A;
+  --superficie: #1C2B24;
+  --tinta: #EAF1EC;
+  --tinta-suave: #A9BAB1;
+  --albahaca: #5FBF85;
+  --albahaca-suave: #22392D;
+  --yema: #F5C451;
+  --yema-suave: #3D3418;
+  --tomate: #F07A63;
+  --borde: #33473D;
+}

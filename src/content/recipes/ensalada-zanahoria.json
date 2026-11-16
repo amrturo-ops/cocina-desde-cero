@@ -1,0 +1,63 @@
+{
+  "id": "ensalada-zanahoria",
+  "titulo": "Ensalada de zanahoria y maíz",
+  "nivel": "novato",
+  "tecnicas": [
+    "ensalada-completa"
+  ],
+  "raciones": 2,
+  "tiempoMin": 10,
+  "momentos": [
+    "comida"
+  ],
+  "sobras": {
+    "apta": true,
+    "dias": 2
+  },
+  "descripcion": "Barata, de colores y aguanta perfecta en táper.",
+  "ingredientes": [
+    {
+      "id": "zanahoria",
+      "cantidad": 3,
+      "unidad": "unidad"
+    },
+    {
+      "id": "maiz-dulce",
+      "cantidad": 1,
+      "unidad": "lata"
+    },
+    {
+      "id": "garbanzos-cocidos",
+      "cantidad": 1,
+      "unidad": "bote"
+    },
+    {
+      "id": "limon",
+      "cantidad": 1,
+      "unidad": "unidad"
+    },
+    {
+      "id": "aceite-oliva",
+      "cantidad": 3,
+      "unidad": "cucharada"
+    },
+    {
+      "id": "sal",
+      "cantidad": 0,
+      "unidad": "al-gusto"
+    }
+  ],
+  "pasos": [
+    {
+      "texto": "Pela y ralla las zanahorias.",
+      "tecnica": "ensalada-completa"
+    },
+    {
+      "texto": "Escurre el maíz y los garbanzos y enjuágalos."
+    },
+    {
+      "texto": "Mezcla todo y aliña con aceite, el zumo del limón y sal."
+    }
+  ],
+  "dificultad": 1
+}

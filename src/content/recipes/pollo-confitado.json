@@ -1,0 +1,71 @@
+{
+  "id": "pollo-confitado",
+  "titulo": "Muslos de pollo confitados",
+  "nivel": "cocinillas",
+  "tecnicas": [
+    "confitar",
+    "horno-basico"
+  ],
+  "raciones": 4,
+  "tiempoMin": 150,
+  "dificultad": 3,
+  "momentos": [
+    "comida"
+  ],
+  "sobras": {
+    "apta": true,
+    "dias": 3
+  },
+  "descripcion": "Tiernísimos por dentro y con piel crujiente al final.",
+  "ingredientes": [
+    {
+      "id": "muslos-pollo",
+      "cantidad": 800,
+      "unidad": "g"
+    },
+    {
+      "id": "ajo",
+      "cantidad": 6,
+      "unidad": "diente"
+    },
+    {
+      "id": "laurel",
+      "cantidad": 0,
+      "unidad": "al-gusto"
+    },
+    {
+      "id": "romero",
+      "cantidad": 0,
+      "unidad": "al-gusto"
+    },
+    {
+      "id": "aceite-oliva",
+      "cantidad": 700,
+      "unidad": "ml"
+    },
+    {
+      "id": "sal",
+      "cantidad": 0,
+      "unidad": "al-gusto"
+    }
+  ],
+  "pasos": [
+    {
+      "texto": "Sala los muslos generosamente y déjalos en la nevera una hora.",
+      "temporizadorSeg": 3600
+    },
+    {
+      "texto": "Sécalos y colócalos en una fuente con los ajos y las hierbas. Cúbrelos de aceite.",
+      "tecnica": "confitar"
+    },
+    {
+      "texto": "Confita en el horno a 140 °C.",
+      "temporizadorSeg": 7200,
+      "tecnica": "confitar"
+    },
+    {
+      "texto": "Sácalos del aceite y dóralos con la piel hacia abajo en una sartén caliente.",
+      "temporizadorSeg": 300
+    }
+  ]
+}

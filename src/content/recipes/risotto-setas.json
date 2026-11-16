@@ -1,0 +1,161 @@
+{
+  "id": "risotto-setas",
+  "titulo": "Risotto de setas",
+  "nivel": "cocinillas",
+  "tecnicas": [
+    "risotto",
+    "sofreir"
+  ],
+  "raciones": 4,
+  "tiempoMin": 40,
+  "dificultad": 3,
+  "momentos": [
+    "comida",
+    "cena"
+  ],
+  "sobras": {
+    "apta": false,
+    "dias": 0
+  },
+  "descripcion": "El risotto más clásico: cremoso y con sabor a bosque.",
+  "ingredientes": [
+    {
+      "id": "arroz-arborio",
+      "cantidad": 320,
+      "unidad": "g"
+    },
+    {
+      "id": "cebolla",
+      "cantidad": 1,
+      "unidad": "unidad"
+    },
+    {
+      "id": "vino-blanco",
+      "cantidad": 100,
+      "unidad": "ml",
+      "alternativas": [
+        {
+          "por": [
+            {
+              "id": "caldo-verduras",
+              "cantidad": 100,
+              "unidad": "ml"
+            }
+          ]
+        },
+        {
+          "por": [
+            {
+              "id": "agua",
+              "cantidad": 100,
+              "unidad": "ml"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "caldo-verduras",
+      "cantidad": 1200,
+      "unidad": "ml",
+      "alternativas": [
+        {
+          "por": [
+            {
+              "id": "agua",
+              "cantidad": 1200,
+              "unidad": "ml"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mantequilla",
+      "cantidad": 2,
+      "unidad": "cucharada",
+      "alternativas": [
+        {
+          "por": [
+            {
+              "id": "aceite-oliva",
+              "cantidad": 2,
+              "unidad": "cucharada"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "queso-parmesano",
+      "cantidad": 60,
+      "unidad": "g",
+      "alternativas": [
+        {
+          "por": [
+            {
+              "id": "queso-sin-lactosa",
+              "cantidad": 60,
+              "unidad": "g"
+            }
+          ]
+        },
+        {
+          "por": [
+            {
+              "id": "levadura-nutricional",
+              "cantidad": 4,
+              "unidad": "cucharada"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sal",
+      "cantidad": 0,
+      "unidad": "al-gusto"
+    },
+    {
+      "id": "setas",
+      "cantidad": 300,
+      "unidad": "g"
+    },
+    {
+      "id": "aceite-oliva",
+      "cantidad": 2,
+      "unidad": "cucharada"
+    }
+  ],
+  "pasos": [
+    {
+      "texto": "Calienta {caldo-verduras} en un cazo aparte y mantenlo caliente."
+    },
+    {
+      "texto": "Pica la cebolla y pócha en una cazuela con un poco de aceite o {mantequilla}.",
+      "temporizadorSeg": 360,
+      "tecnica": "sofreir"
+    },
+    {
+      "texto": "Añade el arroz y tuéstalo removiendo hasta que se vea translúcido.",
+      "temporizadorSeg": 120,
+      "tecnica": "risotto"
+    },
+    {
+      "texto": "Añade {vino-blanco} y deja que se evapore.",
+      "temporizadorSeg": 120
+    },
+    {
+      "texto": "Añade las setas troceadas y rehoga un par de minutos.",
+      "temporizadorSeg": 180
+    },
+    {
+      "texto": "Ve añadiendo el caldo cazo a cazo, sin echar más hasta que se absorba, removiendo a menudo.",
+      "temporizadorSeg": 1080,
+      "tecnica": "risotto"
+    },
+    {
+      "texto": "Fuera del fuego, añade {mantequilla} y {queso-parmesano}, remueve y deja reposar 2 minutos."
+    }
+  ]
+}

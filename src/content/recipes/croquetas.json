@@ -1,0 +1,186 @@
+{
+  "id": "croquetas",
+  "titulo": "Croquetas caseras",
+  "nivel": "basico",
+  "tecnicas": [
+    "bechamel",
+    "empanar"
+  ],
+  "raciones": 6,
+  "tiempoMin": 90,
+  "dificultad": 3,
+  "momentos": [
+    "comida"
+  ],
+  "sobras": {
+    "apta": false,
+    "dias": 0
+  },
+  "descripcion": "La bechamel espesa, una noche en la nevera y a freír.",
+  "ingredientes": [
+    {
+      "id": "jamon-serrano",
+      "cantidad": 120,
+      "unidad": "g",
+      "alternativas": [
+        {
+          "por": [
+            {
+              "id": "champinones",
+              "cantidad": 200,
+              "unidad": "g"
+            }
+          ],
+          "titulo": "Croquetas de champiñones"
+        }
+      ]
+    },
+    {
+      "id": "cebolla",
+      "cantidad": 0.5,
+      "unidad": "unidad"
+    },
+    {
+      "id": "leche",
+      "cantidad": 750,
+      "unidad": "ml",
+      "alternativas": [
+        {
+          "por": [
+            {
+              "id": "leche-sin-lactosa",
+              "cantidad": 750,
+              "unidad": "ml"
+            }
+          ]
+        },
+        {
+          "por": [
+            {
+              "id": "bebida-soja",
+              "cantidad": 750,
+              "unidad": "ml"
+            }
+          ]
+        },
+        {
+          "por": [
+            {
+              "id": "bebida-arroz",
+              "cantidad": 750,
+              "unidad": "ml"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "harina-trigo",
+      "cantidad": 90,
+      "unidad": "g",
+      "alternativas": [
+        {
+          "por": [
+            {
+              "id": "maicena",
+              "cantidad": 90,
+              "unidad": "g"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mantequilla",
+      "cantidad": 5,
+      "unidad": "cucharada",
+      "alternativas": [
+        {
+          "por": [
+            {
+              "id": "aceite-oliva",
+              "cantidad": 5,
+              "unidad": "cucharada"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "huevo",
+      "cantidad": 2,
+      "unidad": "unidad",
+      "alternativas": [
+        {
+          "por": [
+            {
+              "id": "harina-garbanzo",
+              "cantidad": 40,
+              "unidad": "g"
+            },
+            {
+              "id": "agua",
+              "cantidad": 80,
+              "unidad": "ml"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pan-rallado",
+      "cantidad": 150,
+      "unidad": "g",
+      "alternativas": [
+        {
+          "por": [
+            {
+              "id": "pan-rallado-sg",
+              "cantidad": 150,
+              "unidad": "g"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "aceite-girasol",
+      "cantidad": 500,
+      "unidad": "ml"
+    },
+    {
+      "id": "nuez-moscada",
+      "cantidad": 0,
+      "unidad": "al-gusto"
+    },
+    {
+      "id": "sal",
+      "cantidad": 0,
+      "unidad": "al-gusto"
+    }
+  ],
+  "pasos": [
+    {
+      "texto": "Pica muy fino la cebolla y {jamon-serrano} y rehógalos en {mantequilla}.",
+      "temporizadorSeg": 300
+    },
+    {
+      "texto": "Añade {harina-trigo} y tuéstala removiendo.",
+      "temporizadorSeg": 180,
+      "tecnica": "bechamel"
+    },
+    {
+      "texto": "Añade {leche} caliente poco a poco, batiendo, hasta que tengas una masa espesa que se despegue del cazo.",
+      "temporizadorSeg": 900,
+      "tecnica": "bechamel"
+    },
+    {
+      "texto": "Extiende la masa en una fuente, tápala con film tocando la masa y déjala en la nevera varias horas."
+    },
+    {
+      "texto": "Forma las croquetas, pásalas por {huevo} y {pan-rallado}, y fríelas en aceite muy caliente hasta que estén doradas.",
+      "temporizadorSeg": 180,
+      "tecnica": "empanar"
+    }
+  ]
+}

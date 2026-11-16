@@ -1,0 +1,59 @@
+{
+  "id": "esparragos-plancha",
+  "titulo": "Espárragos verdes a la plancha",
+  "nivel": "novato",
+  "tecnicas": [
+    "plancha"
+  ],
+  "raciones": 2,
+  "tiempoMin": 10,
+  "momentos": [
+    "comida",
+    "cena"
+  ],
+  "sobras": {
+    "apta": true,
+    "dias": 1
+  },
+  "descripcion": "Cinco minutos y una guarnición de restaurante.",
+  "ingredientes": [
+    {
+      "id": "esparragos",
+      "cantidad": 1,
+      "unidad": "manojo"
+    },
+    {
+      "id": "aceite-oliva",
+      "cantidad": 1,
+      "unidad": "cucharada"
+    },
+    {
+      "id": "sal",
+      "cantidad": 0,
+      "unidad": "al-gusto"
+    },
+    {
+      "id": "limon",
+      "cantidad": 0.5,
+      "unidad": "unidad"
+    }
+  ],
+  "pasos": [
+    {
+      "texto": "Corta la parte dura del final de los espárragos: se parte sola por donde empieza a estar tierna."
+    },
+    {
+      "texto": "Úntalos con aceite y sal.",
+      "tecnica": "plancha"
+    },
+    {
+      "texto": "Hazlos en la plancha caliente, girándolos de vez en cuando.",
+      "temporizadorSeg": 360,
+      "tecnica": "plancha"
+    },
+    {
+      "texto": "Riégalos con unas gotas de limón."
+    }
+  ],
+  "dificultad": 1
+}

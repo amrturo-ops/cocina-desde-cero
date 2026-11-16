@@ -1,0 +1,102 @@
+{
+  "id": "calamares-romana",
+  "titulo": "Calamares a la romana",
+  "nivel": "basico",
+  "tecnicas": [
+    "empanar"
+  ],
+  "raciones": 4,
+  "tiempoMin": 30,
+  "dificultad": 2,
+  "momentos": [
+    "cena"
+  ],
+  "sobras": {
+    "apta": false,
+    "dias": 0
+  },
+  "descripcion": "Los de bar, en casa. Con aros de cebolla si no comes calamar.",
+  "ingredientes": [
+    {
+      "id": "calamar",
+      "cantidad": 500,
+      "unidad": "g",
+      "alternativas": [
+        {
+          "por": [
+            {
+              "id": "cebolla",
+              "cantidad": 2,
+              "unidad": "unidad"
+            }
+          ],
+          "titulo": "Aros de cebolla rebozados"
+        }
+      ]
+    },
+    {
+      "id": "harina-trigo",
+      "cantidad": 100,
+      "unidad": "g",
+      "alternativas": [
+        {
+          "por": [
+            {
+              "id": "maicena",
+              "cantidad": 100,
+              "unidad": "g"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "huevo",
+      "cantidad": 2,
+      "unidad": "unidad",
+      "alternativas": [
+        {
+          "por": [
+            {
+              "id": "agua",
+              "cantidad": 150,
+              "unidad": "ml"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "aceite-girasol",
+      "cantidad": 500,
+      "unidad": "ml"
+    },
+    {
+      "id": "limon",
+      "cantidad": 1,
+      "unidad": "unidad"
+    },
+    {
+      "id": "sal",
+      "cantidad": 0,
+      "unidad": "al-gusto"
+    }
+  ],
+  "pasos": [
+    {
+      "texto": "Corta {calamar} en anillas y sécalas muy bien con papel."
+    },
+    {
+      "texto": "Bate {huevo} con {harina-trigo} y sal hasta tener una masa como de natillas.",
+      "tecnica": "empanar"
+    },
+    {
+      "texto": "Pasa los anillos por la masa y fríelos en aceite muy caliente por tandas.",
+      "temporizadorSeg": 120,
+      "tecnica": "empanar"
+    },
+    {
+      "texto": "Escúrrelos y sirve enseguida con limón."
+    }
+  ]
+}

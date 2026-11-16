@@ -1,0 +1,111 @@
+{
+  "id": "tortilla-patatas",
+  "titulo": "Tortilla de patatas",
+  "nivel": "novato",
+  "tecnicas": [
+    "cortar-cebolla",
+    "sofreir"
+  ],
+  "raciones": 2,
+  "tiempoMin": 40,
+  "dificultad": 3,
+  "momentos": [
+    "comida",
+    "cena"
+  ],
+  "sobras": {
+    "apta": true,
+    "dias": 2
+  },
+  "descripcion": "El clásico. La clave está en pochar bien la patata, no en darle la vuelta.",
+  "ingredientes": [
+    {
+      "id": "patata",
+      "cantidad": 400,
+      "unidad": "g"
+    },
+    {
+      "id": "cebolla",
+      "cantidad": 1,
+      "unidad": "unidad"
+    },
+    {
+      "id": "huevo",
+      "cantidad": 4,
+      "unidad": "unidad",
+      "alternativas": [
+        {
+          "por": [
+            {
+              "id": "harina-garbanzo",
+              "cantidad": 100,
+              "unidad": "g"
+            },
+            {
+              "id": "agua",
+              "cantidad": 200,
+              "unidad": "ml"
+            }
+          ],
+          "titulo": "Tortilla de patatas vegana",
+          "pasos": [
+            {
+              "indice": 3,
+              "texto": "Mientras, bate la harina de garbanzo con el agua y una pizca de sal hasta que no queden grumos. Debe quedar como una natilla líquida."
+            },
+            {
+              "indice": 4,
+              "texto": "Escurre bien las patatas (guarda el aceite para otros platos) y mézclalas con la masa."
+            },
+            {
+              "indice": 5,
+              "temporizadorSeg": 300
+            },
+            {
+              "indice": 6,
+              "temporizadorSeg": 240
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "aceite-oliva",
+      "cantidad": 120,
+      "unidad": "ml"
+    },
+    {
+      "id": "sal",
+      "cantidad": 0,
+      "unidad": "al-gusto"
+    }
+  ],
+  "pasos": [
+    {
+      "texto": "Pela las patatas y córtalas en láminas finas, de unos 3 mm."
+    },
+    {
+      "texto": "Corta la cebolla en juliana.",
+      "tecnica": "cortar-cebolla"
+    },
+    {
+      "texto": "Calienta el aceite a fuego medio-bajo. Añade patata, cebolla y sal, y pocha sin que se doren, removiendo de vez en cuando. Deben quedar blandas.",
+      "temporizadorSeg": 1200,
+      "tecnica": "sofreir"
+    },
+    {
+      "texto": "Mientras, bate los huevos con una pizca de sal en un bol grande."
+    },
+    {
+      "texto": "Escurre bien las patatas (guarda el aceite para otros platos) y mézclalas con el huevo. Deja reposar 2 minutos."
+    },
+    {
+      "texto": "Pon una cucharada de ese aceite en la sartén a fuego medio, echa la mezcla y deja que cuaje por abajo.",
+      "temporizadorSeg": 180
+    },
+    {
+      "texto": "Tapa la sartén con un plato, dale la vuelta con decisión y desliza la tortilla de nuevo para hacer el otro lado.",
+      "temporizadorSeg": 120
+    }
+  ]
+}

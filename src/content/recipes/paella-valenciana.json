@@ -1,0 +1,118 @@
+{
+  "id": "paella-valenciana",
+  "titulo": "Paella valenciana",
+  "nivel": "cocinillas",
+  "tecnicas": [
+    "arroz-paella",
+    "sofreir"
+  ],
+  "raciones": 4,
+  "tiempoMin": 60,
+  "dificultad": 3,
+  "momentos": [
+    "comida"
+  ],
+  "sobras": {
+    "apta": false,
+    "dias": 0
+  },
+  "descripcion": "La de pollo y verduras. Sin remover el arroz.",
+  "ingredientes": [
+    {
+      "id": "muslos-pollo",
+      "cantidad": 600,
+      "unidad": "g",
+      "alternativas": [
+        {
+          "por": [
+            {
+              "id": "champinones",
+              "cantidad": 400,
+              "unidad": "g"
+            }
+          ],
+          "titulo": "Paella de verduras y setas"
+        }
+      ]
+    },
+    {
+      "id": "judias-verdes",
+      "cantidad": 200,
+      "unidad": "g"
+    },
+    {
+      "id": "alubias-cocidas",
+      "cantidad": 200,
+      "unidad": "g"
+    },
+    {
+      "id": "tomate-triturado",
+      "cantidad": 150,
+      "unidad": "g"
+    },
+    {
+      "id": "arroz-bomba",
+      "cantidad": 320,
+      "unidad": "g"
+    },
+    {
+      "id": "azafran",
+      "cantidad": 0,
+      "unidad": "al-gusto"
+    },
+    {
+      "id": "pimenton",
+      "cantidad": 0,
+      "unidad": "al-gusto"
+    },
+    {
+      "id": "romero",
+      "cantidad": 0,
+      "unidad": "al-gusto"
+    },
+    {
+      "id": "aceite-oliva",
+      "cantidad": 5,
+      "unidad": "cucharada"
+    },
+    {
+      "id": "agua",
+      "cantidad": 1100,
+      "unidad": "ml"
+    },
+    {
+      "id": "sal",
+      "cantidad": 0,
+      "unidad": "al-gusto"
+    }
+  ],
+  "pasos": [
+    {
+      "texto": "Calienta el aceite en la paellera y dora {muslos-pollo} en trozos con sal, a fuego medio.",
+      "temporizadorSeg": 720,
+      "tecnica": "sofreir"
+    },
+    {
+      "texto": "Añade las judías verdes y rehoga.",
+      "temporizadorSeg": 300
+    },
+    {
+      "texto": "Añade el tomate y una pizca de pimentón, y deja que se haga.",
+      "temporizadorSeg": 180,
+      "tecnica": "sofreir"
+    },
+    {
+      "texto": "Añade el agua, el azafrán, las alubias y el romero, y deja hervir. Prueba de sal: debe quedar un poco salado.",
+      "temporizadorSeg": 600
+    },
+    {
+      "texto": "Reparte el arroz por toda la paellera y no lo remuevas más. Fuego fuerte 8 minutos y luego medio-bajo.",
+      "temporizadorSeg": 1080,
+      "tecnica": "arroz-paella"
+    },
+    {
+      "texto": "Deja reposar tapada con un paño.",
+      "temporizadorSeg": 300
+    }
+  ]
+}

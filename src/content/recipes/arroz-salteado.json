@@ -1,0 +1,105 @@
+{
+  "id": "arroz-salteado",
+  "titulo": "Arroz salteado con verduras",
+  "nivel": "novato",
+  "tecnicas": [
+    "arroz-blanco",
+    "sofreir"
+  ],
+  "raciones": 2,
+  "tiempoMin": 30,
+  "dificultad": 2,
+  "momentos": [
+    "comida",
+    "cena"
+  ],
+  "sobras": {
+    "apta": true,
+    "dias": 2
+  },
+  "descripcion": "El mejor destino para el arroz que sobra. Con arroz del día anterior queda aún mejor.",
+  "ingredientes": [
+    {
+      "id": "arroz",
+      "cantidad": 160,
+      "unidad": "g"
+    },
+    {
+      "id": "zanahoria",
+      "cantidad": 1,
+      "unidad": "unidad"
+    },
+    {
+      "id": "guisantes",
+      "cantidad": 100,
+      "unidad": "g"
+    },
+    {
+      "id": "cebolla",
+      "cantidad": 0.5,
+      "unidad": "unidad"
+    },
+    {
+      "id": "huevo",
+      "cantidad": 2,
+      "unidad": "unidad",
+      "alternativas": [
+        {
+          "por": [],
+          "pasos": [
+            {
+              "indice": 3,
+              "quitar": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "salsa-soja",
+      "cantidad": 2,
+      "unidad": "cucharada",
+      "alternativas": [
+        {
+          "por": [
+            {
+              "id": "tamari",
+              "cantidad": 2,
+              "unidad": "cucharada"
+            }
+          ]
+        },
+        {
+          "por": []
+        }
+      ]
+    },
+    {
+      "id": "aceite-oliva",
+      "cantidad": 2,
+      "unidad": "cucharada"
+    }
+  ],
+  "pasos": [
+    {
+      "texto": "Cuece el arroz como has aprendido y deja que se enfríe un poco.",
+      "temporizadorSeg": 1080,
+      "tecnica": "arroz-blanco"
+    },
+    {
+      "texto": "Pica la cebolla y corta la zanahoria en dados pequeños."
+    },
+    {
+      "texto": "Sofríe la cebolla y la zanahoria en una sartén grande. Añade los guisantes congelados.",
+      "temporizadorSeg": 420,
+      "tecnica": "sofreir"
+    },
+    {
+      "texto": "Aparta la verdura a un lado, bate los huevos y cuájalos en el hueco, removiendo."
+    },
+    {
+      "texto": "Añade el arroz y la salsa de soja, y saltea a fuego fuerte sin parar de remover.",
+      "temporizadorSeg": 180
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "id": "arroz-horno",
+  "titulo": "Arroz al horno",
+  "nivel": "cocinillas",
+  "tecnicas": [
+    "arroz-paella",
+    "horno-basico"
+  ],
+  "raciones": 4,
+  "tiempoMin": 60,
+  "dificultad": 2,
+  "momentos": [
+    "comida"
+  ],
+  "sobras": {
+    "apta": false,
+    "dias": 0
+  },
+  "descripcion": "El arroz valenciano que se termina en el horno.",
+  "ingredientes": [
+    {
+      "id": "arroz-bomba",
+      "cantidad": 300,
+      "unidad": "g"
+    },
+    {
+      "id": "garbanzos-cocidos",
+      "cantidad": 1,
+      "unidad": "bote"
+    },
+    {
+      "id": "patata",
+      "cantidad": 200,
+      "unidad": "g"
+    },
+    {
+      "id": "tomate",
+      "cantidad": 1,
+      "unidad": "unidad"
+    },
+    {
+      "id": "panceta",
+      "cantidad": 150,
+      "unidad": "g",
+      "alternativas": [
+        {
+          "por": [],
+          "pasos": [
+            {
+              "indice": 1,
+              "quitar": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ajo",
+      "cantidad": 1,
+      "unidad": "diente"
+    },
+    {
+      "id": "pimenton",
+      "cantidad": 0,
+      "unidad": "al-gusto"
+    },
+    {
+      "id": "caldo-verduras",
+      "cantidad": 700,
+      "unidad": "ml",
+      "alternativas": [
+        {
+          "por": [
+            {
+              "id": "agua",
+              "cantidad": 700,
+              "unidad": "ml"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "aceite-oliva",
+      "cantidad": 4,
+      "unidad": "cucharada"
+    },
+    {
+      "id": "sal",
+      "cantidad": 0,
+      "unidad": "al-gusto"
+    }
+  ],
+  "pasos": [
+    {
+      "texto": "Precalienta el horno a 220 °C.",
+      "temporizadorSeg": 600
+    },
+    {
+      "texto": "Dora la panceta en trozos en una cazuela apta para horno."
+    },
+    {
+      "texto": "Dora la patata en rodajas y el tomate en mitades, y retíralos.",
+      "temporizadorSeg": 360
+    },
+    {
+      "texto": "Añade el arroz, el ajo, el pimentón y los garbanzos, remueve y vierte el caldo caliente con sal.",
+      "tecnica": "arroz-paella"
+    },
+    {
+      "texto": "Coloca encima la patata y el tomate, y hornea.",
+      "temporizadorSeg": 1200,
+      "tecnica": "horno-basico"
+    },
+    {
+      "texto": "Reposo.",
+      "temporizadorSeg": 300
+    }
+  ]
+}

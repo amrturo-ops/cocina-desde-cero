@@ -1,0 +1,71 @@
+{
+  "id": "tomates-confitados",
+  "titulo": "Tomates confitados",
+  "nivel": "cocinillas",
+  "tecnicas": [
+    "confitar",
+    "horno-basico"
+  ],
+  "raciones": 4,
+  "tiempoMin": 90,
+  "dificultad": 1,
+  "momentos": [
+    "comida",
+    "cena"
+  ],
+  "sobras": {
+    "apta": true,
+    "dias": 5
+  },
+  "descripcion": "Concentrados y dulces. Úsalos en pastas, tostadas y ensaladas.",
+  "ingredientes": [
+    {
+      "id": "tomate-cherry",
+      "cantidad": 500,
+      "unidad": "g"
+    },
+    {
+      "id": "ajo",
+      "cantidad": 3,
+      "unidad": "diente"
+    },
+    {
+      "id": "oregano",
+      "cantidad": 0,
+      "unidad": "al-gusto"
+    },
+    {
+      "id": "azucar",
+      "cantidad": 0,
+      "unidad": "al-gusto"
+    },
+    {
+      "id": "aceite-oliva",
+      "cantidad": 200,
+      "unidad": "ml"
+    },
+    {
+      "id": "sal",
+      "cantidad": 0,
+      "unidad": "al-gusto"
+    }
+  ],
+  "pasos": [
+    {
+      "texto": "Precalienta el horno a 120 °C.",
+      "temporizadorSeg": 600
+    },
+    {
+      "texto": "Pon los tomates en una fuente pequeña con los ajos, orégano, sal y una pizca de azúcar, y cúbrelos casi del todo con aceite.",
+      "tecnica": "confitar"
+    },
+    {
+      "texto": "Hornea a baja temperatura.",
+      "temporizadorSeg": 4500,
+      "tecnica": "confitar"
+    },
+    {
+      "texto": "Guárdalos en un bote cubiertos de su aceite en la nevera."
+    }
+  ]
+}

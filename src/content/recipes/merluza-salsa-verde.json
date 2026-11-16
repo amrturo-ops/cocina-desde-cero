@@ -1,0 +1,104 @@
+{
+  "id": "merluza-salsa-verde",
+  "titulo": "Merluza en salsa verde",
+  "nivel": "novato",
+  "tecnicas": [
+    "salsa-basica",
+    "sofreir"
+  ],
+  "raciones": 2,
+  "tiempoMin": 25,
+  "momentos": [
+    "comida",
+    "cena"
+  ],
+  "sobras": {
+    "apta": false,
+    "dias": 0
+  },
+  "descripcion": "Un clásico vasco más fácil de lo que parece.",
+  "ingredientes": [
+    {
+      "id": "merluza",
+      "cantidad": 400,
+      "unidad": "g",
+      "alternativas": [
+        {
+          "por": [
+            {
+              "id": "tofu",
+              "cantidad": 300,
+              "unidad": "g"
+            }
+          ],
+          "titulo": "Tofu en salsa verde",
+          "pasos": [
+            {
+              "indice": 2,
+              "texto": "Corta el tofu en dados y ponlo en la cazuela."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ajo",
+      "cantidad": 3,
+      "unidad": "diente"
+    },
+    {
+      "id": "perejil",
+      "cantidad": 0.5,
+      "unidad": "manojo"
+    },
+    {
+      "id": "caldo-verduras",
+      "cantidad": 250,
+      "unidad": "ml",
+      "alternativas": [
+        {
+          "por": [
+            {
+              "id": "agua",
+              "cantidad": 250,
+              "unidad": "ml"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "aceite-oliva",
+      "cantidad": 4,
+      "unidad": "cucharada"
+    },
+    {
+      "id": "sal",
+      "cantidad": 0,
+      "unidad": "al-gusto"
+    }
+  ],
+  "pasos": [
+    {
+      "texto": "Pica el ajo y mucho perejil."
+    },
+    {
+      "texto": "En una cazuela ancha, sofríe el ajo en el aceite a fuego bajo sin que se dore.",
+      "temporizadorSeg": 120,
+      "tecnica": "sofreir"
+    },
+    {
+      "texto": "Coloca la merluza salada con la piel hacia arriba."
+    },
+    {
+      "texto": "Añade el caldo y el perejil, y mueve la cazuela en círculos suavemente: la salsa irá espesando sola.",
+      "temporizadorSeg": 240,
+      "tecnica": "salsa-basica"
+    },
+    {
+      "texto": "Da la vuelta al pescado y deja un par de minutos más.",
+      "temporizadorSeg": 180
+    }
+  ],
+  "dificultad": 3
+}

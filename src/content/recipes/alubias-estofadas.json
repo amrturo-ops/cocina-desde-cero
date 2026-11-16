@@ -1,0 +1,103 @@
+{
+  "id": "alubias-estofadas",
+  "titulo": "Alubias blancas estofadas",
+  "nivel": "basico",
+  "tecnicas": [
+    "legumbre-seca",
+    "sofreir"
+  ],
+  "raciones": 4,
+  "tiempoMin": 120,
+  "dificultad": 2,
+  "momentos": [
+    "comida"
+  ],
+  "sobras": {
+    "apta": true,
+    "dias": 4
+  },
+  "descripcion": "Cremosas y de cuchara. Necesitan remojo la noche antes.",
+  "ingredientes": [
+    {
+      "id": "alubias-secas",
+      "cantidad": 350,
+      "unidad": "g"
+    },
+    {
+      "id": "cebolla",
+      "cantidad": 1,
+      "unidad": "unidad"
+    },
+    {
+      "id": "pimiento-rojo",
+      "cantidad": 1,
+      "unidad": "unidad"
+    },
+    {
+      "id": "zanahoria",
+      "cantidad": 1,
+      "unidad": "unidad"
+    },
+    {
+      "id": "ajo",
+      "cantidad": 2,
+      "unidad": "diente"
+    },
+    {
+      "id": "chorizo",
+      "cantidad": 100,
+      "unidad": "g",
+      "alternativas": [
+        {
+          "por": [],
+          "pasos": [
+            {
+              "indice": 2,
+              "quitar": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pimenton",
+      "cantidad": 0,
+      "unidad": "al-gusto"
+    },
+    {
+      "id": "laurel",
+      "cantidad": 0,
+      "unidad": "al-gusto"
+    },
+    {
+      "id": "aceite-oliva",
+      "cantidad": 3,
+      "unidad": "cucharada"
+    },
+    {
+      "id": "sal",
+      "cantidad": 0,
+      "unidad": "al-gusto"
+    }
+  ],
+  "pasos": [
+    {
+      "texto": "Deja las alubias en remojo la noche anterior."
+    },
+    {
+      "texto": "Pon las alubias escurridas en una olla con agua fría, el laurel y las verduras enteras. Cuece a fuego muy suave.",
+      "temporizadorSeg": 5400,
+      "tecnica": "legumbre-seca"
+    },
+    {
+      "texto": "Añade el chorizo a mitad de cocción."
+    },
+    {
+      "texto": "Saca las verduras, tritúralas con un poco de caldo y devuélvelas a la olla: así espesa sin harina.",
+      "tecnica": "sofreir"
+    },
+    {
+      "texto": "Sala y deja reposar unos minutos antes de servir."
+    }
+  ]
+}

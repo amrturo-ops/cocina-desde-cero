@@ -1,0 +1,88 @@
+{
+  "id": "gazpacho",
+  "titulo": "Gazpacho",
+  "nivel": "novato",
+  "tecnicas": [
+    "cortar-cebolla"
+  ],
+  "raciones": 2,
+  "tiempoMin": 15,
+  "momentos": [
+    "comida"
+  ],
+  "sobras": {
+    "apta": true,
+    "dias": 3
+  },
+  "descripcion": "Sin fuego y con batidora. En verano, imprescindible.",
+  "ingredientes": [
+    {
+      "id": "tomate",
+      "cantidad": 5,
+      "unidad": "unidad"
+    },
+    {
+      "id": "pepino",
+      "cantidad": 0.5,
+      "unidad": "unidad"
+    },
+    {
+      "id": "pimiento-verde",
+      "cantidad": 0.5,
+      "unidad": "unidad"
+    },
+    {
+      "id": "cebolla",
+      "cantidad": 0.25,
+      "unidad": "unidad"
+    },
+    {
+      "id": "ajo",
+      "cantidad": 1,
+      "unidad": "diente"
+    },
+    {
+      "id": "aceite-oliva",
+      "cantidad": 4,
+      "unidad": "cucharada"
+    },
+    {
+      "id": "vinagre",
+      "cantidad": 2,
+      "unidad": "cucharada",
+      "alternativas": [
+        {
+          "por": [
+            {
+              "id": "limon",
+              "cantidad": 0.5,
+              "unidad": "unidad"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sal",
+      "cantidad": 0,
+      "unidad": "al-gusto"
+    }
+  ],
+  "pasos": [
+    {
+      "texto": "Trocea los tomates, el pepino pelado, el pimiento, la cebolla y el ajo.",
+      "tecnica": "cortar-cebolla"
+    },
+    {
+      "texto": "Tritúralo todo con la batidora hasta que quede muy fino."
+    },
+    {
+      "texto": "Añade el aceite, el vinagre y sal, y vuelve a triturar. Si queda espeso, añade un poco de agua fría."
+    },
+    {
+      "texto": "Guárdalo en la nevera para que esté bien frío.",
+      "temporizadorSeg": 1800
+    }
+  ],
+  "dificultad": 1
+}

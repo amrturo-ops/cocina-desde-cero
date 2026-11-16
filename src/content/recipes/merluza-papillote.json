@@ -1,0 +1,79 @@
+{
+  "id": "merluza-papillote",
+  "titulo": "Merluza en papillote con tomate y aceitunas",
+  "nivel": "basico",
+  "tecnicas": [
+    "papillote"
+  ],
+  "raciones": 4,
+  "tiempoMin": 25,
+  "dificultad": 1,
+  "momentos": [
+    "comida",
+    "cena"
+  ],
+  "sobras": {
+    "apta": false,
+    "dias": 0
+  },
+  "descripcion": "Sabor mediterráneo en 25 minutos.",
+  "ingredientes": [
+    {
+      "id": "merluza",
+      "cantidad": 500,
+      "unidad": "g",
+      "alternativas": [
+        {
+          "por": [
+            {
+              "id": "berenjena",
+              "cantidad": 2,
+              "unidad": "unidad"
+            }
+          ],
+          "titulo": "Berenjena en papillote con tomate"
+        }
+      ]
+    },
+    {
+      "id": "tomate-cherry",
+      "cantidad": 200,
+      "unidad": "g"
+    },
+    {
+      "id": "aceitunas-negras",
+      "cantidad": 50,
+      "unidad": "g"
+    },
+    {
+      "id": "oregano",
+      "cantidad": 0,
+      "unidad": "al-gusto"
+    },
+    {
+      "id": "aceite-oliva",
+      "cantidad": 2,
+      "unidad": "cucharada"
+    },
+    {
+      "id": "sal",
+      "cantidad": 0,
+      "unidad": "al-gusto"
+    }
+  ],
+  "pasos": [
+    {
+      "texto": "Precalienta el horno a 200 °C.",
+      "temporizadorSeg": 600
+    },
+    {
+      "texto": "Pon {merluza} con sal en el papel con los tomates partidos, las aceitunas y orégano.",
+      "tecnica": "papillote"
+    },
+    {
+      "texto": "Riega con aceite, cierra bien y hornea.",
+      "temporizadorSeg": 900,
+      "tecnica": "papillote"
+    }
+  ]
+}

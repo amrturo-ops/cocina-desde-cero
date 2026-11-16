@@ -1,0 +1,65 @@
+{
+  "id": "alcachofas-confitadas",
+  "titulo": "Alcachofas confitadas",
+  "nivel": "cocinillas",
+  "tecnicas": [
+    "confitar"
+  ],
+  "raciones": 4,
+  "tiempoMin": 50,
+  "dificultad": 2,
+  "momentos": [
+    "comida",
+    "cena"
+  ],
+  "sobras": {
+    "apta": true,
+    "dias": 3
+  },
+  "descripcion": "Tiernas y con sabor intenso.",
+  "ingredientes": [
+    {
+      "id": "alcachofas",
+      "cantidad": 8,
+      "unidad": "unidad"
+    },
+    {
+      "id": "limon",
+      "cantidad": 1,
+      "unidad": "unidad"
+    },
+    {
+      "id": "ajo",
+      "cantidad": 3,
+      "unidad": "diente"
+    },
+    {
+      "id": "aceite-oliva",
+      "cantidad": 500,
+      "unidad": "ml"
+    },
+    {
+      "id": "sal",
+      "cantidad": 0,
+      "unidad": "al-gusto"
+    }
+  ],
+  "pasos": [
+    {
+      "texto": "Limpia las alcachofas quitando las hojas duras y córtalas por la mitad. Frótalas con limón para que no se oscurezcan."
+    },
+    {
+      "texto": "Cúbrelas de aceite en un cazo con los ajos.",
+      "tecnica": "confitar"
+    },
+    {
+      "texto": "Confita a fuego muy bajo hasta que estén tiernas al pincharlas.",
+      "temporizadorSeg": 2100,
+      "tecnica": "confitar"
+    },
+    {
+      "texto": "Escúrrelas, sala y, si quieres, dóralas un minuto en la plancha.",
+      "temporizadorSeg": 60
+    }
+  ]
+}

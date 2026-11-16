@@ -1,0 +1,109 @@
+{
+  "id": "tortilla-calabacin",
+  "titulo": "Tortilla de calabacín",
+  "nivel": "novato",
+  "tecnicas": [
+    "hacer-huevos",
+    "sofreir",
+    "cortar-cebolla"
+  ],
+  "raciones": 2,
+  "tiempoMin": 30,
+  "momentos": [
+    "comida",
+    "cena"
+  ],
+  "sobras": {
+    "apta": true,
+    "dias": 2
+  },
+  "descripcion": "Como la de patatas, pero más ligera y rápida.",
+  "ingredientes": [
+    {
+      "id": "calabacin",
+      "cantidad": 2,
+      "unidad": "unidad"
+    },
+    {
+      "id": "cebolla",
+      "cantidad": 1,
+      "unidad": "unidad"
+    },
+    {
+      "id": "huevo",
+      "cantidad": 4,
+      "unidad": "unidad",
+      "alternativas": [
+        {
+          "por": [
+            {
+              "id": "harina-garbanzo",
+              "cantidad": 100,
+              "unidad": "g"
+            },
+            {
+              "id": "agua",
+              "cantidad": 200,
+              "unidad": "ml"
+            }
+          ],
+          "titulo": "Tortilla de calabacín vegana",
+          "pasos": [
+            {
+              "indice": 3,
+              "texto": "Bate la harina de garbanzo con el agua y sal hasta que no queden grumos, y mézclala con la verdura escurrida."
+            },
+            {
+              "indice": 4,
+              "texto": "Cuaja a fuego medio-bajo hasta que se despegue de los bordes.",
+              "temporizadorSeg": 360
+            },
+            {
+              "indice": 5,
+              "texto": "Dale la vuelta con un plato y dora el otro lado.",
+              "temporizadorSeg": 240
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "aceite-oliva",
+      "cantidad": 4,
+      "unidad": "cucharada"
+    },
+    {
+      "id": "sal",
+      "cantidad": 0,
+      "unidad": "al-gusto"
+    }
+  ],
+  "pasos": [
+    {
+      "texto": "Pica la cebolla y corta el calabacín en dados pequeños.",
+      "tecnica": "cortar-cebolla"
+    },
+    {
+      "texto": "Pócha ambos en el aceite a fuego medio-bajo con sal hasta que estén blandos.",
+      "temporizadorSeg": 900,
+      "tecnica": "sofreir"
+    },
+    {
+      "texto": "Escurre la verdura del aceite."
+    },
+    {
+      "texto": "Bate los huevos con sal y mézclalos con la verdura.",
+      "tecnica": "hacer-huevos"
+    },
+    {
+      "texto": "Echa la mezcla en la sartén con una cucharada del aceite y cuaja a fuego medio.",
+      "temporizadorSeg": 180,
+      "tecnica": "hacer-huevos"
+    },
+    {
+      "texto": "Dale la vuelta con un plato y cuaja el otro lado.",
+      "temporizadorSeg": 120
+    }
+  ],
+  "dificultad": 2
+}

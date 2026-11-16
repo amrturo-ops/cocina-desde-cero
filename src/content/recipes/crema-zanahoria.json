@@ -1,0 +1,84 @@
+{
+  "id": "crema-zanahoria",
+  "titulo": "Crema de zanahoria y jengibre",
+  "nivel": "basico",
+  "tecnicas": [
+    "cremas-verduras",
+    "sofreir"
+  ],
+  "raciones": 4,
+  "tiempoMin": 30,
+  "dificultad": 1,
+  "momentos": [
+    "comida",
+    "cena"
+  ],
+  "sobras": {
+    "apta": true,
+    "dias": 3
+  },
+  "descripcion": "Un toque de jengibre la hace especial.",
+  "ingredientes": [
+    {
+      "id": "zanahoria",
+      "cantidad": 6,
+      "unidad": "unidad"
+    },
+    {
+      "id": "cebolla",
+      "cantidad": 1,
+      "unidad": "unidad"
+    },
+    {
+      "id": "jengibre",
+      "cantidad": 15,
+      "unidad": "g"
+    },
+    {
+      "id": "leche-coco",
+      "cantidad": 200,
+      "unidad": "ml"
+    },
+    {
+      "id": "caldo-verduras",
+      "cantidad": 600,
+      "unidad": "ml",
+      "alternativas": [
+        {
+          "por": [
+            {
+              "id": "agua",
+              "cantidad": 600,
+              "unidad": "ml"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "aceite-oliva",
+      "cantidad": 2,
+      "unidad": "cucharada"
+    },
+    {
+      "id": "sal",
+      "cantidad": 0,
+      "unidad": "al-gusto"
+    }
+  ],
+  "pasos": [
+    {
+      "texto": "Pica la cebolla y pócha con el aceite junto al jengibre rallado.",
+      "temporizadorSeg": 360,
+      "tecnica": "sofreir"
+    },
+    {
+      "texto": "Añade la zanahoria en rodajas y cubre con {caldo-verduras}.",
+      "temporizadorSeg": 1200,
+      "tecnica": "cremas-verduras"
+    },
+    {
+      "texto": "Añade la leche de coco, sala y tritura."
+    }
+  ]
+}

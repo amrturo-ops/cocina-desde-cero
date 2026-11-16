@@ -1,0 +1,79 @@
+{
+  "id": "tomate-alinado",
+  "titulo": "Tomate aliñado con cebolla y orégano",
+  "nivel": "novato",
+  "tecnicas": [
+    "cortar-cebolla"
+  ],
+  "raciones": 2,
+  "tiempoMin": 10,
+  "dificultad": 1,
+  "momentos": [
+    "comida",
+    "cena"
+  ],
+  "sobras": {
+    "apta": true,
+    "dias": 1
+  },
+  "descripcion": "El aliño más sencillo de España. En verano, el mejor primer plato.",
+  "ingredientes": [
+    {
+      "id": "tomate",
+      "cantidad": 3,
+      "unidad": "unidad"
+    },
+    {
+      "id": "cebolla",
+      "cantidad": 0.5,
+      "unidad": "unidad"
+    },
+    {
+      "id": "aceite-oliva",
+      "cantidad": 3,
+      "unidad": "cucharada"
+    },
+    {
+      "id": "vinagre",
+      "cantidad": 1,
+      "unidad": "cucharada",
+      "alternativas": [
+        {
+          "por": [
+            {
+              "id": "limon",
+              "cantidad": 0.5,
+              "unidad": "unidad"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "oregano",
+      "cantidad": 0,
+      "unidad": "al-gusto"
+    },
+    {
+      "id": "sal",
+      "cantidad": 0,
+      "unidad": "al-gusto"
+    }
+  ],
+  "pasos": [
+    {
+      "texto": "Corta la cebolla en juliana muy fina.",
+      "tecnica": "cortar-cebolla"
+    },
+    {
+      "texto": "Corta los tomates en rodajas o gajos y colócalos en un plato."
+    },
+    {
+      "texto": "Reparte la cebolla por encima, añade sal, orégano, el vinagre y el aceite."
+    },
+    {
+      "texto": "Deja reposar unos minutos para que el tomate suelte su jugo.",
+      "temporizadorSeg": 300
+    }
+  ]
+}

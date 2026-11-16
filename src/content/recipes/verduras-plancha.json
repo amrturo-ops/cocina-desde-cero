@@ -1,0 +1,64 @@
+{
+  "id": "verduras-plancha",
+  "titulo": "Verduras a la plancha",
+  "nivel": "novato",
+  "tecnicas": [
+    "plancha"
+  ],
+  "raciones": 2,
+  "tiempoMin": 20,
+  "dificultad": 1,
+  "momentos": [
+    "comida",
+    "cena"
+  ],
+  "sobras": {
+    "apta": true,
+    "dias": 2
+  },
+  "descripcion": "Calabacín, berenjena y pimiento dorados. Acompañan cualquier cosa.",
+  "ingredientes": [
+    {
+      "id": "calabacin",
+      "cantidad": 1,
+      "unidad": "unidad"
+    },
+    {
+      "id": "berenjena",
+      "cantidad": 1,
+      "unidad": "unidad"
+    },
+    {
+      "id": "pimiento-rojo",
+      "cantidad": 1,
+      "unidad": "unidad"
+    },
+    {
+      "id": "aceite-oliva",
+      "cantidad": 3,
+      "unidad": "cucharada"
+    },
+    {
+      "id": "sal",
+      "cantidad": 0,
+      "unidad": "al-gusto"
+    }
+  ],
+  "pasos": [
+    {
+      "texto": "Corta el calabacín y la berenjena en rodajas de medio centímetro y el pimiento en tiras."
+    },
+    {
+      "texto": "Úntalas con un poco de aceite y sal.",
+      "tecnica": "plancha"
+    },
+    {
+      "texto": "Haz la plancha por tandas, sin amontonar, dando la vuelta a mitad.",
+      "temporizadorSeg": 480,
+      "tecnica": "plancha"
+    },
+    {
+      "texto": "Riega con un hilo de aceite antes de servir."
+    }
+  ]
+}

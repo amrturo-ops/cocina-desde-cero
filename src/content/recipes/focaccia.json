@@ -1,0 +1,89 @@
+{
+  "id": "focaccia",
+  "titulo": "Focaccia con romero",
+  "nivel": "basico",
+  "tecnicas": [
+    "masa-pizza",
+    "horno-basico"
+  ],
+  "raciones": 4,
+  "tiempoMin": 120,
+  "dificultad": 2,
+  "momentos": [
+    "comida",
+    "cena"
+  ],
+  "sobras": {
+    "apta": true,
+    "dias": 2
+  },
+  "descripcion": "Pan italiano esponjoso y lleno de aceite.",
+  "ingredientes": [
+    {
+      "id": "harina-trigo",
+      "cantidad": 400,
+      "unidad": "g",
+      "alternativas": [
+        {
+          "por": [
+            {
+              "id": "harina-sg",
+              "cantidad": 400,
+              "unidad": "g"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "levadura-panadero",
+      "cantidad": 1,
+      "unidad": "sobre"
+    },
+    {
+      "id": "agua",
+      "cantidad": 300,
+      "unidad": "ml"
+    },
+    {
+      "id": "aceite-oliva",
+      "cantidad": 6,
+      "unidad": "cucharada"
+    },
+    {
+      "id": "romero",
+      "cantidad": 0,
+      "unidad": "al-gusto"
+    },
+    {
+      "id": "tomate-cherry",
+      "cantidad": 150,
+      "unidad": "g"
+    },
+    {
+      "id": "sal",
+      "cantidad": 0,
+      "unidad": "al-gusto"
+    }
+  ],
+  "pasos": [
+    {
+      "texto": "Mezcla {harina-trigo}, la levadura, sal, el agua templada y 2 cucharadas de aceite hasta tener una masa pegajosa.",
+      "tecnica": "masa-pizza"
+    },
+    {
+      "texto": "Déjala reposar tapada hasta que doble su tamaño.",
+      "temporizadorSeg": 3600,
+      "tecnica": "masa-pizza"
+    },
+    {
+      "texto": "Pásala a una bandeja aceitada y estírala con los dedos. Hunde los dedos para hacer hoyos, pon los tomates, el romero, sal gruesa y el resto del aceite.",
+      "temporizadorSeg": 1200
+    },
+    {
+      "texto": "Hornea a 220 °C hasta que esté dorada.",
+      "temporizadorSeg": 1320,
+      "tecnica": "horno-basico"
+    }
+  ]
+}

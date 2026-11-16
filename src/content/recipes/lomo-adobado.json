@@ -1,0 +1,107 @@
+{
+  "id": "lomo-adobado",
+  "titulo": "Lomo adobado",
+  "nivel": "basico",
+  "tecnicas": [
+    "marinar",
+    "plancha"
+  ],
+  "raciones": 4,
+  "tiempoMin": 30,
+  "dificultad": 1,
+  "momentos": [
+    "comida",
+    "cena"
+  ],
+  "sobras": {
+    "apta": true,
+    "dias": 2
+  },
+  "descripcion": "El adobo de pimentón de toda la vida.",
+  "ingredientes": [
+    {
+      "id": "lomo-cerdo",
+      "cantidad": 600,
+      "unidad": "g",
+      "alternativas": [
+        {
+          "por": [
+            {
+              "id": "tofu",
+              "cantidad": 400,
+              "unidad": "g"
+            }
+          ],
+          "titulo": "Tofu adobado"
+        },
+        {
+          "por": [
+            {
+              "id": "berenjena",
+              "cantidad": 2,
+              "unidad": "unidad"
+            }
+          ],
+          "titulo": "Berenjena adobada"
+        }
+      ]
+    },
+    {
+      "id": "pimenton",
+      "cantidad": 0,
+      "unidad": "al-gusto"
+    },
+    {
+      "id": "oregano",
+      "cantidad": 0,
+      "unidad": "al-gusto"
+    },
+    {
+      "id": "ajo",
+      "cantidad": 3,
+      "unidad": "diente"
+    },
+    {
+      "id": "vinagre",
+      "cantidad": 2,
+      "unidad": "cucharada",
+      "alternativas": [
+        {
+          "por": [
+            {
+              "id": "limon",
+              "cantidad": 1,
+              "unidad": "unidad"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "aceite-oliva",
+      "cantidad": 4,
+      "unidad": "cucharada"
+    },
+    {
+      "id": "sal",
+      "cantidad": 0,
+      "unidad": "al-gusto"
+    }
+  ],
+  "pasos": [
+    {
+      "texto": "Machaca o ralla el ajo y mézclalo con dos cucharaditas de pimentón, orégano, {vinagre}, el aceite y sal.",
+      "tecnica": "marinar"
+    },
+    {
+      "texto": "Unta {lomo-cerdo} y deja marinar en la nevera.",
+      "temporizadorSeg": 3600,
+      "tecnica": "marinar"
+    },
+    {
+      "texto": "Hazlo en la plancha caliente por los dos lados hasta que esté hecho.",
+      "temporizadorSeg": 360,
+      "tecnica": "plancha"
+    }
+  ]
+}

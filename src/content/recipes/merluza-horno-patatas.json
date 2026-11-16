@@ -1,0 +1,92 @@
+{
+  "id": "merluza-horno-patatas",
+  "titulo": "Merluza al horno con patatas",
+  "nivel": "novato",
+  "tecnicas": [
+    "horno-basico"
+  ],
+  "raciones": 2,
+  "tiempoMin": 50,
+  "momentos": [
+    "comida",
+    "cena"
+  ],
+  "sobras": {
+    "apta": false,
+    "dias": 0
+  },
+  "descripcion": "Las patatas primero y el pescado al final.",
+  "ingredientes": [
+    {
+      "id": "merluza",
+      "cantidad": 400,
+      "unidad": "g",
+      "alternativas": [
+        {
+          "por": [
+            {
+              "id": "garbanzos-cocidos",
+              "cantidad": 1,
+              "unidad": "bote"
+            }
+          ],
+          "titulo": "Patatas al horno con garbanzos",
+          "pasos": [
+            {
+              "indice": 3,
+              "texto": "Añade los garbanzos escurridos y secos a la bandeja con un poco de aceite."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "patata",
+      "cantidad": 500,
+      "unidad": "g"
+    },
+    {
+      "id": "cebolla",
+      "cantidad": 1,
+      "unidad": "unidad"
+    },
+    {
+      "id": "limon",
+      "cantidad": 1,
+      "unidad": "unidad"
+    },
+    {
+      "id": "aceite-oliva",
+      "cantidad": 4,
+      "unidad": "cucharada"
+    },
+    {
+      "id": "sal",
+      "cantidad": 0,
+      "unidad": "al-gusto"
+    }
+  ],
+  "pasos": [
+    {
+      "texto": "Precalienta el horno a 200 °C.",
+      "temporizadorSeg": 600,
+      "tecnica": "horno-basico"
+    },
+    {
+      "texto": "Corta las patatas en rodajas finas y la cebolla en juliana. Ponlas en la bandeja con aceite y sal."
+    },
+    {
+      "texto": "Hornea las patatas solas.",
+      "temporizadorSeg": 1500,
+      "tecnica": "horno-basico"
+    },
+    {
+      "texto": "Coloca la merluza salada encima con rodajas de limón."
+    },
+    {
+      "texto": "Hornea hasta que el pescado se separe en láminas.",
+      "temporizadorSeg": 600
+    }
+  ],
+  "dificultad": 2
+}

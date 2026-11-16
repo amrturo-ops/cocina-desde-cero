@@ -1,0 +1,83 @@
+{
+  "id": "caldo-gallego",
+  "titulo": "Caldo gallego",
+  "nivel": "basico",
+  "tecnicas": [
+    "caldo-casero",
+    "legumbre-bote"
+  ],
+  "raciones": 4,
+  "tiempoMin": 60,
+  "dificultad": 2,
+  "momentos": [
+    "comida",
+    "cena"
+  ],
+  "sobras": {
+    "apta": true,
+    "dias": 3
+  },
+  "descripcion": "Uno de los grandes platos de Galicia. Si encuentras grelos, mejor que el repollo.",
+  "ingredientes": [
+    {
+      "id": "alubias-cocidas",
+      "cantidad": 1,
+      "unidad": "bote"
+    },
+    {
+      "id": "patata",
+      "cantidad": 500,
+      "unidad": "g"
+    },
+    {
+      "id": "repollo",
+      "cantidad": 400,
+      "unidad": "g"
+    },
+    {
+      "id": "panceta",
+      "cantidad": 150,
+      "unidad": "g",
+      "alternativas": [
+        {
+          "por": [],
+          "pasos": [
+            {
+              "indice": 1,
+              "quitar": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "agua",
+      "cantidad": 2000,
+      "unidad": "ml"
+    },
+    {
+      "id": "sal",
+      "cantidad": 0,
+      "unidad": "al-gusto"
+    }
+  ],
+  "pasos": [
+    {
+      "texto": "Pon el agua a hervir con sal.",
+      "tecnica": "caldo-casero"
+    },
+    {
+      "texto": "Añade la panceta en un trozo y cuece.",
+      "temporizadorSeg": 1800
+    },
+    {
+      "texto": "Añade las patatas en trozos (cascándolas, sin cortar del todo) y el repollo en tiras.",
+      "temporizadorSeg": 1200
+    },
+    {
+      "texto": "Añade las alubias escurridas y deja que todo se integre.",
+      "temporizadorSeg": 600,
+      "tecnica": "legumbre-bote"
+    }
+  ]
+}

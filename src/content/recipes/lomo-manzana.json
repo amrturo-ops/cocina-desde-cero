@@ -1,0 +1,107 @@
+{
+  "id": "lomo-manzana",
+  "titulo": "Lomo de cerdo con manzana",
+  "nivel": "cocinillas",
+  "tecnicas": [
+    "sellar-carne"
+  ],
+  "raciones": 4,
+  "tiempoMin": 30,
+  "dificultad": 2,
+  "momentos": [
+    "cena"
+  ],
+  "sobras": {
+    "apta": false,
+    "dias": 0
+  },
+  "descripcion": "Lo dulce de la manzana va de maravilla con el cerdo.",
+  "ingredientes": [
+    {
+      "id": "lomo-cerdo",
+      "cantidad": 500,
+      "unidad": "g",
+      "alternativas": [
+        {
+          "por": [
+            {
+              "id": "tofu",
+              "cantidad": 400,
+              "unidad": "g"
+            }
+          ],
+          "titulo": "Tofu sellado con manzana"
+        }
+      ]
+    },
+    {
+      "id": "manzana",
+      "cantidad": 2,
+      "unidad": "unidad"
+    },
+    {
+      "id": "cebolla",
+      "cantidad": 1,
+      "unidad": "unidad"
+    },
+    {
+      "id": "vino-blanco",
+      "cantidad": 100,
+      "unidad": "ml",
+      "alternativas": [
+        {
+          "por": [
+            {
+              "id": "caldo-verduras",
+              "cantidad": 100,
+              "unidad": "ml"
+            }
+          ]
+        },
+        {
+          "por": [
+            {
+              "id": "agua",
+              "cantidad": 100,
+              "unidad": "ml"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "aceite-oliva",
+      "cantidad": 3,
+      "unidad": "cucharada"
+    },
+    {
+      "id": "romero",
+      "cantidad": 0,
+      "unidad": "al-gusto"
+    },
+    {
+      "id": "sal",
+      "cantidad": 0,
+      "unidad": "al-gusto"
+    }
+  ],
+  "pasos": [
+    {
+      "texto": "Seca y sala {lomo-cerdo} y séllalo en la sartén muy caliente. Retira.",
+      "temporizadorSeg": 240,
+      "tecnica": "sellar-carne"
+    },
+    {
+      "texto": "En la misma sartén, dora la cebolla en juliana y la manzana en gajos.",
+      "temporizadorSeg": 480
+    },
+    {
+      "texto": "Añade {vino-blanco} y romero, y deja que reduzca.",
+      "temporizadorSeg": 180
+    },
+    {
+      "texto": "Vuelve a poner la carne y termina de hacerla a fuego medio.",
+      "temporizadorSeg": 240
+    }
+  ]
+}

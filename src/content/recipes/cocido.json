@@ -1,0 +1,132 @@
+{
+  "id": "cocido",
+  "titulo": "Cocido sencillo",
+  "nivel": "basico",
+  "tecnicas": [
+    "legumbre-seca",
+    "caldo-casero"
+  ],
+  "raciones": 4,
+  "tiempoMin": 180,
+  "dificultad": 3,
+  "momentos": [
+    "comida"
+  ],
+  "sobras": {
+    "apta": true,
+    "dias": 4
+  },
+  "descripcion": "Un plato que da para dos días: sopa, garbanzos y carne. Pon los garbanzos en remojo la noche antes.",
+  "ingredientes": [
+    {
+      "id": "garbanzos-secos",
+      "cantidad": 400,
+      "unidad": "g"
+    },
+    {
+      "id": "ternera-guisar",
+      "cantidad": 400,
+      "unidad": "g",
+      "alternativas": [
+        {
+          "por": [],
+          "titulo": "Cocido de verduras",
+          "pasos": [
+            {
+              "indice": 2,
+              "quitar": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chorizo",
+      "cantidad": 100,
+      "unidad": "g",
+      "alternativas": [
+        {
+          "por": []
+        }
+      ]
+    },
+    {
+      "id": "panceta",
+      "cantidad": 100,
+      "unidad": "g",
+      "alternativas": [
+        {
+          "por": []
+        }
+      ]
+    },
+    {
+      "id": "muslos-pollo",
+      "cantidad": 300,
+      "unidad": "g",
+      "alternativas": [
+        {
+          "por": []
+        }
+      ]
+    },
+    {
+      "id": "zanahoria",
+      "cantidad": 3,
+      "unidad": "unidad"
+    },
+    {
+      "id": "patata",
+      "cantidad": 500,
+      "unidad": "g"
+    },
+    {
+      "id": "repollo",
+      "cantidad": 400,
+      "unidad": "g"
+    },
+    {
+      "id": "fideos",
+      "cantidad": 100,
+      "unidad": "g",
+      "alternativas": [
+        {
+          "por": [
+            {
+              "id": "fideos-arroz",
+              "cantidad": 100,
+              "unidad": "g"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sal",
+      "cantidad": 0,
+      "unidad": "al-gusto"
+    }
+  ],
+  "pasos": [
+    {
+      "texto": "La noche anterior, pon los garbanzos en remojo en abundante agua."
+    },
+    {
+      "texto": "En una olla grande con agua, lleva a hervir las carnes.",
+      "tecnica": "legumbre-seca"
+    },
+    {
+      "texto": "Cuando hierva, retira la espuma y añade los garbanzos escurridos (metidos en una malla si tienes). Cuece a fuego suave.",
+      "temporizadorSeg": 7200,
+      "tecnica": "caldo-casero"
+    },
+    {
+      "texto": "Añade la zanahoria y la patata, y el repollo en otro cazo aparte.",
+      "temporizadorSeg": 1800
+    },
+    {
+      "texto": "Cuela parte del caldo y cuece en él {fideos} para la sopa. Sirve la sopa primero y luego garbanzos, verdura y carne.",
+      "temporizadorSeg": 300
+    }
+  ]
+}

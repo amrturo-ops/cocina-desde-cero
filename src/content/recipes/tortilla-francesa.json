@@ -1,0 +1,111 @@
+{
+  "id": "tortilla-francesa",
+  "titulo": "Tortilla francesa con queso",
+  "nivel": "novato",
+  "tecnicas": [
+    "hacer-huevos"
+  ],
+  "raciones": 1,
+  "tiempoMin": 10,
+  "dificultad": 2,
+  "momentos": [
+    "comida",
+    "cena"
+  ],
+  "sobras": {
+    "apta": false,
+    "dias": 0
+  },
+  "descripcion": "La cena de emergencia definitiva. Aquí aprendes a doblarla.",
+  "ingredientes": [
+    {
+      "id": "huevo",
+      "cantidad": 3,
+      "unidad": "unidad",
+      "alternativas": [
+        {
+          "por": [
+            {
+              "id": "harina-garbanzo",
+              "cantidad": 80,
+              "unidad": "g"
+            },
+            {
+              "id": "agua",
+              "cantidad": 120,
+              "unidad": "ml"
+            }
+          ],
+          "titulo": "Tortilla francesa de garbanzo",
+          "pasos": [
+            {
+              "indice": 0,
+              "texto": "Bate la harina de garbanzo con el agua y una pizca de sal hasta que no queden grumos."
+            },
+            {
+              "indice": 2,
+              "texto": "Echa la masa y extiéndela. Deja que cuaje hasta que se despegue bien de los bordes.",
+              "temporizadorSeg": 240
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "queso-tierno",
+      "cantidad": 40,
+      "unidad": "g",
+      "alternativas": [
+        {
+          "por": [
+            {
+              "id": "queso-sin-lactosa",
+              "cantidad": 40,
+              "unidad": "g"
+            }
+          ]
+        },
+        {
+          "por": [],
+          "pasos": [
+            {
+              "indice": 3,
+              "quitar": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "aceite-oliva",
+      "cantidad": 1,
+      "unidad": "cucharada"
+    },
+    {
+      "id": "sal",
+      "cantidad": 0,
+      "unidad": "al-gusto"
+    }
+  ],
+  "pasos": [
+    {
+      "texto": "Casca los huevos en un bol, añade sal y bátelos bien.",
+      "tecnica": "hacer-huevos"
+    },
+    {
+      "texto": "Calienta el aceite en una sartén pequeña a fuego medio."
+    },
+    {
+      "texto": "Echa el huevo y deja que cuaje por abajo, moviendo un poco la sartén.",
+      "temporizadorSeg": 60,
+      "tecnica": "hacer-huevos"
+    },
+    {
+      "texto": "Pon el queso en una mitad."
+    },
+    {
+      "texto": "Dobla la tortilla por la mitad con una espátula y deja un minuto más.",
+      "temporizadorSeg": 60
+    }
+  ]
+}

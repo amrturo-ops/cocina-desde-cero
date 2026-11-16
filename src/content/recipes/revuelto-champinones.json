@@ -1,0 +1,95 @@
+{
+  "id": "revuelto-champinones",
+  "titulo": "Revuelto de champiñones",
+  "nivel": "novato",
+  "tecnicas": [
+    "hacer-huevos",
+    "sofreir"
+  ],
+  "raciones": 2,
+  "tiempoMin": 15,
+  "dificultad": 1,
+  "momentos": [
+    "comida",
+    "cena"
+  ],
+  "sobras": {
+    "apta": false,
+    "dias": 0
+  },
+  "descripcion": "Jugoso, rápido y con la técnica del fuego bajo.",
+  "ingredientes": [
+    {
+      "id": "huevo",
+      "cantidad": 4,
+      "unidad": "unidad",
+      "alternativas": [
+        {
+          "por": [
+            {
+              "id": "tofu",
+              "cantidad": 250,
+              "unidad": "g"
+            },
+            {
+              "id": "curry-polvo",
+              "cantidad": 1,
+              "unidad": "cucharadita"
+            }
+          ],
+          "titulo": "Revuelto de tofu y champiñones",
+          "pasos": [
+            {
+              "indice": 2,
+              "texto": "Desmenuza el tofu con las manos en trocitos pequeños, como si fuera huevo revuelto."
+            },
+            {
+              "indice": 3,
+              "texto": "Añade el tofu y una pizca de curry (le da color amarillo). Remueve a fuego medio para que se caliente y coja sabor.",
+              "temporizadorSeg": 240
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "champinones",
+      "cantidad": 250,
+      "unidad": "g"
+    },
+    {
+      "id": "ajo",
+      "cantidad": 1,
+      "unidad": "diente"
+    },
+    {
+      "id": "aceite-oliva",
+      "cantidad": 2,
+      "unidad": "cucharada"
+    },
+    {
+      "id": "sal",
+      "cantidad": 0,
+      "unidad": "al-gusto"
+    }
+  ],
+  "pasos": [
+    {
+      "texto": "Limpia los champiñones y córtalos en láminas. Pica el ajo."
+    },
+    {
+      "texto": "Sofríe el ajo y los champiñones en el aceite hasta que se doren.",
+      "temporizadorSeg": 480,
+      "tecnica": "sofreir"
+    },
+    {
+      "texto": "Casca los huevos en un bol, añade sal y bátelos.",
+      "tecnica": "hacer-huevos"
+    },
+    {
+      "texto": "Baja el fuego, echa el huevo y remueve despacio. Apaga cuando esté casi cuajado.",
+      "temporizadorSeg": 120,
+      "tecnica": "hacer-huevos"
+    }
+  ]
+}

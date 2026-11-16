@@ -1,0 +1,65 @@
+{
+  "id": "coliflor-asada",
+  "titulo": "Coliflor asada con especias",
+  "nivel": "novato",
+  "tecnicas": [
+    "horno-basico"
+  ],
+  "raciones": 2,
+  "tiempoMin": 35,
+  "momentos": [
+    "comida",
+    "cena"
+  ],
+  "sobras": {
+    "apta": true,
+    "dias": 2
+  },
+  "descripcion": "Hasta a quien no le gusta la coliflor le gusta así.",
+  "ingredientes": [
+    {
+      "id": "coliflor",
+      "cantidad": 500,
+      "unidad": "g"
+    },
+    {
+      "id": "comino",
+      "cantidad": 0,
+      "unidad": "al-gusto"
+    },
+    {
+      "id": "pimenton",
+      "cantidad": 0,
+      "unidad": "al-gusto"
+    },
+    {
+      "id": "aceite-oliva",
+      "cantidad": 3,
+      "unidad": "cucharada"
+    },
+    {
+      "id": "sal",
+      "cantidad": 0,
+      "unidad": "al-gusto"
+    }
+  ],
+  "pasos": [
+    {
+      "texto": "Precalienta el horno a 200 °C.",
+      "temporizadorSeg": 600,
+      "tecnica": "horno-basico"
+    },
+    {
+      "texto": "Corta la coliflor en ramilletes."
+    },
+    {
+      "texto": "Mézclala en la bandeja con el aceite, sal, comino y pimentón."
+    },
+    {
+      "texto": "Hornea hasta que los bordes estén dorados, dando la vuelta a mitad.",
+      "temporizadorSeg": 1500,
+      "tecnica": "horno-basico"
+    }
+  ],
+  "dificultad": 1
+}

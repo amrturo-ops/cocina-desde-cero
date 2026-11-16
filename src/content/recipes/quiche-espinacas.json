@@ -1,0 +1,148 @@
+{
+  "id": "quiche-espinacas",
+  "titulo": "Quiche de espinacas y queso",
+  "nivel": "cocinillas",
+  "tecnicas": [
+    "quiche",
+    "horno-basico"
+  ],
+  "raciones": 6,
+  "tiempoMin": 60,
+  "dificultad": 3,
+  "momentos": [
+    "comida",
+    "cena"
+  ],
+  "sobras": {
+    "apta": true,
+    "dias": 3
+  },
+  "descripcion": "Verde, cremosa y muy fácil de llevar.",
+  "ingredientes": [
+    {
+      "id": "masa-quebrada",
+      "cantidad": 1,
+      "unidad": "unidad",
+      "alternativas": [
+        {
+          "por": [
+            {
+              "id": "masa-quebrada-sg",
+              "cantidad": 1,
+              "unidad": "unidad"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "huevo",
+      "cantidad": 3,
+      "unidad": "unidad",
+      "alternativas": [
+        {
+          "por": [
+            {
+              "id": "tofu",
+              "cantidad": 300,
+              "unidad": "g"
+            }
+          ]
+        },
+        {
+          "por": [
+            {
+              "id": "harina-garbanzo",
+              "cantidad": 120,
+              "unidad": "g"
+            },
+            {
+              "id": "agua",
+              "cantidad": 250,
+              "unidad": "ml"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "nata",
+      "cantidad": 250,
+      "unidad": "ml",
+      "alternativas": [
+        {
+          "por": [
+            {
+              "id": "leche-coco",
+              "cantidad": 250,
+              "unidad": "ml"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sal",
+      "cantidad": 0,
+      "unidad": "al-gusto"
+    },
+    {
+      "id": "nuez-moscada",
+      "cantidad": 0,
+      "unidad": "al-gusto"
+    },
+    {
+      "id": "espinacas",
+      "cantidad": 300,
+      "unidad": "g"
+    },
+    {
+      "id": "queso-feta",
+      "cantidad": 100,
+      "unidad": "g",
+      "alternativas": [
+        {
+          "por": [
+            {
+              "id": "queso-sin-lactosa",
+              "cantidad": 100,
+              "unidad": "g"
+            }
+          ]
+        },
+        {
+          "por": [
+            {
+              "id": "levadura-nutricional",
+              "cantidad": 4,
+              "unidad": "cucharada"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "pasos": [
+    {
+      "texto": "Precalienta el horno a 190 °C. Forra un molde con la masa, pínchala y hornéala sola con peso encima.",
+      "temporizadorSeg": 720,
+      "tecnica": "quiche"
+    },
+    {
+      "texto": "Saltea las espinacas, escúrrelas bien y mézclalas con {queso-feta}.",
+      "temporizadorSeg": 300
+    },
+    {
+      "texto": "Bate {huevo} con {nata}, sal y nuez moscada hasta que quede una mezcla lisa y sin grumos.",
+      "tecnica": "quiche"
+    },
+    {
+      "texto": "Reparte el relleno sobre la masa, vierte la mezcla y hornea a 180 °C hasta que cuaje.",
+      "temporizadorSeg": 1800,
+      "tecnica": "horno-basico"
+    },
+    {
+      "texto": "Deja templar antes de cortar."
+    }
+  ]
+}

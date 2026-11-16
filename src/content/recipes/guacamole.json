@@ -1,0 +1,75 @@
+{
+  "id": "guacamole",
+  "titulo": "Guacamole con verduras para mojar",
+  "nivel": "novato",
+  "tecnicas": [
+    "cortar-cebolla"
+  ],
+  "raciones": 2,
+  "tiempoMin": 10,
+  "dificultad": 1,
+  "momentos": [
+    "comida",
+    "cena"
+  ],
+  "sobras": {
+    "apta": false,
+    "dias": 0
+  },
+  "descripcion": "Sin fuego. Perfecto para practicar el picado fino.",
+  "ingredientes": [
+    {
+      "id": "aguacate",
+      "cantidad": 2,
+      "unidad": "unidad"
+    },
+    {
+      "id": "tomate",
+      "cantidad": 1,
+      "unidad": "unidad"
+    },
+    {
+      "id": "cebolla-morada",
+      "cantidad": 0.25,
+      "unidad": "unidad"
+    },
+    {
+      "id": "lima",
+      "cantidad": 1,
+      "unidad": "unidad"
+    },
+    {
+      "id": "zanahoria",
+      "cantidad": 2,
+      "unidad": "unidad"
+    },
+    {
+      "id": "pimiento-rojo",
+      "cantidad": 1,
+      "unidad": "unidad"
+    },
+    {
+      "id": "sal",
+      "cantidad": 0,
+      "unidad": "al-gusto"
+    }
+  ],
+  "pasos": [
+    {
+      "texto": "Pica la cebolla morada muy fina.",
+      "tecnica": "cortar-cebolla"
+    },
+    {
+      "texto": "Corta el tomate en daditos pequeños."
+    },
+    {
+      "texto": "Abre los aguacates, quita el hueso y saca la carne con una cuchara. Cháfala en un bol con un tenedor."
+    },
+    {
+      "texto": "Mezcla el aguacate con la cebolla, el tomate, el zumo de la lima y sal. Prueba y ajusta."
+    },
+    {
+      "texto": "Pela las zanahorias y córtalas, junto con el pimiento, en bastones para mojar."
+    }
+  ]
+}

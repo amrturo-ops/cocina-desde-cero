@@ -1,0 +1,85 @@
+{
+  "id": "verduras-asadas",
+  "titulo": "Verduras asadas al horno",
+  "nivel": "novato",
+  "tecnicas": [
+    "horno-basico",
+    "cortar-cebolla"
+  ],
+  "raciones": 2,
+  "tiempoMin": 45,
+  "dificultad": 1,
+  "momentos": [
+    "comida",
+    "cena"
+  ],
+  "sobras": {
+    "apta": true,
+    "dias": 3
+  },
+  "descripcion": "Cortar, aliñar y al horno. El horno hace el resto.",
+  "ingredientes": [
+    {
+      "id": "patata",
+      "cantidad": 400,
+      "unidad": "g"
+    },
+    {
+      "id": "calabacin",
+      "cantidad": 1,
+      "unidad": "unidad"
+    },
+    {
+      "id": "pimiento-rojo",
+      "cantidad": 1,
+      "unidad": "unidad"
+    },
+    {
+      "id": "cebolla",
+      "cantidad": 1,
+      "unidad": "unidad"
+    },
+    {
+      "id": "zanahoria",
+      "cantidad": 2,
+      "unidad": "unidad"
+    },
+    {
+      "id": "aceite-oliva",
+      "cantidad": 4,
+      "unidad": "cucharada"
+    },
+    {
+      "id": "oregano",
+      "cantidad": 0,
+      "unidad": "al-gusto"
+    },
+    {
+      "id": "sal",
+      "cantidad": 0,
+      "unidad": "al-gusto"
+    }
+  ],
+  "pasos": [
+    {
+      "texto": "Precalienta el horno a 200 °C.",
+      "temporizadorSeg": 600,
+      "tecnica": "horno-basico"
+    },
+    {
+      "texto": "Corta la cebolla en gajos gruesos.",
+      "tecnica": "cortar-cebolla"
+    },
+    {
+      "texto": "Corta el resto de verduras en trozos de tamaño parecido; la patata y la zanahoria, más pequeñas, porque tardan más."
+    },
+    {
+      "texto": "Ponlo todo en una bandeja sin amontonar, con aceite, sal y orégano, y mezcla con las manos."
+    },
+    {
+      "texto": "Hornea dando la vuelta a mitad de tiempo, hasta que la patata esté tierna al pincharla.",
+      "temporizadorSeg": 2100,
+      "tecnica": "horno-basico"
+    }
+  ]
+}

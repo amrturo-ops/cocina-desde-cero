@@ -1,0 +1,77 @@
+{
+  "id": "bacalao-papillote",
+  "titulo": "Bacalao en papillote con pimientos",
+  "nivel": "basico",
+  "tecnicas": [
+    "papillote"
+  ],
+  "raciones": 4,
+  "tiempoMin": 30,
+  "dificultad": 2,
+  "momentos": [
+    "comida",
+    "cena"
+  ],
+  "sobras": {
+    "apta": false,
+    "dias": 0
+  },
+  "descripcion": "Bacalao jugoso con el dulzor del pimiento.",
+  "ingredientes": [
+    {
+      "id": "bacalao",
+      "cantidad": 500,
+      "unidad": "g",
+      "alternativas": [
+        {
+          "por": [
+            {
+              "id": "garbanzos-cocidos",
+              "cantidad": 1,
+              "unidad": "bote"
+            }
+          ],
+          "titulo": "Garbanzos en papillote con pimientos"
+        }
+      ]
+    },
+    {
+      "id": "pimiento-rojo",
+      "cantidad": 1,
+      "unidad": "unidad"
+    },
+    {
+      "id": "pimiento-verde",
+      "cantidad": 1,
+      "unidad": "unidad"
+    },
+    {
+      "id": "ajo",
+      "cantidad": 2,
+      "unidad": "diente"
+    },
+    {
+      "id": "aceite-oliva",
+      "cantidad": 3,
+      "unidad": "cucharada"
+    }
+  ],
+  "pasos": [
+    {
+      "texto": "Precalienta el horno a 200 °C.",
+      "temporizadorSeg": 600
+    },
+    {
+      "texto": "Corta los pimientos en tiras y lamina los ajos."
+    },
+    {
+      "texto": "Pon los pimientos en el papel, encima {bacalao}, los ajos y el aceite.",
+      "tecnica": "papillote"
+    },
+    {
+      "texto": "Cierra bien y hornea.",
+      "temporizadorSeg": 1080,
+      "tecnica": "papillote"
+    }
+  ]
+}

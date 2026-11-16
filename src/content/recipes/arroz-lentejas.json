@@ -1,0 +1,74 @@
+{
+  "id": "arroz-lentejas",
+  "titulo": "Arroz con lentejas y cebolla dorada",
+  "nivel": "novato",
+  "tecnicas": [
+    "arroz-blanco",
+    "legumbre-bote",
+    "sofreir"
+  ],
+  "raciones": 2,
+  "tiempoMin": 35,
+  "momentos": [
+    "comida",
+    "cena"
+  ],
+  "sobras": {
+    "apta": true,
+    "dias": 3
+  },
+  "descripcion": "Plato humilde de Oriente Medio. Barato y riquísimo.",
+  "ingredientes": [
+    {
+      "id": "arroz",
+      "cantidad": 160,
+      "unidad": "g"
+    },
+    {
+      "id": "lentejas-cocidas",
+      "cantidad": 1,
+      "unidad": "bote"
+    },
+    {
+      "id": "cebolla",
+      "cantidad": 2,
+      "unidad": "unidad"
+    },
+    {
+      "id": "comino",
+      "cantidad": 0,
+      "unidad": "al-gusto"
+    },
+    {
+      "id": "aceite-oliva",
+      "cantidad": 4,
+      "unidad": "cucharada"
+    },
+    {
+      "id": "sal",
+      "cantidad": 0,
+      "unidad": "al-gusto"
+    }
+  ],
+  "pasos": [
+    {
+      "texto": "Cuece el arroz como has aprendido.",
+      "temporizadorSeg": 1080,
+      "tecnica": "arroz-blanco"
+    },
+    {
+      "texto": "Mientras, corta las cebollas en juliana y pócha a fuego medio-bajo hasta que estén muy doradas.",
+      "temporizadorSeg": 1200,
+      "tecnica": "sofreir"
+    },
+    {
+      "texto": "Añade las lentejas escurridas y una pizca de comino, y calienta.",
+      "temporizadorSeg": 180,
+      "tecnica": "legumbre-bote"
+    },
+    {
+      "texto": "Mezcla con el arroz y sirve con la cebolla más dorada por encima."
+    }
+  ],
+  "dificultad": 2
+}

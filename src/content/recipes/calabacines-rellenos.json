@@ -1,0 +1,109 @@
+{
+  "id": "calabacines-rellenos",
+  "titulo": "Calabacines rellenos gratinados",
+  "nivel": "cocinillas",
+  "tecnicas": [
+    "rellenar",
+    "horno-basico"
+  ],
+  "raciones": 4,
+  "tiempoMin": 50,
+  "dificultad": 2,
+  "momentos": [
+    "comida",
+    "cena"
+  ],
+  "sobras": {
+    "apta": true,
+    "dias": 2
+  },
+  "descripcion": "Barcas de calabacín con su propio relleno.",
+  "ingredientes": [
+    {
+      "id": "calabacin",
+      "cantidad": 3,
+      "unidad": "unidad"
+    },
+    {
+      "id": "cebolla",
+      "cantidad": 1,
+      "unidad": "unidad"
+    },
+    {
+      "id": "tomate-triturado",
+      "cantidad": 150,
+      "unidad": "g"
+    },
+    {
+      "id": "atun-lata",
+      "cantidad": 2,
+      "unidad": "lata",
+      "alternativas": [
+        {
+          "por": [
+            {
+              "id": "garbanzos-cocidos",
+              "cantidad": 200,
+              "unidad": "g"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "queso-parmesano",
+      "cantidad": 60,
+      "unidad": "g",
+      "alternativas": [
+        {
+          "por": [
+            {
+              "id": "queso-sin-lactosa",
+              "cantidad": 60,
+              "unidad": "g"
+            }
+          ]
+        },
+        {
+          "por": [
+            {
+              "id": "levadura-nutricional",
+              "cantidad": 4,
+              "unidad": "cucharada"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "aceite-oliva",
+      "cantidad": 3,
+      "unidad": "cucharada"
+    },
+    {
+      "id": "sal",
+      "cantidad": 0,
+      "unidad": "al-gusto"
+    }
+  ],
+  "pasos": [
+    {
+      "texto": "Corta los calabacines a lo largo y vacíalos con una cuchara dejando un borde. Pica la pulpa.",
+      "tecnica": "rellenar"
+    },
+    {
+      "texto": "Hornea las barcas vacías a 200 °C con sal y aceite.",
+      "temporizadorSeg": 720,
+      "tecnica": "horno-basico"
+    },
+    {
+      "texto": "Sofríe la cebolla y la pulpa picadas, añade el tomate y {atun-lata}.",
+      "temporizadorSeg": 600
+    },
+    {
+      "texto": "Rellena las barcas, cubre con {queso-parmesano} y gratina.",
+      "temporizadorSeg": 720,
+      "tecnica": "horno-basico"
+    }
+  ]
+}

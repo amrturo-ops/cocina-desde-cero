@@ -1,0 +1,93 @@
+{
+  "id": "espaguetis-ajo",
+  "titulo": "Espaguetis con ajo y guindilla",
+  "nivel": "novato",
+  "tecnicas": [
+    "cocer-pasta",
+    "sofreir"
+  ],
+  "raciones": 2,
+  "tiempoMin": 15,
+  "dificultad": 1,
+  "momentos": [
+    "comida",
+    "cena"
+  ],
+  "sobras": {
+    "apta": false,
+    "dias": 0
+  },
+  "descripcion": "El plato de la nevera vacía: pasta, ajo y aceite bien hechos.",
+  "ingredientes": [
+    {
+      "id": "pasta-trigo",
+      "cantidad": 200,
+      "unidad": "g",
+      "alternativas": [
+        {
+          "por": [
+            {
+              "id": "pasta-sin-gluten",
+              "cantidad": 200,
+              "unidad": "g"
+            }
+          ],
+          "pasos": [
+            {
+              "indice": 1,
+              "texto": "Cuece la pasta sin gluten en el agua hirviendo. Pruébala 2 minutos antes de lo que diga el paquete.",
+              "temporizadorSeg": 480
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ajo",
+      "cantidad": 3,
+      "unidad": "diente"
+    },
+    {
+      "id": "guindilla",
+      "cantidad": 0,
+      "unidad": "al-gusto"
+    },
+    {
+      "id": "perejil",
+      "cantidad": 0.25,
+      "unidad": "manojo"
+    },
+    {
+      "id": "aceite-oliva",
+      "cantidad": 5,
+      "unidad": "cucharada"
+    },
+    {
+      "id": "sal",
+      "cantidad": 0,
+      "unidad": "al-gusto"
+    }
+  ],
+  "pasos": [
+    {
+      "texto": "Pon a hervir una olla grande con agua y sal.",
+      "tecnica": "cocer-pasta"
+    },
+    {
+      "texto": "Echa la pasta y cuécela el tiempo del paquete.",
+      "temporizadorSeg": 540,
+      "tecnica": "cocer-pasta"
+    },
+    {
+      "texto": "Mientras, lamina los ajos y pica el perejil."
+    },
+    {
+      "texto": "En una sartén grande, calienta el aceite a fuego bajo con los ajos y la guindilla. Retira el fuego cuando el ajo esté dorado claro.",
+      "temporizadorSeg": 150,
+      "tecnica": "sofreir"
+    },
+    {
+      "texto": "Escurre la pasta guardando un vaso del agua. Échala en la sartén con un chorrito de esa agua y el perejil, y remueve hasta que el aceite quede cremoso."
+    }
+  ]
+}

@@ -1,0 +1,157 @@
+{
+  "id": "paella-marisco",
+  "titulo": "Paella de marisco",
+  "nivel": "cocinillas",
+  "tecnicas": [
+    "arroz-paella",
+    "sofreir"
+  ],
+  "raciones": 4,
+  "tiempoMin": 60,
+  "dificultad": 3,
+  "momentos": [
+    "comida"
+  ],
+  "sobras": {
+    "apta": false,
+    "dias": 0
+  },
+  "descripcion": "Calamar, gambas y mejillones sobre un buen caldo de pescado.",
+  "ingredientes": [
+    {
+      "id": "calamar",
+      "cantidad": 300,
+      "unidad": "g",
+      "alternativas": [
+        {
+          "por": [
+            {
+              "id": "alcachofas",
+              "cantidad": 4,
+              "unidad": "unidad"
+            }
+          ],
+          "titulo": "Paella de alcachofas"
+        }
+      ]
+    },
+    {
+      "id": "gambas",
+      "cantidad": 300,
+      "unidad": "g",
+      "alternativas": [
+        {
+          "por": [],
+          "pasos": [
+            {
+              "indice": 4,
+              "quitar": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mejillones",
+      "cantidad": 500,
+      "unidad": "g",
+      "alternativas": [
+        {
+          "por": [],
+          "pasos": [
+            {
+              "indice": 5,
+              "quitar": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tomate-triturado",
+      "cantidad": 150,
+      "unidad": "g"
+    },
+    {
+      "id": "ajo",
+      "cantidad": 2,
+      "unidad": "diente"
+    },
+    {
+      "id": "arroz-bomba",
+      "cantidad": 320,
+      "unidad": "g"
+    },
+    {
+      "id": "azafran",
+      "cantidad": 0,
+      "unidad": "al-gusto"
+    },
+    {
+      "id": "caldo-pescado",
+      "cantidad": 1100,
+      "unidad": "ml",
+      "alternativas": [
+        {
+          "por": [
+            {
+              "id": "caldo-verduras",
+              "cantidad": 1100,
+              "unidad": "ml"
+            }
+          ]
+        },
+        {
+          "por": [
+            {
+              "id": "agua",
+              "cantidad": 1100,
+              "unidad": "ml"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "aceite-oliva",
+      "cantidad": 5,
+      "unidad": "cucharada"
+    },
+    {
+      "id": "sal",
+      "cantidad": 0,
+      "unidad": "al-gusto"
+    }
+  ],
+  "pasos": [
+    {
+      "texto": "Dora {calamar} en trozos en la paellera con el aceite y el ajo picado.",
+      "temporizadorSeg": 360,
+      "tecnica": "sofreir"
+    },
+    {
+      "texto": "Añade el tomate y deja que se haga.",
+      "temporizadorSeg": 240
+    },
+    {
+      "texto": "Añade {caldo-pescado} con el azafrán, deja hervir y prueba de sal.",
+      "temporizadorSeg": 300
+    },
+    {
+      "texto": "Reparte el arroz y no lo remuevas.",
+      "temporizadorSeg": 600,
+      "tecnica": "arroz-paella"
+    },
+    {
+      "texto": "Coloca encima las gambas peladas."
+    },
+    {
+      "texto": "Coloca los mejillones limpios y termina la cocción.",
+      "temporizadorSeg": 480
+    },
+    {
+      "texto": "Reposo tapada.",
+      "temporizadorSeg": 300
+    }
+  ]
+}

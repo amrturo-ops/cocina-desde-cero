@@ -1,0 +1,65 @@
+{
+  "id": "bacalao-pilpil",
+  "titulo": "Bacalao al pil-pil",
+  "nivel": "cocinillas",
+  "tecnicas": [
+    "emulsiones",
+    "confitar"
+  ],
+  "raciones": 4,
+  "tiempoMin": 40,
+  "dificultad": 3,
+  "momentos": [
+    "cena"
+  ],
+  "sobras": {
+    "apta": false,
+    "dias": 0
+  },
+  "descripcion": "La gelatina del bacalao y el aceite hacen la salsa sola. Requiere paciencia.",
+  "ingredientes": [
+    {
+      "id": "bacalao",
+      "cantidad": 600,
+      "unidad": "g"
+    },
+    {
+      "id": "ajo",
+      "cantidad": 4,
+      "unidad": "diente"
+    },
+    {
+      "id": "guindilla",
+      "cantidad": 0,
+      "unidad": "al-gusto"
+    },
+    {
+      "id": "aceite-oliva",
+      "cantidad": 250,
+      "unidad": "ml"
+    }
+  ],
+  "pasos": [
+    {
+      "texto": "Seca bien los trozos de bacalao desalado."
+    },
+    {
+      "texto": "Dora el ajo laminado y la guindilla en el aceite a fuego bajo y retíralos. Deja templar el aceite.",
+      "temporizadorSeg": 240
+    },
+    {
+      "texto": "Pon el bacalao con la piel hacia arriba en el aceite templado y confítalo a fuego muy bajo.",
+      "temporizadorSeg": 480,
+      "tecnica": "confitar"
+    },
+    {
+      "texto": "Saca el bacalao, deja templar el aceite y muévelo en círculos (o con un colador) para emulsionarlo con la gelatina del pescado.",
+      "temporizadorSeg": 600,
+      "tecnica": "emulsiones"
+    },
+    {
+      "texto": "Vuelve a poner el bacalao, mueve la cazuela suavemente hasta que la salsa espese, y sirve con los ajos.",
+      "temporizadorSeg": 180
+    }
+  ]
+}

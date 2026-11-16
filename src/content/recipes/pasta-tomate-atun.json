@@ -1,0 +1,122 @@
+{
+  "id": "pasta-tomate-atun",
+  "titulo": "Pasta con tomate y atún",
+  "nivel": "novato",
+  "tecnicas": [
+    "cortar-cebolla",
+    "sofreir",
+    "cocer-pasta"
+  ],
+  "raciones": 2,
+  "tiempoMin": 25,
+  "dificultad": 2,
+  "momentos": [
+    "comida",
+    "cena"
+  ],
+  "sobras": {
+    "apta": true,
+    "dias": 2
+  },
+  "descripcion": "Tu primera salsa de tomate casera. Rinde mucho y se puede guardar.",
+  "ingredientes": [
+    {
+      "id": "pasta-trigo",
+      "cantidad": 200,
+      "unidad": "g",
+      "alternativas": [
+        {
+          "por": [
+            {
+              "id": "pasta-sin-gluten",
+              "cantidad": 200,
+              "unidad": "g"
+            }
+          ],
+          "pasos": [
+            {
+              "indice": 4,
+              "texto": "Cuando el agua hierva, echa la pasta sin gluten y remueve al principio. Se pasa antes que la normal: pruébala 2 minutos antes de lo que diga el paquete.",
+              "temporizadorSeg": 540
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tomate-triturado",
+      "cantidad": 400,
+      "unidad": "g"
+    },
+    {
+      "id": "atun-lata",
+      "cantidad": 2,
+      "unidad": "lata",
+      "alternativas": [
+        {
+          "por": [
+            {
+              "id": "garbanzos-cocidos",
+              "cantidad": 250,
+              "unidad": "g"
+            }
+          ],
+          "titulo": "Pasta con tomate y garbanzos",
+          "pasos": [
+            {
+              "indice": 3,
+              "texto": "Añade el tomate y cocina a fuego bajo. Al final, añade los garbanzos escurridos para que se calienten."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cebolla",
+      "cantidad": 1,
+      "unidad": "unidad"
+    },
+    {
+      "id": "ajo",
+      "cantidad": 1,
+      "unidad": "diente"
+    },
+    {
+      "id": "aceite-oliva",
+      "cantidad": 2,
+      "unidad": "cucharada"
+    },
+    {
+      "id": "sal",
+      "cantidad": 0,
+      "unidad": "al-gusto"
+    }
+  ],
+  "pasos": [
+    {
+      "texto": "Pica la cebolla y el ajo.",
+      "tecnica": "cortar-cebolla"
+    },
+    {
+      "texto": "Pon a hervir una olla grande con agua.",
+      "tecnica": "cocer-pasta"
+    },
+    {
+      "texto": "En una sartén con el aceite, sofríe la cebolla y el ajo a fuego medio.",
+      "temporizadorSeg": 360,
+      "tecnica": "sofreir"
+    },
+    {
+      "texto": "Añade el tomate y cocina a fuego bajo. Al final, añade el atún escurrido y mezcla sin deshacerlo mucho.",
+      "temporizadorSeg": 600
+    },
+    {
+      "texto": "Cuando el agua hierva, añade sal, echa la pasta y cuécela el tiempo del paquete. Remueve al principio para que no se pegue.",
+      "temporizadorSeg": 600,
+      "tecnica": "cocer-pasta"
+    },
+    {
+      "texto": "Escurre la pasta, mézclala con la salsa y sirve."
+    }
+  ]
+}

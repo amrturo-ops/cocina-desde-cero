@@ -1,0 +1,108 @@
+{
+  "id": "salmorejo",
+  "titulo": "Salmorejo",
+  "nivel": "cocinillas",
+  "tecnicas": [
+    "emulsiones"
+  ],
+  "raciones": 4,
+  "tiempoMin": 15,
+  "dificultad": 1,
+  "momentos": [
+    "comida"
+  ],
+  "sobras": {
+    "apta": true,
+    "dias": 3
+  },
+  "descripcion": "Crema fría de tomate y pan, emulsionada con aceite.",
+  "ingredientes": [
+    {
+      "id": "tomate",
+      "cantidad": 6,
+      "unidad": "unidad"
+    },
+    {
+      "id": "pan",
+      "cantidad": 150,
+      "unidad": "g",
+      "alternativas": [
+        {
+          "por": [
+            {
+              "id": "pan-sin-gluten",
+              "cantidad": 150,
+              "unidad": "g"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ajo",
+      "cantidad": 1,
+      "unidad": "diente"
+    },
+    {
+      "id": "aceite-oliva",
+      "cantidad": 120,
+      "unidad": "ml"
+    },
+    {
+      "id": "huevo",
+      "cantidad": 2,
+      "unidad": "unidad",
+      "alternativas": [
+        {
+          "por": [],
+          "pasos": [
+            {
+              "indice": 3,
+              "quitar": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jamon-serrano",
+      "cantidad": 60,
+      "unidad": "g",
+      "alternativas": [
+        {
+          "por": [],
+          "pasos": [
+            {
+              "indice": 4,
+              "quitar": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sal",
+      "cantidad": 0,
+      "unidad": "al-gusto"
+    }
+  ],
+  "pasos": [
+    {
+      "texto": "Tritura los tomates con el ajo y sal hasta que estén muy finos."
+    },
+    {
+      "texto": "Añade {pan} en trozos y deja que se empape. Añade el aceite en hilo mientras trituras: verás cómo espesa.",
+      "tecnica": "emulsiones"
+    },
+    {
+      "texto": "Enfría en la nevera.",
+      "temporizadorSeg": 3600
+    },
+    {
+      "texto": "Sirve con huevo cocido picado por encima."
+    },
+    {
+      "texto": "Añade taquitos de jamón."
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "id": "patatas-riojana",
+  "titulo": "Patatas a la riojana",
+  "nivel": "basico",
+  "tecnicas": [
+    "guisar",
+    "sofreir"
+  ],
+  "raciones": 4,
+  "tiempoMin": 50,
+  "dificultad": 2,
+  "momentos": [
+    "comida"
+  ],
+  "sobras": {
+    "apta": true,
+    "dias": 3
+  },
+  "descripcion": "Patata y chorizo en un caldo rojo de pimentón.",
+  "ingredientes": [
+    {
+      "id": "patata",
+      "cantidad": 1000,
+      "unidad": "g"
+    },
+    {
+      "id": "chorizo",
+      "cantidad": 200,
+      "unidad": "g",
+      "alternativas": [
+        {
+          "por": [],
+          "titulo": "Patatas guisadas con pimentón",
+          "pasos": [
+            {
+              "indice": 2,
+              "quitar": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cebolla",
+      "cantidad": 1,
+      "unidad": "unidad"
+    },
+    {
+      "id": "pimiento-verde",
+      "cantidad": 1,
+      "unidad": "unidad"
+    },
+    {
+      "id": "ajo",
+      "cantidad": 2,
+      "unidad": "diente"
+    },
+    {
+      "id": "pimenton",
+      "cantidad": 0,
+      "unidad": "al-gusto"
+    },
+    {
+      "id": "laurel",
+      "cantidad": 0,
+      "unidad": "al-gusto"
+    },
+    {
+      "id": "aceite-oliva",
+      "cantidad": 3,
+      "unidad": "cucharada"
+    },
+    {
+      "id": "agua",
+      "cantidad": 1000,
+      "unidad": "ml"
+    },
+    {
+      "id": "sal",
+      "cantidad": 0,
+      "unidad": "al-gusto"
+    }
+  ],
+  "pasos": [
+    {
+      "texto": "Pica la cebolla, el pimiento y el ajo y sofríelos en una cazuela.",
+      "temporizadorSeg": 480,
+      "tecnica": "sofreir"
+    },
+    {
+      "texto": "Pela las patatas y cáscalas en trozos: corta un poco y rómpelas tirando del cuchillo. Así sueltan almidón y espesan el caldo."
+    },
+    {
+      "texto": "Añade el chorizo en rodajas."
+    },
+    {
+      "texto": "Añade las patatas, una cucharada de pimentón, el laurel, sal y el agua justo para cubrir.",
+      "tecnica": "guisar"
+    },
+    {
+      "texto": "Cuece a fuego medio hasta que las patatas estén tiernas.",
+      "temporizadorSeg": 1800
+    }
+  ]
+}

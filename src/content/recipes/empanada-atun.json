@@ -1,0 +1,131 @@
+{
+  "id": "empanada-atun",
+  "titulo": "Empanada gallega de atún",
+  "nivel": "cocinillas",
+  "tecnicas": [
+    "empanada",
+    "sofreir"
+  ],
+  "raciones": 6,
+  "tiempoMin": 120,
+  "dificultad": 3,
+  "momentos": [
+    "comida",
+    "cena"
+  ],
+  "sobras": {
+    "apta": true,
+    "dias": 3
+  },
+  "descripcion": "La empanada de toda la vida, con su relleno de cebolla y pimiento.",
+  "ingredientes": [
+    {
+      "id": "harina-trigo",
+      "cantidad": 500,
+      "unidad": "g",
+      "alternativas": [
+        {
+          "por": [
+            {
+              "id": "harina-sg",
+              "cantidad": 500,
+              "unidad": "g"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "levadura-panadero",
+      "cantidad": 1,
+      "unidad": "sobre"
+    },
+    {
+      "id": "agua",
+      "cantidad": 200,
+      "unidad": "ml"
+    },
+    {
+      "id": "aceite-oliva",
+      "cantidad": 100,
+      "unidad": "ml"
+    },
+    {
+      "id": "huevo",
+      "cantidad": 1,
+      "unidad": "unidad",
+      "alternativas": [
+        {
+          "por": []
+        }
+      ]
+    },
+    {
+      "id": "atun-lata",
+      "cantidad": 4,
+      "unidad": "lata",
+      "alternativas": [
+        {
+          "por": [
+            {
+              "id": "champinones",
+              "cantidad": 400,
+              "unidad": "g"
+            }
+          ],
+          "titulo": "Empanada gallega de champiñones"
+        }
+      ]
+    },
+    {
+      "id": "cebolla",
+      "cantidad": 2,
+      "unidad": "unidad"
+    },
+    {
+      "id": "pimiento-rojo",
+      "cantidad": 1,
+      "unidad": "unidad"
+    },
+    {
+      "id": "tomate-triturado",
+      "cantidad": 150,
+      "unidad": "g"
+    },
+    {
+      "id": "pimenton",
+      "cantidad": 0,
+      "unidad": "al-gusto"
+    },
+    {
+      "id": "sal",
+      "cantidad": 0,
+      "unidad": "al-gusto"
+    }
+  ],
+  "pasos": [
+    {
+      "texto": "Mezcla {harina-trigo}, la levadura y sal, añade el agua templada y el aceite, y amasa hasta que esté lisa. Déjala reposar tapada.",
+      "temporizadorSeg": 3600,
+      "tecnica": "masa-pizza"
+    },
+    {
+      "texto": "Pocha despacio la cebolla y el pimiento en juliana con un poco de aceite, añade el tomate y una pizca de pimentón.",
+      "temporizadorSeg": 1500,
+      "tecnica": "sofreir"
+    },
+    {
+      "texto": "Mezcla con {atun-lata} y deja que se enfríe del todo.",
+      "tecnica": "empanada"
+    },
+    {
+      "texto": "Divide la masa en dos, estira una base fina, pon el relleno y cubre con la otra mitad. Cierra los bordes doblándolos y haz un agujero arriba.",
+      "tecnica": "empanada"
+    },
+    {
+      "texto": "Pinta con huevo batido o aceite y hornea a 190 °C hasta que esté dorada.",
+      "temporizadorSeg": 2100,
+      "tecnica": "empanada"
+    }
+  ]
+}

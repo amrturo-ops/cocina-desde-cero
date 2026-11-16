@@ -1,0 +1,86 @@
+{
+  "id": "garbanzos-espinacas",
+  "titulo": "Garbanzos con espinacas",
+  "nivel": "novato",
+  "tecnicas": [
+    "legumbre-bote",
+    "sofreir"
+  ],
+  "raciones": 2,
+  "tiempoMin": 15,
+  "dificultad": 1,
+  "momentos": [
+    "comida",
+    "cena"
+  ],
+  "sobras": {
+    "apta": true,
+    "dias": 3
+  },
+  "descripcion": "Un clásico sevillano en versión exprés. Mejor aún al día siguiente.",
+  "ingredientes": [
+    {
+      "id": "garbanzos-cocidos",
+      "cantidad": 1,
+      "unidad": "bote"
+    },
+    {
+      "id": "espinacas",
+      "cantidad": 250,
+      "unidad": "g"
+    },
+    {
+      "id": "ajo",
+      "cantidad": 2,
+      "unidad": "diente"
+    },
+    {
+      "id": "tomate-triturado",
+      "cantidad": 100,
+      "unidad": "g"
+    },
+    {
+      "id": "comino",
+      "cantidad": 0,
+      "unidad": "al-gusto"
+    },
+    {
+      "id": "pimenton",
+      "cantidad": 0,
+      "unidad": "al-gusto"
+    },
+    {
+      "id": "aceite-oliva",
+      "cantidad": 3,
+      "unidad": "cucharada"
+    },
+    {
+      "id": "sal",
+      "cantidad": 0,
+      "unidad": "al-gusto"
+    }
+  ],
+  "pasos": [
+    {
+      "texto": "Escurre y enjuaga los garbanzos. Lava las espinacas.",
+      "tecnica": "legumbre-bote"
+    },
+    {
+      "texto": "Lamina el ajo y sofríelo en el aceite a fuego medio hasta que se dore un poco.",
+      "temporizadorSeg": 90,
+      "tecnica": "sofreir"
+    },
+    {
+      "texto": "Añade las espinacas poco a poco: al principio parecerán muchas, pero menguan enseguida.",
+      "temporizadorSeg": 180
+    },
+    {
+      "texto": "Añade el tomate, una pizca de comino y de pimentón, y remueve."
+    },
+    {
+      "texto": "Incorpora los garbanzos con un poco de agua y deja que se calienten y cojan sabor.",
+      "temporizadorSeg": 420,
+      "tecnica": "legumbre-bote"
+    }
+  ]
+}

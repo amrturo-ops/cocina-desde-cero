@@ -1,0 +1,114 @@
+{
+  "id": "arroz-pollo-setas",
+  "titulo": "Arroz seco de pollo y setas",
+  "nivel": "cocinillas",
+  "tecnicas": [
+    "arroz-paella",
+    "sofreir"
+  ],
+  "raciones": 4,
+  "tiempoMin": 50,
+  "dificultad": 2,
+  "momentos": [
+    "comida"
+  ],
+  "sobras": {
+    "apta": false,
+    "dias": 0
+  },
+  "descripcion": "Sabor de montaña en la paellera.",
+  "ingredientes": [
+    {
+      "id": "muslos-pollo",
+      "cantidad": 500,
+      "unidad": "g",
+      "alternativas": [
+        {
+          "por": [
+            {
+              "id": "garbanzos-cocidos",
+              "cantidad": 1,
+              "unidad": "bote"
+            }
+          ],
+          "titulo": "Arroz seco de setas y garbanzos"
+        }
+      ]
+    },
+    {
+      "id": "setas",
+      "cantidad": 300,
+      "unidad": "g"
+    },
+    {
+      "id": "cebolla",
+      "cantidad": 1,
+      "unidad": "unidad"
+    },
+    {
+      "id": "tomate-triturado",
+      "cantidad": 100,
+      "unidad": "g"
+    },
+    {
+      "id": "arroz-bomba",
+      "cantidad": 300,
+      "unidad": "g"
+    },
+    {
+      "id": "romero",
+      "cantidad": 0,
+      "unidad": "al-gusto"
+    },
+    {
+      "id": "caldo-verduras",
+      "cantidad": 1000,
+      "unidad": "ml",
+      "alternativas": [
+        {
+          "por": [
+            {
+              "id": "agua",
+              "cantidad": 1000,
+              "unidad": "ml"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "aceite-oliva",
+      "cantidad": 4,
+      "unidad": "cucharada"
+    },
+    {
+      "id": "sal",
+      "cantidad": 0,
+      "unidad": "al-gusto"
+    }
+  ],
+  "pasos": [
+    {
+      "texto": "Dora {muslos-pollo} con sal en la paellera.",
+      "temporizadorSeg": 600
+    },
+    {
+      "texto": "Añade la cebolla picada y las setas, y sofríe.",
+      "temporizadorSeg": 480,
+      "tecnica": "sofreir"
+    },
+    {
+      "texto": "Añade el tomate, {caldo-verduras} y romero, y deja hervir. Prueba de sal.",
+      "temporizadorSeg": 300
+    },
+    {
+      "texto": "Reparte el arroz y no lo remuevas.",
+      "temporizadorSeg": 1080,
+      "tecnica": "arroz-paella"
+    },
+    {
+      "texto": "Reposo.",
+      "temporizadorSeg": 300
+    }
+  ]
+}

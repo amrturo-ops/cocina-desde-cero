@@ -1,0 +1,110 @@
+{
+  "id": "lentejas-estofadas",
+  "titulo": "Lentejas estofadas",
+  "nivel": "basico",
+  "tecnicas": [
+    "legumbre-seca",
+    "sofreir"
+  ],
+  "raciones": 4,
+  "tiempoMin": 60,
+  "dificultad": 2,
+  "momentos": [
+    "comida"
+  ],
+  "sobras": {
+    "apta": true,
+    "dias": 4
+  },
+  "descripcion": "Las lentejas de casa, desde cero. Las pardinas no necesitan remojo.",
+  "ingredientes": [
+    {
+      "id": "lentejas-secas",
+      "cantidad": 350,
+      "unidad": "g"
+    },
+    {
+      "id": "chorizo",
+      "cantidad": 120,
+      "unidad": "g",
+      "alternativas": [
+        {
+          "por": [],
+          "titulo": "Lentejas estofadas con verduras",
+          "pasos": [
+            {
+              "indice": 2,
+              "quitar": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cebolla",
+      "cantidad": 1,
+      "unidad": "unidad"
+    },
+    {
+      "id": "zanahoria",
+      "cantidad": 2,
+      "unidad": "unidad"
+    },
+    {
+      "id": "pimiento-verde",
+      "cantidad": 1,
+      "unidad": "unidad"
+    },
+    {
+      "id": "ajo",
+      "cantidad": 2,
+      "unidad": "diente"
+    },
+    {
+      "id": "patata",
+      "cantidad": 300,
+      "unidad": "g"
+    },
+    {
+      "id": "pimenton",
+      "cantidad": 0,
+      "unidad": "al-gusto"
+    },
+    {
+      "id": "laurel",
+      "cantidad": 0,
+      "unidad": "al-gusto"
+    },
+    {
+      "id": "aceite-oliva",
+      "cantidad": 3,
+      "unidad": "cucharada"
+    },
+    {
+      "id": "sal",
+      "cantidad": 0,
+      "unidad": "al-gusto"
+    }
+  ],
+  "pasos": [
+    {
+      "texto": "Lava las lentejas en un colador."
+    },
+    {
+      "texto": "Pica cebolla, pimiento, ajo y zanahoria y sofríelos en una olla con el aceite.",
+      "temporizadorSeg": 480,
+      "tecnica": "sofreir"
+    },
+    {
+      "texto": "Añade el chorizo en rodajas y una cucharadita de pimentón."
+    },
+    {
+      "texto": "Añade las lentejas, la patata en trozos y el laurel, y cubre con agua fría (unos 2 dedos por encima)."
+    },
+    {
+      "texto": "Cuece a fuego suave, removiendo de vez en cuando y añadiendo agua si hace falta. Sala al final.",
+      "temporizadorSeg": 2400,
+      "tecnica": "legumbre-seca"
+    }
+  ]
+}

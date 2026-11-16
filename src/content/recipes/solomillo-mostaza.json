@@ -1,0 +1,128 @@
+{
+  "id": "solomillo-mostaza",
+  "titulo": "Solomillo de cerdo con salsa de mostaza",
+  "nivel": "cocinillas",
+  "tecnicas": [
+    "sellar-carne",
+    "guisar"
+  ],
+  "raciones": 4,
+  "tiempoMin": 35,
+  "dificultad": 3,
+  "momentos": [
+    "cena"
+  ],
+  "sobras": {
+    "apta": false,
+    "dias": 0
+  },
+  "descripcion": "Salsa cremosa en la misma sartén.",
+  "ingredientes": [
+    {
+      "id": "solomillo-cerdo",
+      "cantidad": 600,
+      "unidad": "g",
+      "alternativas": [
+        {
+          "por": [
+            {
+              "id": "tofu",
+              "cantidad": 400,
+              "unidad": "g"
+            }
+          ],
+          "titulo": "Tofu sellado con salsa cremosa"
+        }
+      ]
+    },
+    {
+      "id": "mostaza",
+      "cantidad": 2,
+      "unidad": "cucharadita",
+      "alternativas": [
+        {
+          "por": []
+        }
+      ]
+    },
+    {
+      "id": "nata",
+      "cantidad": 200,
+      "unidad": "ml",
+      "alternativas": [
+        {
+          "por": [
+            {
+              "id": "leche-coco",
+              "cantidad": 200,
+              "unidad": "ml"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vino-blanco",
+      "cantidad": 80,
+      "unidad": "ml",
+      "alternativas": [
+        {
+          "por": [
+            {
+              "id": "caldo-verduras",
+              "cantidad": 80,
+              "unidad": "ml"
+            }
+          ]
+        },
+        {
+          "por": [
+            {
+              "id": "agua",
+              "cantidad": 80,
+              "unidad": "ml"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "aceite-oliva",
+      "cantidad": 2,
+      "unidad": "cucharada"
+    },
+    {
+      "id": "sal",
+      "cantidad": 0,
+      "unidad": "al-gusto"
+    },
+    {
+      "id": "pimienta-negra",
+      "cantidad": 0,
+      "unidad": "al-gusto"
+    }
+  ],
+  "pasos": [
+    {
+      "texto": "Corta {solomillo-cerdo} en medallones gruesos, sécalos y salpimiéntalos."
+    },
+    {
+      "texto": "Séllalos en la sartén muy caliente con el aceite, por los dos lados.",
+      "temporizadorSeg": 240,
+      "tecnica": "sellar-carne"
+    },
+    {
+      "texto": "Baja el fuego y deja que se hagan por dentro (el cerdo puede quedar ligeramente rosado). Retíralos.",
+      "temporizadorSeg": 240
+    },
+    {
+      "texto": "En la misma sartén, añade {vino-blanco} y raspa el fondo, después {nata} y la mostaza. Reduce.",
+      "temporizadorSeg": 240,
+      "tecnica": "guisar"
+    },
+    {
+      "texto": "Vuelve a poner la carne en la salsa un minuto y sirve.",
+      "temporizadorSeg": 60
+    }
+  ]
+}

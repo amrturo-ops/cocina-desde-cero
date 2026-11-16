@@ -1,0 +1,125 @@
+{
+  "id": "lentejas-rapidas",
+  "titulo": "Lentejas rápidas con verduras",
+  "nivel": "novato",
+  "tecnicas": [
+    "legumbre-bote",
+    "sofreir",
+    "cortar-cebolla"
+  ],
+  "raciones": 2,
+  "tiempoMin": 25,
+  "dificultad": 2,
+  "momentos": [
+    "comida",
+    "cena"
+  ],
+  "sobras": {
+    "apta": true,
+    "dias": 3
+  },
+  "descripcion": "Sabor de lentejas de la abuela en 25 minutos gracias al bote.",
+  "ingredientes": [
+    {
+      "id": "lentejas-cocidas",
+      "cantidad": 2,
+      "unidad": "bote"
+    },
+    {
+      "id": "cebolla",
+      "cantidad": 1,
+      "unidad": "unidad"
+    },
+    {
+      "id": "zanahoria",
+      "cantidad": 1,
+      "unidad": "unidad"
+    },
+    {
+      "id": "pimiento-verde",
+      "cantidad": 1,
+      "unidad": "unidad"
+    },
+    {
+      "id": "ajo",
+      "cantidad": 1,
+      "unidad": "diente"
+    },
+    {
+      "id": "chorizo",
+      "cantidad": 80,
+      "unidad": "g",
+      "alternativas": [
+        {
+          "por": [],
+          "titulo": "Lentejas rápidas con verduras (vegetales)",
+          "pasos": [
+            {
+              "indice": 3,
+              "quitar": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tomate-triturado",
+      "cantidad": 150,
+      "unidad": "g"
+    },
+    {
+      "id": "caldo-verduras",
+      "cantidad": 400,
+      "unidad": "ml",
+      "alternativas": [
+        {
+          "por": [
+            {
+              "id": "agua",
+              "cantidad": 400,
+              "unidad": "ml"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pimenton",
+      "cantidad": 0,
+      "unidad": "al-gusto"
+    },
+    {
+      "id": "aceite-oliva",
+      "cantidad": 2,
+      "unidad": "cucharada"
+    },
+    {
+      "id": "sal",
+      "cantidad": 0,
+      "unidad": "al-gusto"
+    }
+  ],
+  "pasos": [
+    {
+      "texto": "Pica la cebolla, el ajo y el pimiento, y corta la zanahoria en rodajas.",
+      "tecnica": "cortar-cebolla"
+    },
+    {
+      "texto": "Sofríe en una olla con el aceite la cebolla, el ajo, el pimiento y la zanahoria.",
+      "temporizadorSeg": 480,
+      "tecnica": "sofreir"
+    },
+    {
+      "texto": "Añade el tomate y una cucharadita de pimentón, remueve y deja un par de minutos.",
+      "temporizadorSeg": 120
+    },
+    {
+      "texto": "Corta el chorizo en rodajas y añádelo un par de minutos."
+    },
+    {
+      "texto": "Escurre y enjuaga las lentejas. Échalas con el caldo, sala y deja hervir suave para que cojan sabor.",
+      "temporizadorSeg": 600,
+      "tecnica": "legumbre-bote"
+    }
+  ]
+}

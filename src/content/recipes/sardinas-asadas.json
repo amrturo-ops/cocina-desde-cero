@@ -1,0 +1,73 @@
+{
+  "id": "sardinas-asadas",
+  "titulo": "Sardinas asadas",
+  "nivel": "cocinillas",
+  "tecnicas": [
+    "pescado-entero",
+    "plancha"
+  ],
+  "raciones": 4,
+  "tiempoMin": 20,
+  "dificultad": 2,
+  "momentos": [
+    "comida"
+  ],
+  "sobras": {
+    "apta": false,
+    "dias": 0
+  },
+  "descripcion": "El sabor del verano en Galicia.",
+  "ingredientes": [
+    {
+      "id": "sardinas",
+      "cantidad": 800,
+      "unidad": "g",
+      "alternativas": [
+        {
+          "por": [
+            {
+              "id": "pimiento-verde",
+              "cantidad": 6,
+              "unidad": "unidad"
+            }
+          ],
+          "titulo": "Pimientos asados a la plancha"
+        }
+      ]
+    },
+    {
+      "id": "sal",
+      "cantidad": 0,
+      "unidad": "al-gusto"
+    },
+    {
+      "id": "limon",
+      "cantidad": 1,
+      "unidad": "unidad"
+    },
+    {
+      "id": "aceite-oliva",
+      "cantidad": 1,
+      "unidad": "cucharada"
+    }
+  ],
+  "pasos": [
+    {
+      "texto": "Si no vienen limpias, quita las tripas a las sardinas (o pídelo en la pescadería) y sécalas.",
+      "tecnica": "pescado-entero"
+    },
+    {
+      "texto": "Sálalas con sal gruesa 10 minutos antes.",
+      "temporizadorSeg": 600
+    },
+    {
+      "texto": "Ásalas en la plancha muy caliente con muy poco aceite.",
+      "temporizadorSeg": 180,
+      "tecnica": "plancha"
+    },
+    {
+      "texto": "Dales la vuelta y deja otros minutos. Sirve con limón (y con cachelos o pan).",
+      "temporizadorSeg": 180
+    }
+  ]
+}

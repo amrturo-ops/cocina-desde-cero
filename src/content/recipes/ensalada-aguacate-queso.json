@@ -1,0 +1,108 @@
+{
+  "id": "ensalada-aguacate-queso",
+  "titulo": "Ensalada de tomate, aguacate y queso fresco",
+  "nivel": "novato",
+  "tecnicas": [
+    "ensalada-completa"
+  ],
+  "raciones": 2,
+  "tiempoMin": 10,
+  "dificultad": 1,
+  "momentos": [
+    "comida",
+    "cena"
+  ],
+  "sobras": {
+    "apta": false,
+    "dias": 0
+  },
+  "descripcion": "Fresca, cremosa y lista en diez minutos.",
+  "ingredientes": [
+    {
+      "id": "tomate",
+      "cantidad": 2,
+      "unidad": "unidad"
+    },
+    {
+      "id": "aguacate",
+      "cantidad": 1,
+      "unidad": "unidad"
+    },
+    {
+      "id": "queso-fresco",
+      "cantidad": 150,
+      "unidad": "g",
+      "alternativas": [
+        {
+          "por": [
+            {
+              "id": "queso-sin-lactosa",
+              "cantidad": 100,
+              "unidad": "g"
+            }
+          ]
+        },
+        {
+          "por": [
+            {
+              "id": "garbanzos-cocidos",
+              "cantidad": 250,
+              "unidad": "g"
+            }
+          ],
+          "titulo": "Ensalada de tomate, aguacate y garbanzos",
+          "pasos": [
+            {
+              "indice": 2,
+              "texto": "Escurre y enjuaga los garbanzos."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lechuga",
+      "cantidad": 0.5,
+      "unidad": "unidad"
+    },
+    {
+      "id": "albahaca",
+      "cantidad": 0.25,
+      "unidad": "manojo"
+    },
+    {
+      "id": "aceite-oliva",
+      "cantidad": 3,
+      "unidad": "cucharada"
+    },
+    {
+      "id": "limon",
+      "cantidad": 0.5,
+      "unidad": "unidad"
+    },
+    {
+      "id": "sal",
+      "cantidad": 0,
+      "unidad": "al-gusto"
+    }
+  ],
+  "pasos": [
+    {
+      "texto": "Lava y corta la lechuga. Ponla de base en una fuente.",
+      "tecnica": "ensalada-completa"
+    },
+    {
+      "texto": "Corta el tomate y el aguacate en dados."
+    },
+    {
+      "texto": "Corta el queso en dados."
+    },
+    {
+      "texto": "Reparte todo sobre la lechuga con unas hojas de albahaca."
+    },
+    {
+      "texto": "Aliña con el aceite, el zumo del limón y sal.",
+      "tecnica": "ensalada-completa"
+    }
+  ]
+}

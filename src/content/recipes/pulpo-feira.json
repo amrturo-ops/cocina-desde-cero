@@ -1,0 +1,70 @@
+{
+  "id": "pulpo-feira",
+  "titulo": "Pulpo á feira",
+  "nivel": "cocinillas",
+  "tecnicas": [
+    "pescado-entero"
+  ],
+  "raciones": 4,
+  "tiempoMin": 30,
+  "dificultad": 2,
+  "momentos": [
+    "comida",
+    "cena"
+  ],
+  "sobras": {
+    "apta": false,
+    "dias": 0
+  },
+  "descripcion": "El plato estrella de las fiestas gallegas, con pulpo ya cocido.",
+  "ingredientes": [
+    {
+      "id": "pulpo-cocido",
+      "cantidad": 500,
+      "unidad": "g",
+      "alternativas": [
+        {
+          "por": [],
+          "titulo": "Cachelos á feira"
+        }
+      ]
+    },
+    {
+      "id": "patata",
+      "cantidad": 600,
+      "unidad": "g"
+    },
+    {
+      "id": "pimenton",
+      "cantidad": 0,
+      "unidad": "al-gusto"
+    },
+    {
+      "id": "sal",
+      "cantidad": 0,
+      "unidad": "al-gusto"
+    },
+    {
+      "id": "aceite-oliva",
+      "cantidad": 5,
+      "unidad": "cucharada"
+    }
+  ],
+  "pasos": [
+    {
+      "texto": "Cuece las patatas con piel en agua con sal hasta que estén tiernas (cachelos).",
+      "temporizadorSeg": 1500
+    },
+    {
+      "texto": "Calienta el pulpo un minuto en agua hirviendo y córtalo en rodajas con tijera.",
+      "temporizadorSeg": 60,
+      "tecnica": "pescado-entero"
+    },
+    {
+      "texto": "Pela y corta las patatas en rodajas, colócalas en una tabla o plato y pon encima el pulpo."
+    },
+    {
+      "texto": "Termina con sal gruesa, pimentón y un buen chorro de aceite de oliva."
+    }
+  ]
+}

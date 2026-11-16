@@ -1,0 +1,104 @@
+{
+  "id": "pipirrana",
+  "titulo": "Pipirrana",
+  "nivel": "novato",
+  "tecnicas": [
+    "cortar-cebolla"
+  ],
+  "raciones": 2,
+  "tiempoMin": 15,
+  "momentos": [
+    "comida",
+    "cena"
+  ],
+  "sobras": {
+    "apta": true,
+    "dias": 1
+  },
+  "descripcion": "Ensalada andaluza picadita. Practica el corte en dados pequeños.",
+  "ingredientes": [
+    {
+      "id": "tomate",
+      "cantidad": 3,
+      "unidad": "unidad"
+    },
+    {
+      "id": "pimiento-verde",
+      "cantidad": 1,
+      "unidad": "unidad"
+    },
+    {
+      "id": "pepino",
+      "cantidad": 0.5,
+      "unidad": "unidad"
+    },
+    {
+      "id": "cebolla",
+      "cantidad": 0.5,
+      "unidad": "unidad"
+    },
+    {
+      "id": "atun-lata",
+      "cantidad": 1,
+      "unidad": "lata",
+      "alternativas": [
+        {
+          "por": [],
+          "titulo": "Pipirrana de verduras",
+          "pasos": [
+            {
+              "indice": 3,
+              "quitar": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "aceite-oliva",
+      "cantidad": 3,
+      "unidad": "cucharada"
+    },
+    {
+      "id": "vinagre",
+      "cantidad": 1,
+      "unidad": "cucharada",
+      "alternativas": [
+        {
+          "por": [
+            {
+              "id": "limon",
+              "cantidad": 0.5,
+              "unidad": "unidad"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sal",
+      "cantidad": 0,
+      "unidad": "al-gusto"
+    }
+  ],
+  "pasos": [
+    {
+      "texto": "Pica la cebolla en dados pequeños.",
+      "tecnica": "cortar-cebolla"
+    },
+    {
+      "texto": "Corta el tomate, el pimiento y el pepino en dados del mismo tamaño que la cebolla."
+    },
+    {
+      "texto": "Mézclalo todo en un bol."
+    },
+    {
+      "texto": "Añade el atún escurrido."
+    },
+    {
+      "texto": "Aliña con aceite, vinagre y sal, y deja reposar en la nevera.",
+      "temporizadorSeg": 600
+    }
+  ],
+  "dificultad": 1
+}

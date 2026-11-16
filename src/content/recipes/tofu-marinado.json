@@ -1,0 +1,88 @@
+{
+  "id": "tofu-marinado",
+  "titulo": "Tofu marinado a la plancha",
+  "nivel": "basico",
+  "tecnicas": [
+    "marinar",
+    "plancha"
+  ],
+  "raciones": 4,
+  "tiempoMin": 30,
+  "dificultad": 1,
+  "momentos": [
+    "comida",
+    "cena"
+  ],
+  "sobras": {
+    "apta": true,
+    "dias": 2
+  },
+  "descripcion": "Para quien piensa que el tofu no sabe a nada.",
+  "ingredientes": [
+    {
+      "id": "tofu",
+      "cantidad": 400,
+      "unidad": "g"
+    },
+    {
+      "id": "salsa-soja",
+      "cantidad": 3,
+      "unidad": "cucharada",
+      "alternativas": [
+        {
+          "por": [
+            {
+              "id": "tamari",
+              "cantidad": 3,
+              "unidad": "cucharada"
+            }
+          ]
+        },
+        {
+          "por": []
+        }
+      ]
+    },
+    {
+      "id": "ajo",
+      "cantidad": 1,
+      "unidad": "diente"
+    },
+    {
+      "id": "jengibre",
+      "cantidad": 10,
+      "unidad": "g"
+    },
+    {
+      "id": "limon",
+      "cantidad": 1,
+      "unidad": "unidad"
+    },
+    {
+      "id": "pimenton",
+      "cantidad": 0,
+      "unidad": "al-gusto"
+    },
+    {
+      "id": "aceite-oliva",
+      "cantidad": 2,
+      "unidad": "cucharada"
+    }
+  ],
+  "pasos": [
+    {
+      "texto": "Prensa el tofu entre papel con un peso encima 10 minutos: suelta agua y absorbe mejor el sabor.",
+      "temporizadorSeg": 600
+    },
+    {
+      "texto": "Córtalo en filetes y marínalo con la salsa, el ajo y el jengibre rallados, el zumo de limón y pimentón.",
+      "temporizadorSeg": 1200,
+      "tecnica": "marinar"
+    },
+    {
+      "texto": "Dóralo en la plancha por los dos lados.",
+      "temporizadorSeg": 360,
+      "tecnica": "plancha"
+    }
+  ]
+}

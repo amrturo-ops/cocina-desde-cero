@@ -1,0 +1,93 @@
+{
+  "id": "huevos-tomate",
+  "titulo": "Huevos con tomate",
+  "nivel": "novato",
+  "tecnicas": [
+    "hacer-huevos",
+    "sofreir",
+    "cortar-cebolla"
+  ],
+  "raciones": 2,
+  "tiempoMin": 25,
+  "dificultad": 2,
+  "momentos": [
+    "comida",
+    "cena"
+  ],
+  "sobras": {
+    "apta": false,
+    "dias": 0
+  },
+  "descripcion": "Huevos cuajados sobre un sofrito de tomate. Moja pan sin miedo.",
+  "ingredientes": [
+    {
+      "id": "huevo",
+      "cantidad": 4,
+      "unidad": "unidad",
+      "alternativas": [
+        {
+          "por": [
+            {
+              "id": "tofu",
+              "cantidad": 250,
+              "unidad": "g"
+            }
+          ],
+          "titulo": "Tofu con tomate",
+          "pasos": [
+            {
+              "indice": 3,
+              "texto": "Corta el tofu en dados, añádelo a la salsa y deja que se caliente y coja sabor.",
+              "temporizadorSeg": 360
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cebolla",
+      "cantidad": 1,
+      "unidad": "unidad"
+    },
+    {
+      "id": "pimiento-verde",
+      "cantidad": 1,
+      "unidad": "unidad"
+    },
+    {
+      "id": "tomate-triturado",
+      "cantidad": 400,
+      "unidad": "g"
+    },
+    {
+      "id": "aceite-oliva",
+      "cantidad": 3,
+      "unidad": "cucharada"
+    },
+    {
+      "id": "sal",
+      "cantidad": 0,
+      "unidad": "al-gusto"
+    }
+  ],
+  "pasos": [
+    {
+      "texto": "Pica la cebolla y el pimiento.",
+      "tecnica": "cortar-cebolla"
+    },
+    {
+      "texto": "Sofríelos en una sartén con el aceite.",
+      "temporizadorSeg": 480,
+      "tecnica": "sofreir"
+    },
+    {
+      "texto": "Añade el tomate y sal, y deja que espese a fuego bajo.",
+      "temporizadorSeg": 600
+    },
+    {
+      "texto": "Haz cuatro huecos en la salsa y casca un huevo en cada uno. Tapa y deja hasta que la clara esté blanca y cuajada.",
+      "temporizadorSeg": 360,
+      "tecnica": "hacer-huevos"
+    }
+  ]
+}

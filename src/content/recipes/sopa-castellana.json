@@ -1,0 +1,126 @@
+{
+  "id": "sopa-castellana",
+  "titulo": "Sopa castellana de ajo",
+  "nivel": "basico",
+  "tecnicas": [
+    "caldo-casero"
+  ],
+  "raciones": 4,
+  "tiempoMin": 30,
+  "dificultad": 2,
+  "momentos": [
+    "cena"
+  ],
+  "sobras": {
+    "apta": false,
+    "dias": 0
+  },
+  "descripcion": "Ajo, pan, pimentón y caldo: humilde y muy sabrosa.",
+  "ingredientes": [
+    {
+      "id": "ajo",
+      "cantidad": 4,
+      "unidad": "diente"
+    },
+    {
+      "id": "pan",
+      "cantidad": 150,
+      "unidad": "g",
+      "alternativas": [
+        {
+          "por": [
+            {
+              "id": "pan-sin-gluten",
+              "cantidad": 150,
+              "unidad": "g"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pimenton",
+      "cantidad": 0,
+      "unidad": "al-gusto"
+    },
+    {
+      "id": "jamon-serrano",
+      "cantidad": 80,
+      "unidad": "g",
+      "alternativas": [
+        {
+          "por": [],
+          "pasos": [
+            {
+              "indice": 2,
+              "quitar": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "huevo",
+      "cantidad": 4,
+      "unidad": "unidad",
+      "alternativas": [
+        {
+          "por": [],
+          "pasos": [
+            {
+              "indice": 4,
+              "quitar": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "aceite-oliva",
+      "cantidad": 4,
+      "unidad": "cucharada"
+    },
+    {
+      "id": "caldo-verduras",
+      "cantidad": 1500,
+      "unidad": "ml",
+      "alternativas": [
+        {
+          "por": [
+            {
+              "id": "agua",
+              "cantidad": 1500,
+              "unidad": "ml"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sal",
+      "cantidad": 0,
+      "unidad": "al-gusto"
+    }
+  ],
+  "pasos": [
+    {
+      "texto": "Lamina los ajos y corta el pan en rebanadas finas."
+    },
+    {
+      "texto": "Dora el ajo en el aceite a fuego bajo y añade el pan para que se tueste un poco.",
+      "temporizadorSeg": 180
+    },
+    {
+      "texto": "Añade el jamón en taquitos."
+    },
+    {
+      "texto": "Aparta del fuego, añade una cucharadita de pimentón, remueve rápido y vierte el caldo. Cuece suave.",
+      "temporizadorSeg": 900,
+      "tecnica": "caldo-casero"
+    },
+    {
+      "texto": "Casca los huevos en la sopa caliente y deja que cuajen.",
+      "temporizadorSeg": 240
+    }
+  ]
+}

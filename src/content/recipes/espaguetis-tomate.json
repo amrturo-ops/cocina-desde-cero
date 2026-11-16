@@ -1,0 +1,113 @@
+{
+  "id": "espaguetis-tomate",
+  "titulo": "Espaguetis con salsa de tomate casera",
+  "nivel": "novato",
+  "tecnicas": [
+    "salsa-basica",
+    "cocer-pasta",
+    "sofreir",
+    "cortar-cebolla"
+  ],
+  "raciones": 2,
+  "tiempoMin": 35,
+  "dificultad": 2,
+  "momentos": [
+    "comida",
+    "cena"
+  ],
+  "sobras": {
+    "apta": true,
+    "dias": 2
+  },
+  "descripcion": "Cuando pruebes el tomate casero no volverás al de bote.",
+  "ingredientes": [
+    {
+      "id": "pasta-trigo",
+      "cantidad": 200,
+      "unidad": "g",
+      "alternativas": [
+        {
+          "por": [
+            {
+              "id": "pasta-sin-gluten",
+              "cantidad": 200,
+              "unidad": "g"
+            }
+          ],
+          "pasos": [
+            {
+              "indice": 5,
+              "texto": "Cuece la pasta sin gluten en agua con sal. Pruébala 2 minutos antes de lo que diga el paquete.",
+              "temporizadorSeg": 480
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tomate-triturado",
+      "cantidad": 400,
+      "unidad": "g"
+    },
+    {
+      "id": "cebolla",
+      "cantidad": 1,
+      "unidad": "unidad"
+    },
+    {
+      "id": "ajo",
+      "cantidad": 1,
+      "unidad": "diente"
+    },
+    {
+      "id": "albahaca",
+      "cantidad": 0.25,
+      "unidad": "manojo"
+    },
+    {
+      "id": "oregano",
+      "cantidad": 0,
+      "unidad": "al-gusto"
+    },
+    {
+      "id": "aceite-oliva",
+      "cantidad": 3,
+      "unidad": "cucharada"
+    },
+    {
+      "id": "sal",
+      "cantidad": 0,
+      "unidad": "al-gusto"
+    }
+  ],
+  "pasos": [
+    {
+      "texto": "Pica la cebolla y el ajo.",
+      "tecnica": "cortar-cebolla"
+    },
+    {
+      "texto": "Sofríelos a fuego medio-bajo hasta que estén blandos.",
+      "temporizadorSeg": 480,
+      "tecnica": "sofreir"
+    },
+    {
+      "texto": "Añade el tomate, sal y orégano. Deja que reduzca a fuego bajo, destapado, removiendo de vez en cuando.",
+      "temporizadorSeg": 1200,
+      "tecnica": "salsa-basica"
+    },
+    {
+      "texto": "Prueba: si está ácido, añade una pizca de azúcar."
+    },
+    {
+      "texto": "Pon a hervir agua con sal para la pasta."
+    },
+    {
+      "texto": "Cuece la pasta el tiempo del paquete.",
+      "temporizadorSeg": 540,
+      "tecnica": "cocer-pasta"
+    },
+    {
+      "texto": "Escurre la pasta, mézclala con la salsa y sirve con hojas de albahaca."
+    }
+  ]
+}

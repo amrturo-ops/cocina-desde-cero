@@ -1,0 +1,102 @@
+{
+  "id": "salmon-horno",
+  "titulo": "Salmón al horno con verduras",
+  "nivel": "novato",
+  "tecnicas": [
+    "horno-basico"
+  ],
+  "raciones": 2,
+  "tiempoMin": 30,
+  "dificultad": 2,
+  "momentos": [
+    "comida",
+    "cena"
+  ],
+  "sobras": {
+    "apta": false,
+    "dias": 0
+  },
+  "descripcion": "Todo en la misma bandeja: pescado y guarnición a la vez.",
+  "ingredientes": [
+    {
+      "id": "salmon",
+      "cantidad": 300,
+      "unidad": "g",
+      "alternativas": [
+        {
+          "por": [
+            {
+              "id": "tofu",
+              "cantidad": 300,
+              "unidad": "g"
+            },
+            {
+              "id": "tamari",
+              "cantidad": 1,
+              "unidad": "cucharada"
+            }
+          ],
+          "titulo": "Tofu al horno con verduras",
+          "pasos": [
+            {
+              "indice": 3,
+              "texto": "Corta el tofu en dados, úntalo con tamari y ponlo entre las verduras."
+            },
+            {
+              "indice": 4,
+              "texto": "Hornea todo junto, dando la vuelta a mitad, hasta que el tofu esté dorado.",
+              "temporizadorSeg": 1200
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "calabacin",
+      "cantidad": 1,
+      "unidad": "unidad"
+    },
+    {
+      "id": "tomate-cherry",
+      "cantidad": 200,
+      "unidad": "g"
+    },
+    {
+      "id": "limon",
+      "cantidad": 1,
+      "unidad": "unidad"
+    },
+    {
+      "id": "aceite-oliva",
+      "cantidad": 3,
+      "unidad": "cucharada"
+    },
+    {
+      "id": "sal",
+      "cantidad": 0,
+      "unidad": "al-gusto"
+    }
+  ],
+  "pasos": [
+    {
+      "texto": "Precalienta el horno a 200 °C.",
+      "temporizadorSeg": 600,
+      "tecnica": "horno-basico"
+    },
+    {
+      "texto": "Corta el calabacín en medias lunas y ponlo en la bandeja con los tomates, aceite y sal."
+    },
+    {
+      "texto": "Hornea las verduras solas un rato.",
+      "temporizadorSeg": 600,
+      "tecnica": "horno-basico"
+    },
+    {
+      "texto": "Saca la bandeja, coloca el salmón salado entre las verduras con rodajas de limón."
+    },
+    {
+      "texto": "Hornea hasta que el salmón se separe en láminas al tocarlo con un tenedor.",
+      "temporizadorSeg": 720
+    }
+  ]
+}

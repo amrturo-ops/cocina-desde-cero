@@ -1,0 +1,62 @@
+{
+  "id": "judias-ajo",
+  "titulo": "Judías verdes rehogadas con ajo",
+  "nivel": "novato",
+  "tecnicas": [
+    "sofreir"
+  ],
+  "raciones": 2,
+  "tiempoMin": 20,
+  "momentos": [
+    "comida",
+    "cena"
+  ],
+  "sobras": {
+    "apta": true,
+    "dias": 2
+  },
+  "descripcion": "De la bolsa de congelados al plato en 20 minutos.",
+  "ingredientes": [
+    {
+      "id": "judias-verdes",
+      "cantidad": 400,
+      "unidad": "g"
+    },
+    {
+      "id": "ajo",
+      "cantidad": 2,
+      "unidad": "diente"
+    },
+    {
+      "id": "pimenton",
+      "cantidad": 0,
+      "unidad": "al-gusto"
+    },
+    {
+      "id": "aceite-oliva",
+      "cantidad": 2,
+      "unidad": "cucharada"
+    },
+    {
+      "id": "sal",
+      "cantidad": 0,
+      "unidad": "al-gusto"
+    }
+  ],
+  "pasos": [
+    {
+      "texto": "Cuece las judías congeladas en agua hirviendo con sal y escúrrelas.",
+      "temporizadorSeg": 480
+    },
+    {
+      "texto": "Sofríe el ajo laminado en el aceite.",
+      "temporizadorSeg": 60,
+      "tecnica": "sofreir"
+    },
+    {
+      "texto": "Añade las judías y una pizca de pimentón, y rehoga removiendo.",
+      "temporizadorSeg": 240
+    }
+  ],
+  "dificultad": 1
+}

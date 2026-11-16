@@ -1,0 +1,124 @@
+{
+  "id": "marmitako",
+  "titulo": "Marmitako",
+  "nivel": "basico",
+  "tecnicas": [
+    "guisar",
+    "sofreir"
+  ],
+  "raciones": 4,
+  "tiempoMin": 45,
+  "dificultad": 2,
+  "momentos": [
+    "comida"
+  ],
+  "sobras": {
+    "apta": false,
+    "dias": 0
+  },
+  "descripcion": "El guiso marinero vasco de patata y bonito.",
+  "ingredientes": [
+    {
+      "id": "bonito",
+      "cantidad": 500,
+      "unidad": "g",
+      "alternativas": [
+        {
+          "por": [
+            {
+              "id": "tofu",
+              "cantidad": 400,
+              "unidad": "g"
+            }
+          ],
+          "titulo": "Marmitako de tofu"
+        }
+      ]
+    },
+    {
+      "id": "patata",
+      "cantidad": 800,
+      "unidad": "g"
+    },
+    {
+      "id": "cebolla",
+      "cantidad": 1,
+      "unidad": "unidad"
+    },
+    {
+      "id": "pimiento-verde",
+      "cantidad": 1,
+      "unidad": "unidad"
+    },
+    {
+      "id": "pimiento-rojo",
+      "cantidad": 1,
+      "unidad": "unidad"
+    },
+    {
+      "id": "tomate-triturado",
+      "cantidad": 150,
+      "unidad": "g"
+    },
+    {
+      "id": "pimenton",
+      "cantidad": 0,
+      "unidad": "al-gusto"
+    },
+    {
+      "id": "caldo-pescado",
+      "cantidad": 1000,
+      "unidad": "ml",
+      "alternativas": [
+        {
+          "por": [
+            {
+              "id": "caldo-verduras",
+              "cantidad": 1000,
+              "unidad": "ml"
+            }
+          ]
+        },
+        {
+          "por": [
+            {
+              "id": "agua",
+              "cantidad": 1000,
+              "unidad": "ml"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "aceite-oliva",
+      "cantidad": 3,
+      "unidad": "cucharada"
+    },
+    {
+      "id": "sal",
+      "cantidad": 0,
+      "unidad": "al-gusto"
+    }
+  ],
+  "pasos": [
+    {
+      "texto": "Pica la cebolla y los pimientos y sofríelos en una cazuela.",
+      "temporizadorSeg": 600,
+      "tecnica": "sofreir"
+    },
+    {
+      "texto": "Añade el tomate y una cucharadita de pimentón.",
+      "temporizadorSeg": 180
+    },
+    {
+      "texto": "Añade las patatas cascadas en trozos y cubre con {caldo-pescado}. Cuece.",
+      "temporizadorSeg": 1500,
+      "tecnica": "guisar"
+    },
+    {
+      "texto": "Apaga el fuego, añade {bonito} en dados con sal, tapa y deja reposar: se hace con el calor.",
+      "temporizadorSeg": 300
+    }
+  ]
+}

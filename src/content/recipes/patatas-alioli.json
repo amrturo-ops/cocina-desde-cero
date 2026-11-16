@@ -1,0 +1,79 @@
+{
+  "id": "patatas-alioli",
+  "titulo": "Patatas con alioli",
+  "nivel": "cocinillas",
+  "tecnicas": [
+    "emulsiones"
+  ],
+  "raciones": 4,
+  "tiempoMin": 35,
+  "dificultad": 2,
+  "momentos": [
+    "comida"
+  ],
+  "sobras": {
+    "apta": false,
+    "dias": 0
+  },
+  "descripcion": "El alioli de verdad, con huevo para que no se corte.",
+  "ingredientes": [
+    {
+      "id": "patata",
+      "cantidad": 800,
+      "unidad": "g"
+    },
+    {
+      "id": "ajo",
+      "cantidad": 2,
+      "unidad": "diente"
+    },
+    {
+      "id": "huevo",
+      "cantidad": 1,
+      "unidad": "unidad",
+      "alternativas": [
+        {
+          "por": [
+            {
+              "id": "bebida-soja",
+              "cantidad": 100,
+              "unidad": "ml"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "aceite-girasol",
+      "cantidad": 200,
+      "unidad": "ml"
+    },
+    {
+      "id": "limon",
+      "cantidad": 0.5,
+      "unidad": "unidad"
+    },
+    {
+      "id": "sal",
+      "cantidad": 0,
+      "unidad": "al-gusto"
+    }
+  ],
+  "pasos": [
+    {
+      "texto": "Cuece las patatas en dados en agua con sal hasta que estén tiernas, sin que se deshagan. Enfría.",
+      "temporizadorSeg": 900
+    },
+    {
+      "texto": "Pon en el vaso de la batidora el ajo pelado, {huevo}, el limón y sal.",
+      "tecnica": "emulsiones"
+    },
+    {
+      "texto": "Bate con la batidora en el fondo, añadiendo el aceite en hilo fino.",
+      "tecnica": "emulsiones"
+    },
+    {
+      "texto": "Mezcla las patatas con el alioli. Nevera y en el día."
+    }
+  ]
+}

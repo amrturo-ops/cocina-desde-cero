@@ -1,0 +1,102 @@
+{
+  "id": "arroz-caldoso",
+  "titulo": "Arroz caldoso de verduras",
+  "nivel": "novato",
+  "tecnicas": [
+    "arroz-blanco",
+    "sofreir",
+    "cortar-cebolla"
+  ],
+  "raciones": 2,
+  "tiempoMin": 40,
+  "momentos": [
+    "comida",
+    "cena"
+  ],
+  "sobras": {
+    "apta": false,
+    "dias": 0
+  },
+  "descripcion": "Meloso y de cuchara. Se come recién hecho.",
+  "ingredientes": [
+    {
+      "id": "arroz",
+      "cantidad": 160,
+      "unidad": "g"
+    },
+    {
+      "id": "cebolla",
+      "cantidad": 1,
+      "unidad": "unidad"
+    },
+    {
+      "id": "pimiento-rojo",
+      "cantidad": 1,
+      "unidad": "unidad"
+    },
+    {
+      "id": "judias-verdes",
+      "cantidad": 150,
+      "unidad": "g"
+    },
+    {
+      "id": "tomate-triturado",
+      "cantidad": 150,
+      "unidad": "g"
+    },
+    {
+      "id": "caldo-verduras",
+      "cantidad": 1000,
+      "unidad": "ml",
+      "alternativas": [
+        {
+          "por": [
+            {
+              "id": "agua",
+              "cantidad": 1000,
+              "unidad": "ml"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pimenton",
+      "cantidad": 0,
+      "unidad": "al-gusto"
+    },
+    {
+      "id": "aceite-oliva",
+      "cantidad": 3,
+      "unidad": "cucharada"
+    },
+    {
+      "id": "sal",
+      "cantidad": 0,
+      "unidad": "al-gusto"
+    }
+  ],
+  "pasos": [
+    {
+      "texto": "Pica la cebolla y el pimiento.",
+      "tecnica": "cortar-cebolla"
+    },
+    {
+      "texto": "Sofríelos en una cazuela con el aceite, añade las judías y el tomate.",
+      "temporizadorSeg": 600,
+      "tecnica": "sofreir"
+    },
+    {
+      "texto": "Añade el pimentón y el caldo, y lleva a hervir."
+    },
+    {
+      "texto": "Echa el arroz y cuécelo destapado a fuego medio, removiendo de vez en cuando.",
+      "temporizadorSeg": 1080,
+      "tecnica": "arroz-blanco"
+    },
+    {
+      "texto": "Debe quedar con caldo. Prueba de sal y sirve enseguida."
+    }
+  ],
+  "dificultad": 3
+}

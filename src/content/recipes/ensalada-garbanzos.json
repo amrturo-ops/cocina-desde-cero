@@ -1,0 +1,99 @@
+{
+  "id": "ensalada-garbanzos",
+  "titulo": "Ensalada de garbanzos con atún",
+  "nivel": "novato",
+  "tecnicas": [
+    "cortar-cebolla"
+  ],
+  "raciones": 2,
+  "tiempoMin": 10,
+  "dificultad": 1,
+  "momentos": [
+    "comida",
+    "cena"
+  ],
+  "sobras": {
+    "apta": true,
+    "dias": 2
+  },
+  "descripcion": "Sin fuegos y en 10 minutos. Ideal para tu primera receta.",
+  "ingredientes": [
+    {
+      "id": "garbanzos-cocidos",
+      "cantidad": 1,
+      "unidad": "bote"
+    },
+    {
+      "id": "atun-lata",
+      "cantidad": 2,
+      "unidad": "lata",
+      "alternativas": [
+        {
+          "por": [],
+          "titulo": "Ensalada de garbanzos",
+          "pasos": [
+            {
+              "indice": 1,
+              "quitar": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cebolla-morada",
+      "cantidad": 0.5,
+      "unidad": "unidad"
+    },
+    {
+      "id": "tomate-cherry",
+      "cantidad": 150,
+      "unidad": "g"
+    },
+    {
+      "id": "aceite-oliva",
+      "cantidad": 3,
+      "unidad": "cucharada"
+    },
+    {
+      "id": "vinagre",
+      "cantidad": 1,
+      "unidad": "cucharada",
+      "alternativas": [
+        {
+          "por": [
+            {
+              "id": "limon",
+              "cantidad": 0.5,
+              "unidad": "unidad"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sal",
+      "cantidad": 0,
+      "unidad": "al-gusto"
+    }
+  ],
+  "pasos": [
+    {
+      "texto": "Escurre los garbanzos y enjuágalos bajo el grifo para quitarles el líquido del bote."
+    },
+    {
+      "texto": "Escurre el atún."
+    },
+    {
+      "texto": "Corta la cebolla morada en juliana muy fina.",
+      "tecnica": "cortar-cebolla"
+    },
+    {
+      "texto": "Corta los tomates cherry por la mitad."
+    },
+    {
+      "texto": "Mezcla todo en un bol, aliña con aceite, vinagre y sal, y deja reposar para que coja sabor.",
+      "temporizadorSeg": 300
+    }
+  ]
+}

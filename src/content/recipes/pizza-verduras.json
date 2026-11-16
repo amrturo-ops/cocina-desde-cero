@@ -1,0 +1,134 @@
+{
+  "id": "pizza-verduras",
+  "titulo": "Pizza de verduras",
+  "nivel": "basico",
+  "tecnicas": [
+    "masa-pizza",
+    "horno-basico"
+  ],
+  "raciones": 2,
+  "tiempoMin": 100,
+  "dificultad": 2,
+  "momentos": [
+    "cena"
+  ],
+  "sobras": {
+    "apta": false,
+    "dias": 0
+  },
+  "descripcion": "Cargada de verdura asada.",
+  "ingredientes": [
+    {
+      "id": "harina-trigo",
+      "cantidad": 300,
+      "unidad": "g",
+      "alternativas": [
+        {
+          "por": [
+            {
+              "id": "harina-sg",
+              "cantidad": 300,
+              "unidad": "g"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "levadura-panadero",
+      "cantidad": 1,
+      "unidad": "sobre"
+    },
+    {
+      "id": "agua",
+      "cantidad": 180,
+      "unidad": "ml"
+    },
+    {
+      "id": "aceite-oliva",
+      "cantidad": 2,
+      "unidad": "cucharada"
+    },
+    {
+      "id": "sal",
+      "cantidad": 0,
+      "unidad": "al-gusto"
+    },
+    {
+      "id": "tomate-triturado",
+      "cantidad": 200,
+      "unidad": "g"
+    },
+    {
+      "id": "mozzarella",
+      "cantidad": 150,
+      "unidad": "g",
+      "alternativas": [
+        {
+          "por": [
+            {
+              "id": "queso-sin-lactosa",
+              "cantidad": 150,
+              "unidad": "g"
+            }
+          ]
+        },
+        {
+          "por": [
+            {
+              "id": "levadura-nutricional",
+              "cantidad": 4,
+              "unidad": "cucharada"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "calabacin",
+      "cantidad": 1,
+      "unidad": "unidad"
+    },
+    {
+      "id": "pimiento-rojo",
+      "cantidad": 1,
+      "unidad": "unidad"
+    },
+    {
+      "id": "champinones",
+      "cantidad": 150,
+      "unidad": "g"
+    },
+    {
+      "id": "cebolla-morada",
+      "cantidad": 0.5,
+      "unidad": "unidad"
+    }
+  ],
+  "pasos": [
+    {
+      "texto": "Mezcla {harina-trigo}, la levadura y una pizca de sal. Añade el agua templada y el aceite.",
+      "tecnica": "masa-pizza"
+    },
+    {
+      "texto": "Amasa hasta que la masa esté lisa y elástica.",
+      "temporizadorSeg": 600,
+      "tecnica": "masa-pizza"
+    },
+    {
+      "texto": "Déjala reposar tapada hasta que doble su tamaño.",
+      "temporizadorSeg": 3600,
+      "tecnica": "masa-pizza"
+    },
+    {
+      "texto": "Precalienta el horno al máximo. Corta las verduras finas y estira la masa.",
+      "temporizadorSeg": 900,
+      "tecnica": "horno-basico"
+    },
+    {
+      "texto": "Cubre con tomate, {mozzarella} y las verduras, y hornea.",
+      "temporizadorSeg": 840,
+      "tecnica": "horno-basico"
+    }
+  ]
+}

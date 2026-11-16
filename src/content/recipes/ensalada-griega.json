@@ -1,0 +1,100 @@
+{
+  "id": "ensalada-griega",
+  "titulo": "Ensalada griega",
+  "nivel": "novato",
+  "tecnicas": [
+    "ensalada-completa",
+    "cortar-cebolla"
+  ],
+  "raciones": 2,
+  "tiempoMin": 10,
+  "momentos": [
+    "comida",
+    "cena"
+  ],
+  "sobras": {
+    "apta": false,
+    "dias": 0
+  },
+  "descripcion": "Tomate, pepino, aceitunas y feta. Sin lechuga y muy completa.",
+  "ingredientes": [
+    {
+      "id": "tomate",
+      "cantidad": 2,
+      "unidad": "unidad"
+    },
+    {
+      "id": "pepino",
+      "cantidad": 1,
+      "unidad": "unidad"
+    },
+    {
+      "id": "cebolla-morada",
+      "cantidad": 0.5,
+      "unidad": "unidad"
+    },
+    {
+      "id": "aceitunas-negras",
+      "cantidad": 60,
+      "unidad": "g"
+    },
+    {
+      "id": "queso-feta",
+      "cantidad": 120,
+      "unidad": "g",
+      "alternativas": [
+        {
+          "por": [
+            {
+              "id": "queso-sin-lactosa",
+              "cantidad": 80,
+              "unidad": "g"
+            }
+          ]
+        },
+        {
+          "por": [
+            {
+              "id": "garbanzos-cocidos",
+              "cantidad": 200,
+              "unidad": "g"
+            }
+          ],
+          "titulo": "Ensalada griega con garbanzos"
+        }
+      ]
+    },
+    {
+      "id": "oregano",
+      "cantidad": 0,
+      "unidad": "al-gusto"
+    },
+    {
+      "id": "aceite-oliva",
+      "cantidad": 3,
+      "unidad": "cucharada"
+    },
+    {
+      "id": "sal",
+      "cantidad": 0,
+      "unidad": "al-gusto"
+    }
+  ],
+  "pasos": [
+    {
+      "texto": "Corta la cebolla morada en juliana fina.",
+      "tecnica": "cortar-cebolla"
+    },
+    {
+      "texto": "Corta el tomate en gajos y el pepino en medias lunas."
+    },
+    {
+      "texto": "Pon todo en una fuente con las aceitunas y el queso desmenuzado por encima.",
+      "tecnica": "ensalada-completa"
+    },
+    {
+      "texto": "Aliña con aceite, orégano y poca sal (el queso ya es salado)."
+    }
+  ],
+  "dificultad": 1
+}

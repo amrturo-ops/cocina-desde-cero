@@ -1,0 +1,35 @@
+# Publica la app en GitHub Pages cada vez que subes cambios a la rama main.
+# Antes: Settings → Pages → Source: «GitHub Actions»
+# y Settings → Secrets and variables → Actions: VITE_SUPABASE_URL y VITE_SUPABASE_ANON_KEY
+name: Publicar en GitHub Pages
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+jobs:
+  publicar:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+      - run: npm ci
+      - run: npm run probar
+      - run: npm run build
+        env:
+          VITE_SUPABASE_URL: ${{ secrets.VITE_SUPABASE_URL }}
+          VITE_SUPABASE_ANON_KEY: ${{ secrets.VITE_SUPABASE_ANON_KEY }}
+          VITE_GOATCOUNTER_URL: ${{ secrets.VITE_GOATCOUNTER_URL }}
+          VITE_ENLACE_PAGO: ${{ secrets.VITE_ENLACE_PAGO }}
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+      - uses: actions/deploy-pages@v4

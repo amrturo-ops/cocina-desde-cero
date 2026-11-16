@@ -1,0 +1,153 @@
+{
+  "id": "coliflor-gratinada",
+  "titulo": "Coliflor gratinada",
+  "nivel": "basico",
+  "tecnicas": [
+    "bechamel",
+    "horno-basico"
+  ],
+  "raciones": 4,
+  "tiempoMin": 40,
+  "dificultad": 2,
+  "momentos": [
+    "comida",
+    "cena"
+  ],
+  "sobras": {
+    "apta": true,
+    "dias": 2
+  },
+  "descripcion": "La coliflor que convence a los que dicen que no les gusta.",
+  "ingredientes": [
+    {
+      "id": "coliflor",
+      "cantidad": 800,
+      "unidad": "g"
+    },
+    {
+      "id": "leche",
+      "cantidad": 500,
+      "unidad": "ml",
+      "alternativas": [
+        {
+          "por": [
+            {
+              "id": "leche-sin-lactosa",
+              "cantidad": 500,
+              "unidad": "ml"
+            }
+          ]
+        },
+        {
+          "por": [
+            {
+              "id": "bebida-soja",
+              "cantidad": 500,
+              "unidad": "ml"
+            }
+          ]
+        },
+        {
+          "por": [
+            {
+              "id": "bebida-arroz",
+              "cantidad": 500,
+              "unidad": "ml"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "harina-trigo",
+      "cantidad": 40,
+      "unidad": "g",
+      "alternativas": [
+        {
+          "por": [
+            {
+              "id": "maicena",
+              "cantidad": 40,
+              "unidad": "g"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mantequilla",
+      "cantidad": 3,
+      "unidad": "cucharada",
+      "alternativas": [
+        {
+          "por": [
+            {
+              "id": "aceite-oliva",
+              "cantidad": 3,
+              "unidad": "cucharada"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "queso-parmesano",
+      "cantidad": 60,
+      "unidad": "g",
+      "alternativas": [
+        {
+          "por": [
+            {
+              "id": "queso-sin-lactosa",
+              "cantidad": 60,
+              "unidad": "g"
+            }
+          ]
+        },
+        {
+          "por": [
+            {
+              "id": "levadura-nutricional",
+              "cantidad": 4,
+              "unidad": "cucharada"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "nuez-moscada",
+      "cantidad": 0,
+      "unidad": "al-gusto"
+    },
+    {
+      "id": "sal",
+      "cantidad": 0,
+      "unidad": "al-gusto"
+    }
+  ],
+  "pasos": [
+    {
+      "texto": "Cuece la coliflor en ramilletes en agua con sal y escúrrela bien.",
+      "temporizadorSeg": 600
+    },
+    {
+      "texto": "Para la bechamel, calienta {mantequilla}, añade {harina-trigo} y remueve.",
+      "temporizadorSeg": 120,
+      "tecnica": "bechamel"
+    },
+    {
+      "texto": "Añade {leche} caliente poco a poco sin dejar de batir, con sal y nuez moscada, hasta que espese.",
+      "temporizadorSeg": 480,
+      "tecnica": "bechamel"
+    },
+    {
+      "texto": "Pon la coliflor en una fuente, cúbrela con la bechamel y {queso-parmesano}."
+    },
+    {
+      "texto": "Gratina en el horno a 220 °C hasta que esté dorada.",
+      "temporizadorSeg": 600,
+      "tecnica": "horno-basico"
+    }
+  ]
+}

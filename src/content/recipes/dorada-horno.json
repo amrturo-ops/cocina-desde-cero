@@ -1,0 +1,111 @@
+{
+  "id": "dorada-horno",
+  "titulo": "Dorada al horno con patatas",
+  "nivel": "cocinillas",
+  "tecnicas": [
+    "pescado-entero",
+    "horno-basico"
+  ],
+  "raciones": 4,
+  "tiempoMin": 50,
+  "dificultad": 2,
+  "momentos": [
+    "comida",
+    "cena"
+  ],
+  "sobras": {
+    "apta": false,
+    "dias": 0
+  },
+  "descripcion": "Pescado entero sobre cama de patata panadera.",
+  "ingredientes": [
+    {
+      "id": "dorada",
+      "cantidad": 2,
+      "unidad": "unidad",
+      "alternativas": [
+        {
+          "por": [
+            {
+              "id": "coliflor",
+              "cantidad": 1000,
+              "unidad": "g"
+            }
+          ],
+          "titulo": "Coliflor entera asada con patatas"
+        }
+      ]
+    },
+    {
+      "id": "patata",
+      "cantidad": 600,
+      "unidad": "g"
+    },
+    {
+      "id": "cebolla",
+      "cantidad": 1,
+      "unidad": "unidad"
+    },
+    {
+      "id": "limon",
+      "cantidad": 1,
+      "unidad": "unidad"
+    },
+    {
+      "id": "vino-blanco",
+      "cantidad": 100,
+      "unidad": "ml",
+      "alternativas": [
+        {
+          "por": [
+            {
+              "id": "caldo-verduras",
+              "cantidad": 100,
+              "unidad": "ml"
+            }
+          ]
+        },
+        {
+          "por": [
+            {
+              "id": "agua",
+              "cantidad": 100,
+              "unidad": "ml"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "aceite-oliva",
+      "cantidad": 5,
+      "unidad": "cucharada"
+    },
+    {
+      "id": "sal",
+      "cantidad": 0,
+      "unidad": "al-gusto"
+    }
+  ],
+  "pasos": [
+    {
+      "texto": "Precalienta el horno a 200 °C.",
+      "temporizadorSeg": 600,
+      "tecnica": "horno-basico"
+    },
+    {
+      "texto": "Pon en la bandeja la patata y la cebolla en láminas finas con aceite y sal, y hornea.",
+      "temporizadorSeg": 1200,
+      "tecnica": "horno-basico"
+    },
+    {
+      "texto": "Haz unos cortes en la piel de {dorada}, sala y pon rodajas de limón en los cortes.",
+      "tecnica": "pescado-entero"
+    },
+    {
+      "texto": "Colócala sobre las patatas, riega con {vino-blanco} y un hilo de aceite, y hornea. Está cuando la carne se separa fácil de la espina.",
+      "temporizadorSeg": 1200,
+      "tecnica": "pescado-entero"
+    }
+  ]
+}

@@ -1,0 +1,164 @@
+{
+  "id": "albondigas",
+  "titulo": "Albóndigas en salsa",
+  "nivel": "basico",
+  "tecnicas": [
+    "guisar",
+    "sofreir"
+  ],
+  "raciones": 4,
+  "tiempoMin": 60,
+  "dificultad": 3,
+  "momentos": [
+    "comida"
+  ],
+  "sobras": {
+    "apta": true,
+    "dias": 3
+  },
+  "descripcion": "Un clásico que lleva su tiempo, pero merece la pena.",
+  "ingredientes": [
+    {
+      "id": "carne-picada",
+      "cantidad": 500,
+      "unidad": "g"
+    },
+    {
+      "id": "huevo",
+      "cantidad": 1,
+      "unidad": "unidad",
+      "alternativas": [
+        {
+          "por": []
+        }
+      ]
+    },
+    {
+      "id": "pan-rallado",
+      "cantidad": 50,
+      "unidad": "g",
+      "alternativas": [
+        {
+          "por": [
+            {
+              "id": "pan-rallado-sg",
+              "cantidad": 50,
+              "unidad": "g"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ajo",
+      "cantidad": 1,
+      "unidad": "diente"
+    },
+    {
+      "id": "perejil",
+      "cantidad": 0.25,
+      "unidad": "manojo"
+    },
+    {
+      "id": "harina-trigo",
+      "cantidad": 40,
+      "unidad": "g",
+      "alternativas": [
+        {
+          "por": [
+            {
+              "id": "maicena",
+              "cantidad": 40,
+              "unidad": "g"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cebolla",
+      "cantidad": 1,
+      "unidad": "unidad"
+    },
+    {
+      "id": "tomate-triturado",
+      "cantidad": 300,
+      "unidad": "g"
+    },
+    {
+      "id": "vino-blanco",
+      "cantidad": 100,
+      "unidad": "ml",
+      "alternativas": [
+        {
+          "por": [
+            {
+              "id": "caldo-verduras",
+              "cantidad": 100,
+              "unidad": "ml"
+            }
+          ]
+        },
+        {
+          "por": [
+            {
+              "id": "agua",
+              "cantidad": 100,
+              "unidad": "ml"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "caldo-verduras",
+      "cantidad": 300,
+      "unidad": "ml",
+      "alternativas": [
+        {
+          "por": [
+            {
+              "id": "agua",
+              "cantidad": 300,
+              "unidad": "ml"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "aceite-oliva",
+      "cantidad": 5,
+      "unidad": "cucharada"
+    },
+    {
+      "id": "sal",
+      "cantidad": 0,
+      "unidad": "al-gusto"
+    }
+  ],
+  "pasos": [
+    {
+      "texto": "Mezcla la carne con {huevo}, {pan-rallado}, el ajo y el perejil picados, y sal. Forma bolas del tamaño de una nuez."
+    },
+    {
+      "texto": "Pásalas por {harina-trigo} y dóralas en el aceite por tandas. Retíralas.",
+      "temporizadorSeg": 360,
+      "tecnica": "guisar"
+    },
+    {
+      "texto": "En el mismo aceite, sofríe la cebolla picada.",
+      "temporizadorSeg": 480,
+      "tecnica": "sofreir"
+    },
+    {
+      "texto": "Añade el tomate, {vino-blanco} y {caldo-verduras}, y cuece unos minutos.",
+      "temporizadorSeg": 300
+    },
+    {
+      "texto": "Vuelve a poner las albóndigas en la salsa y cuece tapado a fuego bajo. La carne debe quedar hecha por dentro.",
+      "temporizadorSeg": 1200,
+      "tecnica": "guisar"
+    }
+  ]
+}

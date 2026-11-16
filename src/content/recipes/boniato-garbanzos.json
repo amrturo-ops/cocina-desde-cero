@@ -1,0 +1,100 @@
+{
+  "id": "boniato-garbanzos",
+  "titulo": "Boniato asado con garbanzos especiados",
+  "nivel": "novato",
+  "tecnicas": [
+    "horno-basico",
+    "legumbre-bote"
+  ],
+  "raciones": 2,
+  "tiempoMin": 45,
+  "momentos": [
+    "comida",
+    "cena"
+  ],
+  "sobras": {
+    "apta": true,
+    "dias": 2
+  },
+  "descripcion": "Dulce, crujiente y muy saciante.",
+  "ingredientes": [
+    {
+      "id": "boniato",
+      "cantidad": 500,
+      "unidad": "g"
+    },
+    {
+      "id": "garbanzos-cocidos",
+      "cantidad": 1,
+      "unidad": "bote"
+    },
+    {
+      "id": "pimenton",
+      "cantidad": 0,
+      "unidad": "al-gusto"
+    },
+    {
+      "id": "comino",
+      "cantidad": 0,
+      "unidad": "al-gusto"
+    },
+    {
+      "id": "aceite-oliva",
+      "cantidad": 3,
+      "unidad": "cucharada"
+    },
+    {
+      "id": "yogur-natural",
+      "cantidad": 1,
+      "unidad": "unidad",
+      "alternativas": [
+        {
+          "por": [
+            {
+              "id": "yogur-soja",
+              "cantidad": 1,
+              "unidad": "unidad"
+            }
+          ]
+        },
+        {
+          "por": [],
+          "pasos": [
+            {
+              "indice": 4,
+              "quitar": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sal",
+      "cantidad": 0,
+      "unidad": "al-gusto"
+    }
+  ],
+  "pasos": [
+    {
+      "texto": "Precalienta el horno a 200 °C.",
+      "temporizadorSeg": 600,
+      "tecnica": "horno-basico"
+    },
+    {
+      "texto": "Corta el boniato en dados con piel. Escurre los garbanzos y sécalos bien con papel.",
+      "tecnica": "legumbre-bote"
+    },
+    {
+      "texto": "Mézclalo todo en la bandeja con aceite, sal, pimentón y comino."
+    },
+    {
+      "texto": "Hornea removiendo a mitad, hasta que el boniato esté tierno y los garbanzos crujientes.",
+      "temporizadorSeg": 2100,
+      "tecnica": "horno-basico"
+    },
+    {
+      "texto": "Sirve con el yogur con una pizca de sal por encima."
+    }
+  ],
+  "dificultad": 1
+}

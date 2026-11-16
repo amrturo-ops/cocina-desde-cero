@@ -1,0 +1,145 @@
+{
+  "id": "estofado-ternera",
+  "titulo": "Estofado de ternera con patatas",
+  "nivel": "basico",
+  "tecnicas": [
+    "guisar",
+    "sofreir"
+  ],
+  "raciones": 4,
+  "tiempoMin": 120,
+  "dificultad": 2,
+  "momentos": [
+    "comida"
+  ],
+  "sobras": {
+    "apta": true,
+    "dias": 4
+  },
+  "descripcion": "El guiso de domingo. Mejor aún al día siguiente.",
+  "ingredientes": [
+    {
+      "id": "ternera-guisar",
+      "cantidad": 700,
+      "unidad": "g",
+      "alternativas": [
+        {
+          "por": [
+            {
+              "id": "garbanzos-cocidos",
+              "cantidad": 2,
+              "unidad": "bote"
+            }
+          ],
+          "titulo": "Estofado de garbanzos y patatas"
+        }
+      ]
+    },
+    {
+      "id": "cebolla",
+      "cantidad": 2,
+      "unidad": "unidad"
+    },
+    {
+      "id": "zanahoria",
+      "cantidad": 3,
+      "unidad": "unidad"
+    },
+    {
+      "id": "ajo",
+      "cantidad": 2,
+      "unidad": "diente"
+    },
+    {
+      "id": "tomate-triturado",
+      "cantidad": 200,
+      "unidad": "g"
+    },
+    {
+      "id": "vino-blanco",
+      "cantidad": 150,
+      "unidad": "ml",
+      "alternativas": [
+        {
+          "por": [
+            {
+              "id": "caldo-verduras",
+              "cantidad": 150,
+              "unidad": "ml"
+            }
+          ]
+        },
+        {
+          "por": [
+            {
+              "id": "agua",
+              "cantidad": 150,
+              "unidad": "ml"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "patata",
+      "cantidad": 600,
+      "unidad": "g"
+    },
+    {
+      "id": "laurel",
+      "cantidad": 0,
+      "unidad": "al-gusto"
+    },
+    {
+      "id": "aceite-oliva",
+      "cantidad": 4,
+      "unidad": "cucharada"
+    },
+    {
+      "id": "caldo-verduras",
+      "cantidad": 500,
+      "unidad": "ml",
+      "alternativas": [
+        {
+          "por": [
+            {
+              "id": "agua",
+              "cantidad": 500,
+              "unidad": "ml"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sal",
+      "cantidad": 0,
+      "unidad": "al-gusto"
+    }
+  ],
+  "pasos": [
+    {
+      "texto": "Sala {ternera-guisar} y dórala por tandas en una cazuela con el aceite. Retírala.",
+      "temporizadorSeg": 480,
+      "tecnica": "guisar"
+    },
+    {
+      "texto": "En la misma cazuela, sofríe la cebolla, la zanahoria y el ajo picados.",
+      "temporizadorSeg": 600,
+      "tecnica": "sofreir"
+    },
+    {
+      "texto": "Añade el tomate y {vino-blanco}, y deja que se evapore un poco.",
+      "temporizadorSeg": 300
+    },
+    {
+      "texto": "Vuelve a poner {ternera-guisar}, cubre con {caldo-verduras}, añade el laurel, tapa y cuece a fuego bajo.",
+      "temporizadorSeg": 4500,
+      "tecnica": "guisar"
+    },
+    {
+      "texto": "Añade las patatas en trozos y cuece hasta que estén tiernas.",
+      "temporizadorSeg": 1500
+    }
+  ]
+}

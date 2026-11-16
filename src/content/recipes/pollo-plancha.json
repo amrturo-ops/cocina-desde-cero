@@ -1,0 +1,134 @@
+{
+  "id": "pollo-plancha",
+  "titulo": "Pollo a la plancha con ensalada",
+  "nivel": "novato",
+  "tecnicas": [
+    "plancha",
+    "ensalada-completa"
+  ],
+  "raciones": 2,
+  "tiempoMin": 20,
+  "dificultad": 2,
+  "momentos": [
+    "comida",
+    "cena"
+  ],
+  "sobras": {
+    "apta": true,
+    "dias": 2
+  },
+  "descripcion": "Aprende a dejar el pollo jugoso de una vez por todas.",
+  "ingredientes": [
+    {
+      "id": "pechuga-pollo",
+      "cantidad": 300,
+      "unidad": "g",
+      "alternativas": [
+        {
+          "por": [
+            {
+              "id": "tofu",
+              "cantidad": 300,
+              "unidad": "g"
+            }
+          ],
+          "titulo": "Tofu a la plancha con ensalada",
+          "pasos": [
+            {
+              "indice": 0,
+              "texto": "Corta el tofu en filetes de 1 cm, sécalo muy bien con papel y sálalo."
+            },
+            {
+              "indice": 2,
+              "texto": "Pon el tofu en la plancha y no lo muevas hasta que esté dorado.",
+              "temporizadorSeg": 240
+            },
+            {
+              "indice": 3,
+              "texto": "Dale la vuelta y dora el otro lado.",
+              "temporizadorSeg": 240
+            }
+          ]
+        },
+        {
+          "por": [
+            {
+              "id": "berenjena",
+              "cantidad": 1,
+              "unidad": "unidad"
+            }
+          ],
+          "titulo": "Berenjena a la plancha con ensalada",
+          "pasos": [
+            {
+              "indice": 0,
+              "texto": "Corta la berenjena en rodajas de 1 cm, úntalas con un poco de aceite y sal."
+            },
+            {
+              "indice": 2,
+              "texto": "Pon las rodajas en la plancha sin amontonar y no las muevas hasta que estén doradas.",
+              "temporizadorSeg": 240
+            },
+            {
+              "indice": 3,
+              "texto": "Dales la vuelta y dora el otro lado hasta que estén tiernas por dentro.",
+              "temporizadorSeg": 240
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lechuga",
+      "cantidad": 0.5,
+      "unidad": "unidad"
+    },
+    {
+      "id": "tomate",
+      "cantidad": 1,
+      "unidad": "unidad"
+    },
+    {
+      "id": "limon",
+      "cantidad": 0.5,
+      "unidad": "unidad"
+    },
+    {
+      "id": "aceite-oliva",
+      "cantidad": 3,
+      "unidad": "cucharada"
+    },
+    {
+      "id": "sal",
+      "cantidad": 0,
+      "unidad": "al-gusto"
+    },
+    {
+      "id": "pimienta-negra",
+      "cantidad": 0,
+      "unidad": "al-gusto"
+    }
+  ],
+  "pasos": [
+    {
+      "texto": "Abre las pechugas en filetes finos (o pídeselo al carnicero), sécalas y salpimiéntalas.",
+      "tecnica": "plancha"
+    },
+    {
+      "texto": "Calienta una sartén a fuego medio-alto con una cucharada de aceite."
+    },
+    {
+      "texto": "Pon el pollo y no lo muevas.",
+      "temporizadorSeg": 240,
+      "tecnica": "plancha"
+    },
+    {
+      "texto": "Dale la vuelta. Antes de servir, corta el trozo más grueso: no tiene que quedar nada rosa.",
+      "temporizadorSeg": 240
+    },
+    {
+      "texto": "Mientras, prepara una ensalada con la lechuga y el tomate y alíñala con aceite, limón y sal.",
+      "tecnica": "ensalada-completa"
+    }
+  ]
+}

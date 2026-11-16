@@ -1,0 +1,114 @@
+{
+  "id": "noquis",
+  "titulo": "Ñoquis de patata",
+  "nivel": "cocinillas",
+  "tecnicas": [
+    "pasta-fresca"
+  ],
+  "raciones": 4,
+  "tiempoMin": 60,
+  "dificultad": 2,
+  "momentos": [
+    "comida",
+    "cena"
+  ],
+  "sobras": {
+    "apta": false,
+    "dias": 0
+  },
+  "descripcion": "Pasta de patata, suave como una nube.",
+  "ingredientes": [
+    {
+      "id": "patata",
+      "cantidad": 800,
+      "unidad": "g"
+    },
+    {
+      "id": "harina-trigo",
+      "cantidad": 200,
+      "unidad": "g",
+      "alternativas": [
+        {
+          "por": [
+            {
+              "id": "harina-sg",
+              "cantidad": 200,
+              "unidad": "g"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "huevo",
+      "cantidad": 1,
+      "unidad": "unidad",
+      "alternativas": [
+        {
+          "por": []
+        }
+      ]
+    },
+    {
+      "id": "tomate-triturado",
+      "cantidad": 300,
+      "unidad": "g"
+    },
+    {
+      "id": "queso-parmesano",
+      "cantidad": 40,
+      "unidad": "g",
+      "alternativas": [
+        {
+          "por": [
+            {
+              "id": "queso-sin-lactosa",
+              "cantidad": 40,
+              "unidad": "g"
+            }
+          ]
+        },
+        {
+          "por": [
+            {
+              "id": "levadura-nutricional",
+              "cantidad": 4,
+              "unidad": "cucharada"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "aceite-oliva",
+      "cantidad": 2,
+      "unidad": "cucharada"
+    },
+    {
+      "id": "sal",
+      "cantidad": 0,
+      "unidad": "al-gusto"
+    }
+  ],
+  "pasos": [
+    {
+      "texto": "Cuece las patatas con piel hasta que estén tiernas.",
+      "temporizadorSeg": 1800
+    },
+    {
+      "texto": "Pélalas en caliente, aplástalas y mézclalas con {harina-trigo}, {huevo} y sal hasta tener una masa suave que no se pegue.",
+      "tecnica": "pasta-fresca"
+    },
+    {
+      "texto": "Haz cilindros y córtalos en trocitos de 2 cm. Márcalos con un tenedor.",
+      "tecnica": "pasta-fresca"
+    },
+    {
+      "texto": "Cuécelos en agua con sal: están cuando suben a la superficie.",
+      "temporizadorSeg": 120
+    },
+    {
+      "texto": "Sírvelos con tomate caliente y {queso-parmesano}."
+    }
+  ]
+}

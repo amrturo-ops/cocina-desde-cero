@@ -1,0 +1,104 @@
+{
+  "id": "filete-chimichurri",
+  "titulo": "Filete de ternera con chimichurri",
+  "nivel": "cocinillas",
+  "tecnicas": [
+    "sellar-carne"
+  ],
+  "raciones": 2,
+  "tiempoMin": 25,
+  "dificultad": 2,
+  "momentos": [
+    "cena"
+  ],
+  "sobras": {
+    "apta": false,
+    "dias": 0
+  },
+  "descripcion": "Salsa argentina de perejil y ajo sobre carne a la plancha.",
+  "ingredientes": [
+    {
+      "id": "filete-ternera",
+      "cantidad": 500,
+      "unidad": "g",
+      "alternativas": [
+        {
+          "por": [
+            {
+              "id": "berenjena",
+              "cantidad": 2,
+              "unidad": "unidad"
+            }
+          ],
+          "titulo": "Berenjena con chimichurri"
+        }
+      ]
+    },
+    {
+      "id": "perejil",
+      "cantidad": 1,
+      "unidad": "manojo"
+    },
+    {
+      "id": "ajo",
+      "cantidad": 2,
+      "unidad": "diente"
+    },
+    {
+      "id": "oregano",
+      "cantidad": 0,
+      "unidad": "al-gusto"
+    },
+    {
+      "id": "vinagre",
+      "cantidad": 2,
+      "unidad": "cucharada",
+      "alternativas": [
+        {
+          "por": [
+            {
+              "id": "limon",
+              "cantidad": 1,
+              "unidad": "unidad"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "aceite-oliva",
+      "cantidad": 6,
+      "unidad": "cucharada"
+    },
+    {
+      "id": "guindilla",
+      "cantidad": 0,
+      "unidad": "al-gusto"
+    },
+    {
+      "id": "sal",
+      "cantidad": 0,
+      "unidad": "al-gusto"
+    }
+  ],
+  "pasos": [
+    {
+      "texto": "Pica muy fino el perejil y el ajo y mézclalos con el aceite, {vinagre}, orégano, guindilla y sal. Deja reposar.",
+      "temporizadorSeg": 900
+    },
+    {
+      "texto": "Seca {filete-ternera}, sálalo y séllalo en la sartén muy caliente.",
+      "temporizadorSeg": 120,
+      "tecnica": "sellar-carne"
+    },
+    {
+      "texto": "Dale la vuelta y deja al punto que prefieras.",
+      "temporizadorSeg": 120,
+      "tecnica": "sellar-carne"
+    },
+    {
+      "texto": "Deja reposar y sirve con el chimichurri por encima.",
+      "temporizadorSeg": 180
+    }
+  ]
+}

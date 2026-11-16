@@ -1,0 +1,115 @@
+{
+  "id": "hamburguesa-casera",
+  "titulo": "Hamburguesa casera",
+  "nivel": "cocinillas",
+  "tecnicas": [
+    "sellar-carne"
+  ],
+  "raciones": 4,
+  "tiempoMin": 30,
+  "dificultad": 2,
+  "momentos": [
+    "cena"
+  ],
+  "sobras": {
+    "apta": false,
+    "dias": 0
+  },
+  "descripcion": "Carne picada bien sazonada y bien hecha por dentro.",
+  "ingredientes": [
+    {
+      "id": "carne-picada",
+      "cantidad": 500,
+      "unidad": "g"
+    },
+    {
+      "id": "pan",
+      "cantidad": 300,
+      "unidad": "g",
+      "alternativas": [
+        {
+          "por": [
+            {
+              "id": "pan-sin-gluten",
+              "cantidad": 300,
+              "unidad": "g"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cebolla",
+      "cantidad": 0.5,
+      "unidad": "unidad"
+    },
+    {
+      "id": "tomate",
+      "cantidad": 1,
+      "unidad": "unidad"
+    },
+    {
+      "id": "lechuga",
+      "cantidad": 0.5,
+      "unidad": "unidad"
+    },
+    {
+      "id": "queso-tierno",
+      "cantidad": 80,
+      "unidad": "g",
+      "alternativas": [
+        {
+          "por": [
+            {
+              "id": "queso-sin-lactosa",
+              "cantidad": 80,
+              "unidad": "g"
+            }
+          ]
+        },
+        {
+          "por": [
+            {
+              "id": "levadura-nutricional",
+              "cantidad": 4,
+              "unidad": "cucharada"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sal",
+      "cantidad": 0,
+      "unidad": "al-gusto"
+    },
+    {
+      "id": "pimienta-negra",
+      "cantidad": 0,
+      "unidad": "al-gusto"
+    },
+    {
+      "id": "aceite-oliva",
+      "cantidad": 1,
+      "unidad": "cucharada"
+    }
+  ],
+  "pasos": [
+    {
+      "texto": "Sazona la carne con sal y pimienta y forma 4 hamburguesas sin apretar demasiado. Haz un hoyito en el centro con el pulgar: así no se abomban."
+    },
+    {
+      "texto": "Séllalas en la sartén muy caliente.",
+      "temporizadorSeg": 180,
+      "tecnica": "sellar-carne"
+    },
+    {
+      "texto": "Dales la vuelta, pon {queso-tierno} encima y termina a fuego medio. La carne picada debe quedar bien hecha, sin rosa en el centro.",
+      "temporizadorSeg": 240,
+      "tecnica": "sellar-carne"
+    },
+    {
+      "texto": "Tuesta {pan} y monta con lechuga, tomate y cebolla."
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "id": "salmon-plancha",
+  "titulo": "Salmón a la plancha con limón",
+  "nivel": "novato",
+  "tecnicas": [
+    "plancha"
+  ],
+  "raciones": 2,
+  "tiempoMin": 15,
+  "dificultad": 2,
+  "momentos": [
+    "comida",
+    "cena"
+  ],
+  "sobras": {
+    "apta": false,
+    "dias": 0
+  },
+  "descripcion": "Pescado sin miedo: la piel crujiente hace casi todo el trabajo.",
+  "ingredientes": [
+    {
+      "id": "salmon",
+      "cantidad": 300,
+      "unidad": "g",
+      "alternativas": [
+        {
+          "por": [
+            {
+              "id": "tofu",
+              "cantidad": 300,
+              "unidad": "g"
+            },
+            {
+              "id": "tamari",
+              "cantidad": 1,
+              "unidad": "cucharada"
+            }
+          ],
+          "titulo": "Tofu a la plancha con limón",
+          "pasos": [
+            {
+              "indice": 0,
+              "texto": "Corta el tofu en filetes, sécalo bien y úntalo con el tamari."
+            },
+            {
+              "indice": 1,
+              "texto": "Pon el tofu en la sartén caliente y dóralo sin moverlo.",
+              "temporizadorSeg": 240
+            },
+            {
+              "indice": 2,
+              "texto": "Dale la vuelta y dora el otro lado.",
+              "temporizadorSeg": 240
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "limon",
+      "cantidad": 1,
+      "unidad": "unidad"
+    },
+    {
+      "id": "perejil",
+      "cantidad": 0.25,
+      "unidad": "manojo"
+    },
+    {
+      "id": "aceite-oliva",
+      "cantidad": 1,
+      "unidad": "cucharada"
+    },
+    {
+      "id": "sal",
+      "cantidad": 0,
+      "unidad": "al-gusto"
+    }
+  ],
+  "pasos": [
+    {
+      "texto": "Seca los lomos con papel y sálalos.",
+      "tecnica": "plancha"
+    },
+    {
+      "texto": "Ponlos en la sartén caliente con la piel hacia abajo y no los muevas.",
+      "temporizadorSeg": 300,
+      "tecnica": "plancha"
+    },
+    {
+      "texto": "Dales la vuelta y deja 2 minutos más: por dentro debe quedar jugoso y de color rosa pálido.",
+      "temporizadorSeg": 120
+    },
+    {
+      "texto": "Sirve con zumo de limón y perejil picado."
+    }
+  ]
+}

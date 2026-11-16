@@ -1,0 +1,88 @@
+{
+  "id": "pimientos-rellenos",
+  "titulo": "Pimientos rellenos de carne y arroz",
+  "nivel": "cocinillas",
+  "tecnicas": [
+    "rellenar",
+    "horno-basico"
+  ],
+  "raciones": 4,
+  "tiempoMin": 70,
+  "dificultad": 3,
+  "momentos": [
+    "comida"
+  ],
+  "sobras": {
+    "apta": true,
+    "dias": 3
+  },
+  "descripcion": "Un plato de fiesta que se prepara con antelación.",
+  "ingredientes": [
+    {
+      "id": "pimiento-rojo",
+      "cantidad": 4,
+      "unidad": "unidad"
+    },
+    {
+      "id": "carne-picada",
+      "cantidad": 400,
+      "unidad": "g",
+      "alternativas": [
+        {
+          "por": [
+            {
+              "id": "lentejas-cocidas",
+              "cantidad": 1,
+              "unidad": "bote"
+            }
+          ],
+          "titulo": "Pimientos rellenos de lentejas y arroz"
+        }
+      ]
+    },
+    {
+      "id": "arroz",
+      "cantidad": 100,
+      "unidad": "g"
+    },
+    {
+      "id": "cebolla",
+      "cantidad": 1,
+      "unidad": "unidad"
+    },
+    {
+      "id": "tomate-triturado",
+      "cantidad": 300,
+      "unidad": "g"
+    },
+    {
+      "id": "aceite-oliva",
+      "cantidad": 3,
+      "unidad": "cucharada"
+    },
+    {
+      "id": "sal",
+      "cantidad": 0,
+      "unidad": "al-gusto"
+    }
+  ],
+  "pasos": [
+    {
+      "texto": "Cuece el arroz en agua con sal 10 minutos (quedará a medio hacer) y escúrrelo.",
+      "temporizadorSeg": 600
+    },
+    {
+      "texto": "Sofríe la cebolla picada, añade {carne-picada} y cocina. Añade la mitad del tomate y el arroz.",
+      "temporizadorSeg": 600
+    },
+    {
+      "texto": "Corta la parte de arriba de los pimientos, quita las semillas y rellénalos sin apretar.",
+      "tecnica": "rellenar"
+    },
+    {
+      "texto": "Ponlos de pie en una fuente con el resto del tomate alrededor, tápalos con su sombrerito y hornea a 190 °C.",
+      "temporizadorSeg": 2700,
+      "tecnica": "horno-basico"
+    }
+  ]
+}

@@ -1,0 +1,119 @@
+{
+  "id": "pasta-calabacin-limon",
+  "titulo": "Pasta con calabacín y limón",
+  "nivel": "novato",
+  "tecnicas": [
+    "cocer-pasta",
+    "sofreir"
+  ],
+  "raciones": 2,
+  "tiempoMin": 20,
+  "momentos": [
+    "comida",
+    "cena"
+  ],
+  "sobras": {
+    "apta": true,
+    "dias": 1
+  },
+  "descripcion": "Ligera y fresca. Ideal para cenar.",
+  "ingredientes": [
+    {
+      "id": "pasta-trigo",
+      "cantidad": 200,
+      "unidad": "g",
+      "alternativas": [
+        {
+          "por": [
+            {
+              "id": "pasta-sin-gluten",
+              "cantidad": 200,
+              "unidad": "g"
+            }
+          ],
+          "pasos": [
+            {
+              "indice": 0,
+              "texto": "Cuece la pasta sin gluten en agua con sal. Pruébala 2 minutos antes de lo que diga el paquete.",
+              "temporizadorSeg": 480
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "calabacin",
+      "cantidad": 1,
+      "unidad": "unidad"
+    },
+    {
+      "id": "ajo",
+      "cantidad": 1,
+      "unidad": "diente"
+    },
+    {
+      "id": "limon",
+      "cantidad": 1,
+      "unidad": "unidad"
+    },
+    {
+      "id": "queso-parmesano",
+      "cantidad": 30,
+      "unidad": "g",
+      "alternativas": [
+        {
+          "por": [
+            {
+              "id": "queso-sin-lactosa",
+              "cantidad": 30,
+              "unidad": "g"
+            }
+          ]
+        },
+        {
+          "por": [
+            {
+              "id": "levadura-nutricional",
+              "cantidad": 2,
+              "unidad": "cucharada"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "aceite-oliva",
+      "cantidad": 3,
+      "unidad": "cucharada"
+    },
+    {
+      "id": "sal",
+      "cantidad": 0,
+      "unidad": "al-gusto"
+    },
+    {
+      "id": "pimienta-negra",
+      "cantidad": 0,
+      "unidad": "al-gusto"
+    }
+  ],
+  "pasos": [
+    {
+      "texto": "Cuece la pasta en agua con sal el tiempo del paquete.",
+      "temporizadorSeg": 540,
+      "tecnica": "cocer-pasta"
+    },
+    {
+      "texto": "Mientras, corta el calabacín en dados pequeños y sofríelo con el ajo picado.",
+      "temporizadorSeg": 420,
+      "tecnica": "sofreir"
+    },
+    {
+      "texto": "Ralla la piel del limón (solo la parte amarilla) y exprime la mitad."
+    },
+    {
+      "texto": "Mezcla la pasta escurrida con el calabacín, la ralladura, el zumo, el queso y pimienta."
+    }
+  ],
+  "dificultad": 1
+}

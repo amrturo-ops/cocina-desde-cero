@@ -1,0 +1,141 @@
+{
+  "id": "raviolis-espinacas",
+  "titulo": "Raviolis de espinacas y queso",
+  "nivel": "cocinillas",
+  "tecnicas": [
+    "pasta-fresca",
+    "rellenar"
+  ],
+  "raciones": 4,
+  "tiempoMin": 90,
+  "dificultad": 3,
+  "momentos": [
+    "comida",
+    "cena"
+  ],
+  "sobras": {
+    "apta": false,
+    "dias": 0
+  },
+  "descripcion": "Pequeños paquetes rellenos, hechos uno a uno.",
+  "ingredientes": [
+    {
+      "id": "harina-trigo",
+      "cantidad": 300,
+      "unidad": "g",
+      "alternativas": [
+        {
+          "por": [
+            {
+              "id": "harina-sg",
+              "cantidad": 300,
+              "unidad": "g"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "huevo",
+      "cantidad": 3,
+      "unidad": "unidad",
+      "alternativas": [
+        {
+          "por": [
+            {
+              "id": "agua",
+              "cantidad": 150,
+              "unidad": "ml"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "espinacas",
+      "cantidad": 300,
+      "unidad": "g"
+    },
+    {
+      "id": "queso-fresco",
+      "cantidad": 200,
+      "unidad": "g",
+      "alternativas": [
+        {
+          "por": [
+            {
+              "id": "queso-sin-lactosa",
+              "cantidad": 200,
+              "unidad": "g"
+            }
+          ]
+        },
+        {
+          "por": [
+            {
+              "id": "levadura-nutricional",
+              "cantidad": 4,
+              "unidad": "cucharada"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mantequilla",
+      "cantidad": 3,
+      "unidad": "cucharada",
+      "alternativas": [
+        {
+          "por": [
+            {
+              "id": "aceite-oliva",
+              "cantidad": 3,
+              "unidad": "cucharada"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "nuez-moscada",
+      "cantidad": 0,
+      "unidad": "al-gusto"
+    },
+    {
+      "id": "sal",
+      "cantidad": 0,
+      "unidad": "al-gusto"
+    }
+  ],
+  "pasos": [
+    {
+      "texto": "Haz un volcán con la harina, casca {huevo} en el centro y bate con un tenedor incorporando la harina poco a poco.",
+      "tecnica": "pasta-fresca"
+    },
+    {
+      "texto": "Amasa hasta que esté lisa y elástica, tapa y deja reposar.",
+      "temporizadorSeg": 1800,
+      "tecnica": "pasta-fresca"
+    },
+    {
+      "texto": "Estira la masa muy fina con un rodillo, enharinando para que no se pegue.",
+      "tecnica": "pasta-fresca"
+    },
+    {
+      "texto": "Saltea las espinacas, escúrrelas muy bien, pícalas y mézclalas con {queso-fresco}, sal y nuez moscada.",
+      "temporizadorSeg": 300
+    },
+    {
+      "texto": "Pon montoncitos de relleno sobre una lámina, cubre con otra y presiona alrededor para sacar el aire. Corta los raviolis.",
+      "tecnica": "rellenar"
+    },
+    {
+      "texto": "Cuécelos en agua con sal hasta que floten.",
+      "temporizadorSeg": 180
+    },
+    {
+      "texto": "Sírvelos con {mantequilla} fundida."
+    }
+  ]
+}

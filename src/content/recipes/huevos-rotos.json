@@ -1,0 +1,83 @@
+{
+  "id": "huevos-rotos",
+  "titulo": "Huevos rotos con pimientos",
+  "nivel": "novato",
+  "tecnicas": [
+    "hacer-huevos",
+    "sofreir"
+  ],
+  "raciones": 2,
+  "tiempoMin": 35,
+  "momentos": [
+    "comida",
+    "cena"
+  ],
+  "sobras": {
+    "apta": false,
+    "dias": 0
+  },
+  "descripcion": "Un capricho de bar hecho en casa.",
+  "ingredientes": [
+    {
+      "id": "patata",
+      "cantidad": 400,
+      "unidad": "g"
+    },
+    {
+      "id": "pimiento-verde",
+      "cantidad": 2,
+      "unidad": "unidad"
+    },
+    {
+      "id": "huevo",
+      "cantidad": 3,
+      "unidad": "unidad",
+      "alternativas": [
+        {
+          "por": [],
+          "titulo": "Patatas con pimientos",
+          "pasos": [
+            {
+              "indice": 2,
+              "quitar": true
+            },
+            {
+              "indice": 3,
+              "texto": "Sirve las patatas con los pimientos por encima."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "aceite-oliva",
+      "cantidad": 120,
+      "unidad": "ml"
+    },
+    {
+      "id": "sal",
+      "cantidad": 0,
+      "unidad": "al-gusto"
+    }
+  ],
+  "pasos": [
+    {
+      "texto": "Pela las patatas, córtalas en bastones finos y fríelas a fuego medio en el aceite, removiendo, hasta que estén doradas.",
+      "temporizadorSeg": 900,
+      "tecnica": "sofreir"
+    },
+    {
+      "texto": "Retíralas y fríe en el mismo aceite los pimientos en tiras.",
+      "temporizadorSeg": 300
+    },
+    {
+      "texto": "Fríe los huevos de uno en uno, echando aceite por encima con una cuchara.",
+      "temporizadorSeg": 90,
+      "tecnica": "hacer-huevos"
+    },
+    {
+      "texto": "Pon las patatas con los pimientos, los huevos encima y rómpelos con el tenedor al servir."
+    }
+  ],
+  "dificultad": 3
+}

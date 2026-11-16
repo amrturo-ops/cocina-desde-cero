@@ -1,0 +1,61 @@
+{
+  "id": "dorada-sal",
+  "titulo": "Dorada a la sal",
+  "nivel": "cocinillas",
+  "tecnicas": [
+    "pescado-entero",
+    "horno-basico"
+  ],
+  "raciones": 4,
+  "tiempoMin": 40,
+  "dificultad": 2,
+  "momentos": [
+    "comida",
+    "cena"
+  ],
+  "sobras": {
+    "apta": false,
+    "dias": 0
+  },
+  "descripcion": "Una costra de sal que se rompe en la mesa: jugosísima y nada salada.",
+  "ingredientes": [
+    {
+      "id": "dorada",
+      "cantidad": 2,
+      "unidad": "unidad"
+    },
+    {
+      "id": "sal",
+      "cantidad": 0,
+      "unidad": "al-gusto"
+    },
+    {
+      "id": "limon",
+      "cantidad": 1,
+      "unidad": "unidad"
+    },
+    {
+      "id": "aceite-oliva",
+      "cantidad": 2,
+      "unidad": "cucharada"
+    }
+  ],
+  "pasos": [
+    {
+      "texto": "Precalienta el horno a 200 °C.",
+      "temporizadorSeg": 600
+    },
+    {
+      "texto": "Pon una capa de sal gruesa (unos 2 kg) humedecida con un poco de agua en la bandeja, la dorada encima (sin quitarle las escamas) y cúbrela por completo con más sal.",
+      "tecnica": "pescado-entero"
+    },
+    {
+      "texto": "Hornea.",
+      "temporizadorSeg": 1500,
+      "tecnica": "pescado-entero"
+    },
+    {
+      "texto": "Rompe la costra, retira la piel y sirve con aceite y limón."
+    }
+  ]
+}

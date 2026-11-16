@@ -1,0 +1,105 @@
+{
+  "id": "ensalada-alubias",
+  "titulo": "Ensalada de alubias",
+  "nivel": "novato",
+  "tecnicas": [
+    "legumbre-bote",
+    "ensalada-completa",
+    "cortar-cebolla"
+  ],
+  "raciones": 2,
+  "tiempoMin": 10,
+  "momentos": [
+    "comida"
+  ],
+  "sobras": {
+    "apta": true,
+    "dias": 2
+  },
+  "descripcion": "Proteína y verdura sin encender el fuego.",
+  "ingredientes": [
+    {
+      "id": "alubias-cocidas",
+      "cantidad": 1,
+      "unidad": "bote"
+    },
+    {
+      "id": "tomate",
+      "cantidad": 1,
+      "unidad": "unidad"
+    },
+    {
+      "id": "pimiento-verde",
+      "cantidad": 0.5,
+      "unidad": "unidad"
+    },
+    {
+      "id": "cebolla-morada",
+      "cantidad": 0.25,
+      "unidad": "unidad"
+    },
+    {
+      "id": "atun-lata",
+      "cantidad": 1,
+      "unidad": "lata",
+      "alternativas": [
+        {
+          "por": [],
+          "pasos": [
+            {
+              "indice": 3,
+              "quitar": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "aceite-oliva",
+      "cantidad": 3,
+      "unidad": "cucharada"
+    },
+    {
+      "id": "vinagre",
+      "cantidad": 1,
+      "unidad": "cucharada",
+      "alternativas": [
+        {
+          "por": [
+            {
+              "id": "limon",
+              "cantidad": 0.5,
+              "unidad": "unidad"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sal",
+      "cantidad": 0,
+      "unidad": "al-gusto"
+    }
+  ],
+  "pasos": [
+    {
+      "texto": "Escurre las alubias y enjuágalas.",
+      "tecnica": "legumbre-bote"
+    },
+    {
+      "texto": "Pica la cebolla, el tomate y el pimiento en dados pequeños.",
+      "tecnica": "cortar-cebolla"
+    },
+    {
+      "texto": "Mezcla todo en un bol."
+    },
+    {
+      "texto": "Añade el atún escurrido."
+    },
+    {
+      "texto": "Aliña con aceite, vinagre y sal.",
+      "tecnica": "ensalada-completa"
+    }
+  ],
+  "dificultad": 1
+}

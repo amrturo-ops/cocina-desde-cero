@@ -1,0 +1,87 @@
+{
+  "id": "pisto-rapido",
+  "titulo": "Pisto rápido",
+  "nivel": "novato",
+  "tecnicas": [
+    "cortar-cebolla",
+    "sofreir"
+  ],
+  "raciones": 2,
+  "tiempoMin": 35,
+  "dificultad": 2,
+  "momentos": [
+    "comida",
+    "cena"
+  ],
+  "sobras": {
+    "apta": true,
+    "dias": 3
+  },
+  "descripcion": "Verduras pochadas con tomate. Perfecto con pan, arroz o un huevo a la plancha.",
+  "ingredientes": [
+    {
+      "id": "cebolla",
+      "cantidad": 1,
+      "unidad": "unidad"
+    },
+    {
+      "id": "ajo",
+      "cantidad": 1,
+      "unidad": "diente"
+    },
+    {
+      "id": "pimiento-verde",
+      "cantidad": 1,
+      "unidad": "unidad"
+    },
+    {
+      "id": "calabacin",
+      "cantidad": 1,
+      "unidad": "unidad"
+    },
+    {
+      "id": "tomate-triturado",
+      "cantidad": 400,
+      "unidad": "g"
+    },
+    {
+      "id": "aceite-oliva",
+      "cantidad": 3,
+      "unidad": "cucharada"
+    },
+    {
+      "id": "sal",
+      "cantidad": 0,
+      "unidad": "al-gusto"
+    }
+  ],
+  "pasos": [
+    {
+      "texto": "Pica la cebolla y el ajo en trozos pequeños.",
+      "tecnica": "cortar-cebolla"
+    },
+    {
+      "texto": "Corta el pimiento y el calabacín en dados de 1 cm."
+    },
+    {
+      "texto": "Calienta el aceite a fuego medio y añade la cebolla y el ajo. Remueve de vez en cuando hasta que estén transparentes.",
+      "temporizadorSeg": 300,
+      "tecnica": "sofreir"
+    },
+    {
+      "texto": "Añade el pimiento y sigue removiendo de vez en cuando.",
+      "temporizadorSeg": 300
+    },
+    {
+      "texto": "Añade el calabacín y una pizca de sal.",
+      "temporizadorSeg": 300
+    },
+    {
+      "texto": "Echa el tomate, baja el fuego y deja que espese, removiendo de vez en cuando.",
+      "temporizadorSeg": 900
+    },
+    {
+      "texto": "Prueba y ajusta de sal. ¡Listo!"
+    }
+  ]
+}

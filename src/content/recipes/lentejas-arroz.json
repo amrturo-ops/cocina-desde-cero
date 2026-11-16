@@ -1,0 +1,74 @@
+{
+  "id": "lentejas-arroz",
+  "titulo": "Lentejas con arroz",
+  "nivel": "basico",
+  "tecnicas": [
+    "legumbre-seca",
+    "arroz-blanco"
+  ],
+  "raciones": 4,
+  "tiempoMin": 50,
+  "dificultad": 1,
+  "momentos": [
+    "comida",
+    "cena"
+  ],
+  "sobras": {
+    "apta": true,
+    "dias": 3
+  },
+  "descripcion": "Proteína completa, barata y muy fácil.",
+  "ingredientes": [
+    {
+      "id": "lentejas-secas",
+      "cantidad": 250,
+      "unidad": "g"
+    },
+    {
+      "id": "arroz",
+      "cantidad": 150,
+      "unidad": "g"
+    },
+    {
+      "id": "cebolla",
+      "cantidad": 1,
+      "unidad": "unidad"
+    },
+    {
+      "id": "zanahoria",
+      "cantidad": 1,
+      "unidad": "unidad"
+    },
+    {
+      "id": "comino",
+      "cantidad": 0,
+      "unidad": "al-gusto"
+    },
+    {
+      "id": "aceite-oliva",
+      "cantidad": 3,
+      "unidad": "cucharada"
+    },
+    {
+      "id": "sal",
+      "cantidad": 0,
+      "unidad": "al-gusto"
+    }
+  ],
+  "pasos": [
+    {
+      "texto": "Lava las lentejas y cuécelas en agua con la cebolla y la zanahoria picadas.",
+      "temporizadorSeg": 1500,
+      "tecnica": "legumbre-seca"
+    },
+    {
+      "texto": "Añade el arroz, sal, comino y un poco más de agua si hace falta.",
+      "temporizadorSeg": 1080,
+      "tecnica": "arroz-blanco"
+    },
+    {
+      "texto": "Deja reposar tapado y termina con un chorrito de aceite.",
+      "temporizadorSeg": 300
+    }
+  ]
+}

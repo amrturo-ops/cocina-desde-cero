@@ -1,0 +1,106 @@
+{
+  "id": "ternera-brocoli",
+  "titulo": "Ternera con brócoli",
+  "nivel": "basico",
+  "tecnicas": [
+    "saltear-wok"
+  ],
+  "raciones": 4,
+  "tiempoMin": 25,
+  "dificultad": 2,
+  "momentos": [
+    "comida",
+    "cena"
+  ],
+  "sobras": {
+    "apta": true,
+    "dias": 1
+  },
+  "descripcion": "El clásico de restaurante oriental, más sencillo de lo que parece.",
+  "ingredientes": [
+    {
+      "id": "filete-ternera",
+      "cantidad": 400,
+      "unidad": "g",
+      "alternativas": [
+        {
+          "por": [
+            {
+              "id": "tofu",
+              "cantidad": 400,
+              "unidad": "g"
+            }
+          ],
+          "titulo": "Tofu con brócoli"
+        }
+      ]
+    },
+    {
+      "id": "brocoli",
+      "cantidad": 400,
+      "unidad": "g"
+    },
+    {
+      "id": "ajo",
+      "cantidad": 2,
+      "unidad": "diente"
+    },
+    {
+      "id": "jengibre",
+      "cantidad": 10,
+      "unidad": "g"
+    },
+    {
+      "id": "salsa-soja",
+      "cantidad": 4,
+      "unidad": "cucharada",
+      "alternativas": [
+        {
+          "por": [
+            {
+              "id": "tamari",
+              "cantidad": 4,
+              "unidad": "cucharada"
+            }
+          ]
+        },
+        {
+          "por": []
+        }
+      ]
+    },
+    {
+      "id": "maicena",
+      "cantidad": 1,
+      "unidad": "cucharada"
+    },
+    {
+      "id": "aceite-oliva",
+      "cantidad": 3,
+      "unidad": "cucharada"
+    }
+  ],
+  "pasos": [
+    {
+      "texto": "Corta {filete-ternera} en tiras finas."
+    },
+    {
+      "texto": "Cuece el brócoli en ramilletes 2 minutos y escúrrelo.",
+      "temporizadorSeg": 120
+    },
+    {
+      "texto": "Saltea {filete-ternera} a fuego muy fuerte, por tandas. Retira.",
+      "temporizadorSeg": 180,
+      "tecnica": "saltear-wok"
+    },
+    {
+      "texto": "Saltea el ajo y el jengibre, añade el brócoli y vuelve a añadir {filete-ternera}.",
+      "temporizadorSeg": 120,
+      "tecnica": "saltear-wok"
+    },
+    {
+      "texto": "Mezcla la salsa con la maicena y un poco de agua, échala y remueve hasta que brille.",
+      "temporizadorSeg": 60
+    }
+  ]
+}

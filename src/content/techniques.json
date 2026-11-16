@@ -1,0 +1,703 @@
+[
+  {
+    "id": "cortar-cebolla",
+    "nivel": "novato",
+    "orden": 1,
+    "titulo": "Cortar cebolla",
+    "resumen": "La base de casi todo: juliana y picado sin cortarte (y llorando lo mínimo).",
+    "pasos": [
+      {
+        "texto": "Corta la cebolla por la mitad, de arriba abajo, pasando por la raíz.",
+        "imagen": "media/cortar-cebolla/1.webp"
+      },
+      {
+        "texto": "Quita la piel, pero deja la raíz: es lo que mantiene la cebolla unida mientras cortas.",
+        "imagen": "media/cortar-cebolla/2.webp"
+      },
+      {
+        "texto": "Mano en garra: dobla los dedos hacia dentro y apoya el cuchillo en los nudillos. Así no te cortas.",
+        "imagen": "media/cortar-cebolla/3.webp"
+      },
+      {
+        "texto": "Juliana: con la parte plana abajo, corta tiras finas siguiendo las líneas de la cebolla.",
+        "imagen": "media/cortar-cebolla/4.webp"
+      },
+      {
+        "texto": "Picado: haz cortes verticales sin llegar a la raíz y luego corta en perpendicular.",
+        "imagen": "media/cortar-cebolla/5.webp"
+      },
+      {
+        "texto": "Truco: un cuchillo bien afilado rompe menos la cebolla y hace llorar menos.",
+        "imagen": "media/cortar-cebolla/6.webp"
+      }
+    ],
+    "video": null
+  },
+  {
+    "id": "sofreir",
+    "nivel": "novato",
+    "orden": 2,
+    "titulo": "Sofreír y pochar",
+    "resumen": "Cocinar a fuego medio-bajo con poco aceite para que las verduras se ablanden y den sabor sin quemarse.",
+    "pasos": [
+      {
+        "texto": "Calienta el aceite a fuego medio. Está listo cuando se mueve con facilidad al inclinar la sartén, pero sin echar humo.",
+        "imagen": "media/sofreir/1.webp"
+      },
+      {
+        "texto": "Añade la verdura picada y una pizca de sal: la sal ayuda a que suelte su agua y se ablande antes.",
+        "imagen": "media/sofreir/2.webp"
+      },
+      {
+        "texto": "Remueve cada minuto o dos. No hace falta estar encima todo el rato.",
+        "imagen": "media/sofreir/3.webp"
+      },
+      {
+        "texto": "Señal de que va bien: la cebolla se vuelve transparente y blanda, sin dorarse.",
+        "imagen": "media/sofreir/4.webp"
+      },
+      {
+        "texto": "Si se dora muy rápido o se pega, baja el fuego. Pochar es cuestión de paciencia, no de potencia.",
+        "imagen": "media/sofreir/5.webp"
+      }
+    ],
+    "video": null
+  },
+  {
+    "id": "cocer-pasta",
+    "nivel": "novato",
+    "orden": 3,
+    "titulo": "Cocer pasta",
+    "resumen": "Pasta en su punto, sin pegarse y con el truco del agua de cocción.",
+    "pasos": [
+      {
+        "texto": "Usa una olla grande: aproximadamente 1 litro de agua por cada 100 g de pasta.",
+        "imagen": "media/cocer-pasta/1.webp"
+      },
+      {
+        "texto": "Cuando el agua hierva con fuerza, añade la sal (una cucharada por cada 2 litros).",
+        "imagen": "media/cocer-pasta/2.webp"
+      },
+      {
+        "texto": "Echa la pasta y remueve durante el primer minuto: es cuando más se pega.",
+        "imagen": "media/cocer-pasta/3.webp"
+      },
+      {
+        "texto": "Prueba la pasta 1 minuto antes del tiempo del paquete. «Al dente» es tierna por fuera con un punto firme en el centro.",
+        "imagen": "media/cocer-pasta/4.webp"
+      },
+      {
+        "texto": "Antes de escurrir, guarda un vaso del agua de cocción: ayuda a que la salsa quede cremosa.",
+        "imagen": "media/cocer-pasta/5.webp"
+      },
+      {
+        "texto": "No la enjuagues con agua fría, salvo que sea para una ensalada.",
+        "imagen": "media/cocer-pasta/6.webp"
+      }
+    ],
+    "video": null
+  },
+  {
+    "id": "ensalada-completa",
+    "nivel": "novato",
+    "orden": 4,
+    "titulo": "Ensalada completa",
+    "resumen": "Que una ensalada sea una comida de verdad: base, proteína, algo crujiente y un buen aliño.",
+    "pasos": [
+      {
+        "texto": "Lava la verdura de hoja y sécala bien: si queda mojada, el aliño resbala y la ensalada sabe a agua."
+      },
+      {
+        "texto": "Piensa en capas: una base (lechuga, tomate), una proteína (atún, legumbre, queso) y algo que cruja o dé color (maíz, aceitunas, cebolla)."
+      },
+      {
+        "texto": "Aliño básico: 3 partes de aceite por 1 de vinagre o limón, y sal. Mézclalo aparte antes de echarlo."
+      },
+      {
+        "texto": "Aliña justo antes de comer. Si es para táper, lleva el aliño en un bote pequeño."
+      }
+    ],
+    "video": null
+  },
+  {
+    "id": "legumbre-bote",
+    "nivel": "novato",
+    "orden": 5,
+    "titulo": "Legumbre de bote",
+    "resumen": "Garbanzos, lentejas y alubias ya cocidas: proteína barata, lista en minutos.",
+    "pasos": [
+      {
+        "texto": "Escurre la legumbre y enjuágala bajo el grifo: quitas el líquido del bote y parte de la sal."
+      },
+      {
+        "texto": "Ya está cocida: solo necesita calentarse o coger sabor, unos 5-10 minutos."
+      },
+      {
+        "texto": "Remueve con cuidado para que no se deshaga."
+      },
+      {
+        "texto": "Un bote de 400 g escurrido da para 2 platos como acompañamiento o 1-2 como plato principal."
+      }
+    ],
+    "video": null
+  },
+  {
+    "id": "hacer-huevos",
+    "nivel": "novato",
+    "orden": 6,
+    "titulo": "Hacer huevos",
+    "resumen": "Revueltos jugosos y tortilla francesa sin que se quemen.",
+    "pasos": [
+      {
+        "texto": "Casca el huevo en un bol aparte, nunca directamente en la sartén: así quitas fácilmente cualquier trozo de cáscara."
+      },
+      {
+        "texto": "Bate con un tenedor hasta que la clara y la yema se mezclen del todo."
+      },
+      {
+        "texto": "Fuego medio-bajo: el huevo se cuaja a poca temperatura. Con fuego fuerte se queda gomoso."
+      },
+      {
+        "texto": "Revuelto: remueve despacio y apaga el fuego cuando aún esté un poco jugoso; termina de hacerse con el calor de la sartén."
+      },
+      {
+        "texto": "Por seguridad, cómelo bien cuajado si cocinas para niños, embarazadas o personas mayores."
+      }
+    ],
+    "video": null
+  },
+  {
+    "id": "arroz-blanco",
+    "nivel": "novato",
+    "orden": 7,
+    "titulo": "Arroz blanco",
+    "resumen": "Arroz suelto, sin pegotes, con la regla del doble de agua.",
+    "pasos": [
+      {
+        "texto": "Lava el arroz en un colador hasta que el agua salga casi transparente: así no se apelmaza."
+      },
+      {
+        "texto": "Proporción: 1 vaso de arroz por 2 vasos de agua y una pizca de sal (para arroz largo; el redondo puede pedir un poco más)."
+      },
+      {
+        "texto": "Cuando hierva, baja el fuego al mínimo, tapa y no lo remuevas."
+      },
+      {
+        "texto": "A los 15-18 minutos apaga y déjalo reposar tapado 5 minutos. Sepáralo con un tenedor."
+      },
+      {
+        "texto": "Si sobra, enfríalo rápido y guárdalo en la nevera: el arroz cocido no debe pasar horas a temperatura ambiente."
+      }
+    ],
+    "video": null
+  },
+  {
+    "id": "plancha",
+    "nivel": "novato",
+    "orden": 8,
+    "titulo": "Plancha",
+    "resumen": "Dorar por fuera y dejar jugoso por dentro: pollo, pescado, tofu y verduras.",
+    "pasos": [
+      {
+        "texto": "Seca bien el alimento con papel de cocina: si está mojado, se cuece en vez de dorarse."
+      },
+      {
+        "texto": "Calienta la sartén a fuego medio-alto con muy poco aceite. Está lista cuando una gota de agua chisporrotea."
+      },
+      {
+        "texto": "Pon la pieza y no la muevas en 3-4 minutos: así se forma la costra dorada."
+      },
+      {
+        "texto": "Dale la vuelta una sola vez."
+      },
+      {
+        "texto": "El pollo tiene que quedar sin nada rosa por dentro: corta el trozo más grueso para comprobarlo."
+      }
+    ],
+    "video": null
+  },
+  {
+    "id": "salsa-basica",
+    "nivel": "novato",
+    "orden": 9,
+    "titulo": "Salsa básica",
+    "resumen": "Tomate casero, pesto y una salsa cremosa: tres bases que transforman cualquier plato.",
+    "pasos": [
+      {
+        "texto": "Casi todas las salsas empiezan por un sofrito: cebolla o ajo a fuego medio-bajo."
+      },
+      {
+        "texto": "Reducir es dejar que la salsa hierva suave y destapada para que pierda agua y espese."
+      },
+      {
+        "texto": "Prueba y ajusta al final: sal, una pizca de azúcar si el tomate está ácido, o un poco de agua si ha espesado demasiado."
+      },
+      {
+        "texto": "Las salsas aguantan bien en la nevera 3-4 días: haz de más."
+      }
+    ],
+    "video": null
+  },
+  {
+    "id": "horno-basico",
+    "nivel": "novato",
+    "orden": 10,
+    "titulo": "Horno básico",
+    "resumen": "Meter en el horno y olvidarte: verduras asadas, pollo y pescado.",
+    "pasos": [
+      {
+        "texto": "Precalienta siempre el horno 10 minutos antes: si metes la comida con el horno frío, se seca."
+      },
+      {
+        "texto": "200 °C con calor arriba y abajo sirve para casi todo."
+      },
+      {
+        "texto": "Corta las piezas de tamaño parecido para que se hagan a la vez, y no las amontones: si se tocan mucho, se cuecen en vez de asarse."
+      },
+      {
+        "texto": "Usa guantes o un trapo seco para sacar la bandeja: quema mucho más de lo que parece."
+      }
+    ],
+    "video": null
+  },
+  {
+    "id": "caldo-casero",
+    "nivel": "basico",
+    "orden": 1,
+    "titulo": "Caldo casero",
+    "resumen": "La base de sopas, arroces y guisos. Se hace solo mientras haces otras cosas.",
+    "pasos": [
+      {
+        "texto": "Pon las verduras (y huesos o carcasa si lleva) en agua fría: así sueltan más sabor."
+      },
+      {
+        "texto": "Cuando hierva, baja a fuego suave. Si hierve fuerte, el caldo sale turbio."
+      },
+      {
+        "texto": "Retira la espuma de la superficie con una cuchara durante los primeros minutos."
+      },
+      {
+        "texto": "Cuela y deja enfriar. Aguanta 3-4 días en la nevera o meses congelado en táperes pequeños."
+      }
+    ],
+    "video": null
+  },
+  {
+    "id": "cremas-verduras",
+    "nivel": "basico",
+    "orden": 2,
+    "titulo": "Cremas y purés",
+    "resumen": "Verdura cocida y triturada: suave, nutritiva y perfecta para aprovechar.",
+    "pasos": [
+      {
+        "texto": "Pocha primero cebolla o puerro: le da la base de sabor a cualquier crema."
+      },
+      {
+        "texto": "Cubre la verdura justo con agua o caldo. Si pones demasiado, la crema queda aguada."
+      },
+      {
+        "texto": "Tritura con cuidado: el vapor caliente empuja la tapa. Llena el vaso solo hasta la mitad."
+      },
+      {
+        "texto": "Ajusta la textura al final: más líquido si está espesa, unos minutos más al fuego si está clara."
+      }
+    ],
+    "video": null
+  },
+  {
+    "id": "legumbre-seca",
+    "nivel": "basico",
+    "orden": 3,
+    "titulo": "Legumbre seca",
+    "resumen": "Garbanzos, alubias y lentejas desde cero: más baratas y con mejor textura.",
+    "pasos": [
+      {
+        "texto": "Garbanzos y alubias necesitan remojo de 8-12 horas en agua fría. Las lentejas no."
+      },
+      {
+        "texto": "Cuécelas a fuego suave: si hierven con fuerza, se rompen y se pelan."
+      },
+      {
+        "texto": "Con olla exprés tardan unas 4 veces menos. Sigue siempre las instrucciones de tu olla."
+      },
+      {
+        "texto": "Sala al final: la sal al principio puede endurecer la piel de algunas legumbres."
+      }
+    ],
+    "video": null
+  },
+  {
+    "id": "guisar",
+    "nivel": "basico",
+    "orden": 4,
+    "titulo": "Guisar",
+    "resumen": "Cocinar despacio en una salsa hasta que todo esté tierno y lleno de sabor.",
+    "pasos": [
+      {
+        "texto": "Dora primero la carne o la proteína a fuego medio-alto, por tandas: el dorado es sabor."
+      },
+      {
+        "texto": "Haz el sofrito en la misma cazuela, aprovechando lo que se ha quedado pegado."
+      },
+      {
+        "texto": "Añade el líquido justo para cubrir y cocina tapado a fuego bajo."
+      },
+      {
+        "texto": "Los guisos están aún más ricos al día siguiente: perfectos para cocinar de más."
+      }
+    ],
+    "video": null
+  },
+  {
+    "id": "bechamel",
+    "nivel": "basico",
+    "orden": 5,
+    "titulo": "Bechamel",
+    "resumen": "La salsa blanca de lasañas, canelones y croquetas.",
+    "pasos": [
+      {
+        "texto": "Funde la grasa (mantequilla o aceite) y tuesta la harina 2 minutos sin dejar de remover."
+      },
+      {
+        "texto": "Añade la leche caliente poco a poco y bate sin parar para que no salgan grumos."
+      },
+      {
+        "texto": "Cuece a fuego bajo hasta que espese y pierda el sabor a harina cruda, unos 8-10 minutos."
+      },
+      {
+        "texto": "Sin gluten: usa maicena o harina de arroz. Sin lactosa o vegana: bebida vegetal y aceite."
+      }
+    ],
+    "video": null
+  },
+  {
+    "id": "empanar",
+    "nivel": "basico",
+    "orden": 6,
+    "titulo": "Empanar y rebozar",
+    "resumen": "Una capa crujiente por fuera y jugoso por dentro.",
+    "pasos": [
+      {
+        "texto": "Prepara tres platos en fila: harina, huevo batido y pan rallado."
+      },
+      {
+        "texto": "Pasa cada pieza por los tres, en ese orden, sacudiendo el exceso."
+      },
+      {
+        "texto": "Aceite bien caliente (unos 180 °C): si echas un trocito de pan y burbujea, está listo."
+      },
+      {
+        "texto": "Fríe por tandas y deja escurrir sobre papel. Al horno también funciona con un poco de aceite por encima."
+      }
+    ],
+    "video": null
+  },
+  {
+    "id": "papillote",
+    "nivel": "basico",
+    "orden": 7,
+    "titulo": "Papillote",
+    "resumen": "Cocinar dentro de un paquete de papel de horno: el alimento se hace en su propio vapor.",
+    "pasos": [
+      {
+        "texto": "Corta un rectángulo grande de papel de horno."
+      },
+      {
+        "texto": "Pon una cama de verduras finas, encima el pescado o la proteína, aliño y un chorrito de líquido."
+      },
+      {
+        "texto": "Cierra bien doblando los bordes, como una empanadilla: no debe escapar el vapor."
+      },
+      {
+        "texto": "Al abrirlo, cuidado con el vapor: quema."
+      }
+    ],
+    "video": null
+  },
+  {
+    "id": "saltear-wok",
+    "nivel": "basico",
+    "orden": 8,
+    "titulo": "Saltear al wok",
+    "resumen": "Fuego fuerte y movimiento constante: verduras crujientes y en pocos minutos.",
+    "pasos": [
+      {
+        "texto": "Corta todo antes de encender el fuego: luego no habrá tiempo."
+      },
+      {
+        "texto": "Sartén o wok muy caliente con poco aceite."
+      },
+      {
+        "texto": "Primero lo que más tarda (carne, zanahoria) y al final lo más tierno (brotes, hojas)."
+      },
+      {
+        "texto": "No llenes demasiado la sartén: si se amontona, se cuece en vez de saltearse."
+      }
+    ],
+    "video": null
+  },
+  {
+    "id": "marinar",
+    "nivel": "basico",
+    "orden": 9,
+    "titulo": "Marinar y adobar",
+    "resumen": "Dejar reposar en un aliño para dar sabor y ablandar.",
+    "pasos": [
+      {
+        "texto": "Un marinado básico: algo ácido (limón, vinagre, yogur), aceite, especias y sal."
+      },
+      {
+        "texto": "Pescado: 15-30 minutos basta. Pollo y carne: de 1 hora a toda la noche."
+      },
+      {
+        "texto": "Marina siempre en la nevera, nunca a temperatura ambiente."
+      },
+      {
+        "texto": "Tira el marinado que ha tocado carne o pescado crudo, o hiérvelo bien si lo usas como salsa."
+      }
+    ],
+    "video": null
+  },
+  {
+    "id": "masa-pizza",
+    "nivel": "basico",
+    "orden": 10,
+    "titulo": "Masa de pizza",
+    "resumen": "Harina, agua, levadura y sal: la primera masa que todo el mundo debería hacer.",
+    "pasos": [
+      {
+        "texto": "Disuelve la levadura en agua templada (no caliente: la mata)."
+      },
+      {
+        "texto": "Amasa hasta que la masa esté lisa y elástica, unos 8-10 minutos."
+      },
+      {
+        "texto": "Déjala reposar tapada hasta que doble su tamaño, alrededor de 1 hora."
+      },
+      {
+        "texto": "Horno lo más caliente posible: 250 °C o el máximo de tu horno."
+      }
+    ],
+    "video": null
+  },
+  {
+    "id": "arroz-paella",
+    "nivel": "cocinillas",
+    "orden": 1,
+    "titulo": "Paella y arroces secos",
+    "resumen": "El sofrito, el caldo justo y no remover.",
+    "pasos": [
+      {
+        "texto": "Sofríe en la paellera el ingrediente principal y luego el tomate."
+      },
+      {
+        "texto": "Proporción orientativa: 1 parte de arroz por 3 de caldo en paellera (depende del arroz y del fuego)."
+      },
+      {
+        "texto": "Reparte el arroz y, a partir de ahí, no lo remuevas."
+      },
+      {
+        "texto": "Deja reposar 5 minutos tapado con un paño. El socarrat es el arroz tostado del fondo: se busca, no se quema."
+      }
+    ],
+    "video": null
+  },
+  {
+    "id": "risotto",
+    "nivel": "cocinillas",
+    "orden": 2,
+    "titulo": "Risotto",
+    "resumen": "Arroz cremoso añadiendo caldo poco a poco y removiendo.",
+    "pasos": [
+      {
+        "texto": "Usa arroz de grano redondo (arborio o carnaroli) y caldo caliente en otro cazo."
+      },
+      {
+        "texto": "Nacara el arroz: tuéstalo 1-2 minutos en la grasa hasta que se vea translúcido."
+      },
+      {
+        "texto": "Añade el caldo de cazo en cazo, sin añadir más hasta que se absorba, removiendo."
+      },
+      {
+        "texto": "Al final, fuera del fuego, queso y un poco de grasa para que quede cremoso."
+      }
+    ],
+    "video": null
+  },
+  {
+    "id": "sellar-carne",
+    "nivel": "cocinillas",
+    "orden": 3,
+    "titulo": "Sellar y punto de la carne",
+    "resumen": "Costra dorada por fuera y el punto justo por dentro.",
+    "pasos": [
+      {
+        "texto": "Saca la carne de la nevera 20 minutos antes y sécala bien."
+      },
+      {
+        "texto": "Sartén muy caliente: la carne debe chisporrotear nada más tocarla."
+      },
+      {
+        "texto": "No la pinches con tenedor: perdería su jugo. Dale la vuelta con pinzas."
+      },
+      {
+        "texto": "Déjala reposar unos minutos antes de cortarla para que el jugo se reparta. Pollo y carne picada, siempre bien hechos."
+      }
+    ],
+    "video": null
+  },
+  {
+    "id": "pescado-entero",
+    "nivel": "cocinillas",
+    "orden": 4,
+    "titulo": "Pescado entero",
+    "resumen": "Asar o cocer el pescado entero: más jugoso y más sabroso.",
+    "pasos": [
+      {
+        "texto": "Pide en la pescadería que lo limpien y le quiten las escamas."
+      },
+      {
+        "texto": "Haz unos cortes en la piel para que se haga por igual."
+      },
+      {
+        "texto": "Está hecho cuando el ojo se vuelve blanco y la carne se separa fácil de la espina."
+      },
+      {
+        "texto": "Cuidado con las espinas al servir: sepáralas con calma."
+      }
+    ],
+    "video": null
+  },
+  {
+    "id": "emulsiones",
+    "nivel": "cocinillas",
+    "orden": 5,
+    "titulo": "Emulsiones",
+    "resumen": "Mayonesa, alioli y vinagretas: unir aceite con otros líquidos.",
+    "pasos": [
+      {
+        "texto": "Todos los ingredientes a la misma temperatura."
+      },
+      {
+        "texto": "Añade el aceite poco a poco al principio: si lo echas de golpe, se corta."
+      },
+      {
+        "texto": "Si se corta, empieza en otro vaso con una yema (o un poco de leche si es lactonesa) y ve añadiendo la mezcla cortada."
+      },
+      {
+        "texto": "La mayonesa casera con huevo crudo, a la nevera y en el día. Mejor evitarla para embarazadas, niños pequeños y mayores."
+      }
+    ],
+    "video": null
+  },
+  {
+    "id": "rellenar",
+    "nivel": "cocinillas",
+    "orden": 6,
+    "titulo": "Rellenar",
+    "resumen": "Verduras, canelones o pimientos rellenos: preparar, rellenar y hornear.",
+    "pasos": [
+      {
+        "texto": "Prepara el recipiente: vacía la verdura o cuece la pasta antes."
+      },
+      {
+        "texto": "El relleno debe estar sabroso y algo jugoso: en el horno se seca."
+      },
+      {
+        "texto": "No llenes en exceso: el relleno crece y se sale."
+      },
+      {
+        "texto": "Termina en el horno, a menudo con salsa o queso por encima."
+      }
+    ],
+    "video": null
+  },
+  {
+    "id": "confitar",
+    "nivel": "cocinillas",
+    "orden": 7,
+    "titulo": "Confitar",
+    "resumen": "Cocinar sumergido en aceite a baja temperatura: queda tierno y meloso.",
+    "pasos": [
+      {
+        "texto": "El aceite debe estar templado, no hirviendo: unos 70-90 °C, con burbujas muy pequeñas o ninguna."
+      },
+      {
+        "texto": "El alimento tiene que quedar cubierto por completo."
+      },
+      {
+        "texto": "Tarda: paciencia. El fuego bajo es la clave."
+      },
+      {
+        "texto": "El aceite sobrante, colado, tiene mucho sabor: aprovéchalo para otras recetas."
+      }
+    ],
+    "video": null
+  },
+  {
+    "id": "empanada",
+    "nivel": "cocinillas",
+    "orden": 8,
+    "titulo": "Empanada y masas rellenas",
+    "resumen": "Masa casera, relleno jugoso y horno: la empanada gallega como escuela.",
+    "pasos": [
+      {
+        "texto": "El relleno debe estar frío antes de ponerlo en la masa, o la masa se ablanda."
+      },
+      {
+        "texto": "Estira la masa fina, más o menos de medio centímetro."
+      },
+      {
+        "texto": "Cierra bien los bordes doblándolos (repulgo) y haz un agujero arriba para que salga el vapor."
+      },
+      {
+        "texto": "Pinta con huevo batido o aceite para que dore."
+      }
+    ],
+    "video": null
+  },
+  {
+    "id": "pasta-fresca",
+    "nivel": "cocinillas",
+    "orden": 9,
+    "titulo": "Pasta fresca",
+    "resumen": "Harina y huevo amasados a mano: nada sabe igual.",
+    "pasos": [
+      {
+        "texto": "Proporción clásica: 100 g de harina por cada huevo y persona."
+      },
+      {
+        "texto": "Amasa hasta que esté lisa, unos 10 minutos, y deja reposar tapada 30 minutos."
+      },
+      {
+        "texto": "Estira con rodillo lo más fina posible, enharinando para que no se pegue."
+      },
+      {
+        "texto": "La pasta fresca se cuece en 2-3 minutos: vigílala."
+      }
+    ],
+    "video": null
+  },
+  {
+    "id": "quiche",
+    "nivel": "cocinillas",
+    "orden": 10,
+    "titulo": "Tartas saladas",
+    "resumen": "Masa quebrada con relleno de huevo y nata: la quiche y sus variantes.",
+    "pasos": [
+      {
+        "texto": "Hornea la masa sola unos minutos antes de rellenar, con peso encima (garbanzos secos sobre papel)."
+      },
+      {
+        "texto": "El relleno: huevos batidos con nata o leche y lo que quieras (verduras, queso…)."
+      },
+      {
+        "texto": "Hornea a temperatura media para que cuaje sin hincharse demasiado."
+      },
+      {
+        "texto": "Está lista cuando el centro tiembla un poco pero no está líquido."
+      }
+    ],
+    "video": null
+  }
+]

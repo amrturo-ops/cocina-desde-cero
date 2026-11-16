@@ -1,0 +1,107 @@
+{
+  "id": "hojaldre-espinacas",
+  "titulo": "Pastel de espinacas y queso",
+  "nivel": "cocinillas",
+  "tecnicas": [
+    "empanada",
+    "horno-basico"
+  ],
+  "raciones": 6,
+  "tiempoMin": 45,
+  "dificultad": 2,
+  "momentos": [
+    "comida",
+    "cena"
+  ],
+  "sobras": {
+    "apta": true,
+    "dias": 2
+  },
+  "descripcion": "Relleno cremoso entre dos capas de masa.",
+  "ingredientes": [
+    {
+      "id": "masa-quebrada",
+      "cantidad": 2,
+      "unidad": "unidad",
+      "alternativas": [
+        {
+          "por": [
+            {
+              "id": "masa-quebrada-sg",
+              "cantidad": 2,
+              "unidad": "unidad"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "espinacas",
+      "cantidad": 500,
+      "unidad": "g"
+    },
+    {
+      "id": "cebolla",
+      "cantidad": 1,
+      "unidad": "unidad"
+    },
+    {
+      "id": "queso-feta",
+      "cantidad": 150,
+      "unidad": "g",
+      "alternativas": [
+        {
+          "por": [
+            {
+              "id": "queso-sin-lactosa",
+              "cantidad": 150,
+              "unidad": "g"
+            }
+          ]
+        },
+        {
+          "por": [
+            {
+              "id": "levadura-nutricional",
+              "cantidad": 4,
+              "unidad": "cucharada"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "huevo",
+      "cantidad": 2,
+      "unidad": "unidad",
+      "alternativas": [
+        {
+          "por": []
+        }
+      ]
+    },
+    {
+      "id": "aceite-oliva",
+      "cantidad": 2,
+      "unidad": "cucharada"
+    }
+  ],
+  "pasos": [
+    {
+      "texto": "Sofríe la cebolla, añade las espinacas hasta que mengüen y escúrrelas bien. Enfría.",
+      "temporizadorSeg": 480
+    },
+    {
+      "texto": "Mezcla con {queso-feta} desmenuzado y los huevos batidos."
+    },
+    {
+      "texto": "Forra un molde con una lámina, rellena y cubre con la otra, cerrando los bordes. Haz unos cortes arriba.",
+      "tecnica": "empanada"
+    },
+    {
+      "texto": "Hornea a 190 °C hasta que esté dorado.",
+      "temporizadorSeg": 1800,
+      "tecnica": "horno-basico"
+    }
+  ]
+}

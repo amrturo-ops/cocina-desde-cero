@@ -1,0 +1,64 @@
+{
+  "id": "patatas-confitadas",
+  "titulo": "Patatas confitadas",
+  "nivel": "cocinillas",
+  "tecnicas": [
+    "confitar"
+  ],
+  "raciones": 4,
+  "tiempoMin": 50,
+  "dificultad": 2,
+  "momentos": [
+    "comida",
+    "cena"
+  ],
+  "sobras": {
+    "apta": true,
+    "dias": 2
+  },
+  "descripcion": "Patatas melosas que se deshacen en la boca.",
+  "ingredientes": [
+    {
+      "id": "patata",
+      "cantidad": 800,
+      "unidad": "g"
+    },
+    {
+      "id": "ajo",
+      "cantidad": 4,
+      "unidad": "diente"
+    },
+    {
+      "id": "romero",
+      "cantidad": 0,
+      "unidad": "al-gusto"
+    },
+    {
+      "id": "aceite-oliva",
+      "cantidad": 500,
+      "unidad": "ml"
+    },
+    {
+      "id": "sal",
+      "cantidad": 0,
+      "unidad": "al-gusto"
+    }
+  ],
+  "pasos": [
+    {
+      "texto": "Pela las patatas y córtalas en rodajas gruesas."
+    },
+    {
+      "texto": "Cúbrelas con el aceite en un cazo con los ajos y el romero.",
+      "tecnica": "confitar"
+    },
+    {
+      "texto": "Confita a fuego muy bajo, sin que el aceite llegue a hervir, hasta que estén tiernas.",
+      "temporizadorSeg": 2100,
+      "tecnica": "confitar"
+    },
+    {
+      "texto": "Escúrrelas y sálalas con sal gruesa. Guarda el aceite colado."
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "id": "berenjenas-rebozadas",
+  "titulo": "Berenjenas rebozadas con miel",
+  "nivel": "basico",
+  "tecnicas": [
+    "empanar"
+  ],
+  "raciones": 4,
+  "tiempoMin": 30,
+  "dificultad": 2,
+  "momentos": [
+    "cena"
+  ],
+  "sobras": {
+    "apta": false,
+    "dias": 0
+  },
+  "descripcion": "Típicas de Andalucía: crujientes y con un toque dulce.",
+  "ingredientes": [
+    {
+      "id": "berenjena",
+      "cantidad": 2,
+      "unidad": "unidad"
+    },
+    {
+      "id": "harina-trigo",
+      "cantidad": 80,
+      "unidad": "g",
+      "alternativas": [
+        {
+          "por": [
+            {
+              "id": "maicena",
+              "cantidad": 80,
+              "unidad": "g"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "leche",
+      "cantidad": 200,
+      "unidad": "ml",
+      "alternativas": [
+        {
+          "por": [
+            {
+              "id": "leche-sin-lactosa",
+              "cantidad": 200,
+              "unidad": "ml"
+            }
+          ]
+        },
+        {
+          "por": [
+            {
+              "id": "bebida-soja",
+              "cantidad": 200,
+              "unidad": "ml"
+            }
+          ]
+        },
+        {
+          "por": [
+            {
+              "id": "bebida-arroz",
+              "cantidad": 200,
+              "unidad": "ml"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "miel",
+      "cantidad": 3,
+      "unidad": "cucharada",
+      "alternativas": [
+        {
+          "por": []
+        }
+      ]
+    },
+    {
+      "id": "aceite-girasol",
+      "cantidad": 400,
+      "unidad": "ml"
+    },
+    {
+      "id": "sal",
+      "cantidad": 0,
+      "unidad": "al-gusto"
+    }
+  ],
+  "pasos": [
+    {
+      "texto": "Corta las berenjenas en bastones o rodajas finas y déjalas en {leche} con sal media hora: así no amargan ni absorben tanto aceite.",
+      "temporizadorSeg": 1800
+    },
+    {
+      "texto": "Escúrrelas y pásalas por {harina-trigo}, sacudiendo el exceso.",
+      "tecnica": "empanar"
+    },
+    {
+      "texto": "Fríelas en aceite muy caliente por tandas hasta que estén doradas.",
+      "temporizadorSeg": 180,
+      "tecnica": "empanar"
+    },
+    {
+      "texto": "Escúrrelas sobre papel y riega con un hilo de miel."
+    }
+  ]
+}

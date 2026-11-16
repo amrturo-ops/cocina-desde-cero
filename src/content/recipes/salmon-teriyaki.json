@@ -1,0 +1,115 @@
+{
+  "id": "salmon-teriyaki",
+  "titulo": "Salmón con salsa de soja y miel",
+  "nivel": "basico",
+  "tecnicas": [
+    "marinar",
+    "plancha"
+  ],
+  "raciones": 4,
+  "tiempoMin": 30,
+  "dificultad": 2,
+  "momentos": [
+    "comida",
+    "cena"
+  ],
+  "sobras": {
+    "apta": false,
+    "dias": 0
+  },
+  "descripcion": "Glaseado, brillante y listo en 15 minutos de fuego.",
+  "ingredientes": [
+    {
+      "id": "salmon",
+      "cantidad": 500,
+      "unidad": "g",
+      "alternativas": [
+        {
+          "por": [
+            {
+              "id": "tofu",
+              "cantidad": 400,
+              "unidad": "g"
+            }
+          ],
+          "titulo": "Tofu glaseado con soja y miel"
+        }
+      ]
+    },
+    {
+      "id": "salsa-soja",
+      "cantidad": 4,
+      "unidad": "cucharada",
+      "alternativas": [
+        {
+          "por": [
+            {
+              "id": "tamari",
+              "cantidad": 4,
+              "unidad": "cucharada"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "miel",
+      "cantidad": 2,
+      "unidad": "cucharada",
+      "alternativas": [
+        {
+          "por": [
+            {
+              "id": "azucar",
+              "cantidad": 0,
+              "unidad": "al-gusto"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jengibre",
+      "cantidad": 10,
+      "unidad": "g"
+    },
+    {
+      "id": "sesamo",
+      "cantidad": 1,
+      "unidad": "cucharada",
+      "alternativas": [
+        {
+          "por": []
+        }
+      ]
+    },
+    {
+      "id": "aceite-oliva",
+      "cantidad": 1,
+      "unidad": "cucharada"
+    }
+  ],
+  "pasos": [
+    {
+      "texto": "Mezcla {salsa-soja}, {miel} y el jengibre rallado.",
+      "tecnica": "marinar"
+    },
+    {
+      "texto": "Marina {salmon} en la mezcla en la nevera.",
+      "temporizadorSeg": 1200,
+      "tecnica": "marinar"
+    },
+    {
+      "texto": "Haz {salmon} en la plancha con poco aceite, primero por el lado de la piel.",
+      "temporizadorSeg": 240,
+      "tecnica": "plancha"
+    },
+    {
+      "texto": "Dale la vuelta, añade el marinado y deja que reduzca y lo glasee.",
+      "temporizadorSeg": 120
+    },
+    {
+      "texto": "Espolvorea sésamo."
+    }
+  ]
+}

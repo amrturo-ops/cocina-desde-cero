@@ -1,0 +1,125 @@
+{
+  "id": "pasta-brocoli",
+  "titulo": "Pasta con brócoli, ajo y parmesano",
+  "nivel": "novato",
+  "tecnicas": [
+    "cocer-pasta",
+    "sofreir"
+  ],
+  "raciones": 2,
+  "tiempoMin": 20,
+  "dificultad": 2,
+  "momentos": [
+    "comida",
+    "cena"
+  ],
+  "sobras": {
+    "apta": false,
+    "dias": 0
+  },
+  "descripcion": "Pasta y verdura en la misma olla: menos cacharros y una salsa cremosa sin nata.",
+  "ingredientes": [
+    {
+      "id": "pasta-trigo",
+      "cantidad": 200,
+      "unidad": "g",
+      "alternativas": [
+        {
+          "por": [
+            {
+              "id": "pasta-sin-gluten",
+              "cantidad": 200,
+              "unidad": "g"
+            }
+          ],
+          "pasos": [
+            {
+              "indice": 2,
+              "texto": "Echa la pasta sin gluten al agua hirviendo. A mitad de cocción, añade el brócoli a la misma olla. Pruébala 2 minutos antes de lo que diga el paquete.",
+              "temporizadorSeg": 540
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "brocoli",
+      "cantidad": 250,
+      "unidad": "g"
+    },
+    {
+      "id": "ajo",
+      "cantidad": 2,
+      "unidad": "diente"
+    },
+    {
+      "id": "aceite-oliva",
+      "cantidad": 4,
+      "unidad": "cucharada"
+    },
+    {
+      "id": "queso-parmesano",
+      "cantidad": 40,
+      "unidad": "g",
+      "alternativas": [
+        {
+          "por": [
+            {
+              "id": "queso-sin-lactosa",
+              "cantidad": 40,
+              "unidad": "g"
+            }
+          ]
+        },
+        {
+          "por": [
+            {
+              "id": "levadura-nutricional",
+              "cantidad": 3,
+              "unidad": "cucharada"
+            }
+          ],
+          "titulo": "Pasta con brócoli y ajo (vegana)",
+          "pasos": [
+            {
+              "indice": 4,
+              "texto": "Escurre la pasta y el brócoli (guarda un vaso del agua). Mézclalo con el ajo y su aceite, la levadura nutricional (da un toque a queso), pimienta y un chorrito del agua. Remueve hasta que quede cremoso."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pimienta-negra",
+      "cantidad": 0,
+      "unidad": "al-gusto"
+    },
+    {
+      "id": "sal",
+      "cantidad": 0,
+      "unidad": "al-gusto"
+    }
+  ],
+  "pasos": [
+    {
+      "texto": "Pon a hervir agua con sal en una olla grande.",
+      "tecnica": "cocer-pasta"
+    },
+    {
+      "texto": "Corta el brócoli en arbolitos pequeños y lamina los ajos."
+    },
+    {
+      "texto": "Echa la pasta al agua hirviendo. A mitad de cocción, añade el brócoli a la misma olla.",
+      "temporizadorSeg": 600,
+      "tecnica": "cocer-pasta"
+    },
+    {
+      "texto": "Mientras, dora los ajos en el aceite a fuego bajo. Retíralos en cuanto estén dorados: se queman muy rápido.",
+      "temporizadorSeg": 120,
+      "tecnica": "sofreir"
+    },
+    {
+      "texto": "Escurre la pasta y el brócoli (guarda un vaso del agua). Mézclalo con el ajo y su aceite, el queso rallado, pimienta y un chorrito del agua. Remueve hasta que quede cremoso."
+    }
+  ]
+}

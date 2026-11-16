@@ -1,0 +1,139 @@
+{
+  "id": "tarta-puerros",
+  "titulo": "Tarta de puerros",
+  "nivel": "cocinillas",
+  "tecnicas": [
+    "quiche",
+    "horno-basico"
+  ],
+  "raciones": 6,
+  "tiempoMin": 60,
+  "dificultad": 3,
+  "momentos": [
+    "comida",
+    "cena"
+  ],
+  "sobras": {
+    "apta": true,
+    "dias": 3
+  },
+  "descripcion": "Dulce y suave gracias al puerro bien pochado.",
+  "ingredientes": [
+    {
+      "id": "masa-quebrada",
+      "cantidad": 1,
+      "unidad": "unidad",
+      "alternativas": [
+        {
+          "por": [
+            {
+              "id": "masa-quebrada-sg",
+              "cantidad": 1,
+              "unidad": "unidad"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "huevo",
+      "cantidad": 3,
+      "unidad": "unidad",
+      "alternativas": [
+        {
+          "por": [
+            {
+              "id": "tofu",
+              "cantidad": 300,
+              "unidad": "g"
+            }
+          ]
+        },
+        {
+          "por": [
+            {
+              "id": "harina-garbanzo",
+              "cantidad": 120,
+              "unidad": "g"
+            },
+            {
+              "id": "agua",
+              "cantidad": 250,
+              "unidad": "ml"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "nata",
+      "cantidad": 250,
+      "unidad": "ml",
+      "alternativas": [
+        {
+          "por": [
+            {
+              "id": "leche-coco",
+              "cantidad": 250,
+              "unidad": "ml"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sal",
+      "cantidad": 0,
+      "unidad": "al-gusto"
+    },
+    {
+      "id": "nuez-moscada",
+      "cantidad": 0,
+      "unidad": "al-gusto"
+    },
+    {
+      "id": "puerro",
+      "cantidad": 3,
+      "unidad": "unidad"
+    },
+    {
+      "id": "mantequilla",
+      "cantidad": 2,
+      "unidad": "cucharada",
+      "alternativas": [
+        {
+          "por": [
+            {
+              "id": "aceite-oliva",
+              "cantidad": 2,
+              "unidad": "cucharada"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "pasos": [
+    {
+      "texto": "Precalienta el horno a 190 °C. Forra un molde con la masa, pínchala y hornéala sola con peso encima.",
+      "temporizadorSeg": 720,
+      "tecnica": "quiche"
+    },
+    {
+      "texto": "Pocha los puerros en rodajas con {mantequilla} a fuego bajo.",
+      "temporizadorSeg": 720
+    },
+    {
+      "texto": "Bate {huevo} con {nata}, sal y nuez moscada hasta que quede una mezcla lisa y sin grumos.",
+      "tecnica": "quiche"
+    },
+    {
+      "texto": "Reparte el relleno sobre la masa, vierte la mezcla y hornea a 180 °C hasta que cuaje.",
+      "temporizadorSeg": 1800,
+      "tecnica": "horno-basico"
+    },
+    {
+      "texto": "Deja templar antes de cortar."
+    }
+  ]
+}

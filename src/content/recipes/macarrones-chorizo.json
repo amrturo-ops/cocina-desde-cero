@@ -1,0 +1,111 @@
+{
+  "id": "macarrones-chorizo",
+  "titulo": "Macarrones con tomate y chorizo",
+  "nivel": "novato",
+  "tecnicas": [
+    "cocer-pasta",
+    "sofreir",
+    "cortar-cebolla"
+  ],
+  "raciones": 2,
+  "tiempoMin": 30,
+  "momentos": [
+    "comida",
+    "cena"
+  ],
+  "sobras": {
+    "apta": true,
+    "dias": 3
+  },
+  "descripcion": "El plato de siempre. Aguanta genial en táper.",
+  "ingredientes": [
+    {
+      "id": "pasta-trigo",
+      "cantidad": 200,
+      "unidad": "g",
+      "alternativas": [
+        {
+          "por": [
+            {
+              "id": "pasta-sin-gluten",
+              "cantidad": 200,
+              "unidad": "g"
+            }
+          ],
+          "pasos": [
+            {
+              "indice": 4,
+              "texto": "Cuece la pasta sin gluten en agua con sal. Pruébala 2 minutos antes de lo que diga el paquete.",
+              "temporizadorSeg": 480
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chorizo",
+      "cantidad": 80,
+      "unidad": "g",
+      "alternativas": [
+        {
+          "por": [],
+          "titulo": "Macarrones con tomate",
+          "pasos": [
+            {
+              "indice": 2,
+              "quitar": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tomate-triturado",
+      "cantidad": 400,
+      "unidad": "g"
+    },
+    {
+      "id": "cebolla",
+      "cantidad": 1,
+      "unidad": "unidad"
+    },
+    {
+      "id": "aceite-oliva",
+      "cantidad": 2,
+      "unidad": "cucharada"
+    },
+    {
+      "id": "sal",
+      "cantidad": 0,
+      "unidad": "al-gusto"
+    }
+  ],
+  "pasos": [
+    {
+      "texto": "Pica la cebolla.",
+      "tecnica": "cortar-cebolla"
+    },
+    {
+      "texto": "Sofríela en el aceite.",
+      "temporizadorSeg": 420,
+      "tecnica": "sofreir"
+    },
+    {
+      "texto": "Añade el chorizo en rodajas y deja que suelte su grasa.",
+      "temporizadorSeg": 120
+    },
+    {
+      "texto": "Añade el tomate y sal, y deja que espese a fuego bajo.",
+      "temporizadorSeg": 600
+    },
+    {
+      "texto": "Mientras, cuece la pasta en agua con sal el tiempo del paquete.",
+      "temporizadorSeg": 600,
+      "tecnica": "cocer-pasta"
+    },
+    {
+      "texto": "Escurre la pasta y mézclala con la salsa."
+    }
+  ],
+  "dificultad": 2
+}

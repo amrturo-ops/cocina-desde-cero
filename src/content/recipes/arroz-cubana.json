@@ -1,0 +1,94 @@
+{
+  "id": "arroz-cubana",
+  "titulo": "Arroz a la cubana",
+  "nivel": "novato",
+  "tecnicas": [
+    "arroz-blanco",
+    "hacer-huevos",
+    "sofreir"
+  ],
+  "raciones": 2,
+  "tiempoMin": 30,
+  "dificultad": 2,
+  "momentos": [
+    "comida",
+    "cena"
+  ],
+  "sobras": {
+    "apta": false,
+    "dias": 0
+  },
+  "descripcion": "Arroz blanco, tomate casero y huevo frito. Un clásico que enseña tres técnicas.",
+  "ingredientes": [
+    {
+      "id": "arroz",
+      "cantidad": 160,
+      "unidad": "g"
+    },
+    {
+      "id": "tomate-triturado",
+      "cantidad": 300,
+      "unidad": "g"
+    },
+    {
+      "id": "ajo",
+      "cantidad": 1,
+      "unidad": "diente"
+    },
+    {
+      "id": "huevo",
+      "cantidad": 2,
+      "unidad": "unidad",
+      "alternativas": [
+        {
+          "por": [],
+          "titulo": "Arroz con tomate",
+          "pasos": [
+            {
+              "indice": 4,
+              "quitar": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "aceite-oliva",
+      "cantidad": 4,
+      "unidad": "cucharada"
+    },
+    {
+      "id": "sal",
+      "cantidad": 0,
+      "unidad": "al-gusto"
+    }
+  ],
+  "pasos": [
+    {
+      "texto": "Lava el arroz en un colador.",
+      "tecnica": "arroz-blanco"
+    },
+    {
+      "texto": "Pon el arroz en una olla con el doble de agua y sal. Cuando hierva, baja al mínimo y tapa.",
+      "temporizadorSeg": 1020,
+      "tecnica": "arroz-blanco"
+    },
+    {
+      "texto": "Mientras, sofríe el ajo picado en una cucharada de aceite y añade el tomate. Deja que espese.",
+      "temporizadorSeg": 600,
+      "tecnica": "sofreir"
+    },
+    {
+      "texto": "Deja reposar el arroz tapado.",
+      "temporizadorSeg": 300
+    },
+    {
+      "texto": "Fríe los huevos en el resto del aceite caliente, uno a uno, echando aceite por encima de la yema con una cuchara.",
+      "temporizadorSeg": 120,
+      "tecnica": "hacer-huevos"
+    },
+    {
+      "texto": "Sirve el arroz con el tomate y el huevo encima."
+    }
+  ]
+}

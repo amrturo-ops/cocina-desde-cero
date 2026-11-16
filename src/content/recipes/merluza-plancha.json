@@ -1,0 +1,102 @@
+{
+  "id": "merluza-plancha",
+  "titulo": "Merluza a la plancha con ajo y perejil",
+  "nivel": "novato",
+  "tecnicas": [
+    "plancha"
+  ],
+  "raciones": 2,
+  "tiempoMin": 15,
+  "momentos": [
+    "comida",
+    "cena"
+  ],
+  "sobras": {
+    "apta": false,
+    "dias": 0
+  },
+  "descripcion": "Pescado blanco, fácil y suave.",
+  "ingredientes": [
+    {
+      "id": "merluza",
+      "cantidad": 300,
+      "unidad": "g",
+      "alternativas": [
+        {
+          "por": [
+            {
+              "id": "tofu",
+              "cantidad": 300,
+              "unidad": "g"
+            }
+          ],
+          "titulo": "Tofu a la plancha con ajo y perejil",
+          "pasos": [
+            {
+              "indice": 0,
+              "texto": "Corta el tofu en filetes, sécalo bien y sálalo."
+            }
+          ]
+        },
+        {
+          "por": [
+            {
+              "id": "berenjena",
+              "cantidad": 1,
+              "unidad": "unidad"
+            }
+          ],
+          "titulo": "Berenjena a la plancha con ajo y perejil",
+          "pasos": [
+            {
+              "indice": 0,
+              "texto": "Corta la berenjena en rodajas de 1 cm y sálalas."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ajo",
+      "cantidad": 2,
+      "unidad": "diente"
+    },
+    {
+      "id": "perejil",
+      "cantidad": 0.25,
+      "unidad": "manojo"
+    },
+    {
+      "id": "aceite-oliva",
+      "cantidad": 3,
+      "unidad": "cucharada"
+    },
+    {
+      "id": "sal",
+      "cantidad": 0,
+      "unidad": "al-gusto"
+    }
+  ],
+  "pasos": [
+    {
+      "texto": "Seca la merluza con papel y sálala.",
+      "tecnica": "plancha"
+    },
+    {
+      "texto": "Pica el ajo y el perejil y mézclalos con 2 cucharadas de aceite."
+    },
+    {
+      "texto": "Haz la merluza en la plancha caliente con un poco de aceite, primero por el lado de la piel.",
+      "temporizadorSeg": 240,
+      "tecnica": "plancha"
+    },
+    {
+      "texto": "Dale la vuelta con cuidado.",
+      "temporizadorSeg": 120
+    },
+    {
+      "texto": "Sirve con el aceite de ajo y perejil por encima."
+    }
+  ],
+  "dificultad": 1
+}

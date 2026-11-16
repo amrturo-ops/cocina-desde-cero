@@ -1,0 +1,75 @@
+{
+  "id": "verduras-papillote",
+  "titulo": "Patatas y verduras en papillote",
+  "nivel": "basico",
+  "tecnicas": [
+    "papillote"
+  ],
+  "raciones": 4,
+  "tiempoMin": 45,
+  "dificultad": 1,
+  "momentos": [
+    "comida",
+    "cena"
+  ],
+  "sobras": {
+    "apta": true,
+    "dias": 2
+  },
+  "descripcion": "Un plato vegetal completo, sin cacharros.",
+  "ingredientes": [
+    {
+      "id": "patata",
+      "cantidad": 400,
+      "unidad": "g"
+    },
+    {
+      "id": "calabacin",
+      "cantidad": 1,
+      "unidad": "unidad"
+    },
+    {
+      "id": "tomate-cherry",
+      "cantidad": 200,
+      "unidad": "g"
+    },
+    {
+      "id": "cebolla-morada",
+      "cantidad": 1,
+      "unidad": "unidad"
+    },
+    {
+      "id": "romero",
+      "cantidad": 0,
+      "unidad": "al-gusto"
+    },
+    {
+      "id": "aceite-oliva",
+      "cantidad": 3,
+      "unidad": "cucharada"
+    },
+    {
+      "id": "sal",
+      "cantidad": 0,
+      "unidad": "al-gusto"
+    }
+  ],
+  "pasos": [
+    {
+      "texto": "Precalienta el horno a 200 °C.",
+      "temporizadorSeg": 600
+    },
+    {
+      "texto": "Corta las patatas en rodajas muy finas, el calabacín en medias lunas y la cebolla en gajos."
+    },
+    {
+      "texto": "Reparte todo en el papel con los tomates, romero, sal y aceite.",
+      "tecnica": "papillote"
+    },
+    {
+      "texto": "Cierra bien y hornea hasta que la patata esté tierna.",
+      "temporizadorSeg": 2100,
+      "tecnica": "papillote"
+    }
+  ]
+}

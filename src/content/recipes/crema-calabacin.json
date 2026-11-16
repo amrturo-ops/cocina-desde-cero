@@ -1,0 +1,108 @@
+{
+  "id": "crema-calabacin",
+  "titulo": "Crema de calabacín",
+  "nivel": "basico",
+  "tecnicas": [
+    "cremas-verduras",
+    "sofreir"
+  ],
+  "raciones": 4,
+  "tiempoMin": 30,
+  "dificultad": 1,
+  "momentos": [
+    "comida",
+    "cena"
+  ],
+  "sobras": {
+    "apta": true,
+    "dias": 3
+  },
+  "descripcion": "La crema más fácil y la que gusta a todo el mundo.",
+  "ingredientes": [
+    {
+      "id": "calabacin",
+      "cantidad": 3,
+      "unidad": "unidad"
+    },
+    {
+      "id": "cebolla",
+      "cantidad": 1,
+      "unidad": "unidad"
+    },
+    {
+      "id": "patata",
+      "cantidad": 200,
+      "unidad": "g"
+    },
+    {
+      "id": "aceite-oliva",
+      "cantidad": 2,
+      "unidad": "cucharada"
+    },
+    {
+      "id": "caldo-verduras",
+      "cantidad": 600,
+      "unidad": "ml",
+      "alternativas": [
+        {
+          "por": [
+            {
+              "id": "agua",
+              "cantidad": 600,
+              "unidad": "ml"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "queso-fresco",
+      "cantidad": 80,
+      "unidad": "g",
+      "alternativas": [
+        {
+          "por": [
+            {
+              "id": "queso-sin-lactosa",
+              "cantidad": 80,
+              "unidad": "g"
+            }
+          ]
+        },
+        {
+          "por": [
+            {
+              "id": "levadura-nutricional",
+              "cantidad": 4,
+              "unidad": "cucharada"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sal",
+      "cantidad": 0,
+      "unidad": "al-gusto"
+    }
+  ],
+  "pasos": [
+    {
+      "texto": "Pica la cebolla y pócha en una olla con el aceite.",
+      "temporizadorSeg": 360,
+      "tecnica": "sofreir"
+    },
+    {
+      "texto": "Añade el calabacín y la patata en trozos y rehoga.",
+      "temporizadorSeg": 300
+    },
+    {
+      "texto": "Cubre justo con {caldo-verduras}, sala y cuece.",
+      "temporizadorSeg": 1200,
+      "tecnica": "cremas-verduras"
+    },
+    {
+      "texto": "Añade {queso-fresco} y tritura hasta que quede fina."
+    }
+  ]
+}

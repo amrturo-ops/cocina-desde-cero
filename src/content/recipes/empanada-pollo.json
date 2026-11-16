@@ -1,0 +1,131 @@
+{
+  "id": "empanada-pollo",
+  "titulo": "Empanada de pollo",
+  "nivel": "cocinillas",
+  "tecnicas": [
+    "empanada",
+    "sofreir"
+  ],
+  "raciones": 6,
+  "tiempoMin": 120,
+  "dificultad": 3,
+  "momentos": [
+    "comida",
+    "cena"
+  ],
+  "sobras": {
+    "apta": true,
+    "dias": 3
+  },
+  "descripcion": "Relleno de pollo guisado, ideal para llevar.",
+  "ingredientes": [
+    {
+      "id": "harina-trigo",
+      "cantidad": 500,
+      "unidad": "g",
+      "alternativas": [
+        {
+          "por": [
+            {
+              "id": "harina-sg",
+              "cantidad": 500,
+              "unidad": "g"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "levadura-panadero",
+      "cantidad": 1,
+      "unidad": "sobre"
+    },
+    {
+      "id": "agua",
+      "cantidad": 200,
+      "unidad": "ml"
+    },
+    {
+      "id": "aceite-oliva",
+      "cantidad": 100,
+      "unidad": "ml"
+    },
+    {
+      "id": "huevo",
+      "cantidad": 1,
+      "unidad": "unidad",
+      "alternativas": [
+        {
+          "por": []
+        }
+      ]
+    },
+    {
+      "id": "pechuga-pollo",
+      "cantidad": 500,
+      "unidad": "g",
+      "alternativas": [
+        {
+          "por": [
+            {
+              "id": "garbanzos-cocidos",
+              "cantidad": 2,
+              "unidad": "bote"
+            }
+          ],
+          "titulo": "Empanada de garbanzos"
+        }
+      ]
+    },
+    {
+      "id": "cebolla",
+      "cantidad": 2,
+      "unidad": "unidad"
+    },
+    {
+      "id": "pimiento-rojo",
+      "cantidad": 1,
+      "unidad": "unidad"
+    },
+    {
+      "id": "tomate-triturado",
+      "cantidad": 150,
+      "unidad": "g"
+    },
+    {
+      "id": "pimenton",
+      "cantidad": 0,
+      "unidad": "al-gusto"
+    },
+    {
+      "id": "sal",
+      "cantidad": 0,
+      "unidad": "al-gusto"
+    }
+  ],
+  "pasos": [
+    {
+      "texto": "Mezcla {harina-trigo}, la levadura y sal, añade el agua templada y el aceite, y amasa hasta que esté lisa. Déjala reposar tapada.",
+      "temporizadorSeg": 3600,
+      "tecnica": "masa-pizza"
+    },
+    {
+      "texto": "Pocha la cebolla y el pimiento, añade {pechuga-pollo} en trocitos y cocínalo bien, y después el tomate y pimentón.",
+      "temporizadorSeg": 1500,
+      "tecnica": "sofreir"
+    },
+    {
+      "texto": "Deja enfriar el relleno.",
+      "tecnica": "empanada"
+    },
+    {
+      "texto": "Monta y cierra la empanada.",
+      "tecnica": "empanada"
+    },
+    {
+      "texto": "Pinta y hornea a 190 °C.",
+      "temporizadorSeg": 2100,
+      "tecnica": "empanada"
+    }
+  ]
+}

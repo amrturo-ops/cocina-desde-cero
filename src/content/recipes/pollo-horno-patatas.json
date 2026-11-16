@@ -1,0 +1,106 @@
+{
+  "id": "pollo-horno-patatas",
+  "titulo": "Muslos de pollo al horno con patatas",
+  "nivel": "novato",
+  "tecnicas": [
+    "horno-basico"
+  ],
+  "raciones": 2,
+  "tiempoMin": 60,
+  "dificultad": 2,
+  "momentos": [
+    "comida",
+    "cena"
+  ],
+  "sobras": {
+    "apta": true,
+    "dias": 2
+  },
+  "descripcion": "Casi sin trabajo: lo metes, pones el temporizador y te olvidas.",
+  "ingredientes": [
+    {
+      "id": "muslos-pollo",
+      "cantidad": 600,
+      "unidad": "g",
+      "alternativas": [
+        {
+          "por": [
+            {
+              "id": "garbanzos-cocidos",
+              "cantidad": 1,
+              "unidad": "bote"
+            }
+          ],
+          "titulo": "Patatas y garbanzos al horno",
+          "pasos": [
+            {
+              "indice": 2,
+              "texto": "Escurre los garbanzos, sécalos con papel y añádelos a la bandeja con aceite y pimentón."
+            },
+            {
+              "indice": 4,
+              "texto": "Hornea hasta que la patata esté tierna y los garbanzos crujientes.",
+              "temporizadorSeg": 2400
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "patata",
+      "cantidad": 500,
+      "unidad": "g"
+    },
+    {
+      "id": "cebolla",
+      "cantidad": 1,
+      "unidad": "unidad"
+    },
+    {
+      "id": "limon",
+      "cantidad": 1,
+      "unidad": "unidad"
+    },
+    {
+      "id": "pimenton",
+      "cantidad": 0,
+      "unidad": "al-gusto"
+    },
+    {
+      "id": "aceite-oliva",
+      "cantidad": 3,
+      "unidad": "cucharada"
+    },
+    {
+      "id": "sal",
+      "cantidad": 0,
+      "unidad": "al-gusto"
+    },
+    {
+      "id": "pimienta-negra",
+      "cantidad": 0,
+      "unidad": "al-gusto"
+    }
+  ],
+  "pasos": [
+    {
+      "texto": "Precalienta el horno a 200 °C.",
+      "temporizadorSeg": 600,
+      "tecnica": "horno-basico"
+    },
+    {
+      "texto": "Pela las patatas, córtalas en rodajas de 1 cm y ponlas de base en la bandeja con la cebolla en gajos, aceite y sal."
+    },
+    {
+      "texto": "Salpimienta los muslos, úntalos con pimentón y colócalos encima con la piel hacia arriba."
+    },
+    {
+      "texto": "Riega con el zumo del limón."
+    },
+    {
+      "texto": "Hornea hasta que la piel esté dorada y, al pinchar el muslo junto al hueso, el jugo salga transparente.",
+      "temporizadorSeg": 3000,
+      "tecnica": "horno-basico"
+    }
+  ]
+}

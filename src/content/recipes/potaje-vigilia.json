@@ -1,0 +1,106 @@
+{
+  "id": "potaje-vigilia",
+  "titulo": "Potaje de garbanzos y espinacas",
+  "nivel": "basico",
+  "tecnicas": [
+    "legumbre-seca",
+    "sofreir"
+  ],
+  "raciones": 4,
+  "tiempoMin": 120,
+  "dificultad": 2,
+  "momentos": [
+    "comida"
+  ],
+  "sobras": {
+    "apta": true,
+    "dias": 4
+  },
+  "descripcion": "El potaje de vigilia, con bacalao opcional.",
+  "ingredientes": [
+    {
+      "id": "garbanzos-secos",
+      "cantidad": 350,
+      "unidad": "g"
+    },
+    {
+      "id": "espinacas",
+      "cantidad": 300,
+      "unidad": "g"
+    },
+    {
+      "id": "bacalao",
+      "cantidad": 200,
+      "unidad": "g",
+      "alternativas": [
+        {
+          "por": [],
+          "pasos": [
+            {
+              "indice": 4,
+              "quitar": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cebolla",
+      "cantidad": 1,
+      "unidad": "unidad"
+    },
+    {
+      "id": "ajo",
+      "cantidad": 2,
+      "unidad": "diente"
+    },
+    {
+      "id": "tomate-triturado",
+      "cantidad": 150,
+      "unidad": "g"
+    },
+    {
+      "id": "pimenton",
+      "cantidad": 0,
+      "unidad": "al-gusto"
+    },
+    {
+      "id": "laurel",
+      "cantidad": 0,
+      "unidad": "al-gusto"
+    },
+    {
+      "id": "aceite-oliva",
+      "cantidad": 3,
+      "unidad": "cucharada"
+    },
+    {
+      "id": "sal",
+      "cantidad": 0,
+      "unidad": "al-gusto"
+    }
+  ],
+  "pasos": [
+    {
+      "texto": "Deja los garbanzos en remojo la noche anterior."
+    },
+    {
+      "texto": "Cuécelos en agua con laurel a fuego suave hasta que estén tiernos.",
+      "temporizadorSeg": 5400,
+      "tecnica": "legumbre-seca"
+    },
+    {
+      "texto": "Mientras, sofríe la cebolla y el ajo picados, añade el tomate y una cucharadita de pimentón.",
+      "temporizadorSeg": 600,
+      "tecnica": "sofreir"
+    },
+    {
+      "texto": "Añade el sofrito y las espinacas a los garbanzos.",
+      "temporizadorSeg": 600
+    },
+    {
+      "texto": "Añade el bacalao en trozos y cuece unos minutos más. Sala al final si hace falta.",
+      "temporizadorSeg": 300
+    }
+  ]
+}

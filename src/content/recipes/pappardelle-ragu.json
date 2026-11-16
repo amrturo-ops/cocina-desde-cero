@@ -1,0 +1,151 @@
+{
+  "id": "pappardelle-ragu",
+  "titulo": "Pappardelle con ragú",
+  "nivel": "cocinillas",
+  "tecnicas": [
+    "pasta-fresca",
+    "guisar"
+  ],
+  "raciones": 4,
+  "tiempoMin": 120,
+  "dificultad": 3,
+  "momentos": [
+    "comida"
+  ],
+  "sobras": {
+    "apta": true,
+    "dias": 3
+  },
+  "descripcion": "Cintas anchas con una salsa de carne lenta.",
+  "ingredientes": [
+    {
+      "id": "harina-trigo",
+      "cantidad": 300,
+      "unidad": "g",
+      "alternativas": [
+        {
+          "por": [
+            {
+              "id": "harina-sg",
+              "cantidad": 300,
+              "unidad": "g"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "huevo",
+      "cantidad": 3,
+      "unidad": "unidad",
+      "alternativas": [
+        {
+          "por": [
+            {
+              "id": "agua",
+              "cantidad": 150,
+              "unidad": "ml"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "carne-picada",
+      "cantidad": 400,
+      "unidad": "g",
+      "alternativas": [
+        {
+          "por": [
+            {
+              "id": "lentejas-cocidas",
+              "cantidad": 2,
+              "unidad": "bote"
+            }
+          ],
+          "titulo": "Pappardelle con ragú de lentejas"
+        }
+      ]
+    },
+    {
+      "id": "cebolla",
+      "cantidad": 1,
+      "unidad": "unidad"
+    },
+    {
+      "id": "zanahoria",
+      "cantidad": 1,
+      "unidad": "unidad"
+    },
+    {
+      "id": "tomate-triturado",
+      "cantidad": 400,
+      "unidad": "g"
+    },
+    {
+      "id": "vino-blanco",
+      "cantidad": 100,
+      "unidad": "ml",
+      "alternativas": [
+        {
+          "por": [
+            {
+              "id": "caldo-verduras",
+              "cantidad": 100,
+              "unidad": "ml"
+            }
+          ]
+        },
+        {
+          "por": [
+            {
+              "id": "agua",
+              "cantidad": 100,
+              "unidad": "ml"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "aceite-oliva",
+      "cantidad": 3,
+      "unidad": "cucharada"
+    },
+    {
+      "id": "sal",
+      "cantidad": 0,
+      "unidad": "al-gusto"
+    }
+  ],
+  "pasos": [
+    {
+      "texto": "Haz un volcán con la harina, casca {huevo} en el centro y bate con un tenedor incorporando la harina poco a poco.",
+      "tecnica": "pasta-fresca"
+    },
+    {
+      "texto": "Amasa hasta que esté lisa y elástica, tapa y deja reposar.",
+      "temporizadorSeg": 1800,
+      "tecnica": "pasta-fresca"
+    },
+    {
+      "texto": "Estira la masa muy fina con un rodillo, enharinando para que no se pegue.",
+      "tecnica": "pasta-fresca"
+    },
+    {
+      "texto": "Corta la lámina en cintas anchas."
+    },
+    {
+      "texto": "Para el ragú, sofríe la cebolla y la zanahoria, añade {carne-picada}, {vino-blanco} y el tomate, y cuece a fuego muy bajo.",
+      "temporizadorSeg": 3600,
+      "tecnica": "guisar"
+    },
+    {
+      "texto": "Cuece la pasta en agua con sal.",
+      "temporizadorSeg": 180
+    },
+    {
+      "texto": "Mezcla con el ragú."
+    }
+  ]
+}

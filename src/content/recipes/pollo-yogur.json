@@ -1,0 +1,122 @@
+{
+  "id": "pollo-yogur",
+  "titulo": "Pollo marinado en yogur y especias",
+  "nivel": "basico",
+  "tecnicas": [
+    "marinar",
+    "horno-basico"
+  ],
+  "raciones": 4,
+  "tiempoMin": 60,
+  "dificultad": 2,
+  "momentos": [
+    "comida",
+    "cena"
+  ],
+  "sobras": {
+    "apta": true,
+    "dias": 2
+  },
+  "descripcion": "El yogur deja el pollo tiernísimo.",
+  "ingredientes": [
+    {
+      "id": "muslos-pollo",
+      "cantidad": 800,
+      "unidad": "g",
+      "alternativas": [
+        {
+          "por": [
+            {
+              "id": "coliflor",
+              "cantidad": 800,
+              "unidad": "g"
+            }
+          ],
+          "titulo": "Coliflor marinada en yogur y especias"
+        }
+      ]
+    },
+    {
+      "id": "yogur-natural",
+      "cantidad": 2,
+      "unidad": "unidad",
+      "alternativas": [
+        {
+          "por": [
+            {
+              "id": "yogur-soja",
+              "cantidad": 2,
+              "unidad": "unidad"
+            }
+          ]
+        },
+        {
+          "por": [
+            {
+              "id": "leche-coco",
+              "cantidad": 150,
+              "unidad": "ml"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "curry-polvo",
+      "cantidad": 2,
+      "unidad": "cucharadita",
+      "alternativas": [
+        {
+          "por": [
+            {
+              "id": "comino",
+              "cantidad": 0,
+              "unidad": "al-gusto"
+            },
+            {
+              "id": "pimenton",
+              "cantidad": 0,
+              "unidad": "al-gusto"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ajo",
+      "cantidad": 2,
+      "unidad": "diente"
+    },
+    {
+      "id": "limon",
+      "cantidad": 1,
+      "unidad": "unidad"
+    },
+    {
+      "id": "sal",
+      "cantidad": 0,
+      "unidad": "al-gusto"
+    }
+  ],
+  "pasos": [
+    {
+      "texto": "Mezcla {yogur-natural}, {curry-polvo}, el ajo rallado, el zumo del limón y sal.",
+      "tecnica": "marinar"
+    },
+    {
+      "texto": "Unta {muslos-pollo} con la mezcla y deja marinar en la nevera al menos 1 hora.",
+      "temporizadorSeg": 3600,
+      "tecnica": "marinar"
+    },
+    {
+      "texto": "Precalienta el horno a 210 °C.",
+      "temporizadorSeg": 600,
+      "tecnica": "horno-basico"
+    },
+    {
+      "texto": "Hornea hasta que esté dorado y hecho por dentro (el pollo, sin nada rosa junto al hueso).",
+      "temporizadorSeg": 2100,
+      "tecnica": "horno-basico"
+    }
+  ]
+}

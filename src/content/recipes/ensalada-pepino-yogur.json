@@ -1,0 +1,78 @@
+{
+  "id": "ensalada-pepino-yogur",
+  "titulo": "Ensalada de pepino con yogur",
+  "nivel": "novato",
+  "tecnicas": [
+    "cortar-cebolla"
+  ],
+  "raciones": 2,
+  "tiempoMin": 10,
+  "momentos": [
+    "comida",
+    "cena"
+  ],
+  "sobras": {
+    "apta": false,
+    "dias": 0
+  },
+  "descripcion": "Fresquísima, para acompañar o para cenar ligero.",
+  "ingredientes": [
+    {
+      "id": "pepino",
+      "cantidad": 1,
+      "unidad": "unidad"
+    },
+    {
+      "id": "yogur-natural",
+      "cantidad": 2,
+      "unidad": "unidad",
+      "alternativas": [
+        {
+          "por": [
+            {
+              "id": "yogur-soja",
+              "cantidad": 2,
+              "unidad": "unidad"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cebolla-morada",
+      "cantidad": 0.25,
+      "unidad": "unidad"
+    },
+    {
+      "id": "ajo",
+      "cantidad": 1,
+      "unidad": "diente"
+    },
+    {
+      "id": "aceite-oliva",
+      "cantidad": 1,
+      "unidad": "cucharada"
+    },
+    {
+      "id": "sal",
+      "cantidad": 0,
+      "unidad": "al-gusto"
+    }
+  ],
+  "pasos": [
+    {
+      "texto": "Pica muy fina la cebolla morada.",
+      "tecnica": "cortar-cebolla"
+    },
+    {
+      "texto": "Corta el pepino en rodajas finas o en dados."
+    },
+    {
+      "texto": "Mezcla el yogur con el ajo muy picado, el aceite y sal."
+    },
+    {
+      "texto": "Junta todo y sirve frío."
+    }
+  ],
+  "dificultad": 1
+}

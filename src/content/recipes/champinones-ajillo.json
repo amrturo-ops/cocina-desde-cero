@@ -1,0 +1,72 @@
+{
+  "id": "champinones-ajillo",
+  "titulo": "Champiñones al ajillo",
+  "nivel": "novato",
+  "tecnicas": [
+    "sofreir"
+  ],
+  "raciones": 2,
+  "tiempoMin": 15,
+  "dificultad": 1,
+  "momentos": [
+    "comida",
+    "cena"
+  ],
+  "sobras": {
+    "apta": true,
+    "dias": 2
+  },
+  "descripcion": "Ajo, aceite y champiñones: cinco ingredientes y un olor que llena la casa.",
+  "ingredientes": [
+    {
+      "id": "champinones",
+      "cantidad": 400,
+      "unidad": "g"
+    },
+    {
+      "id": "ajo",
+      "cantidad": 3,
+      "unidad": "diente"
+    },
+    {
+      "id": "perejil",
+      "cantidad": 0.25,
+      "unidad": "manojo"
+    },
+    {
+      "id": "aceite-oliva",
+      "cantidad": 3,
+      "unidad": "cucharada"
+    },
+    {
+      "id": "guindilla",
+      "cantidad": 0,
+      "unidad": "al-gusto"
+    },
+    {
+      "id": "sal",
+      "cantidad": 0,
+      "unidad": "al-gusto"
+    }
+  ],
+  "pasos": [
+    {
+      "texto": "Limpia los champiñones con un papel húmedo (no los metas en agua) y córtalos en láminas."
+    },
+    {
+      "texto": "Pela los ajos y córtalos en láminas finas. Pica el perejil."
+    },
+    {
+      "texto": "Calienta el aceite a fuego medio y sofríe los ajos con la guindilla hasta que empiecen a dorarse.",
+      "temporizadorSeg": 90,
+      "tecnica": "sofreir"
+    },
+    {
+      "texto": "Añade los champiñones y una pizca de sal. Remueve de vez en cuando: primero soltarán agua y luego se dorarán.",
+      "temporizadorSeg": 600
+    },
+    {
+      "texto": "Espolvorea el perejil y sirve."
+    }
+  ]
+}

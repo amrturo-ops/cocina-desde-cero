@@ -1,0 +1,98 @@
+{
+  "id": "brochetas-pollo",
+  "titulo": "Brochetas de pollo y verduras",
+  "nivel": "basico",
+  "tecnicas": [
+    "marinar",
+    "plancha"
+  ],
+  "raciones": 4,
+  "tiempoMin": 40,
+  "dificultad": 2,
+  "momentos": [
+    "comida",
+    "cena"
+  ],
+  "sobras": {
+    "apta": false,
+    "dias": 0
+  },
+  "descripcion": "Perfectas para hacer en la plancha o la barbacoa.",
+  "ingredientes": [
+    {
+      "id": "pechuga-pollo",
+      "cantidad": 500,
+      "unidad": "g",
+      "alternativas": [
+        {
+          "por": [
+            {
+              "id": "tofu",
+              "cantidad": 400,
+              "unidad": "g"
+            }
+          ],
+          "titulo": "Brochetas de tofu y verduras"
+        }
+      ]
+    },
+    {
+      "id": "pimiento-rojo",
+      "cantidad": 1,
+      "unidad": "unidad"
+    },
+    {
+      "id": "cebolla",
+      "cantidad": 1,
+      "unidad": "unidad"
+    },
+    {
+      "id": "calabacin",
+      "cantidad": 1,
+      "unidad": "unidad"
+    },
+    {
+      "id": "limon",
+      "cantidad": 1,
+      "unidad": "unidad"
+    },
+    {
+      "id": "oregano",
+      "cantidad": 0,
+      "unidad": "al-gusto"
+    },
+    {
+      "id": "pimenton",
+      "cantidad": 0,
+      "unidad": "al-gusto"
+    },
+    {
+      "id": "aceite-oliva",
+      "cantidad": 4,
+      "unidad": "cucharada"
+    },
+    {
+      "id": "sal",
+      "cantidad": 0,
+      "unidad": "al-gusto"
+    }
+  ],
+  "pasos": [
+    {
+      "texto": "Corta {pechuga-pollo} y las verduras en dados del mismo tamaño."
+    },
+    {
+      "texto": "Marínalo todo con aceite, zumo de limón, orégano, pimentón y sal.",
+      "temporizadorSeg": 1800,
+      "tecnica": "marinar"
+    },
+    {
+      "texto": "Ensártalo en palillos alternando colores."
+    },
+    {
+      "texto": "Hazlas en la plancha dándoles la vuelta hasta que estén hechas por todos lados.",
+      "temporizadorSeg": 600,
+      "tecnica": "plancha"
+    }
+  ]
+}

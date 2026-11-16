@@ -1,0 +1,124 @@
+{
+  "id": "tallarines-setas",
+  "titulo": "Tallarines frescos con setas",
+  "nivel": "cocinillas",
+  "tecnicas": [
+    "pasta-fresca"
+  ],
+  "raciones": 4,
+  "tiempoMin": 70,
+  "dificultad": 3,
+  "momentos": [
+    "comida",
+    "cena"
+  ],
+  "sobras": {
+    "apta": false,
+    "dias": 0
+  },
+  "descripcion": "Pasta fresca con una salsa cremosa de setas.",
+  "ingredientes": [
+    {
+      "id": "harina-trigo",
+      "cantidad": 300,
+      "unidad": "g",
+      "alternativas": [
+        {
+          "por": [
+            {
+              "id": "harina-sg",
+              "cantidad": 300,
+              "unidad": "g"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "huevo",
+      "cantidad": 3,
+      "unidad": "unidad",
+      "alternativas": [
+        {
+          "por": [
+            {
+              "id": "agua",
+              "cantidad": 150,
+              "unidad": "ml"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "setas",
+      "cantidad": 300,
+      "unidad": "g"
+    },
+    {
+      "id": "ajo",
+      "cantidad": 1,
+      "unidad": "diente"
+    },
+    {
+      "id": "nata",
+      "cantidad": 200,
+      "unidad": "ml",
+      "alternativas": [
+        {
+          "por": [
+            {
+              "id": "leche-coco",
+              "cantidad": 200,
+              "unidad": "ml"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "aceite-oliva",
+      "cantidad": 2,
+      "unidad": "cucharada"
+    },
+    {
+      "id": "sal",
+      "cantidad": 0,
+      "unidad": "al-gusto"
+    },
+    {
+      "id": "pimienta-negra",
+      "cantidad": 0,
+      "unidad": "al-gusto"
+    }
+  ],
+  "pasos": [
+    {
+      "texto": "Haz un volcán con la harina, casca {huevo} en el centro y bate con un tenedor incorporando la harina poco a poco.",
+      "tecnica": "pasta-fresca"
+    },
+    {
+      "texto": "Amasa hasta que esté lisa y elástica, tapa y deja reposar.",
+      "temporizadorSeg": 1800,
+      "tecnica": "pasta-fresca"
+    },
+    {
+      "texto": "Estira la masa muy fina con un rodillo, enharinando para que no se pegue.",
+      "tecnica": "pasta-fresca"
+    },
+    {
+      "texto": "Corta la lámina en tiras finas."
+    },
+    {
+      "texto": "Saltea las setas con el ajo y añade {nata}. Reduce un poco.",
+      "temporizadorSeg": 480
+    },
+    {
+      "texto": "Cuece la pasta en agua con sal.",
+      "temporizadorSeg": 180
+    },
+    {
+      "texto": "Mezcla con la salsa y pimienta."
+    }
+  ]
+}

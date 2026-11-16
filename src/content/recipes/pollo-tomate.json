@@ -1,0 +1,106 @@
+{
+  "id": "pollo-tomate",
+  "titulo": "Pollo con tomate",
+  "nivel": "novato",
+  "tecnicas": [
+    "salsa-basica",
+    "sofreir",
+    "cortar-cebolla"
+  ],
+  "raciones": 2,
+  "tiempoMin": 40,
+  "momentos": [
+    "comida",
+    "cena"
+  ],
+  "sobras": {
+    "apta": true,
+    "dias": 3
+  },
+  "descripcion": "Guiso de toda la vida, ideal para hacer de más.",
+  "ingredientes": [
+    {
+      "id": "muslos-pollo",
+      "cantidad": 500,
+      "unidad": "g",
+      "alternativas": [
+        {
+          "por": [
+            {
+              "id": "garbanzos-cocidos",
+              "cantidad": 1,
+              "unidad": "bote"
+            }
+          ],
+          "titulo": "Garbanzos con tomate",
+          "pasos": [
+            {
+              "indice": 1,
+              "texto": "Escurre y enjuaga los garbanzos."
+            },
+            {
+              "indice": 4,
+              "texto": "Añade los garbanzos y deja que se calienten en la salsa.",
+              "temporizadorSeg": 420
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cebolla",
+      "cantidad": 1,
+      "unidad": "unidad"
+    },
+    {
+      "id": "pimiento-verde",
+      "cantidad": 1,
+      "unidad": "unidad"
+    },
+    {
+      "id": "ajo",
+      "cantidad": 1,
+      "unidad": "diente"
+    },
+    {
+      "id": "tomate-triturado",
+      "cantidad": 400,
+      "unidad": "g"
+    },
+    {
+      "id": "aceite-oliva",
+      "cantidad": 3,
+      "unidad": "cucharada"
+    },
+    {
+      "id": "sal",
+      "cantidad": 0,
+      "unidad": "al-gusto"
+    }
+  ],
+  "pasos": [
+    {
+      "texto": "Pica la cebolla, el ajo y el pimiento.",
+      "tecnica": "cortar-cebolla"
+    },
+    {
+      "texto": "Sala el pollo y dóralo en una cazuela con el aceite. Retíralo.",
+      "temporizadorSeg": 480
+    },
+    {
+      "texto": "En el mismo aceite, sofríe la verdura.",
+      "temporizadorSeg": 480,
+      "tecnica": "sofreir"
+    },
+    {
+      "texto": "Añade el tomate y sal, y deja que espese un poco.",
+      "temporizadorSeg": 300,
+      "tecnica": "salsa-basica"
+    },
+    {
+      "texto": "Vuelve a poner el pollo, tapa y cocina a fuego bajo hasta que esté tierno y sin nada rosa junto al hueso.",
+      "temporizadorSeg": 1500
+    }
+  ],
+  "dificultad": 2
+}

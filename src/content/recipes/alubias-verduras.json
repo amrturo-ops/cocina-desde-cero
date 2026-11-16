@@ -1,0 +1,97 @@
+{
+  "id": "alubias-verduras",
+  "titulo": "Alubias con verduras",
+  "nivel": "novato",
+  "tecnicas": [
+    "legumbre-bote",
+    "sofreir",
+    "cortar-cebolla"
+  ],
+  "raciones": 2,
+  "tiempoMin": 25,
+  "momentos": [
+    "comida",
+    "cena"
+  ],
+  "sobras": {
+    "apta": true,
+    "dias": 3
+  },
+  "descripcion": "Guiso de cuchara en 25 minutos.",
+  "ingredientes": [
+    {
+      "id": "alubias-cocidas",
+      "cantidad": 2,
+      "unidad": "bote"
+    },
+    {
+      "id": "puerro",
+      "cantidad": 1,
+      "unidad": "unidad"
+    },
+    {
+      "id": "zanahoria",
+      "cantidad": 2,
+      "unidad": "unidad"
+    },
+    {
+      "id": "pimiento-rojo",
+      "cantidad": 0.5,
+      "unidad": "unidad"
+    },
+    {
+      "id": "caldo-verduras",
+      "cantidad": 500,
+      "unidad": "ml",
+      "alternativas": [
+        {
+          "por": [
+            {
+              "id": "agua",
+              "cantidad": 500,
+              "unidad": "ml"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pimenton",
+      "cantidad": 0,
+      "unidad": "al-gusto"
+    },
+    {
+      "id": "aceite-oliva",
+      "cantidad": 2,
+      "unidad": "cucharada"
+    },
+    {
+      "id": "sal",
+      "cantidad": 0,
+      "unidad": "al-gusto"
+    }
+  ],
+  "pasos": [
+    {
+      "texto": "Corta el puerro en rodajas finas, la zanahoria en dados y el pimiento en trozos.",
+      "tecnica": "cortar-cebolla"
+    },
+    {
+      "texto": "Sofríe las verduras en una olla con el aceite.",
+      "temporizadorSeg": 480,
+      "tecnica": "sofreir"
+    },
+    {
+      "texto": "Añade el pimentón, remueve, y echa las alubias escurridas y el caldo.",
+      "tecnica": "legumbre-bote"
+    },
+    {
+      "texto": "Deja hervir suave para que espese un poco.",
+      "temporizadorSeg": 720
+    },
+    {
+      "texto": "Prueba de sal y sirve."
+    }
+  ],
+  "dificultad": 2
+}

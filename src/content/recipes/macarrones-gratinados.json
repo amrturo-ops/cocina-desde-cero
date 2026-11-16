@@ -1,0 +1,174 @@
+{
+  "id": "macarrones-gratinados",
+  "titulo": "Macarrones gratinados con bechamel",
+  "nivel": "basico",
+  "tecnicas": [
+    "bechamel",
+    "cocer-pasta",
+    "horno-basico"
+  ],
+  "raciones": 4,
+  "tiempoMin": 40,
+  "dificultad": 2,
+  "momentos": [
+    "comida"
+  ],
+  "sobras": {
+    "apta": true,
+    "dias": 3
+  },
+  "descripcion": "Pasta, tomate, bechamel y queso dorado.",
+  "ingredientes": [
+    {
+      "id": "pasta-trigo",
+      "cantidad": 350,
+      "unidad": "g",
+      "alternativas": [
+        {
+          "por": [
+            {
+              "id": "pasta-sin-gluten",
+              "cantidad": 350,
+              "unidad": "g"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tomate-triturado",
+      "cantidad": 400,
+      "unidad": "g"
+    },
+    {
+      "id": "cebolla",
+      "cantidad": 1,
+      "unidad": "unidad"
+    },
+    {
+      "id": "leche",
+      "cantidad": 500,
+      "unidad": "ml",
+      "alternativas": [
+        {
+          "por": [
+            {
+              "id": "leche-sin-lactosa",
+              "cantidad": 500,
+              "unidad": "ml"
+            }
+          ]
+        },
+        {
+          "por": [
+            {
+              "id": "bebida-soja",
+              "cantidad": 500,
+              "unidad": "ml"
+            }
+          ]
+        },
+        {
+          "por": [
+            {
+              "id": "bebida-arroz",
+              "cantidad": 500,
+              "unidad": "ml"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "harina-trigo",
+      "cantidad": 40,
+      "unidad": "g",
+      "alternativas": [
+        {
+          "por": [
+            {
+              "id": "maicena",
+              "cantidad": 40,
+              "unidad": "g"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mantequilla",
+      "cantidad": 3,
+      "unidad": "cucharada",
+      "alternativas": [
+        {
+          "por": [
+            {
+              "id": "aceite-oliva",
+              "cantidad": 3,
+              "unidad": "cucharada"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "queso-parmesano",
+      "cantidad": 80,
+      "unidad": "g",
+      "alternativas": [
+        {
+          "por": [
+            {
+              "id": "queso-sin-lactosa",
+              "cantidad": 80,
+              "unidad": "g"
+            }
+          ]
+        },
+        {
+          "por": [
+            {
+              "id": "levadura-nutricional",
+              "cantidad": 4,
+              "unidad": "cucharada"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "aceite-oliva",
+      "cantidad": 2,
+      "unidad": "cucharada"
+    },
+    {
+      "id": "sal",
+      "cantidad": 0,
+      "unidad": "al-gusto"
+    }
+  ],
+  "pasos": [
+    {
+      "texto": "Cuece la pasta un par de minutos menos de lo que diga el paquete.",
+      "temporizadorSeg": 480,
+      "tecnica": "cocer-pasta"
+    },
+    {
+      "texto": "Sofríe la cebolla picada, añade el tomate y deja que espese. Mezcla con la pasta.",
+      "temporizadorSeg": 720
+    },
+    {
+      "texto": "Haz la bechamel: {mantequilla} y {harina-trigo}, y después {leche} poco a poco, batiendo.",
+      "temporizadorSeg": 480,
+      "tecnica": "bechamel"
+    },
+    {
+      "texto": "Pon la pasta en una fuente, cubre con la bechamel y {queso-parmesano}."
+    },
+    {
+      "texto": "Gratina en el horno a 220 °C.",
+      "temporizadorSeg": 720,
+      "tecnica": "horno-basico"
+    }
+  ]
+}

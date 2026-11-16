@@ -1,0 +1,61 @@
+{
+  "id": "calabacin-salteado",
+  "titulo": "Calabacín salteado con ajo",
+  "nivel": "novato",
+  "tecnicas": [
+    "sofreir"
+  ],
+  "raciones": 2,
+  "tiempoMin": 15,
+  "momentos": [
+    "comida",
+    "cena"
+  ],
+  "sobras": {
+    "apta": true,
+    "dias": 1
+  },
+  "descripcion": "La guarnición más rápida: calabacín tierno y dorado.",
+  "ingredientes": [
+    {
+      "id": "calabacin",
+      "cantidad": 2,
+      "unidad": "unidad"
+    },
+    {
+      "id": "ajo",
+      "cantidad": 2,
+      "unidad": "diente"
+    },
+    {
+      "id": "aceite-oliva",
+      "cantidad": 2,
+      "unidad": "cucharada"
+    },
+    {
+      "id": "sal",
+      "cantidad": 0,
+      "unidad": "al-gusto"
+    },
+    {
+      "id": "pimienta-negra",
+      "cantidad": 0,
+      "unidad": "al-gusto"
+    }
+  ],
+  "pasos": [
+    {
+      "texto": "Corta el calabacín en medias lunas y lamina el ajo."
+    },
+    {
+      "texto": "Sofríe el ajo en el aceite a fuego medio hasta que empiece a dorarse.",
+      "temporizadorSeg": 60,
+      "tecnica": "sofreir"
+    },
+    {
+      "texto": "Añade el calabacín, sal y pimienta, y saltea removiendo hasta que esté tierno y con puntos dorados.",
+      "temporizadorSeg": 420
+    }
+  ],
+  "dificultad": 1
+}

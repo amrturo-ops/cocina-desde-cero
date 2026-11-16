@@ -1,0 +1,88 @@
+{
+  "id": "entrecot-patatas",
+  "titulo": "Entrecot con patatas y pimientos",
+  "nivel": "cocinillas",
+  "tecnicas": [
+    "sellar-carne"
+  ],
+  "raciones": 2,
+  "tiempoMin": 40,
+  "dificultad": 3,
+  "momentos": [
+    "cena"
+  ],
+  "sobras": {
+    "apta": false,
+    "dias": 0
+  },
+  "descripcion": "El punto perfecto: dorado por fuera y jugoso dentro.",
+  "ingredientes": [
+    {
+      "id": "filete-ternera",
+      "cantidad": 600,
+      "unidad": "g",
+      "alternativas": [
+        {
+          "por": [
+            {
+              "id": "berenjena",
+              "cantidad": 2,
+              "unidad": "unidad"
+            }
+          ],
+          "titulo": "Berenjena sellada con patatas y pimientos"
+        }
+      ]
+    },
+    {
+      "id": "patata",
+      "cantidad": 600,
+      "unidad": "g"
+    },
+    {
+      "id": "pimiento-verde",
+      "cantidad": 2,
+      "unidad": "unidad"
+    },
+    {
+      "id": "sal",
+      "cantidad": 0,
+      "unidad": "al-gusto"
+    },
+    {
+      "id": "pimienta-negra",
+      "cantidad": 0,
+      "unidad": "al-gusto"
+    },
+    {
+      "id": "aceite-girasol",
+      "cantidad": 300,
+      "unidad": "ml"
+    }
+  ],
+  "pasos": [
+    {
+      "texto": "Saca la carne de la nevera 20 minutos antes y sécala.",
+      "temporizadorSeg": 1200,
+      "tecnica": "sellar-carne"
+    },
+    {
+      "texto": "Fríe las patatas en bastones y luego los pimientos. Reserva.",
+      "temporizadorSeg": 900
+    },
+    {
+      "texto": "Calienta una sartén al máximo con una gota de aceite y sella {filete-ternera} sin moverla.",
+      "temporizadorSeg": 120,
+      "tecnica": "sellar-carne"
+    },
+    {
+      "texto": "Dale la vuelta y deja según el punto: 1-2 minutos poco hecha, 3-4 al punto.",
+      "temporizadorSeg": 180,
+      "tecnica": "sellar-carne"
+    },
+    {
+      "texto": "Deja reposar 3 minutos, sala con sal gruesa y sirve con las patatas.",
+      "temporizadorSeg": 180
+    }
+  ]
+}

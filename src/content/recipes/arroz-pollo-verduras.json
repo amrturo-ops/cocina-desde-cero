@@ -1,0 +1,130 @@
+{
+  "id": "arroz-pollo-verduras",
+  "titulo": "Arroz con pollo y verduras",
+  "nivel": "novato",
+  "tecnicas": [
+    "arroz-blanco",
+    "sofreir",
+    "cortar-cebolla"
+  ],
+  "raciones": 2,
+  "tiempoMin": 35,
+  "dificultad": 3,
+  "momentos": [
+    "comida",
+    "cena"
+  ],
+  "sobras": {
+    "apta": true,
+    "dias": 2
+  },
+  "descripcion": "Plato único en una sola olla.",
+  "ingredientes": [
+    {
+      "id": "arroz",
+      "cantidad": 160,
+      "unidad": "g"
+    },
+    {
+      "id": "pechuga-pollo",
+      "cantidad": 250,
+      "unidad": "g",
+      "alternativas": [
+        {
+          "por": [
+            {
+              "id": "garbanzos-cocidos",
+              "cantidad": 250,
+              "unidad": "g"
+            }
+          ],
+          "titulo": "Arroz con garbanzos y verduras",
+          "pasos": [
+            {
+              "indice": 1,
+              "texto": "Escurre y enjuaga los garbanzos."
+            },
+            {
+              "indice": 3,
+              "texto": "Añade los garbanzos y el pimentón y remueve un minuto.",
+              "temporizadorSeg": 60
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cebolla",
+      "cantidad": 1,
+      "unidad": "unidad"
+    },
+    {
+      "id": "pimiento-rojo",
+      "cantidad": 1,
+      "unidad": "unidad"
+    },
+    {
+      "id": "ajo",
+      "cantidad": 1,
+      "unidad": "diente"
+    },
+    {
+      "id": "pimenton",
+      "cantidad": 0,
+      "unidad": "al-gusto"
+    },
+    {
+      "id": "caldo-verduras",
+      "cantidad": 400,
+      "unidad": "ml",
+      "alternativas": [
+        {
+          "por": [
+            {
+              "id": "agua",
+              "cantidad": 400,
+              "unidad": "ml"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "aceite-oliva",
+      "cantidad": 3,
+      "unidad": "cucharada"
+    },
+    {
+      "id": "sal",
+      "cantidad": 0,
+      "unidad": "al-gusto"
+    }
+  ],
+  "pasos": [
+    {
+      "texto": "Pica la cebolla, el ajo y el pimiento.",
+      "tecnica": "cortar-cebolla"
+    },
+    {
+      "texto": "Corta el pollo en dados y sálalo."
+    },
+    {
+      "texto": "Sofríe la verdura en una olla con el aceite.",
+      "temporizadorSeg": 420,
+      "tecnica": "sofreir"
+    },
+    {
+      "texto": "Añade el pollo y dóralo por todos lados. Echa una cucharadita de pimentón y remueve.",
+      "temporizadorSeg": 300
+    },
+    {
+      "texto": "Añade el arroz lavado y el caldo caliente. Cuando hierva, baja al mínimo y tapa.",
+      "temporizadorSeg": 1080,
+      "tecnica": "arroz-blanco"
+    },
+    {
+      "texto": "Deja reposar tapado antes de servir.",
+      "temporizadorSeg": 300
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "id": "champinones-rellenos",
+  "titulo": "Champiñones rellenos",
+  "nivel": "cocinillas",
+  "tecnicas": [
+    "rellenar",
+    "horno-basico"
+  ],
+  "raciones": 4,
+  "tiempoMin": 30,
+  "dificultad": 1,
+  "momentos": [
+    "cena"
+  ],
+  "sobras": {
+    "apta": false,
+    "dias": 0
+  },
+  "descripcion": "Bocados perfectos para cenar o compartir.",
+  "ingredientes": [
+    {
+      "id": "champinones",
+      "cantidad": 500,
+      "unidad": "g"
+    },
+    {
+      "id": "ajo",
+      "cantidad": 2,
+      "unidad": "diente"
+    },
+    {
+      "id": "jamon-serrano",
+      "cantidad": 60,
+      "unidad": "g",
+      "alternativas": [
+        {
+          "por": []
+        }
+      ]
+    },
+    {
+      "id": "perejil",
+      "cantidad": 0.25,
+      "unidad": "manojo"
+    },
+    {
+      "id": "pan-rallado",
+      "cantidad": 30,
+      "unidad": "g",
+      "alternativas": [
+        {
+          "por": [
+            {
+              "id": "pan-rallado-sg",
+              "cantidad": 30,
+              "unidad": "g"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "aceite-oliva",
+      "cantidad": 3,
+      "unidad": "cucharada"
+    },
+    {
+      "id": "sal",
+      "cantidad": 0,
+      "unidad": "al-gusto"
+    }
+  ],
+  "pasos": [
+    {
+      "texto": "Quita los pies a los champiñones grandes y pícalos.",
+      "tecnica": "rellenar"
+    },
+    {
+      "texto": "Sofríe los pies picados con el ajo, el jamón y el perejil.",
+      "temporizadorSeg": 300
+    },
+    {
+      "texto": "Rellena los sombreros, espolvorea {pan-rallado} y riega con aceite."
+    },
+    {
+      "texto": "Hornea a 200 °C.",
+      "temporizadorSeg": 900,
+      "tecnica": "horno-basico"
+    }
+  ]
+}

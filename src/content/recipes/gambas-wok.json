@@ -1,0 +1,86 @@
+{
+  "id": "gambas-wok",
+  "titulo": "Gambas al ajillo salteadas con verduras",
+  "nivel": "basico",
+  "tecnicas": [
+    "saltear-wok"
+  ],
+  "raciones": 4,
+  "tiempoMin": 20,
+  "dificultad": 2,
+  "momentos": [
+    "cena"
+  ],
+  "sobras": {
+    "apta": false,
+    "dias": 0
+  },
+  "descripcion": "Cena rápida y llena de sabor.",
+  "ingredientes": [
+    {
+      "id": "gambas",
+      "cantidad": 400,
+      "unidad": "g",
+      "alternativas": [
+        {
+          "por": [
+            {
+              "id": "tofu",
+              "cantidad": 400,
+              "unidad": "g"
+            }
+          ],
+          "titulo": "Tofu al ajillo con verduras"
+        }
+      ]
+    },
+    {
+      "id": "ajo",
+      "cantidad": 4,
+      "unidad": "diente"
+    },
+    {
+      "id": "guindilla",
+      "cantidad": 0,
+      "unidad": "al-gusto"
+    },
+    {
+      "id": "calabacin",
+      "cantidad": 1,
+      "unidad": "unidad"
+    },
+    {
+      "id": "pimiento-rojo",
+      "cantidad": 1,
+      "unidad": "unidad"
+    },
+    {
+      "id": "aceite-oliva",
+      "cantidad": 4,
+      "unidad": "cucharada"
+    },
+    {
+      "id": "sal",
+      "cantidad": 0,
+      "unidad": "al-gusto"
+    }
+  ],
+  "pasos": [
+    {
+      "texto": "Pela las gambas (o corta el tofu en dados) y lamina los ajos."
+    },
+    {
+      "texto": "Saltea el calabacín y el pimiento en tiras en el wok muy caliente. Retíralos.",
+      "temporizadorSeg": 240,
+      "tecnica": "saltear-wok"
+    },
+    {
+      "texto": "Dora el ajo y la guindilla, añade {gambas} con sal y saltea.",
+      "temporizadorSeg": 120,
+      "tecnica": "saltear-wok"
+    },
+    {
+      "texto": "Vuelve a añadir las verduras, mezcla y sirve."
+    }
+  ]
+}

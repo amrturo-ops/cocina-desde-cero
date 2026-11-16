@@ -1,0 +1,135 @@
+{
+  "id": "tallarines-frescos",
+  "titulo": "Tallarines frescos con tomate",
+  "nivel": "cocinillas",
+  "tecnicas": [
+    "pasta-fresca",
+    "salsa-basica"
+  ],
+  "raciones": 4,
+  "tiempoMin": 70,
+  "dificultad": 3,
+  "momentos": [
+    "comida",
+    "cena"
+  ],
+  "sobras": {
+    "apta": false,
+    "dias": 0
+  },
+  "descripcion": "Tu primera pasta hecha a mano.",
+  "ingredientes": [
+    {
+      "id": "harina-trigo",
+      "cantidad": 300,
+      "unidad": "g",
+      "alternativas": [
+        {
+          "por": [
+            {
+              "id": "harina-sg",
+              "cantidad": 300,
+              "unidad": "g"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "huevo",
+      "cantidad": 3,
+      "unidad": "unidad",
+      "alternativas": [
+        {
+          "por": [
+            {
+              "id": "agua",
+              "cantidad": 150,
+              "unidad": "ml"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tomate-triturado",
+      "cantidad": 400,
+      "unidad": "g"
+    },
+    {
+      "id": "ajo",
+      "cantidad": 1,
+      "unidad": "diente"
+    },
+    {
+      "id": "albahaca",
+      "cantidad": 0.25,
+      "unidad": "manojo"
+    },
+    {
+      "id": "aceite-oliva",
+      "cantidad": 3,
+      "unidad": "cucharada"
+    },
+    {
+      "id": "queso-parmesano",
+      "cantidad": 40,
+      "unidad": "g",
+      "alternativas": [
+        {
+          "por": [
+            {
+              "id": "queso-sin-lactosa",
+              "cantidad": 40,
+              "unidad": "g"
+            }
+          ]
+        },
+        {
+          "por": [
+            {
+              "id": "levadura-nutricional",
+              "cantidad": 4,
+              "unidad": "cucharada"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sal",
+      "cantidad": 0,
+      "unidad": "al-gusto"
+    }
+  ],
+  "pasos": [
+    {
+      "texto": "Haz un volcán con la harina, casca {huevo} en el centro y bate con un tenedor incorporando la harina poco a poco.",
+      "tecnica": "pasta-fresca"
+    },
+    {
+      "texto": "Amasa hasta que esté lisa y elástica, tapa y deja reposar.",
+      "temporizadorSeg": 1800,
+      "tecnica": "pasta-fresca"
+    },
+    {
+      "texto": "Estira la masa muy fina con un rodillo, enharinando para que no se pegue.",
+      "tecnica": "pasta-fresca"
+    },
+    {
+      "texto": "Enrolla la lámina y córtala en tiras finas. Sepáralas y enharínalas."
+    },
+    {
+      "texto": "Haz una salsa rápida con el ajo, el tomate, aceite y sal.",
+      "temporizadorSeg": 900,
+      "tecnica": "salsa-basica"
+    },
+    {
+      "texto": "Cuece la pasta en abundante agua con sal.",
+      "temporizadorSeg": 180
+    },
+    {
+      "texto": "Mezcla con la salsa, albahaca y {queso-parmesano}."
+    }
+  ]
+}

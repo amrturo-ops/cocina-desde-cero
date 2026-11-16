@@ -1,0 +1,126 @@
+{
+  "id": "fajitas-pollo",
+  "titulo": "Fajitas de pollo",
+  "nivel": "novato",
+  "tecnicas": [
+    "plancha",
+    "cortar-cebolla"
+  ],
+  "raciones": 2,
+  "tiempoMin": 25,
+  "momentos": [
+    "cena"
+  ],
+  "sobras": {
+    "apta": false,
+    "dias": 0
+  },
+  "descripcion": "Cada uno se monta la suya. Perfecta para compartir.",
+  "ingredientes": [
+    {
+      "id": "tortillas-trigo",
+      "cantidad": 4,
+      "unidad": "unidad",
+      "alternativas": [
+        {
+          "por": [
+            {
+              "id": "tortillas-maiz",
+              "cantidad": 6,
+              "unidad": "unidad"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pechuga-pollo",
+      "cantidad": 300,
+      "unidad": "g",
+      "alternativas": [
+        {
+          "por": [
+            {
+              "id": "tofu",
+              "cantidad": 300,
+              "unidad": "g"
+            }
+          ],
+          "titulo": "Fajitas de tofu"
+        },
+        {
+          "por": [
+            {
+              "id": "champinones",
+              "cantidad": 300,
+              "unidad": "g"
+            }
+          ],
+          "titulo": "Fajitas de verduras"
+        }
+      ]
+    },
+    {
+      "id": "pimiento-rojo",
+      "cantidad": 1,
+      "unidad": "unidad"
+    },
+    {
+      "id": "pimiento-verde",
+      "cantidad": 1,
+      "unidad": "unidad"
+    },
+    {
+      "id": "cebolla",
+      "cantidad": 1,
+      "unidad": "unidad"
+    },
+    {
+      "id": "pimenton",
+      "cantidad": 0,
+      "unidad": "al-gusto"
+    },
+    {
+      "id": "comino",
+      "cantidad": 0,
+      "unidad": "al-gusto"
+    },
+    {
+      "id": "aguacate",
+      "cantidad": 1,
+      "unidad": "unidad"
+    },
+    {
+      "id": "aceite-oliva",
+      "cantidad": 2,
+      "unidad": "cucharada"
+    },
+    {
+      "id": "sal",
+      "cantidad": 0,
+      "unidad": "al-gusto"
+    }
+  ],
+  "pasos": [
+    {
+      "texto": "Corta la cebolla y los pimientos en tiras.",
+      "tecnica": "cortar-cebolla"
+    },
+    {
+      "texto": "Corta el pollo en tiras y sazónalo con sal, pimentón y comino."
+    },
+    {
+      "texto": "Haz el pollo en la plancha caliente con un poco de aceite hasta que esté dorado y sin nada rosa por dentro.",
+      "temporizadorSeg": 360,
+      "tecnica": "plancha"
+    },
+    {
+      "texto": "En la misma sartén, saltea las verduras.",
+      "temporizadorSeg": 300
+    },
+    {
+      "texto": "Calienta las tortillas unos segundos y rellénalas con el pollo, las verduras y aguacate en láminas."
+    }
+  ],
+  "dificultad": 2
+}

@@ -1,0 +1,105 @@
+{
+  "id": "sopa-fideos",
+  "titulo": "Sopa de fideos con caldo casero",
+  "nivel": "basico",
+  "tecnicas": [
+    "caldo-casero"
+  ],
+  "raciones": 4,
+  "tiempoMin": 90,
+  "dificultad": 2,
+  "momentos": [
+    "comida",
+    "cena"
+  ],
+  "sobras": {
+    "apta": true,
+    "dias": 3
+  },
+  "descripcion": "El caldo de toda la vida, hecho por ti.",
+  "ingredientes": [
+    {
+      "id": "carcasa-pollo",
+      "cantidad": 500,
+      "unidad": "g",
+      "alternativas": [
+        {
+          "por": [],
+          "titulo": "Sopa de fideos con caldo de verduras"
+        }
+      ]
+    },
+    {
+      "id": "zanahoria",
+      "cantidad": 2,
+      "unidad": "unidad"
+    },
+    {
+      "id": "puerro",
+      "cantidad": 1,
+      "unidad": "unidad"
+    },
+    {
+      "id": "apio",
+      "cantidad": 1,
+      "unidad": "unidad",
+      "alternativas": [
+        {
+          "por": []
+        }
+      ]
+    },
+    {
+      "id": "cebolla",
+      "cantidad": 1,
+      "unidad": "unidad"
+    },
+    {
+      "id": "agua",
+      "cantidad": 2500,
+      "unidad": "ml"
+    },
+    {
+      "id": "fideos",
+      "cantidad": 120,
+      "unidad": "g",
+      "alternativas": [
+        {
+          "por": [
+            {
+              "id": "fideos-arroz",
+              "cantidad": 120,
+              "unidad": "g"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sal",
+      "cantidad": 0,
+      "unidad": "al-gusto"
+    }
+  ],
+  "pasos": [
+    {
+      "texto": "Lava las verduras y córtalas en trozos grandes; no hace falta pelarlas."
+    },
+    {
+      "texto": "Pon todo en una olla grande con el agua fría y lleva a ebullición.",
+      "tecnica": "caldo-casero"
+    },
+    {
+      "texto": "Baja el fuego, retira la espuma y deja cocer suave.",
+      "temporizadorSeg": 4500,
+      "tecnica": "caldo-casero"
+    },
+    {
+      "texto": "Cuela el caldo y sálalo al gusto."
+    },
+    {
+      "texto": "Echa {fideos} en el caldo hirviendo y cuécelos.",
+      "temporizadorSeg": 240
+    }
+  ]
+}

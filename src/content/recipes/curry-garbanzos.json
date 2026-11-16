@@ -1,0 +1,126 @@
+{
+  "id": "curry-garbanzos",
+  "titulo": "Curry suave de garbanzos con arroz",
+  "nivel": "novato",
+  "tecnicas": [
+    "salsa-basica",
+    "legumbre-bote",
+    "arroz-blanco"
+  ],
+  "raciones": 2,
+  "tiempoMin": 35,
+  "dificultad": 3,
+  "momentos": [
+    "comida",
+    "cena"
+  ],
+  "sobras": {
+    "apta": true,
+    "dias": 3
+  },
+  "descripcion": "Salsa cremosa de coco, nada picante. Uno de los mejores platos para táper.",
+  "ingredientes": [
+    {
+      "id": "garbanzos-cocidos",
+      "cantidad": 1,
+      "unidad": "bote"
+    },
+    {
+      "id": "leche-coco",
+      "cantidad": 1,
+      "unidad": "lata"
+    },
+    {
+      "id": "tomate-triturado",
+      "cantidad": 200,
+      "unidad": "g"
+    },
+    {
+      "id": "cebolla",
+      "cantidad": 1,
+      "unidad": "unidad"
+    },
+    {
+      "id": "ajo",
+      "cantidad": 1,
+      "unidad": "diente"
+    },
+    {
+      "id": "curry-polvo",
+      "cantidad": 2,
+      "unidad": "cucharadita",
+      "alternativas": [
+        {
+          "por": [
+            {
+              "id": "comino",
+              "cantidad": 0,
+              "unidad": "al-gusto"
+            },
+            {
+              "id": "pimenton",
+              "cantidad": 0,
+              "unidad": "al-gusto"
+            }
+          ],
+          "titulo": "Guiso suave de garbanzos con coco y arroz",
+          "pasos": [
+            {
+              "indice": 2,
+              "texto": "Añade una cucharadita de comino y otra de pimentón y remueve un minuto para que suelten su aroma."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "espinacas",
+      "cantidad": 100,
+      "unidad": "g"
+    },
+    {
+      "id": "arroz",
+      "cantidad": 160,
+      "unidad": "g"
+    },
+    {
+      "id": "aceite-oliva",
+      "cantidad": 2,
+      "unidad": "cucharada"
+    },
+    {
+      "id": "sal",
+      "cantidad": 0,
+      "unidad": "al-gusto"
+    }
+  ],
+  "pasos": [
+    {
+      "texto": "Cuece el arroz blanco como has aprendido.",
+      "temporizadorSeg": 1080,
+      "tecnica": "arroz-blanco"
+    },
+    {
+      "texto": "Mientras, pica la cebolla y el ajo y sofríelos en una olla.",
+      "temporizadorSeg": 480,
+      "tecnica": "sofreir"
+    },
+    {
+      "texto": "Añade el curry y remueve un minuto para que suelte su aroma.",
+      "temporizadorSeg": 60
+    },
+    {
+      "texto": "Añade el tomate y la leche de coco, y deja hervir suave.",
+      "temporizadorSeg": 480,
+      "tecnica": "salsa-basica"
+    },
+    {
+      "texto": "Echa los garbanzos escurridos y las espinacas, y deja unos minutos más.",
+      "temporizadorSeg": 300,
+      "tecnica": "legumbre-bote"
+    },
+    {
+      "texto": "Prueba de sal y sirve con el arroz."
+    }
+  ]
+}

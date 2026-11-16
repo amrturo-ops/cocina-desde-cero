@@ -1,0 +1,87 @@
+{
+  "id": "pollo-papillote",
+  "titulo": "Pollo en papillote con limón",
+  "nivel": "basico",
+  "tecnicas": [
+    "papillote"
+  ],
+  "raciones": 4,
+  "tiempoMin": 35,
+  "dificultad": 1,
+  "momentos": [
+    "comida",
+    "cena"
+  ],
+  "sobras": {
+    "apta": true,
+    "dias": 2
+  },
+  "descripcion": "Jugosísimo: el pollo se hace en su propio vapor.",
+  "ingredientes": [
+    {
+      "id": "pechuga-pollo",
+      "cantidad": 500,
+      "unidad": "g",
+      "alternativas": [
+        {
+          "por": [
+            {
+              "id": "champinones",
+              "cantidad": 400,
+              "unidad": "g"
+            }
+          ],
+          "titulo": "Champiñones en papillote"
+        }
+      ]
+    },
+    {
+      "id": "pimiento-rojo",
+      "cantidad": 1,
+      "unidad": "unidad"
+    },
+    {
+      "id": "cebolla",
+      "cantidad": 1,
+      "unidad": "unidad"
+    },
+    {
+      "id": "limon",
+      "cantidad": 1,
+      "unidad": "unidad"
+    },
+    {
+      "id": "romero",
+      "cantidad": 0,
+      "unidad": "al-gusto"
+    },
+    {
+      "id": "aceite-oliva",
+      "cantidad": 2,
+      "unidad": "cucharada"
+    },
+    {
+      "id": "sal",
+      "cantidad": 0,
+      "unidad": "al-gusto"
+    }
+  ],
+  "pasos": [
+    {
+      "texto": "Precalienta el horno a 200 °C.",
+      "temporizadorSeg": 600
+    },
+    {
+      "texto": "Corta el pimiento y la cebolla en tiras finas y {pechuga-pollo} en filetes."
+    },
+    {
+      "texto": "Monta el paquete: verduras, {pechuga-pollo} con sal y romero, rodajas de limón y aceite.",
+      "tecnica": "papillote"
+    },
+    {
+      "texto": "Cierra bien y hornea. El pollo debe quedar blanco por dentro.",
+      "temporizadorSeg": 1320,
+      "tecnica": "papillote"
+    }
+  ]
+}

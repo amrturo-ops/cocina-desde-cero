@@ -1,0 +1,114 @@
+{
+  "id": "berenjenas-rellenas",
+  "titulo": "Berenjenas rellenas",
+  "nivel": "cocinillas",
+  "tecnicas": [
+    "rellenar",
+    "horno-basico"
+  ],
+  "raciones": 4,
+  "tiempoMin": 60,
+  "dificultad": 2,
+  "momentos": [
+    "comida",
+    "cena"
+  ],
+  "sobras": {
+    "apta": true,
+    "dias": 2
+  },
+  "descripcion": "Gratinadas y muy jugosas.",
+  "ingredientes": [
+    {
+      "id": "berenjena",
+      "cantidad": 2,
+      "unidad": "unidad"
+    },
+    {
+      "id": "cebolla",
+      "cantidad": 1,
+      "unidad": "unidad"
+    },
+    {
+      "id": "pimiento-rojo",
+      "cantidad": 1,
+      "unidad": "unidad"
+    },
+    {
+      "id": "tomate-triturado",
+      "cantidad": 200,
+      "unidad": "g"
+    },
+    {
+      "id": "carne-picada",
+      "cantidad": 250,
+      "unidad": "g",
+      "alternativas": [
+        {
+          "por": [
+            {
+              "id": "lentejas-cocidas",
+              "cantidad": 1,
+              "unidad": "bote"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mozzarella",
+      "cantidad": 100,
+      "unidad": "g",
+      "alternativas": [
+        {
+          "por": [
+            {
+              "id": "queso-sin-lactosa",
+              "cantidad": 100,
+              "unidad": "g"
+            }
+          ]
+        },
+        {
+          "por": [
+            {
+              "id": "levadura-nutricional",
+              "cantidad": 4,
+              "unidad": "cucharada"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "aceite-oliva",
+      "cantidad": 3,
+      "unidad": "cucharada"
+    },
+    {
+      "id": "sal",
+      "cantidad": 0,
+      "unidad": "al-gusto"
+    }
+  ],
+  "pasos": [
+    {
+      "texto": "Corta las berenjenas por la mitad, haz cortes en la carne y hornéalas con aceite y sal a 200 °C.",
+      "temporizadorSeg": 1500,
+      "tecnica": "horno-basico"
+    },
+    {
+      "texto": "Vacíalas con una cuchara y pica la pulpa.",
+      "tecnica": "rellenar"
+    },
+    {
+      "texto": "Sofríe la cebolla y el pimiento, añade {carne-picada}, la pulpa y el tomate.",
+      "temporizadorSeg": 720
+    },
+    {
+      "texto": "Rellena, cubre con {mozzarella} y gratina.",
+      "temporizadorSeg": 600,
+      "tecnica": "horno-basico"
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "id": "ensalada-pera-nueces",
+  "titulo": "Ensalada de pera, queso y nueces",
+  "nivel": "novato",
+  "tecnicas": [
+    "ensalada-completa"
+  ],
+  "raciones": 2,
+  "tiempoMin": 10,
+  "momentos": [
+    "comida",
+    "cena"
+  ],
+  "sobras": {
+    "apta": false,
+    "dias": 0
+  },
+  "descripcion": "Dulce, salada y crujiente a la vez.",
+  "ingredientes": [
+    {
+      "id": "lechuga",
+      "cantidad": 1,
+      "unidad": "unidad"
+    },
+    {
+      "id": "pera",
+      "cantidad": 1,
+      "unidad": "unidad"
+    },
+    {
+      "id": "nueces",
+      "cantidad": 40,
+      "unidad": "g",
+      "alternativas": [
+        {
+          "por": [],
+          "pasos": [
+            {
+              "indice": 2,
+              "quitar": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "queso-fresco",
+      "cantidad": 100,
+      "unidad": "g",
+      "alternativas": [
+        {
+          "por": [
+            {
+              "id": "queso-sin-lactosa",
+              "cantidad": 100,
+              "unidad": "g"
+            }
+          ]
+        },
+        {
+          "por": [],
+          "pasos": [
+            {
+              "indice": 3,
+              "quitar": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "aceite-oliva",
+      "cantidad": 3,
+      "unidad": "cucharada"
+    },
+    {
+      "id": "vinagre",
+      "cantidad": 1,
+      "unidad": "cucharada",
+      "alternativas": [
+        {
+          "por": [
+            {
+              "id": "limon",
+              "cantidad": 0.5,
+              "unidad": "unidad"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sal",
+      "cantidad": 0,
+      "unidad": "al-gusto"
+    }
+  ],
+  "pasos": [
+    {
+      "texto": "Lava, seca y trocea la lechuga.",
+      "tecnica": "ensalada-completa"
+    },
+    {
+      "texto": "Corta la pera en láminas finas."
+    },
+    {
+      "texto": "Trocea las nueces con las manos."
+    },
+    {
+      "texto": "Desmenuza el queso por encima."
+    },
+    {
+      "texto": "Aliña con aceite, vinagre y sal justo antes de comer.",
+      "tecnica": "ensalada-completa"
+    }
+  ],
+  "dificultad": 1
+}

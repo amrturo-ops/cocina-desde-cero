@@ -1,0 +1,110 @@
+{
+  "id": "nuggets-horno",
+  "titulo": "Nuggets de pollo al horno",
+  "nivel": "basico",
+  "tecnicas": [
+    "empanar",
+    "horno-basico"
+  ],
+  "raciones": 4,
+  "tiempoMin": 30,
+  "dificultad": 1,
+  "momentos": [
+    "cena"
+  ],
+  "sobras": {
+    "apta": true,
+    "dias": 1
+  },
+  "descripcion": "Menos aceite y el mismo crujiente.",
+  "ingredientes": [
+    {
+      "id": "pechuga-pollo",
+      "cantidad": 500,
+      "unidad": "g",
+      "alternativas": [
+        {
+          "por": [
+            {
+              "id": "tofu",
+              "cantidad": 400,
+              "unidad": "g"
+            }
+          ],
+          "titulo": "Nuggets de tofu al horno"
+        }
+      ]
+    },
+    {
+      "id": "huevo",
+      "cantidad": 2,
+      "unidad": "unidad",
+      "alternativas": [
+        {
+          "por": [
+            {
+              "id": "harina-garbanzo",
+              "cantidad": 40,
+              "unidad": "g"
+            },
+            {
+              "id": "agua",
+              "cantidad": 80,
+              "unidad": "ml"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pan-rallado",
+      "cantidad": 120,
+      "unidad": "g",
+      "alternativas": [
+        {
+          "por": [
+            {
+              "id": "pan-rallado-sg",
+              "cantidad": 120,
+              "unidad": "g"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pimenton",
+      "cantidad": 0,
+      "unidad": "al-gusto"
+    },
+    {
+      "id": "aceite-oliva",
+      "cantidad": 3,
+      "unidad": "cucharada"
+    },
+    {
+      "id": "sal",
+      "cantidad": 0,
+      "unidad": "al-gusto"
+    }
+  ],
+  "pasos": [
+    {
+      "texto": "Precalienta el horno a 210 °C.",
+      "temporizadorSeg": 600,
+      "tecnica": "horno-basico"
+    },
+    {
+      "texto": "Corta {pechuga-pollo} en trozos del tamaño de un bocado y sálalos."
+    },
+    {
+      "texto": "Pásalos por {huevo} y por {pan-rallado} con una pizca de pimentón.",
+      "tecnica": "empanar"
+    },
+    {
+      "texto": "Colócalos en la bandeja, riégalos con un hilo de aceite y hornea dándoles la vuelta a mitad.",
+      "temporizadorSeg": 1080,
+      "tecnica": "horno-basico"
+    }
+  ]
+}

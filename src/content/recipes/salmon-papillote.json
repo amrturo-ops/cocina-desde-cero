@@ -1,0 +1,82 @@
+{
+  "id": "salmon-papillote",
+  "titulo": "Salmón en papillote con verduras",
+  "nivel": "basico",
+  "tecnicas": [
+    "papillote"
+  ],
+  "raciones": 4,
+  "tiempoMin": 30,
+  "dificultad": 1,
+  "momentos": [
+    "comida",
+    "cena"
+  ],
+  "sobras": {
+    "apta": false,
+    "dias": 0
+  },
+  "descripcion": "Todo en un paquete y sin manchar.",
+  "ingredientes": [
+    {
+      "id": "salmon",
+      "cantidad": 500,
+      "unidad": "g",
+      "alternativas": [
+        {
+          "por": [
+            {
+              "id": "tofu",
+              "cantidad": 400,
+              "unidad": "g"
+            }
+          ],
+          "titulo": "Tofu en papillote con verduras"
+        }
+      ]
+    },
+    {
+      "id": "calabacin",
+      "cantidad": 1,
+      "unidad": "unidad"
+    },
+    {
+      "id": "zanahoria",
+      "cantidad": 1,
+      "unidad": "unidad"
+    },
+    {
+      "id": "limon",
+      "cantidad": 1,
+      "unidad": "unidad"
+    },
+    {
+      "id": "aceite-oliva",
+      "cantidad": 2,
+      "unidad": "cucharada"
+    },
+    {
+      "id": "sal",
+      "cantidad": 0,
+      "unidad": "al-gusto"
+    }
+  ],
+  "pasos": [
+    {
+      "texto": "Precalienta el horno a 200 °C.",
+      "temporizadorSeg": 600
+    },
+    {
+      "texto": "Corta el calabacín y la zanahoria en tiras finas."
+    },
+    {
+      "texto": "Sobre papel de horno, pon una cama de verduras, encima {salmon} con sal y rodajas de limón, y un chorrito de aceite.",
+      "tecnica": "papillote"
+    },
+    {
+      "texto": "Cierra bien el paquete doblando los bordes y hornea.",
+      "temporizadorSeg": 900,
+      "tecnica": "papillote"
+    }
+  ]
+}

@@ -1,0 +1,156 @@
+{
+  "id": "ensalada-pasta",
+  "titulo": "Ensalada de pasta",
+  "nivel": "novato",
+  "tecnicas": [
+    "cocer-pasta",
+    "cortar-cebolla"
+  ],
+  "raciones": 2,
+  "tiempoMin": 25,
+  "dificultad": 1,
+  "momentos": [
+    "comida"
+  ],
+  "sobras": {
+    "apta": true,
+    "dias": 3
+  },
+  "descripcion": "Se prepara en un rato y aguanta en la nevera: perfecta para llevar en táper.",
+  "ingredientes": [
+    {
+      "id": "pasta-trigo",
+      "cantidad": 160,
+      "unidad": "g",
+      "alternativas": [
+        {
+          "por": [
+            {
+              "id": "pasta-sin-gluten",
+              "cantidad": 160,
+              "unidad": "g"
+            }
+          ],
+          "pasos": [
+            {
+              "indice": 0,
+              "texto": "Cuece la pasta sin gluten en agua con sal. Pruébala 2 minutos antes de lo que diga el paquete.",
+              "temporizadorSeg": 540
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tomate-cherry",
+      "cantidad": 150,
+      "unidad": "g"
+    },
+    {
+      "id": "cebolla-morada",
+      "cantidad": 0.5,
+      "unidad": "unidad"
+    },
+    {
+      "id": "maiz-dulce",
+      "cantidad": 1,
+      "unidad": "lata"
+    },
+    {
+      "id": "jamon-cocido",
+      "cantidad": 80,
+      "unidad": "g",
+      "alternativas": [
+        {
+          "por": [],
+          "pasos": [
+            {
+              "indice": 3,
+              "quitar": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "queso-tierno",
+      "cantidad": 80,
+      "unidad": "g",
+      "alternativas": [
+        {
+          "por": [
+            {
+              "id": "queso-sin-lactosa",
+              "cantidad": 60,
+              "unidad": "g"
+            }
+          ]
+        },
+        {
+          "por": [],
+          "pasos": [
+            {
+              "indice": 4,
+              "quitar": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "aceitunas-negras",
+      "cantidad": 40,
+      "unidad": "g"
+    },
+    {
+      "id": "aceite-oliva",
+      "cantidad": 3,
+      "unidad": "cucharada"
+    },
+    {
+      "id": "vinagre",
+      "cantidad": 1,
+      "unidad": "cucharada",
+      "alternativas": [
+        {
+          "por": [
+            {
+              "id": "limon",
+              "cantidad": 0.5,
+              "unidad": "unidad"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sal",
+      "cantidad": 0,
+      "unidad": "al-gusto"
+    }
+  ],
+  "pasos": [
+    {
+      "texto": "Cuece la pasta en agua con sal el tiempo que diga el paquete.",
+      "temporizadorSeg": 600,
+      "tecnica": "cocer-pasta"
+    },
+    {
+      "texto": "Escúrrela y pásala por agua fría para que se enfríe y no se pegue.",
+      "tecnica": "cocer-pasta"
+    },
+    {
+      "texto": "Corta la cebolla morada en juliana fina y los tomates por la mitad.",
+      "tecnica": "cortar-cebolla"
+    },
+    {
+      "texto": "Corta el jamón en tiras."
+    },
+    {
+      "texto": "Corta el queso en dados."
+    },
+    {
+      "texto": "Mezcla todo en un bol con el maíz escurrido y las aceitunas. Aliña con aceite, vinagre y sal."
+    }
+  ]
+}

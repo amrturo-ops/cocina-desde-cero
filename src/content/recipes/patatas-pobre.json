@@ -1,0 +1,65 @@
+{
+  "id": "patatas-pobre",
+  "titulo": "Patatas a lo pobre",
+  "nivel": "novato",
+  "tecnicas": [
+    "sofreir",
+    "cortar-cebolla"
+  ],
+  "raciones": 2,
+  "tiempoMin": 40,
+  "momentos": [
+    "comida",
+    "cena"
+  ],
+  "sobras": {
+    "apta": true,
+    "dias": 2
+  },
+  "descripcion": "Patata, cebolla y pimiento pochados despacio. Paciencia y fuego bajo.",
+  "ingredientes": [
+    {
+      "id": "patata",
+      "cantidad": 500,
+      "unidad": "g"
+    },
+    {
+      "id": "cebolla",
+      "cantidad": 1,
+      "unidad": "unidad"
+    },
+    {
+      "id": "pimiento-verde",
+      "cantidad": 1,
+      "unidad": "unidad"
+    },
+    {
+      "id": "aceite-oliva",
+      "cantidad": 100,
+      "unidad": "ml"
+    },
+    {
+      "id": "sal",
+      "cantidad": 0,
+      "unidad": "al-gusto"
+    }
+  ],
+  "pasos": [
+    {
+      "texto": "Pela las patatas y córtalas en láminas finas."
+    },
+    {
+      "texto": "Corta la cebolla y el pimiento en tiras.",
+      "tecnica": "cortar-cebolla"
+    },
+    {
+      "texto": "Calienta el aceite a fuego medio-bajo y añade todo con sal. Remueve de vez en cuando sin que se dore demasiado.",
+      "temporizadorSeg": 1500,
+      "tecnica": "sofreir"
+    },
+    {
+      "texto": "Escurre el aceite sobrante (guárdalo para otros platos) y sirve."
+    }
+  ],
+  "dificultad": 2
+}

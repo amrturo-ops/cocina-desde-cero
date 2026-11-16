@@ -1,0 +1,190 @@
+{
+  "id": "canelones",
+  "titulo": "Canelones de carne",
+  "nivel": "cocinillas",
+  "tecnicas": [
+    "rellenar",
+    "bechamel",
+    "horno-basico"
+  ],
+  "raciones": 4,
+  "tiempoMin": 90,
+  "dificultad": 3,
+  "momentos": [
+    "comida"
+  ],
+  "sobras": {
+    "apta": true,
+    "dias": 3
+  },
+  "descripcion": "Los de la abuela, con su bechamel.",
+  "ingredientes": [
+    {
+      "id": "placas-lasana",
+      "cantidad": 16,
+      "unidad": "unidad",
+      "alternativas": [
+        {
+          "por": [
+            {
+              "id": "placas-lasana-sg",
+              "cantidad": 16,
+              "unidad": "unidad"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "carne-picada",
+      "cantidad": 500,
+      "unidad": "g",
+      "alternativas": [
+        {
+          "por": [
+            {
+              "id": "espinacas",
+              "cantidad": 500,
+              "unidad": "g"
+            }
+          ],
+          "titulo": "Canelones de espinacas"
+        }
+      ]
+    },
+    {
+      "id": "cebolla",
+      "cantidad": 1,
+      "unidad": "unidad"
+    },
+    {
+      "id": "tomate-triturado",
+      "cantidad": 200,
+      "unidad": "g"
+    },
+    {
+      "id": "leche",
+      "cantidad": 600,
+      "unidad": "ml",
+      "alternativas": [
+        {
+          "por": [
+            {
+              "id": "leche-sin-lactosa",
+              "cantidad": 600,
+              "unidad": "ml"
+            }
+          ]
+        },
+        {
+          "por": [
+            {
+              "id": "bebida-soja",
+              "cantidad": 600,
+              "unidad": "ml"
+            }
+          ]
+        },
+        {
+          "por": [
+            {
+              "id": "bebida-arroz",
+              "cantidad": 600,
+              "unidad": "ml"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "harina-trigo",
+      "cantidad": 50,
+      "unidad": "g",
+      "alternativas": [
+        {
+          "por": [
+            {
+              "id": "maicena",
+              "cantidad": 50,
+              "unidad": "g"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mantequilla",
+      "cantidad": 4,
+      "unidad": "cucharada",
+      "alternativas": [
+        {
+          "por": [
+            {
+              "id": "aceite-oliva",
+              "cantidad": 4,
+              "unidad": "cucharada"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "queso-parmesano",
+      "cantidad": 60,
+      "unidad": "g",
+      "alternativas": [
+        {
+          "por": [
+            {
+              "id": "queso-sin-lactosa",
+              "cantidad": 60,
+              "unidad": "g"
+            }
+          ]
+        },
+        {
+          "por": [
+            {
+              "id": "levadura-nutricional",
+              "cantidad": 4,
+              "unidad": "cucharada"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "aceite-oliva",
+      "cantidad": 2,
+      "unidad": "cucharada"
+    },
+    {
+      "id": "sal",
+      "cantidad": 0,
+      "unidad": "al-gusto"
+    }
+  ],
+  "pasos": [
+    {
+      "texto": "Cuece las placas según el paquete y extiéndelas sobre un paño."
+    },
+    {
+      "texto": "Sofríe la cebolla, añade {carne-picada} y cocina; añade el tomate y deja que espese.",
+      "temporizadorSeg": 900
+    },
+    {
+      "texto": "Pon relleno en cada placa y enróllala. Colócalos en una fuente.",
+      "tecnica": "rellenar"
+    },
+    {
+      "texto": "Haz una bechamel con {mantequilla}, {harina-trigo} y {leche}, y cubre los canelones.",
+      "temporizadorSeg": 600,
+      "tecnica": "bechamel"
+    },
+    {
+      "texto": "Espolvorea {queso-parmesano} y gratina a 200 °C.",
+      "temporizadorSeg": 1200,
+      "tecnica": "horno-basico"
+    }
+  ]
+}

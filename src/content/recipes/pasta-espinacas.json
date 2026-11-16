@@ -1,0 +1,110 @@
+{
+  "id": "pasta-espinacas",
+  "titulo": "Pasta con espinacas y queso fresco",
+  "nivel": "novato",
+  "tecnicas": [
+    "cocer-pasta",
+    "sofreir"
+  ],
+  "raciones": 2,
+  "tiempoMin": 20,
+  "momentos": [
+    "comida",
+    "cena"
+  ],
+  "sobras": {
+    "apta": true,
+    "dias": 1
+  },
+  "descripcion": "Verde, cremosa y sin nata.",
+  "ingredientes": [
+    {
+      "id": "pasta-trigo",
+      "cantidad": 200,
+      "unidad": "g",
+      "alternativas": [
+        {
+          "por": [
+            {
+              "id": "pasta-sin-gluten",
+              "cantidad": 200,
+              "unidad": "g"
+            }
+          ],
+          "pasos": [
+            {
+              "indice": 0,
+              "texto": "Cuece la pasta sin gluten en agua con sal. Pruébala 2 minutos antes de lo que diga el paquete.",
+              "temporizadorSeg": 480
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "espinacas",
+      "cantidad": 200,
+      "unidad": "g"
+    },
+    {
+      "id": "ajo",
+      "cantidad": 1,
+      "unidad": "diente"
+    },
+    {
+      "id": "queso-fresco",
+      "cantidad": 120,
+      "unidad": "g",
+      "alternativas": [
+        {
+          "por": [
+            {
+              "id": "queso-sin-lactosa",
+              "cantidad": 80,
+              "unidad": "g"
+            }
+          ]
+        },
+        {
+          "por": [
+            {
+              "id": "garbanzos-cocidos",
+              "cantidad": 200,
+              "unidad": "g"
+            }
+          ],
+          "titulo": "Pasta con espinacas y garbanzos"
+        }
+      ]
+    },
+    {
+      "id": "aceite-oliva",
+      "cantidad": 2,
+      "unidad": "cucharada"
+    },
+    {
+      "id": "sal",
+      "cantidad": 0,
+      "unidad": "al-gusto"
+    }
+  ],
+  "pasos": [
+    {
+      "texto": "Cuece la pasta en agua con sal el tiempo del paquete. Guarda un vaso del agua.",
+      "temporizadorSeg": 540,
+      "tecnica": "cocer-pasta"
+    },
+    {
+      "texto": "Sofríe el ajo picado y añade las espinacas hasta que mengüen.",
+      "temporizadorSeg": 240,
+      "tecnica": "sofreir"
+    },
+    {
+      "texto": "Añade el queso en trozos y un chorrito del agua de la pasta, y remueve."
+    },
+    {
+      "texto": "Mezcla con la pasta escurrida y sirve."
+    }
+  ],
+  "dificultad": 1
+}

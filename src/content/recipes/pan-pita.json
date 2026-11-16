@@ -1,0 +1,77 @@
+{
+  "id": "pan-pita",
+  "titulo": "Pan de pita casero",
+  "nivel": "basico",
+  "tecnicas": [
+    "masa-pizza"
+  ],
+  "raciones": 4,
+  "tiempoMin": 90,
+  "dificultad": 2,
+  "momentos": [
+    "comida",
+    "cena"
+  ],
+  "sobras": {
+    "apta": true,
+    "dias": 2
+  },
+  "descripcion": "Se hincha en la sartén como por arte de magia. Para rellenar o mojar en hummus.",
+  "ingredientes": [
+    {
+      "id": "harina-trigo",
+      "cantidad": 300,
+      "unidad": "g",
+      "alternativas": [
+        {
+          "por": [
+            {
+              "id": "harina-sg",
+              "cantidad": 300,
+              "unidad": "g"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "levadura-panadero",
+      "cantidad": 1,
+      "unidad": "sobre"
+    },
+    {
+      "id": "agua",
+      "cantidad": 180,
+      "unidad": "ml"
+    },
+    {
+      "id": "aceite-oliva",
+      "cantidad": 1,
+      "unidad": "cucharada"
+    },
+    {
+      "id": "sal",
+      "cantidad": 0,
+      "unidad": "al-gusto"
+    }
+  ],
+  "pasos": [
+    {
+      "texto": "Haz la masa con {harina-trigo}, levadura, sal, agua templada y aceite, y amasa.",
+      "temporizadorSeg": 600,
+      "tecnica": "masa-pizza"
+    },
+    {
+      "texto": "Deja reposar hasta que doble su tamaño.",
+      "temporizadorSeg": 3600,
+      "tecnica": "masa-pizza"
+    },
+    {
+      "texto": "Divide en 6 bolas y estíralas en discos finos."
+    },
+    {
+      "texto": "Hazlos en una sartén muy caliente sin aceite, un minuto por lado: se inflarán.",
+      "temporizadorSeg": 120
+    }
+  ]
+}

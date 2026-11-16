@@ -1,0 +1,122 @@
+{
+  "id": "ensalada-vinagreta",
+  "titulo": "Ensalada con vinagreta de mostaza y miel",
+  "nivel": "cocinillas",
+  "tecnicas": [
+    "emulsiones",
+    "ensalada-completa"
+  ],
+  "raciones": 4,
+  "tiempoMin": 15,
+  "dificultad": 1,
+  "momentos": [
+    "comida",
+    "cena"
+  ],
+  "sobras": {
+    "apta": false,
+    "dias": 0
+  },
+  "descripcion": "Una vinagreta que no se separa.",
+  "ingredientes": [
+    {
+      "id": "lechuga",
+      "cantidad": 1,
+      "unidad": "unidad"
+    },
+    {
+      "id": "tomate-cherry",
+      "cantidad": 200,
+      "unidad": "g"
+    },
+    {
+      "id": "pera",
+      "cantidad": 1,
+      "unidad": "unidad"
+    },
+    {
+      "id": "queso-fresco",
+      "cantidad": 120,
+      "unidad": "g",
+      "alternativas": [
+        {
+          "por": [
+            {
+              "id": "queso-sin-lactosa",
+              "cantidad": 100,
+              "unidad": "g"
+            }
+          ]
+        },
+        {
+          "por": []
+        }
+      ]
+    },
+    {
+      "id": "mostaza",
+      "cantidad": 1,
+      "unidad": "cucharadita",
+      "alternativas": [
+        {
+          "por": []
+        }
+      ]
+    },
+    {
+      "id": "miel",
+      "cantidad": 1,
+      "unidad": "cucharada",
+      "alternativas": [
+        {
+          "por": [
+            {
+              "id": "azucar",
+              "cantidad": 0,
+              "unidad": "al-gusto"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vinagre",
+      "cantidad": 2,
+      "unidad": "cucharada",
+      "alternativas": [
+        {
+          "por": [
+            {
+              "id": "limon",
+              "cantidad": 1,
+              "unidad": "unidad"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "aceite-oliva",
+      "cantidad": 6,
+      "unidad": "cucharada"
+    },
+    {
+      "id": "sal",
+      "cantidad": 0,
+      "unidad": "al-gusto"
+    }
+  ],
+  "pasos": [
+    {
+      "texto": "Lava y seca la lechuga, y corta los tomates y la pera.",
+      "tecnica": "ensalada-completa"
+    },
+    {
+      "texto": "En un bote, pon la mostaza, {miel}, {vinagre} y sal. Añade el aceite, cierra y agita con fuerza hasta que espese.",
+      "tecnica": "emulsiones"
+    },
+    {
+      "texto": "Monta la ensalada con el queso y aliña justo antes de servir."
+    }
+  ]
+}

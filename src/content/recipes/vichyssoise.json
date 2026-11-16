@@ -1,0 +1,109 @@
+{
+  "id": "vichyssoise",
+  "titulo": "Crema de puerros (vichyssoise)",
+  "nivel": "basico",
+  "tecnicas": [
+    "cremas-verduras",
+    "sofreir"
+  ],
+  "raciones": 4,
+  "tiempoMin": 35,
+  "dificultad": 2,
+  "momentos": [
+    "comida",
+    "cena"
+  ],
+  "sobras": {
+    "apta": true,
+    "dias": 2
+  },
+  "descripcion": "Suave y elegante. Se toma caliente o fría.",
+  "ingredientes": [
+    {
+      "id": "puerro",
+      "cantidad": 4,
+      "unidad": "unidad"
+    },
+    {
+      "id": "patata",
+      "cantidad": 300,
+      "unidad": "g"
+    },
+    {
+      "id": "mantequilla",
+      "cantidad": 2,
+      "unidad": "cucharada",
+      "alternativas": [
+        {
+          "por": [
+            {
+              "id": "aceite-oliva",
+              "cantidad": 2,
+              "unidad": "cucharada"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "caldo-verduras",
+      "cantidad": 800,
+      "unidad": "ml",
+      "alternativas": [
+        {
+          "por": [
+            {
+              "id": "agua",
+              "cantidad": 800,
+              "unidad": "ml"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "nata",
+      "cantidad": 150,
+      "unidad": "ml",
+      "alternativas": [
+        {
+          "por": [
+            {
+              "id": "leche-coco",
+              "cantidad": 150,
+              "unidad": "ml"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sal",
+      "cantidad": 0,
+      "unidad": "al-gusto"
+    },
+    {
+      "id": "pimienta-negra",
+      "cantidad": 0,
+      "unidad": "al-gusto"
+    }
+  ],
+  "pasos": [
+    {
+      "texto": "Corta la parte blanca de los puerros en rodajas y lávalos bien: suelen tener tierra."
+    },
+    {
+      "texto": "Pócha el puerro con {mantequilla} a fuego bajo, sin que se dore.",
+      "temporizadorSeg": 600,
+      "tecnica": "sofreir"
+    },
+    {
+      "texto": "Añade la patata en trozos y {caldo-verduras}, y cuece.",
+      "temporizadorSeg": 1200,
+      "tecnica": "cremas-verduras"
+    },
+    {
+      "texto": "Tritura, añade {nata}, sal y pimienta. Para tomarla fría, enfríala en la nevera."
+    }
+  ]
+}
