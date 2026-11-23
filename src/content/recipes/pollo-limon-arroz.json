@@ -1,0 +1,49 @@
+{
+  "id": "pollo-limon-arroz",
+  "titulo": "Pollo al limón con arroz",
+  "nivel": "novato",
+  "tecnicas": ["arroz-blanco", "plancha"],
+  "raciones": 1,
+  "tiempoMin": 30,
+  "dificultad": 2,
+  "momentos": ["comida", "cena"],
+  "sobras": { "apta": true, "dias": 1 },
+  "descripcion": "Pollo jugoso con una salsita de limón y ajo, y su arroz blanco. Sin gluten.",
+  "ingredientes": [
+    {
+      "id": "pechuga-pollo", "cantidad": 150, "unidad": "g",
+      "alternativas": [
+        {
+          "por": [{ "id": "tofu", "cantidad": 150, "unidad": "g" }],
+          "titulo": "Tofu al limón con arroz",
+          "pasos": [
+            { "indice": 0, "texto": "Corta el tofu en dados y sécalo bien con papel de cocina. En un bol, mézclalo con el zumo de medio limón, el ajo picado y la mitad de la sal (¼ de cucharadita). Déjalo reposar mientras preparas el arroz." },
+            { "indice": 2, "texto": "Cuando al arroz le queden unos 8 minutos, calienta el aceite en una sartén a fuego medio-alto. Escurre el tofu (guarda el jugo) y dóralo, moviéndolo de vez en cuando, hasta que esté dorado por todos los lados." }
+          ]
+        },
+        {
+          "por": [{ "id": "garbanzos-cocidos", "cantidad": 150, "unidad": "g" }],
+          "titulo": "Garbanzos al limón con arroz",
+          "pasos": [
+            { "indice": 0, "texto": "Escurre y enjuaga los garbanzos. En un bol, mézclalos con el zumo de medio limón, el ajo picado y la mitad de la sal (¼ de cucharadita). Déjalos reposar mientras preparas el arroz." },
+            { "indice": 2, "texto": "Cuando al arroz le queden unos 8 minutos, calienta el aceite en una sartén a fuego medio-alto. Escurre los garbanzos (guarda el jugo) y saltéalos hasta que estén calientes y un poco dorados.", "temporizadorSeg": 300 }
+          ]
+        }
+      ]
+    },
+    { "id": "arroz", "cantidad": 80, "unidad": "g" },
+    { "id": "agua", "cantidad": 200, "unidad": "ml" },
+    { "id": "limon", "cantidad": 1, "unidad": "unidad" },
+    { "id": "ajo", "cantidad": 2, "unidad": "diente" },
+    { "id": "perejil", "cantidad": 0.25, "unidad": "manojo" },
+    { "id": "aceite-oliva", "cantidad": 1, "unidad": "cucharada" },
+    { "id": "sal", "cantidad": 0, "unidad": "al-gusto" }
+  ],
+  "pasos": [
+    { "texto": "Marina el pollo: en un bol, mezcla el pollo en dados con el zumo de medio limón, el ajo picado y la mitad de la sal (¼ de cucharadita). Déjalo reposar mientras preparas el arroz.", "temporizadorSeg": 600 },
+    { "texto": "Cuece el arroz: pon el agua a hervir con el resto de la sal. Añade el arroz, baja a fuego medio-bajo, tapa y cuece hasta que absorba el agua. Apaga y deja reposar tapado.", "temporizadorSeg": 1080, "tecnica": "arroz-blanco" },
+    { "texto": "Cuando al arroz le queden unos 8 minutos, calienta el aceite en una sartén a fuego medio-alto. Escurre el pollo (guarda el jugo) y dóralo, removiendo de vez en cuando, hasta que no quede nada rosa por dentro.", "temporizadorSeg": 420, "tecnica": "plancha" },
+    { "texto": "Haz la salsa: echa a la sartén el jugo de la marinada y deja que hierva para que forme una salsita.", "temporizadorSeg": 60 },
+    { "texto": "Emplata: sirve con su salsa junto al arroz. Ralla por encima un poco de piel de limón (solo la parte amarilla: la blanca amarga) y espolvorea el perejil picado. Si te gusta más ácido, exprime el otro medio limón al servir." }
+  ]
+}

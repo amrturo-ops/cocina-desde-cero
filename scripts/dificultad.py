@@ -14,7 +14,8 @@ def puntos(r):
     return p
 # Ajustes a mano donde el tiempo engaña: largos pero sencillos, o rápidos pero delicados
 AJUSTES = {"sopa-fideos": 2, "tomates-confitados": 2, "empanadillas": 2,
-           "merluza-salsa-verde": 2, "huevos-rotos": 2}
+           "merluza-salsa-verde": 2, "huevos-rotos": 2,
+           "pollo-limon-arroz": 2}
 def dificultad(r):
     if r["id"] in AJUSTES: return AJUSTES[r["id"]]
     p = puntos(r)
