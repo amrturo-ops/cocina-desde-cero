@@ -1,7 +1,17 @@
 // Medición de uso, anónima y sin cookies, con GoatCounter (opcional).
-// Define VITE_GOATCOUNTER_URL=https://TU-CODIGO.goatcounter.com/count para activarla.
-// Si no está definida, estas funciones no hacen nada.
-const URL_GC = import.meta.env.VITE_GOATCOUNTER_URL;
+// Se activa con GOATCOUNTER_URL en src/textos.js (o la variable VITE_GOATCOUNTER_URL).
+// Si no hay dirección, estas funciones no hacen nada.
+import { GOATCOUNTER_URL } from '../textos.js';
+const URL_GC = import.meta.env.VITE_GOATCOUNTER_URL || GOATCOUNTER_URL;
+
+// «No contar mis visitas»: GoatCounter ignora este navegador si skipgc = 't'
+export const medicionActiva = () => Boolean(URL_GC);
+export function noContarme(activar) {
+  try { activar ? localStorage.setItem('skipgc', 't') : localStorage.removeItem('skipgc'); } catch { /* nada */ }
+}
+export function meIgnora() {
+  try { return localStorage.getItem('skipgc') === 't'; } catch { return false; }
+}
 let iniciada = false;
 
 export function iniciarMedicion() {
@@ -17,12 +27,14 @@ export function iniciarMedicion() {
 }
 
 export function medir(evento) {
+  if (meIgnora()) return;
   try {
     window.goatcounter?.count?.({ path: `evento/${evento}`, title: evento, event: true });
   } catch { /* la medición nunca debe romper la app */ }
 }
 
 export function medirPantalla(pantalla) {
+  if (meIgnora()) return;
   try {
     window.goatcounter?.count?.({ path: `/${pantalla}` });
   } catch { /* nada */ }

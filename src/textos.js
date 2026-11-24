@@ -20,3 +20,7 @@ export const RECETAS_MUESTRA = ['pizza-margarita', 'paella-valenciana'];
 export const PRECIO_PREMIUM = '3,99 €';
 export const PRECIO_HABITUAL = '7,99 €';
 // El enlace de pago de Stripe va en la variable VITE_ENLACE_PAGO (ver README).
+
+// Medición de uso con GoatCounter: pon aquí la dirección de tu sitio, p. ej.
+// 'https://cocinadesdecero.goatcounter.com/count'. Vacío = no se mide nada.
+export const GOATCOUNTER_URL = '';

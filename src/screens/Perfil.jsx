@@ -6,11 +6,13 @@ import { modoPrueba } from '../lib/supabase.js';
 import { borrarCuenta } from '../lib/cuenta.js';
 import { cerrarSesion } from '../hooks/useSesion.js';
 import { ir } from '../hooks/useRuta.js';
+import { medicionActiva, meIgnora, noContarme } from '../lib/medir.js';
 
 export default function Perfil({ usuario, perfil, onEditar }) {
   const [confirmando, setConfirmando] = useState(false);
   const [borrando, setBorrando] = useState(false);
   const [error, setError] = useState('');
+  const [ignorado, setIgnorado] = useState(meIgnora);
   const { dietas, alergias } = separarDietas(perfil.dietas);
 
   async function borrar() {
@@ -43,6 +45,13 @@ export default function Perfil({ usuario, perfil, onEditar }) {
         </ul>
         <Boton variante="secundario" onClick={onEditar}>Cambiar mis datos</Boton>
         <Boton variante="texto" onClick={() => ir('#privacidad')}>Política de privacidad</Boton>
+
+        {medicionActiva() && (
+          <label className="casilla">
+            <input type="checkbox" checked={ignorado} onChange={(e) => { noContarme(e.target.checked); setIgnorado(e.target.checked); }} />
+            <span>No contar mis visitas en las estadísticas (para quien hace la app)</span>
+          </label>
+        )}
 
         <section className="zona-peligro">
           <h2>{modoPrueba ? 'Empezar de cero' : 'Borrar mi cuenta'}</h2>
