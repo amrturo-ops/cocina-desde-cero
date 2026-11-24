@@ -23,4 +23,4 @@ export const PRECIO_HABITUAL = '7,99 €';
 
 // Medición de uso con GoatCounter: pon aquí la dirección de tu sitio, p. ej.
 // 'https://cocinadesdecero.goatcounter.com/count'. Vacío = no se mide nada.
-export const GOATCOUNTER_URL = '';
+export const GOATCOUNTER_URL = 'https://cocinadesdecero.goatcounter.com/count';
