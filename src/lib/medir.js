@@ -13,6 +13,15 @@ export function meIgnora() {
   try { return localStorage.getItem('skipgc') === 't'; } catch { return false; }
 }
 let iniciada = false;
+// Lo que se mide antes de que cargue el script de GoatCounter espera aquí y se envía al cargar
+let cola = [];
+const listo = () => Boolean(window.goatcounter?.count);
+function enviar(datos) {
+  if (meIgnora()) return;
+  if (!URL_GC) return;
+  if (!listo()) { cola.push(datos); return; }
+  try { window.goatcounter.count(datos); } catch { /* la medición nunca debe romper la app */ }
+}
 
 export function iniciarMedicion() {
   if (!URL_GC || iniciada) return;
@@ -22,22 +31,21 @@ export function iniciarMedicion() {
   s.src = 'https://gc.zgo.at/count.js';
   s.dataset.goatcounter = URL_GC;
   s.dataset.goatcounterSettings = JSON.stringify({ no_onload: true });
+  s.onload = () => {
+    const pendientes = cola;
+    cola = [];
+    pendientes.forEach(enviar);
+  };
   document.head.appendChild(s);
   medirRetencion();
 }
 
 export function medir(evento) {
-  if (meIgnora()) return;
-  try {
-    window.goatcounter?.count?.({ path: `evento/${evento}`, title: evento, event: true });
-  } catch { /* la medición nunca debe romper la app */ }
+  enviar({ path: `evento/${evento}`, title: evento, event: true });
 }
 
 export function medirPantalla(pantalla) {
-  if (meIgnora()) return;
-  try {
-    window.goatcounter?.count?.({ path: `/${pantalla}` });
-  } catch { /* nada */ }
+  enviar({ path: `/${pantalla}` });
 }
 
 // Retención: cuenta una vez por semana de uso («sigue usándola en la semana 2, 3...»)
@@ -49,7 +57,7 @@ function medirRetencion() {
     const clave = `cocina-medida-semana-${semana}`;
     if (!localStorage.getItem(clave)) {
       localStorage.setItem(clave, '1');
-      setTimeout(() => medir(`activo-semana-${semana}`), 3000); // espera a que cargue el script
+      medir(`activo-semana-${semana}`); // si el script aún no ha cargado, espera en la cola
     }
   } catch { /* nada */ }
 }
